@@ -1,0 +1,88 @@
+html, body
+{
+	margin: 0;
+	padding: 0;
+	height: 100%;
+
+	display: flex;
+	flex-direction: column;
+}
+
+#menubar
+{
+	width: 100%;
+	height: 25px;
+	background-image: linear-gradient(to bottom, #878e9e, #878e9e 38%, #636c7b 45%, #636c7b);
+	border-bottom: solid #2c2f36 2px;
+
+	display: flex;
+}
+
+#menubar .bevel-button
+{
+	background-color: cyan;
+}
+
+#splitter
+{
+	height: 100%;
+	display: flex;
+	flex-direction: row;
+}
+
+#tree
+{
+	flex-grow: 1;
+	width: 100%;
+	background-image: url('icons/grid.png');
+}
+
+#info
+{
+	background-color: grey;
+	width: 350px;
+}
+
+/*.bevel-button
+{
+	left: -10px;
+	position: relative;
+	margin-bottom: 10px;
+}
+
+.bevel-button .bevel, .bevel-button .content
+{
+	border-width: 10px;
+	border-style: solid;
+	border-color: #efefef;
+}
+
+.bevel-button .br
+{
+	border-bottom: 0;
+	border-right-color: transparent;
+}
+
+.bevel-button .bl
+{
+	border-bottom: 0;
+	border-left-color: transparent;
+}*/
+
+/*.bvc { left: -15px }
+.bevel, .content { border-width: 15px }
+.bevel, .content { border-color: #efefef; border-style:solid; }
+
+.bvc {
+    width: 90%; /* width of overall box, variable or fixed
+	    margin: 0 auto;
+		    position: relative;
+			    margin-bottom: 15px;
+				}
+
+				.bvc .tr, .bvc .tl, .bvc .br, .bvc .bl { height: 0px; width: 100%; }
+				.bvc .tr, .bvc .tl { border-top: 0; }
+				.bvc .br, .bvc .bl { border-bottom: 0; }
+				.bvc .tr, .bvc .br { border-right-color: transparent; }
+				.bvc .tl, .bvc .bl { border-left-color: transparent; }
+				.no_bevel { height: 0px; width: 100%; border-bottom: 0; }*/
