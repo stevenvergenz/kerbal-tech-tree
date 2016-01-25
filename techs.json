@@ -1,0 +1,713 @@
+{
+	"Propulsion_Systems": {
+		"dependents": [
+			"Adv._Fuel_Systems",
+			"Precision_Propulsion"
+		],
+		"dependencies": [
+			"Advanced_Rocketry"
+		],
+		"cost": "90",
+		"name": "Propulsion Systems",
+		"level": "5"
+	},
+	"General_Rocketry": {
+		"dependents": [
+			"Advanced_Rocketry",
+			"General_Construction"
+		],
+		"dependencies": [
+			"Basic_Rocketry"
+		],
+		"cost": "20",
+		"name": "General Rocketry",
+		"level": "3"
+	},
+	"Ion_Propulsion": {
+		"dependents": [],
+		"dependencies": [
+			"Science_Tech",
+			"Unmanned_Tech"
+		],
+		"cost": "550",
+		"name": "Ion Propulsion",
+		"level": "8"
+	},
+	"Automation": {
+		"dependents": [
+			"Large_Probes"
+		],
+		"dependencies": [
+			"Electronics",
+			"Unmanned_Tech"
+		],
+		"cost": "550",
+		"name": "Automation",
+		"level": "8"
+	},
+	"Advanced_Motors": {
+		"dependents": [
+			"Experimental_Motors"
+		],
+		"dependencies": [
+			"Field_Science"
+		],
+		"cost": "550",
+		"name": "Advanced Motors",
+		"level": "8"
+	},
+	"High-Power_Electrics": {
+		"dependents": [
+			"Specialized_Electrics"
+		],
+		"dependencies": [
+			"Advanced_Electrics"
+		],
+		"cost": "300",
+		"name": "High-Power Electrics",
+		"level": "7"
+	},
+	"Engineering_101": {
+		"dependents": [
+			"Stability",
+			"Survivability"
+		],
+		"dependencies": [
+			"Start"
+		],
+		"cost": "5",
+		"name": "Engineering 101",
+		"level": "2"
+	},
+	"Experimental_Motors": {
+		"dependents": [],
+		"dependencies": [
+			"Advanced_Motors"
+		],
+		"cost": "1000",
+		"name": "Experimental Motors",
+		"level": "9"
+	},
+	"Advanced_Exploration": {
+		"dependents": [
+			"Field_Science",
+			"Science_Tech"
+		],
+		"dependencies": [
+			"Space_Exploration"
+		],
+		"cost": "160",
+		"name": "Advanced Exploration",
+		"level": "6"
+	},
+	"Miniaturization": {
+		"dependents": [
+			"Precision_Engineering"
+		],
+		"dependencies": [
+			"Basic_Science"
+		],
+		"cost": "90",
+		"name": "Miniaturization",
+		"level": "5"
+	},
+	"High_Altitude_Flight": {
+		"dependents": [
+			"Hypersonic_Flight"
+		],
+		"dependencies": [
+			"Supersonic_Flight"
+		],
+		"cost": "300",
+		"name": "High Altitude Flight",
+		"level": "7"
+	},
+	"Experimental_Electrics": {
+		"dependents": [],
+		"dependencies": [
+			"Specialized_Electrics"
+		],
+		"cost": "1000",
+		"name": "Experimental Electrics",
+		"level": "9"
+	},
+	"Nanolathing": {
+		"dependents": [],
+		"dependencies": [
+			"Advanced_MetalWorks"
+		],
+		"cost": "550",
+		"name": "Nanolathing",
+		"level": "8"
+	},
+	"Heavy_Landing": {
+		"dependents": [],
+		"dependencies": [
+			"Advanced_Landing"
+		],
+		"cost": "300",
+		"name": "Heavy Landing",
+		"level": "7"
+	},
+	"Heavier_Rocketry": {
+		"dependents": [
+			"Nuclear_Propulsion",
+			"Very_Heavy_Rocketry"
+		],
+		"dependencies": [
+			"Heavy_Rocketry"
+		],
+		"cost": "160",
+		"name": "Heavier Rocketry",
+		"level": "6"
+	},
+	"Precision_Propulsion": {
+		"dependents": [],
+		"dependencies": [
+			"Propulsion_Systems"
+		],
+		"cost": "160",
+		"name": "Precision Propulsion",
+		"level": "6"
+	},
+	"Command_Modules": {
+		"dependents": [],
+		"dependencies": [
+			"Advanced_Flight_Control",
+			"Space_Exploration"
+		],
+		"cost": "160",
+		"name": "Command Modules",
+		"level": "6"
+	},
+	"Large_Volume_Containment": {
+		"dependents": [
+			"High-Performance_Fuel_Systems",
+			"Very_Heavy_Rocketry"
+		],
+		"dependencies": [
+			"Adv._Fuel_Systems",
+			"Specialized_Construction"
+		],
+		"cost": "300",
+		"name": "Large Volume Containment",
+		"level": "7"
+	},
+	"Actuators": {
+		"dependents": [],
+		"dependencies": [
+			"Advanced_Construction"
+		],
+		"cost": "160",
+		"name": "Actuators",
+		"level": "6"
+	},
+	"Electronics": {
+		"dependents": [
+			"Automation"
+		],
+		"dependencies": [
+			"Advanced_Electrics",
+			"Precision_Engineering"
+		],
+		"cost": "300",
+		"name": "Electronics",
+		"level": "7"
+	},
+	"Experimental_Aerodynamics": {
+		"dependents": [],
+		"dependencies": [
+			"Heavy_Aerodynamics"
+		],
+		"cost": "550",
+		"name": "Experimental Aerodynamics",
+		"level": "8"
+	},
+	"Advanced_Flight_Control": {
+		"dependents": [
+			"Command_Modules",
+			"Specialized_Control"
+		],
+		"dependencies": [
+			"Flight_Control"
+		],
+		"cost": "90",
+		"name": "Advanced Flight Control",
+		"level": "5"
+	},
+	"Fuel_Systems": {
+		"dependents": [
+			"Adv._Fuel_Systems"
+		],
+		"dependencies": [
+			"Advanced_Rocketry",
+			"General_Construction"
+		],
+		"cost": "90",
+		"name": "Fuel Systems",
+		"level": "5"
+	},
+	"Stability": {
+		"dependents": [
+			"Aviation",
+			"Flight_Control",
+			"General_Construction"
+		],
+		"dependencies": [
+			"Basic_Rocketry",
+			"Engineering_101"
+		],
+		"cost": "18",
+		"name": "Stability",
+		"level": "3"
+	},
+	"Specialized_Control": {
+		"dependents": [],
+		"dependencies": [
+			"Advanced_Flight_Control"
+		],
+		"cost": "160",
+		"name": "Specialized Control",
+		"level": "6"
+	},
+	"Space_Exploration": {
+		"dependents": [
+			"Advanced_Exploration",
+			"Command_Modules"
+		],
+		"dependencies": [
+			"Basic_Science"
+		],
+		"cost": "90",
+		"name": "Space Exploration",
+		"level": "5"
+	},
+	"Advanced_Landing": {
+		"dependents": [
+			"Field_Science",
+			"Heavy_Landing"
+		],
+		"dependencies": [
+			"Landing"
+		],
+		"cost": "160",
+		"name": "Advanced Landing",
+		"level": "6"
+	},
+	"Nuclear_Propulsion": {
+		"dependents": [],
+		"dependencies": [
+			"Adv._Fuel_Systems",
+			"Heavier_Rocketry"
+		],
+		"cost": "300",
+		"name": "Nuclear Propulsion",
+		"level": "7"
+	},
+	"Advanced_Construction": {
+		"dependents": [
+			"Actuators",
+			"Specialized_Construction"
+		],
+		"dependencies": [
+			"General_Construction"
+		],
+		"cost": "90",
+		"name": "Advanced Construction",
+		"level": "5"
+	},
+	"Start": {
+		"dependents": [
+			"Basic_Rocketry",
+			"Engineering_101"
+		],
+		"dependencies": [],
+		"cost": "0",
+		"name": "Start",
+		"level": "1"
+	},
+	"Aviation": {
+		"dependents": [
+			"Aerodynamics",
+			"Landing"
+		],
+		"dependencies": [
+			"Stability"
+		],
+		"cost": "45",
+		"name": "Aviation",
+		"level": "4"
+	},
+	"Field_Science": {
+		"dependents": [
+			"Advanced_Motors",
+			"Advanced_Science_Tech"
+		],
+		"dependencies": [
+			"Advanced_Exploration",
+			"Advanced_Landing"
+		],
+		"cost": "300",
+		"name": "Field Science",
+		"level": "7"
+	},
+	"Very_Heavy_Rocketry": {
+		"dependents": [],
+		"dependencies": [
+			"Heavier_Rocketry",
+			"Large_Volume_Containment"
+		],
+		"cost": "550",
+		"name": "Very Heavy Rocketry",
+		"level": "8"
+	},
+	"Specialized_Construction": {
+		"dependents": [
+			"Advanced_MetalWorks",
+			"Composites",
+			"Large_Volume_Containment"
+		],
+		"dependencies": [
+			"Advanced_Construction"
+		],
+		"cost": "160",
+		"name": "Specialized Construction",
+		"level": "6"
+	},
+	"Advanced_MetalWorks": {
+		"dependents": [
+			"Nanolathing"
+		],
+		"dependencies": [
+			"Specialized_Construction"
+		],
+		"cost": "300",
+		"name": "Advanced MetalWorks",
+		"level": "7"
+	},
+	"Heavy_Aerodynamics": {
+		"dependents": [
+			"Experimental_Aerodynamics"
+		],
+		"dependencies": [
+			"Advanced_Aerodynamics"
+		],
+		"cost": "300",
+		"name": "Heavy Aerodynamics",
+		"level": "7"
+	},
+	"Advanced_Electrics": {
+		"dependents": [
+			"Electronics",
+			"High-Power_Electrics"
+		],
+		"dependencies": [
+			"Electrics"
+		],
+		"cost": "160",
+		"name": "Advanced Electrics",
+		"level": "6"
+	},
+	"High-Performance_Fuel_Systems": {
+		"dependents": [],
+		"dependencies": [
+			"Large_Volume_Containment"
+		],
+		"cost": "550",
+		"name": "High-Performance Fuel Systems",
+		"level": "8"
+	},
+	"Specialized_Electrics": {
+		"dependents": [
+			"Experimental_Electrics"
+		],
+		"dependencies": [
+			"High-Power_Electrics"
+		],
+		"cost": "550",
+		"name": "Specialized Electrics",
+		"level": "8"
+	},
+	"Flight_Control": {
+		"dependents": [
+			"Advanced_Flight_Control",
+			"Landing"
+		],
+		"dependencies": [
+			"Stability",
+			"Survivability"
+		],
+		"cost": "45",
+		"name": "Flight Control",
+		"level": "4"
+	},
+	"Survivability": {
+		"dependents": [
+			"Basic_Science",
+			"Flight_Control"
+		],
+		"dependencies": [
+			"Engineering_101"
+		],
+		"cost": "15",
+		"name": "Survivability",
+		"level": "3"
+	},
+	"Meta-Materials": {
+		"dependents": [],
+		"dependencies": [
+			"Composites"
+		],
+		"cost": "550",
+		"name": "Meta-Materials",
+		"level": "8"
+	},
+	"Advanced_Science_Tech": {
+		"dependents": [
+			"Experimental_Science"
+		],
+		"dependencies": [
+			"Field_Science",
+			"Science_Tech"
+		],
+		"cost": "550",
+		"name": "Advanced Science Tech",
+		"level": "8"
+	},
+	"Heavy_Rocketry": {
+		"dependents": [
+			"Heavier_Rocketry"
+		],
+		"dependencies": [
+			"Advanced_Rocketry"
+		],
+		"cost": "90",
+		"name": "Heavy Rocketry",
+		"level": "5"
+	},
+	"Unmanned_Tech": {
+		"dependents": [
+			"Advanced_Unmanned_Tech",
+			"Automation",
+			"Ion_Propulsion"
+		],
+		"dependencies": [
+			"Precision_Engineering"
+		],
+		"cost": "300",
+		"name": "Unmanned Tech",
+		"level": "7"
+	},
+	"General_Construction": {
+		"dependents": [
+			"Advanced_Construction",
+			"Aerodynamics",
+			"Fuel_Systems"
+		],
+		"dependencies": [
+			"General_Rocketry",
+			"Stability"
+		],
+		"cost": "45",
+		"name": "General Construction",
+		"level": "4"
+	},
+	"Science_Tech": {
+		"dependents": [
+			"Advanced_Science_Tech",
+			"Ion_Propulsion"
+		],
+		"dependencies": [
+			"Advanced_Exploration",
+			"Precision_Engineering"
+		],
+		"cost": "300",
+		"name": "Science Tech",
+		"level": "7"
+	},
+	"Advanced_Aerodynamics": {
+		"dependents": [
+			"Heavy_Aerodynamics"
+		],
+		"dependencies": [
+			"Aerodynamics"
+		],
+		"cost": "160",
+		"name": "Advanced Aerodynamics",
+		"level": "6"
+	},
+	"Landing": {
+		"dependents": [
+			"Advanced_Landing"
+		],
+		"dependencies": [
+			"Aviation",
+			"Flight_Control"
+		],
+		"cost": "90",
+		"name": "Landing",
+		"level": "5"
+	},
+	"Basic_Science": {
+		"dependents": [
+			"Electrics",
+			"Miniaturization",
+			"Space_Exploration"
+		],
+		"dependencies": [
+			"Survivability"
+		],
+		"cost": "45",
+		"name": "Basic Science",
+		"level": "4"
+	},
+	"Large_Probes": {
+		"dependents": [],
+		"dependencies": [
+			"Advanced_Unmanned_Tech",
+			"Automation"
+		],
+		"cost": "1000",
+		"name": "Large Probes",
+		"level": "9"
+	},
+	"Hypersonic_Flight": {
+		"dependents": [
+			"Aerospace_Tech"
+		],
+		"dependencies": [
+			"High_Altitude_Flight"
+		],
+		"cost": "550",
+		"name": "Hypersonic Flight",
+		"level": "8"
+	},
+	"Advanced_Unmanned_Tech": {
+		"dependents": [
+			"Large_Probes"
+		],
+		"dependencies": [
+			"Unmanned_Tech"
+		],
+		"cost": "550",
+		"name": "Advanced Unmanned Tech",
+		"level": "8"
+	},
+	"Aerodynamics": {
+		"dependents": [
+			"Advanced_Aerodynamics",
+			"Supersonic_Flight"
+		],
+		"dependencies": [
+			"Aviation",
+			"General_Construction"
+		],
+		"cost": "90",
+		"name": "Aerodynamics",
+		"level": "5"
+	},
+	"Advanced_Rocketry": {
+		"dependents": [
+			"Fuel_Systems",
+			"Heavy_Rocketry",
+			"Propulsion_Systems"
+		],
+		"dependencies": [
+			"General_Rocketry"
+		],
+		"cost": "45",
+		"name": "Advanced Rocketry",
+		"level": "4"
+	},
+	"Electrics": {
+		"dependents": [
+			"Advanced_Electrics",
+			"Precision_Engineering"
+		],
+		"dependencies": [
+			"Basic_Science"
+		],
+		"cost": "90",
+		"name": "Electrics",
+		"level": "5"
+	},
+	"Adv._Fuel_Systems": {
+		"dependents": [
+			"Large_Volume_Containment",
+			"Nuclear_Propulsion"
+		],
+		"dependencies": [
+			"Fuel_Systems",
+			"Propulsion_Systems"
+		],
+		"cost": "160",
+		"name": "Adv. Fuel Systems",
+		"level": "6"
+	},
+	"Aerospace_Tech": {
+		"dependents": [],
+		"dependencies": [
+			"Hypersonic_Flight"
+		],
+		"cost": "1000",
+		"name": "Aerospace Tech",
+		"level": "9"
+	},
+	"Precision_Engineering": {
+		"dependents": [
+			"Electronics",
+			"Science_Tech",
+			"Unmanned_Tech"
+		],
+		"dependencies": [
+			"Electrics",
+			"Miniaturization"
+		],
+		"cost": "160",
+		"name": "Precision Engineering",
+		"level": "6"
+	},
+	"Basic_Rocketry": {
+		"dependents": [
+			"General_Rocketry",
+			"Stability"
+		],
+		"dependencies": [
+			"Start"
+		],
+		"cost": "5",
+		"name": "Basic Rocketry",
+		"level": "2"
+	},
+	"Experimental_Science": {
+		"dependents": [],
+		"dependencies": [
+			"Advanced_Science_Tech"
+		],
+		"cost": "1000",
+		"name": "Experimental Science",
+		"level": "9"
+	},
+	"Composites": {
+		"dependents": [
+			"Meta-Materials"
+		],
+		"dependencies": [
+			"Specialized_Construction"
+		],
+		"cost": "300",
+		"name": "Composites",
+		"level": "7"
+	},
+	"Supersonic_Flight": {
+		"dependents": [
+			"High_Altitude_Flight"
+		],
+		"dependencies": [
+			"Aerodynamics"
+		],
+		"cost": "160",
+		"name": "Supersonic Flight",
+		"level": "6"
+	}
+}
