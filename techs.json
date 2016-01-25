@@ -1,552 +1,661 @@
 {
-	"Propulsion_Systems": {
-		"dependents": [
-			"Adv._Fuel_Systems",
-			"Precision_Propulsion"
-		],
-		"dependencies": [
-			"Advanced_Rocketry"
-		],
-		"cost": "90",
-		"name": "Propulsion Systems",
-		"level": "5"
-	},
-	"General_Rocketry": {
-		"dependents": [
-			"Advanced_Rocketry",
-			"General_Construction"
-		],
-		"dependencies": [
-			"Basic_Rocketry"
-		],
-		"cost": "20",
-		"name": "General Rocketry",
-		"level": "3"
-	},
-	"Ion_Propulsion": {
-		"dependents": [],
-		"dependencies": [
-			"Science_Tech",
-			"Unmanned_Tech"
-		],
-		"cost": "550",
-		"name": "Ion Propulsion",
-		"level": "8"
-	},
-	"Automation": {
-		"dependents": [
-			"Large_Probes"
-		],
-		"dependencies": [
-			"Electronics",
-			"Unmanned_Tech"
-		],
-		"cost": "550",
-		"name": "Automation",
-		"level": "8"
-	},
-	"Advanced_Motors": {
-		"dependents": [
-			"Experimental_Motors"
-		],
-		"dependencies": [
-			"Field_Science"
-		],
-		"cost": "550",
-		"name": "Advanced Motors",
-		"level": "8"
-	},
-	"High-Power_Electrics": {
-		"dependents": [
-			"Specialized_Electrics"
-		],
-		"dependencies": [
-			"Advanced_Electrics"
-		],
-		"cost": "300",
-		"name": "High-Power Electrics",
-		"level": "7"
-	},
-	"Engineering_101": {
-		"dependents": [
-			"Stability",
-			"Survivability"
-		],
-		"dependencies": [
-			"Start"
-		],
-		"cost": "5",
-		"name": "Engineering 101",
-		"level": "2"
-	},
-	"Experimental_Motors": {
-		"dependents": [],
-		"dependencies": [
-			"Advanced_Motors"
-		],
-		"cost": "1000",
-		"name": "Experimental Motors",
-		"level": "9"
-	},
-	"Advanced_Exploration": {
-		"dependents": [
-			"Field_Science",
-			"Science_Tech"
-		],
-		"dependencies": [
-			"Space_Exploration"
-		],
-		"cost": "160",
-		"name": "Advanced Exploration",
-		"level": "6"
-	},
-	"Miniaturization": {
-		"dependents": [
-			"Precision_Engineering"
-		],
-		"dependencies": [
-			"Basic_Science"
-		],
-		"cost": "90",
-		"name": "Miniaturization",
-		"level": "5"
-	},
-	"High_Altitude_Flight": {
-		"dependents": [
-			"Hypersonic_Flight"
-		],
-		"dependencies": [
-			"Supersonic_Flight"
-		],
-		"cost": "300",
-		"name": "High Altitude Flight",
-		"level": "7"
-	},
-	"Experimental_Electrics": {
-		"dependents": [],
-		"dependencies": [
-			"Specialized_Electrics"
-		],
-		"cost": "1000",
-		"name": "Experimental Electrics",
-		"level": "9"
-	},
-	"Nanolathing": {
-		"dependents": [],
-		"dependencies": [
-			"Advanced_MetalWorks"
-		],
-		"cost": "550",
-		"name": "Nanolathing",
-		"level": "8"
-	},
-	"Heavy_Landing": {
-		"dependents": [],
-		"dependencies": [
-			"Advanced_Landing"
-		],
-		"cost": "300",
-		"name": "Heavy Landing",
-		"level": "7"
-	},
-	"Heavier_Rocketry": {
-		"dependents": [
-			"Nuclear_Propulsion",
-			"Very_Heavy_Rocketry"
-		],
-		"dependencies": [
-			"Heavy_Rocketry"
-		],
-		"cost": "160",
-		"name": "Heavier Rocketry",
-		"level": "6"
-	},
-	"Precision_Propulsion": {
-		"dependents": [],
-		"dependencies": [
-			"Propulsion_Systems"
-		],
-		"cost": "160",
-		"name": "Precision Propulsion",
-		"level": "6"
-	},
-	"Command_Modules": {
-		"dependents": [],
-		"dependencies": [
-			"Advanced_Flight_Control",
-			"Space_Exploration"
-		],
-		"cost": "160",
-		"name": "Command Modules",
-		"level": "6"
-	},
-	"Large_Volume_Containment": {
-		"dependents": [
-			"High-Performance_Fuel_Systems",
-			"Very_Heavy_Rocketry"
-		],
-		"dependencies": [
-			"Adv._Fuel_Systems",
-			"Specialized_Construction"
-		],
-		"cost": "300",
-		"name": "Large Volume Containment",
-		"level": "7"
-	},
-	"Actuators": {
-		"dependents": [],
-		"dependencies": [
-			"Advanced_Construction"
-		],
-		"cost": "160",
-		"name": "Actuators",
-		"level": "6"
-	},
-	"Electronics": {
-		"dependents": [
-			"Automation"
-		],
-		"dependencies": [
-			"Advanced_Electrics",
-			"Precision_Engineering"
-		],
-		"cost": "300",
-		"name": "Electronics",
-		"level": "7"
-	},
-	"Experimental_Aerodynamics": {
-		"dependents": [],
-		"dependencies": [
-			"Heavy_Aerodynamics"
-		],
-		"cost": "550",
-		"name": "Experimental Aerodynamics",
-		"level": "8"
-	},
-	"Advanced_Flight_Control": {
-		"dependents": [
-			"Command_Modules",
-			"Specialized_Control"
-		],
-		"dependencies": [
-			"Flight_Control"
-		],
-		"cost": "90",
-		"name": "Advanced Flight Control",
-		"level": "5"
-	},
-	"Fuel_Systems": {
-		"dependents": [
-			"Adv._Fuel_Systems"
-		],
-		"dependencies": [
-			"Advanced_Rocketry",
-			"General_Construction"
-		],
-		"cost": "90",
-		"name": "Fuel Systems",
-		"level": "5"
-	},
 	"Stability": {
 		"dependents": [
 			"Aviation",
 			"Flight_Control",
 			"General_Construction"
 		],
+		"cost": "18",
 		"dependencies": [
 			"Basic_Rocketry",
 			"Engineering_101"
 		],
-		"cost": "18",
+		"level": "3",
+		"icon": "",
 		"name": "Stability",
-		"level": "3"
+		"parts": [
+			"Aerodynamic_Nose_Cone",
+			"AV-T1_Winglet",
+			"TT-38K_Radial_Decoupler"
+		]
 	},
-	"Specialized_Control": {
-		"dependents": [],
-		"dependencies": [
-			"Advanced_Flight_Control"
-		],
-		"cost": "160",
-		"name": "Specialized Control",
-		"level": "6"
-	},
-	"Space_Exploration": {
+	"Miniaturization": {
 		"dependents": [
-			"Advanced_Exploration",
-			"Command_Modules"
+			"Precision_Engineering"
 		],
+		"cost": "90",
 		"dependencies": [
 			"Basic_Science"
 		],
-		"cost": "90",
-		"name": "Space Exploration",
-		"level": "5"
+		"level": "5",
+		"icon": "",
+		"name": "Miniaturization",
+		"parts": [
+			"FL-A5_Adapter",
+			"FL-A10_Adapter",
+			"TR-2C_Stack_Separator",
+			"Clamp-O-Tron_Docking_Port_Jr."
+		]
 	},
-	"Advanced_Landing": {
+	"High_Altitude_Flight": {
 		"dependents": [
-			"Field_Science",
-			"Heavy_Landing"
-		],
-		"dependencies": [
-			"Landing"
-		],
-		"cost": "160",
-		"name": "Advanced Landing",
-		"level": "6"
-	},
-	"Nuclear_Propulsion": {
-		"dependents": [],
-		"dependencies": [
-			"Adv._Fuel_Systems",
-			"Heavier_Rocketry"
+			"Hypersonic_Flight"
 		],
 		"cost": "300",
-		"name": "Nuclear Propulsion",
-		"level": "7"
-	},
-	"Advanced_Construction": {
-		"dependents": [
-			"Actuators",
-			"Specialized_Construction"
-		],
 		"dependencies": [
-			"General_Construction"
+			"Supersonic_Flight"
 		],
-		"cost": "90",
-		"name": "Advanced Construction",
-		"level": "5"
+		"level": "7",
+		"icon": "",
+		"name": "High Altitude Flight",
+		"parts": [
+			"Adjustable_Ramp_Intake_(Radial)",
+			"Adjustable_Ramp_Intake",
+			"Mk2_Inline_Cockpit",
+			"2.5m_to_Mk2_Adapter",
+			"Mk2_to_1.25m_Adapter_Long",
+			"Mk2_Rocket_Fuel_Fuselage",
+			"Mk2_Liquid_Fuel_Fuselage",
+			"Mk2_Monopropellant_Tank",
+			"Mk1_Fuselage_-_Intake",
+			"Structural_Pylon",
+			"Mk2_Cargo_Bay_CRG-08",
+			"MK2_Crew_Cabin",
+			"Mk2_Clamp-O-Tron"
+		]
+	},
+	"Ion_Propulsion": {
+		"dependents": [],
+		"cost": "550",
+		"dependencies": [
+			"Science_Tech",
+			"Unmanned_Tech"
+		],
+		"level": "8",
+		"icon": "",
+		"name": "Ion Propulsion",
+		"parts": [
+			"IX-6315_%22Dawn%22_Electric_Propulsion_System",
+			"PB-X150_Xenon_Container",
+			"PB-X750_Xenon_Container",
+			"PB-X50R_Xenon_Container"
+		]
 	},
 	"Start": {
 		"dependents": [
 			"Basic_Rocketry",
 			"Engineering_101"
 		],
-		"dependencies": [],
 		"cost": "0",
+		"dependencies": [],
+		"level": "1",
+		"icon": "",
 		"name": "Start",
-		"level": "1"
+		"parts": [
+			"Basic_Fin",
+			"Mk1_Command_Pod",
+			"RT-5_%22Flea%22_Solid_Fuel_Booster",
+			"Mystery_Goo%E2%84%A2_Containment_Unit",
+			"Modular_Girder_Segment",
+			"Mk16_Parachute"
+		]
 	},
-	"Aviation": {
-		"dependents": [
-			"Aerodynamics",
-			"Landing"
-		],
+	"Aerospace_Tech": {
+		"dependents": [],
+		"cost": "1000",
 		"dependencies": [
+			"Hypersonic_Flight"
+		],
+		"level": "9",
+		"icon": "",
+		"name": "Aerospace Tech",
+		"parts": [
+			"CR-7_R.A.P.I.E.R._Engine"
+		]
+	},
+	"Electronics": {
+		"dependents": [
+			"Automation"
+		],
+		"cost": "300",
+		"dependencies": [
+			"Advanced_Electrics",
+			"Precision_Engineering"
+		],
+		"level": "7",
+		"icon": "",
+		"name": "Electronics",
+		"parts": [
+			"Double-C_Seismic_Accelerometer",
+			"Communotron_88-88"
+		]
+	},
+	"Basic_Rocketry": {
+		"dependents": [
+			"General_Rocketry",
 			"Stability"
 		],
-		"cost": "45",
-		"name": "Aviation",
-		"level": "4"
-	},
-	"Field_Science": {
-		"dependents": [
-			"Advanced_Motors",
-			"Advanced_Science_Tech"
-		],
+		"cost": "5",
 		"dependencies": [
-			"Advanced_Exploration",
+			"Start"
+		],
+		"level": "2",
+		"icon": "",
+		"name": "Basic Rocketry",
+		"parts": [
+			"LV-T30_%22Reliant%22_Liquid_Fuel_Engine",
+			"RT-10_%22Hammer%22_Solid_Fuel_Booster",
+			"FL-T100_Fuel_Tank"
+		]
+	},
+	"Advanced_Aerodynamics": {
+		"dependents": [
+			"Heavy_Aerodynamics"
+		],
+		"cost": "160",
+		"dependencies": [
+			"Aerodynamics"
+		],
+		"level": "6",
+		"icon": "",
+		"name": "Advanced Aerodynamics",
+		"parts": [
+			"A.I.R.B.R.A.K.E.S",
+			"Standard_Canard",
+			"Wing_Connector_Type_D",
+			"Delta_Wing",
+			"Small_Delta_Wing",
+			"Elevon_2",
+			"Elevon_3",
+			"Elevon_4",
+			"Elevon_5",
+			"Structural_Wing_Type_D",
+			"Swept_Wing_Type_A",
+			"Small_Hardpoint"
+		]
+	},
+	"Advanced_Exploration": {
+		"dependents": [
+			"Field_Science",
+			"Science_Tech"
+		],
+		"cost": "160",
+		"dependencies": [
+			"Space_Exploration"
+		],
+		"level": "6",
+		"icon": "",
+		"name": "Advanced Exploration",
+		"parts": [
+			"Mobile_Processing_Lab_MPL-LG-2",
+			"Telus_Mobility_Enhancer",
+			"Telus-LV_Bay_Mobility_Enhancer"
+		]
+	},
+	"Heavy_Landing": {
+		"dependents": [],
+		"cost": "300",
+		"dependencies": [
 			"Advanced_Landing"
 		],
-		"cost": "300",
-		"name": "Field Science",
-		"level": "7"
+		"level": "7",
+		"icon": "",
+		"name": "Heavy Landing",
+		"parts": [
+			"LY-99_Large_Landing_Gear"
+		]
 	},
-	"Very_Heavy_Rocketry": {
-		"dependents": [],
-		"dependencies": [
-			"Heavier_Rocketry",
-			"Large_Volume_Containment"
+	"Automation": {
+		"dependents": [
+			"Large_Probes"
 		],
 		"cost": "550",
-		"name": "Very Heavy Rocketry",
-		"level": "8"
-	},
-	"Specialized_Construction": {
-		"dependents": [
-			"Advanced_MetalWorks",
-			"Composites",
-			"Large_Volume_Containment"
-		],
 		"dependencies": [
-			"Advanced_Construction"
-		],
-		"cost": "160",
-		"name": "Specialized Construction",
-		"level": "6"
-	},
-	"Advanced_MetalWorks": {
-		"dependents": [
-			"Nanolathing"
-		],
-		"dependencies": [
-			"Specialized_Construction"
-		],
-		"cost": "300",
-		"name": "Advanced MetalWorks",
-		"level": "7"
-	},
-	"Heavy_Aerodynamics": {
-		"dependents": [
-			"Experimental_Aerodynamics"
-		],
-		"dependencies": [
-			"Advanced_Aerodynamics"
-		],
-		"cost": "300",
-		"name": "Heavy Aerodynamics",
-		"level": "7"
-	},
-	"Advanced_Electrics": {
-		"dependents": [
 			"Electronics",
-			"High-Power_Electrics"
+			"Unmanned_Tech"
 		],
-		"dependencies": [
-			"Electrics"
-		],
-		"cost": "160",
-		"name": "Advanced Electrics",
-		"level": "6"
+		"level": "8",
+		"icon": "",
+		"name": "Automation",
+		"parts": [
+			"MK2_Drone_Core"
+		]
 	},
-	"High-Performance_Fuel_Systems": {
-		"dependents": [],
-		"dependencies": [
-			"Large_Volume_Containment"
-		],
-		"cost": "550",
-		"name": "High-Performance Fuel Systems",
-		"level": "8"
-	},
-	"Specialized_Electrics": {
+	"Aerodynamics": {
 		"dependents": [
-			"Experimental_Electrics"
+			"Advanced_Aerodynamics",
+			"Supersonic_Flight"
 		],
+		"cost": "90",
 		"dependencies": [
-			"High-Power_Electrics"
+			"Aviation",
+			"General_Construction"
 		],
-		"cost": "550",
-		"name": "Specialized Electrics",
-		"level": "8"
-	},
-	"Flight_Control": {
-		"dependents": [
-			"Advanced_Flight_Control",
-			"Landing"
-		],
-		"dependencies": [
-			"Stability",
-			"Survivability"
-		],
-		"cost": "45",
-		"name": "Flight Control",
-		"level": "4"
+		"level": "5",
+		"icon": "",
+		"name": "Aerodynamics",
+		"parts": [
+			"XM-G50_Radial_Air_Intake",
+			"Circular_Intake",
+			"NCS_Adapter",
+			"Small_Nose_Cone",
+			"Tail_Connector_B",
+			"Wing_Connector_Type_A",
+			"Wing_Connector_Type_C",
+			"Structural_Wing_Type_B",
+			"Swept_Wing_Type_B",
+			"Mk1_Inline_Cockpit",
+			"J-33_%22Wheesley%22_Turbofan_Engine",
+			"Engine_Nacelle"
+		]
 	},
 	"Survivability": {
 		"dependents": [
 			"Basic_Science",
 			"Flight_Control"
 		],
+		"cost": "15",
 		"dependencies": [
 			"Engineering_101"
 		],
-		"cost": "15",
+		"level": "3",
+		"icon": "",
 		"name": "Survivability",
-		"level": "3"
+		"parts": [
+			"Heat_Shield_(1.25m)",
+			"Radiator_Panel_(small)",
+			"LT-05_Micro_Landing_Strut",
+			"Mk2-R_Radial-Mount_Parachute",
+			"Service_Bay_(1.25m)"
+		]
 	},
-	"Meta-Materials": {
-		"dependents": [],
-		"dependencies": [
-			"Composites"
-		],
-		"cost": "550",
-		"name": "Meta-Materials",
-		"level": "8"
-	},
-	"Advanced_Science_Tech": {
+	"Advanced_Flight_Control": {
 		"dependents": [
-			"Experimental_Science"
-		],
-		"dependencies": [
-			"Field_Science",
-			"Science_Tech"
-		],
-		"cost": "550",
-		"name": "Advanced Science Tech",
-		"level": "8"
-	},
-	"Heavy_Rocketry": {
-		"dependents": [
-			"Heavier_Rocketry"
-		],
-		"dependencies": [
-			"Advanced_Rocketry"
+			"Command_Modules",
+			"Specialized_Control"
 		],
 		"cost": "90",
-		"name": "Heavy Rocketry",
-		"level": "5"
-	},
-	"Unmanned_Tech": {
-		"dependents": [
-			"Advanced_Unmanned_Tech",
-			"Automation",
-			"Ion_Propulsion"
-		],
 		"dependencies": [
-			"Precision_Engineering"
+			"Flight_Control"
 		],
-		"cost": "300",
-		"name": "Unmanned Tech",
-		"level": "7"
-	},
-	"General_Construction": {
-		"dependents": [
-			"Advanced_Construction",
-			"Aerodynamics",
-			"Fuel_Systems"
-		],
-		"dependencies": [
-			"General_Rocketry",
-			"Stability"
-		],
-		"cost": "45",
-		"name": "General Construction",
-		"level": "4"
+		"level": "5",
+		"icon": "",
+		"name": "Advanced Flight Control",
+		"parts": [
+			"Advanced_Inline_Stabilizer",
+			"Mk1_Lander_Can",
+			"Stratus-V_Roundified_Monopropellant_Tank",
+			"Place-Anywhere_7_Linear_RCS_Port",
+			"RV-105_RCS_Thruster_Block"
+		]
 	},
 	"Science_Tech": {
 		"dependents": [
 			"Advanced_Science_Tech",
 			"Ion_Propulsion"
 		],
+		"cost": "300",
 		"dependencies": [
 			"Advanced_Exploration",
 			"Precision_Engineering"
 		],
-		"cost": "300",
+		"level": "7",
+		"icon": "",
 		"name": "Science Tech",
-		"level": "7"
+		"parts": [
+			"Surface_Scanning_Module",
+			"M700_Survey_Scanner"
+		]
 	},
-	"Advanced_Aerodynamics": {
-		"dependents": [
-			"Heavy_Aerodynamics"
-		],
+	"Large_Probes": {
+		"dependents": [],
+		"cost": "1000",
 		"dependencies": [
-			"Aerodynamics"
+			"Advanced_Unmanned_Tech",
+			"Automation"
+		],
+		"level": "9",
+		"icon": "",
+		"name": "Large Probes",
+		"parts": [
+			"RC-L01_Remote_Guidance_Unit"
+		]
+	},
+	"High-Power_Electrics": {
+		"dependents": [
+			"Specialized_Electrics"
+		],
+		"cost": "300",
+		"dependencies": [
+			"Advanced_Electrics"
+		],
+		"level": "7",
+		"icon": "",
+		"name": "High-Power Electrics",
+		"parts": [
+			"Gigantor_XL_Solar_Array",
+			"Z-1k_Rechargeable_Battery_Bank",
+			"Fuel_Cell",
+			"Thermal_Control_System_(large)"
+		]
+	},
+	"Advanced_Electrics": {
+		"dependents": [
+			"Electronics",
+			"High-Power_Electrics"
 		],
 		"cost": "160",
-		"name": "Advanced Aerodynamics",
-		"level": "6"
+		"dependencies": [
+			"Electrics"
+		],
+		"level": "6",
+		"icon": "",
+		"name": "Advanced Electrics",
+		"parts": [
+			"SP-L_1x6_Photovoltaic_Panels",
+			"OX-4L_1x6_Photovoltaic_Panels",
+			"SP-W_3x2_Photovoltaic_Panels",
+			"OX-4W_3x2_Photovoltaic_Panels",
+			"Z-400_Rechargeable_Battery",
+			"Thermal_Control_System_(medium)"
+		]
 	},
-	"Landing": {
+	"Meta-Materials": {
+		"dependents": [],
+		"cost": "550",
+		"dependencies": [
+			"Composites"
+		],
+		"level": "8",
+		"icon": "",
+		"name": "Meta-Materials",
+		"parts": [
+			"TVR-200L_Stack_Bi-Adapter",
+			"TVR-400L_Stack_Quad-Adapter",
+			"TVR-300L_Stack_Tri-Adapter",
+			"Rockomax_HubMax_Multi-Point_Connector",
+			"Clamp-O-Tron_Docking_Port_Sr."
+		]
+	},
+	"Field_Science": {
 		"dependents": [
+			"Advanced_Motors",
+			"Advanced_Science_Tech"
+		],
+		"cost": "300",
+		"dependencies": [
+			"Advanced_Exploration",
 			"Advanced_Landing"
 		],
-		"dependencies": [
-			"Aviation",
-			"Flight_Control"
+		"level": "7",
+		"icon": "",
+		"name": "Field Science",
+		"parts": [
+			"EAS-1_External_Command_Seat",
+			"Probodobodyne_RoveMate",
+			"Atmospheric_Fluid_Spectro-Variometer",
+			"RoveMax_Model_M1",
+			"RoveMax_Model_S2"
+		]
+	},
+	"Advanced_Construction": {
+		"dependents": [
+			"Actuators",
+			"Specialized_Construction"
 		],
 		"cost": "90",
-		"name": "Landing",
-		"level": "5"
+		"dependencies": [
+			"General_Construction"
+		],
+		"level": "5",
+		"icon": "",
+		"name": "Advanced Construction",
+		"parts": [
+			"Advanced_Nose_Cone_-_Type_A",
+			"AE-FF1_Airstream_Protective_Shell_(1.25m)",
+			"Protective_Rocket_Nose_Cone_Mk7",
+			"Hydraulic_Detachment_Manifold",
+			"TT-70_Radial_Decoupler",
+			"Rockomax_Brand_Adapter_02",
+			"TVR-1180C_Mk1_Stack_Tri-Coupler"
+		]
+	},
+	"Flight_Control": {
+		"dependents": [
+			"Advanced_Flight_Control",
+			"Landing"
+		],
+		"cost": "45",
+		"dependencies": [
+			"Stability",
+			"Survivability"
+		],
+		"level": "4",
+		"icon": "",
+		"name": "Flight Control",
+		"parts": [
+			"AV-R8_Winglet",
+			"Delta-Deluxe_Winglet",
+			"Small_Inline_Reaction_Wheel"
+		]
+	},
+	"Aviation": {
+		"dependents": [
+			"Aerodynamics",
+			"Landing"
+		],
+		"cost": "45",
+		"dependencies": [
+			"Stability"
+		],
+		"level": "4",
+		"icon": "",
+		"name": "Aviation",
+		"parts": [
+			"Swept_Wings",
+			"Tail_Fin",
+			"Tail_Connector_A",
+			"Small_Circular_Intake",
+			"Wing_Connector_Type_B",
+			"Wing_Connector_Type_E",
+			"Elevon_1",
+			"Structural_Wing_Type_C",
+			"Mk1_Cockpit",
+			"J-20_%22Juno%22_Basic_Jet_Engine",
+			"Mk0_Liquid_Fuel_Fuselage",
+			"Mk1_Liquid_Fuel_Fuselage",
+			"LY-01_Fixed_Landing_Gear",
+			"LY05_Steerable_Landing_Gear"
+		]
+	},
+	"Specialized_Electrics": {
+		"dependents": [
+			"Experimental_Electrics"
+		],
+		"cost": "550",
+		"dependencies": [
+			"High-Power_Electrics"
+		],
+		"level": "8",
+		"icon": "",
+		"name": "Specialized Electrics",
+		"parts": [
+			"Z-4K_Rechargeable_Battery_Bank",
+			"Fuel_Cell_Array"
+		]
+	},
+	"Experimental_Electrics": {
+		"dependents": [],
+		"cost": "1000",
+		"dependencies": [
+			"Specialized_Electrics"
+		],
+		"level": "9",
+		"icon": "",
+		"name": "Experimental Electrics",
+		"parts": [
+			"PB-NUK_Radioisotope_Thermoelectric_Generator"
+		]
+	},
+	"Engineering_101": {
+		"dependents": [
+			"Stability",
+			"Survivability"
+		],
+		"cost": "5",
+		"dependencies": [
+			"Start"
+		],
+		"level": "2",
+		"icon": "",
+		"name": "Engineering 101",
+		"parts": [
+			"SC-9001_Science_Jr.",
+			"Communotron_16",
+			"TR-18A_Stack_Decoupler"
+		]
+	},
+	"High-Performance_Fuel_Systems": {
+		"dependents": [],
+		"cost": "550",
+		"dependencies": [
+			"Large_Volume_Containment"
+		],
+		"level": "8",
+		"icon": "",
+		"name": "High-Performance Fuel Systems",
+		"parts": [
+			"Kerbodyne_S3-14400_Tank"
+		]
+	},
+	"Advanced_Landing": {
+		"dependents": [
+			"Field_Science",
+			"Heavy_Landing"
+		],
+		"cost": "160",
+		"dependencies": [
+			"Landing"
+		],
+		"level": "6",
+		"icon": "",
+		"name": "Advanced Landing",
+		"parts": [
+			"Heat_Shield_(3.75m)",
+			"LT-2_Landing_Strut",
+			"Mk12-R_Radial-Mount_Drogue_Chute",
+			"Mk25_Parachute",
+			"LY-50_Medium_Landing_Gear"
+		]
+	},
+	"Experimental_Aerodynamics": {
+		"dependents": [],
+		"cost": "550",
+		"dependencies": [
+			"Heavy_Aerodynamics"
+		],
+		"level": "8",
+		"icon": "",
+		"name": "Experimental Aerodynamics",
+		"parts": [
+			"Big-S_Delta_Wing",
+			"Big-S_Elevon_1",
+			"Big-S_Elevon_2",
+			"Big-S_Spaceplane_Tail_Fin",
+			"Big-S_Wing_Strake",
+			"Mk3_to_Mk2_Adapter",
+			"Mk3_Engine_Mount",
+			"Mk3_to_3.75m_Adapter",
+			"Mk3_Rocket_Fuel_Fuselage_Long",
+			"Mk3_Rocket_Fuel_Fuselage_Short",
+			"Mk3_Rocket_Fuel_Fuselage",
+			"Mk3_Liquid_Fuel_Fuselage_Long",
+			"Mk3_Monopropellant_Tank",
+			"Mk3_Cargo_Bay_CRG-100"
+		]
+	},
+	"Space_Exploration": {
+		"dependents": [
+			"Advanced_Exploration",
+			"Command_Modules"
+		],
+		"cost": "90",
+		"dependencies": [
+			"Basic_Science"
+		],
+		"level": "5",
+		"icon": "",
+		"name": "Space Exploration",
+		"parts": [
+			"PPD-10_Hitchhiker_Storage_Container",
+			"PresMat_Barometer",
+			"Pegasus_I_Mobility_Enhancer"
+		]
+	},
+	"Advanced_Motors": {
+		"dependents": [
+			"Experimental_Motors"
+		],
+		"cost": "550",
+		"dependencies": [
+			"Field_Science"
+		],
+		"level": "8",
+		"icon": "",
+		"name": "Advanced Motors",
+		"parts": [
+			"TR-2L_Ruggedized_Vehicular_Wheel",
+			"RoveMax_Model_XL3"
+		]
+	},
+	"Heavier_Rocketry": {
+		"dependents": [
+			"Nuclear_Propulsion",
+			"Very_Heavy_Rocketry"
+		],
+		"cost": "160",
+		"dependencies": [
+			"Heavy_Rocketry"
+		],
+		"level": "6",
+		"icon": "",
+		"name": "Heavier Rocketry",
+		"parts": [
+			"RE-M3_%22Mainsail%22_Liquid_Engine",
+			"LFB_KR-1x2_%22Twin-Boar%22_Liquid_Fuel_Engine"
+		]
+	},
+	"Heavy_Rocketry": {
+		"dependents": [
+			"Heavier_Rocketry"
+		],
+		"cost": "90",
+		"dependencies": [
+			"Advanced_Rocketry"
+		],
+		"level": "5",
+		"icon": "",
+		"name": "Heavy Rocketry",
+		"parts": [
+			"RE-L10_%22Poodle%22_Liquid_Fuel_Engine",
+			"RE-I5_%22Skipper%22_Liquid_Fuel_Engine",
+			"S1_SRB-KD25k_%22Kickback%22_Solid_Fuel_Booster"
+		]
+	},
+	"Advanced_Unmanned_Tech": {
+		"dependents": [
+			"Large_Probes"
+		],
+		"cost": "550",
+		"dependencies": [
+			"Unmanned_Tech"
+		],
+		"level": "8",
+		"icon": "",
+		"name": "Advanced Unmanned Tech",
+		"parts": [
+			"RC-001S_Remote_Guidance_Unit"
+		]
 	},
 	"Basic_Science": {
 		"dependents": [
@@ -554,57 +663,313 @@
 			"Miniaturization",
 			"Space_Exploration"
 		],
+		"cost": "45",
 		"dependencies": [
 			"Survivability"
 		],
-		"cost": "45",
+		"level": "4",
+		"icon": "",
 		"name": "Basic Science",
-		"level": "4"
+		"parts": [
+			"Stayputnik_Mk._1",
+			"Z-100_Rechargeable_Battery_Pack",
+			"2HOT_Thermometer",
+			"Radiator_Panel_(edge)",
+			"Radiator_Panel_(large)",
+			"Comms_DTS-M1"
+		]
 	},
-	"Large_Probes": {
-		"dependents": [],
-		"dependencies": [
-			"Advanced_Unmanned_Tech",
-			"Automation"
-		],
-		"cost": "1000",
-		"name": "Large Probes",
-		"level": "9"
-	},
-	"Hypersonic_Flight": {
+	"Propulsion_Systems": {
 		"dependents": [
-			"Aerospace_Tech"
-		],
-		"dependencies": [
-			"High_Altitude_Flight"
-		],
-		"cost": "550",
-		"name": "Hypersonic Flight",
-		"level": "8"
-	},
-	"Advanced_Unmanned_Tech": {
-		"dependents": [
-			"Large_Probes"
-		],
-		"dependencies": [
-			"Unmanned_Tech"
-		],
-		"cost": "550",
-		"name": "Advanced Unmanned Tech",
-		"level": "8"
-	},
-	"Aerodynamics": {
-		"dependents": [
-			"Advanced_Aerodynamics",
-			"Supersonic_Flight"
-		],
-		"dependencies": [
-			"Aviation",
-			"General_Construction"
+			"Adv._Fuel_Systems",
+			"Precision_Propulsion"
 		],
 		"cost": "90",
-		"name": "Aerodynamics",
-		"level": "5"
+		"dependencies": [
+			"Advanced_Rocketry"
+		],
+		"level": "5",
+		"icon": "",
+		"name": "Propulsion Systems",
+		"parts": [
+			"48-7S_%22Spark%22_Liquid_Fuel_Engine",
+			"LV-1_%22Ant%22_Liquid_Fuel_Engine",
+			"Oscar-B_Fuel_Tank"
+		]
+	},
+	"General_Construction": {
+		"dependents": [
+			"Advanced_Construction",
+			"Aerodynamics",
+			"Fuel_Systems"
+		],
+		"cost": "45",
+		"dependencies": [
+			"General_Rocketry",
+			"Stability"
+		],
+		"level": "4",
+		"icon": "",
+		"name": "General Construction",
+		"parts": [
+			"Mk1_Crew_Cabin",
+			"EAS-4_Strut_Connector",
+			"Structural_Fuselage",
+			"Rockomax_Brand_Decoupler",
+			"Rockomax_Brand_Adapter",
+			"TT18-A_Launch_Stability_Enhancer"
+		]
+	},
+	"Experimental_Science": {
+		"dependents": [],
+		"cost": "1000",
+		"dependencies": [
+			"Advanced_Science_Tech"
+		],
+		"level": "9",
+		"icon": "",
+		"name": "Experimental Science",
+		"parts": [
+			"Large_Holding_Tank",
+			"M4435_Narrow-Band_Scanner"
+		]
+	},
+	"Actuators": {
+		"dependents": [],
+		"cost": "160",
+		"dependencies": [
+			"Advanced_Construction"
+		],
+		"level": "6",
+		"icon": "",
+		"name": "Actuators",
+		"parts": [
+			"Advanced_Grabbing_Unit"
+		]
+	},
+	"Supersonic_Flight": {
+		"dependents": [
+			"High_Altitude_Flight"
+		],
+		"cost": "160",
+		"dependencies": [
+			"Aerodynamics"
+		],
+		"level": "6",
+		"icon": "",
+		"name": "Supersonic Flight",
+		"parts": [
+			"Wing_Strake",
+			"Structural_Wing_Type_A",
+			"Mk2_Cockpit",
+			"J-404_%22Panther%22_Afterburning_Turbofan",
+			"Mk2_Bicoupler",
+			"Mk2_to_1.25m_Adapter",
+			"Mk2_Rocket_Fuel_Fuselage_Short",
+			"Mk2_Liquid_Fuel_Fuselage_Short",
+			"Mk2_Cargo_Bay_CRG-04"
+		]
+	},
+	"Command_Modules": {
+		"dependents": [],
+		"cost": "160",
+		"dependencies": [
+			"Advanced_Flight_Control",
+			"Space_Exploration"
+		],
+		"level": "6",
+		"icon": "",
+		"name": "Command Modules",
+		"parts": [
+			"PPD-12_Cupola_Module",
+			"Mk1-2_Command_Pod",
+			"Mk2_Lander_Can",
+			"Service_Bay_(2.5m)"
+		]
+	},
+	"Advanced_Science_Tech": {
+		"dependents": [
+			"Experimental_Science"
+		],
+		"cost": "550",
+		"dependencies": [
+			"Field_Science",
+			"Science_Tech"
+		],
+		"level": "8",
+		"icon": "",
+		"name": "Advanced Science Tech",
+		"parts": [
+			"Convert-O-Tron_250",
+			"%27Drill-O-Matic_Junior%27_Mining_Excavator",
+			"Convert-O-Tron_125",
+			"%27Drill-O-Matic%27_Mining_Excavator",
+			"Radial_Holding_Tank",
+			"Small_Holding_Tank",
+			"GRAVMAX_Negative_Gravioli_Detector"
+		]
+	},
+	"Heavy_Aerodynamics": {
+		"dependents": [
+			"Experimental_Aerodynamics"
+		],
+		"cost": "300",
+		"dependencies": [
+			"Advanced_Aerodynamics"
+		],
+		"level": "7",
+		"icon": "",
+		"name": "Heavy Aerodynamics",
+		"parts": [
+			"FAT-445_Aeroplane_Control_Surface",
+			"FAT-455_Aeroplane_Main_Wing",
+			"FAT-455_Aeroplane_Tail_Fin",
+			"Mk3_Cockpit",
+			"J-90_%22Goliath%22_Turbofan_Engine",
+			"Mk3_to_2.5m_Adapter",
+			"Mk3_to_2.5m_Adapter_Slanted",
+			"Mk3_Passenger_Module",
+			"Mk3_Liquid_Fuel_Fuselage_Short",
+			"Mk3_Liquid_Fuel_Fuselage",
+			"Mk3_Cargo_Bay_CRG-50",
+			"Mk3_Cargo_Bay_CRG-25",
+			"Mk3_Cargo_Ramp"
+		]
+	},
+	"Nuclear_Propulsion": {
+		"dependents": [],
+		"cost": "300",
+		"dependencies": [
+			"Adv._Fuel_Systems",
+			"Heavier_Rocketry"
+		],
+		"level": "7",
+		"icon": "",
+		"name": "Nuclear Propulsion",
+		"parts": [
+			"LV-N_%22Nerv%22_Atomic_Rocket_Motor"
+		]
+	},
+	"Very_Heavy_Rocketry": {
+		"dependents": [],
+		"cost": "550",
+		"dependencies": [
+			"Heavier_Rocketry",
+			"Large_Volume_Containment"
+		],
+		"level": "8",
+		"icon": "",
+		"name": "Very Heavy Rocketry",
+		"parts": [
+			"S3_KS-25_%22Vector%22_Liquid_Fuel_Engine",
+			"Kerbodyne_KR-2L%2B_%22Rhino%22_Liquid_Fuel_Engine",
+			"S3_KS-25x4_%22Mammoth%22_Liquid_Fuel_Engine"
+		]
+	},
+	"Electrics": {
+		"dependents": [
+			"Advanced_Electrics",
+			"Precision_Engineering"
+		],
+		"cost": "90",
+		"dependencies": [
+			"Basic_Science"
+		],
+		"level": "5",
+		"icon": "",
+		"name": "Electrics",
+		"parts": [
+			"Probodobodyne_OKTO",
+			"OX-STAT_Photovoltaic_Panels",
+			"Z-200_Rechargeable_Battery_Bank",
+			"Thermal_Control_System_(small)",
+			"Illuminator_Mk1",
+			"Illuminator_Mk2"
+		]
+	},
+	"General_Rocketry": {
+		"dependents": [
+			"Advanced_Rocketry",
+			"General_Construction"
+		],
+		"cost": "20",
+		"dependencies": [
+			"Basic_Rocketry"
+		],
+		"level": "3",
+		"icon": "",
+		"name": "General Rocketry",
+		"parts": [
+			"LV-T45_%22Swivel%22_Liquid_Fuel_Engine",
+			"BACC_%22Thumper%22_Solid_Fuel_Booster",
+			"FL-T200_Fuel_Tank"
+		]
+	},
+	"Fuel_Systems": {
+		"dependents": [
+			"Adv._Fuel_Systems"
+		],
+		"cost": "90",
+		"dependencies": [
+			"Advanced_Rocketry",
+			"General_Construction"
+		],
+		"level": "5",
+		"icon": "",
+		"name": "Fuel Systems",
+		"parts": [
+			"FTX-2_External_Fuel_Duct",
+			"FL-T800_Fuel_Tank",
+			"Rockomax_X200-16_Fuel_Tank",
+			"Rockomax_X200-32_Fuel_Tank",
+			"Rockomax_X200-8_Fuel_Tank"
+		]
+	},
+	"Unmanned_Tech": {
+		"dependents": [
+			"Advanced_Unmanned_Tech",
+			"Automation",
+			"Ion_Propulsion"
+		],
+		"cost": "300",
+		"dependencies": [
+			"Precision_Engineering"
+		],
+		"level": "7",
+		"icon": "",
+		"name": "Unmanned Tech",
+		"parts": [
+			"Probodobodyne_QBE",
+			"Probodobodyne_OKTO2"
+		]
+	},
+	"Nanolathing": {
+		"dependents": [],
+		"cost": "550",
+		"dependencies": [
+			"Advanced_MetalWorks"
+		],
+		"level": "8",
+		"icon": "",
+		"name": "Nanolathing",
+		"parts": []
+	},
+	"Precision_Propulsion": {
+		"dependents": [],
+		"cost": "160",
+		"dependencies": [
+			"Propulsion_Systems"
+		],
+		"level": "6",
+		"icon": "",
+		"name": "Precision Propulsion",
+		"parts": [
+			"24-77_%22Twitch%22_Liquid_Fuel_Engine",
+			"LV-1R_%22Spider%22_Liquid_Fuel_Engine",
+			"O-10_%22Puff%22_MonoPropellant_Fuel_Engine",
+			"Sepratron_I",
+			"ROUND-8_Toroidal_Fuel_Tank"
+		]
 	},
 	"Advanced_Rocketry": {
 		"dependents": [
@@ -612,46 +977,75 @@
 			"Heavy_Rocketry",
 			"Propulsion_Systems"
 		],
+		"cost": "45",
 		"dependencies": [
 			"General_Rocketry"
 		],
-		"cost": "45",
+		"level": "4",
+		"icon": "",
 		"name": "Advanced Rocketry",
-		"level": "4"
+		"parts": [
+			"LV-909_%22Terrier%22_Liquid_Fuel_Engine",
+			"Mk-55_%22Thud%22_Liquid_Fuel_Engine",
+			"FL-T400_Fuel_Tank"
+		]
 	},
-	"Electrics": {
-		"dependents": [
-			"Advanced_Electrics",
-			"Precision_Engineering"
-		],
-		"dependencies": [
-			"Basic_Science"
-		],
-		"cost": "90",
-		"name": "Electrics",
-		"level": "5"
-	},
-	"Adv._Fuel_Systems": {
-		"dependents": [
-			"Large_Volume_Containment",
-			"Nuclear_Propulsion"
-		],
-		"dependencies": [
-			"Fuel_Systems",
-			"Propulsion_Systems"
-		],
-		"cost": "160",
-		"name": "Adv. Fuel Systems",
-		"level": "6"
-	},
-	"Aerospace_Tech": {
+	"Specialized_Control": {
 		"dependents": [],
+		"cost": "160",
 		"dependencies": [
-			"Hypersonic_Flight"
+			"Advanced_Flight_Control"
 		],
-		"cost": "1000",
-		"name": "Aerospace Tech",
-		"level": "9"
+		"level": "6",
+		"icon": "",
+		"name": "Specialized Control",
+		"parts": [
+			"CH-J3_Fly-By-Wire_Avionics_Hub",
+			"Advanced_Reaction_Wheel_Module,_Large",
+			"Vernor_Engine",
+			"Stratus-V_Cylindrified_Monopropellant_Tank"
+		]
+	},
+	"Composites": {
+		"dependents": [
+			"Meta-Materials"
+		],
+		"cost": "300",
+		"dependencies": [
+			"Specialized_Construction"
+		],
+		"level": "7",
+		"icon": "",
+		"name": "Composites",
+		"parts": [
+			"AE-FF3_Airstream_Protective_Shell_(3.75m)",
+			"M-Beam_200_I-Beam",
+			"M-Beam_200_I-Beam_Pocket_Edition",
+			"M-Beam_650_I-Beam",
+			"M-1x1_Structural_Panel",
+			"M-2x2_Structural_Panel",
+			"Inline_Clamp-O-Tron"
+		]
+	},
+	"Large_Volume_Containment": {
+		"dependents": [
+			"High-Performance_Fuel_Systems",
+			"Very_Heavy_Rocketry"
+		],
+		"cost": "300",
+		"dependencies": [
+			"Adv._Fuel_Systems",
+			"Specialized_Construction"
+		],
+		"level": "7",
+		"icon": "",
+		"name": "Large Volume Containment",
+		"parts": [
+			"Kerbodyne_S3-7200_Tank",
+			"Kerbodyne_S3-3600_Tank",
+			"TR-38-D",
+			"Kerbodyne_ADTP-2-3"
+		]
 	},
 	"Precision_Engineering": {
 		"dependents": [
@@ -659,55 +1053,133 @@
 			"Science_Tech",
 			"Unmanned_Tech"
 		],
+		"cost": "160",
 		"dependencies": [
 			"Electrics",
 			"Miniaturization"
 		],
-		"cost": "160",
+		"level": "6",
+		"icon": "",
 		"name": "Precision Engineering",
-		"level": "6"
+		"parts": [
+			"Probodobodyne_HECS",
+			"The_Not-Rockomax_Micronode",
+			"Cubic_Octagonal_Strut",
+			"Octagonal_Strut",
+			"TR-2V_Stack_Decoupler"
+		]
 	},
-	"Basic_Rocketry": {
+	"Advanced_MetalWorks": {
 		"dependents": [
-			"General_Rocketry",
-			"Stability"
+			"Nanolathing"
 		],
-		"dependencies": [
-			"Start"
-		],
-		"cost": "5",
-		"name": "Basic Rocketry",
-		"level": "2"
-	},
-	"Experimental_Science": {
-		"dependents": [],
-		"dependencies": [
-			"Advanced_Science_Tech"
-		],
-		"cost": "1000",
-		"name": "Experimental Science",
-		"level": "9"
-	},
-	"Composites": {
-		"dependents": [
-			"Meta-Materials"
-		],
+		"cost": "300",
 		"dependencies": [
 			"Specialized_Construction"
 		],
-		"cost": "300",
-		"name": "Composites",
-		"level": "7"
+		"level": "7",
+		"icon": "",
+		"name": "Advanced MetalWorks",
+		"parts": [
+			"Modular_Girder_Segment_XL",
+			"TR-XL_Stack_Separator",
+			"Clamp-O-Tron_Shielded_Docking_Port",
+			"TVR-2160C_Mk2_Stack_Quad-Coupler"
+		]
 	},
-	"Supersonic_Flight": {
+	"Experimental_Motors": {
+		"dependents": [],
+		"cost": "1000",
+		"dependencies": [
+			"Advanced_Motors"
+		],
+		"level": "9",
+		"icon": "",
+		"name": "Experimental Motors",
+		"parts": []
+	},
+	"Hypersonic_Flight": {
 		"dependents": [
+			"Aerospace_Tech"
+		],
+		"cost": "550",
+		"dependencies": [
 			"High_Altitude_Flight"
 		],
-		"dependencies": [
-			"Aerodynamics"
+		"level": "8",
+		"icon": "",
+		"name": "Hypersonic Flight",
+		"parts": [
+			"Advanced_Canard",
+			"Shock_Cone_Intake",
+			"J-X4_%22Whiplash%22_Turbo_Ramjet_Engine",
+			"T-1_Toroidal_Aerospike_%22Dart%22_Liquid_Fuel_Engine",
+			"Engine_Pre-cooler"
+		]
+	},
+	"Adv._Fuel_Systems": {
+		"dependents": [
+			"Large_Volume_Containment",
+			"Nuclear_Propulsion"
 		],
 		"cost": "160",
-		"name": "Supersonic Flight",
-		"level": "6"
+		"dependencies": [
+			"Fuel_Systems",
+			"Propulsion_Systems"
+		],
+		"level": "6",
+		"icon": "",
+		"name": "Adv. Fuel Systems",
+		"parts": [
+			"C7_Brand_Adapter_-_2.5m_to_1.25m",
+			"C7_Brand_Adapter_Slanted_-_2.5m_to_1.25m",
+			"Rockomax_Jumbo-64_Fuel_Tank",
+			"FL-R1_RCS_Fuel_Tank",
+			"FL-R10_RCS_Fuel_Tank",
+			"FL-R25_RCS_Fuel_Tank"
+		]
+	},
+	"Specialized_Construction": {
+		"dependents": [
+			"Advanced_MetalWorks",
+			"Composites",
+			"Large_Volume_Containment"
+		],
+		"cost": "160",
+		"dependencies": [
+			"Advanced_Construction"
+		],
+		"level": "6",
+		"icon": "",
+		"name": "Specialized Construction",
+		"parts": [
+			"Advanced_Nose_Cone_-_Type_B",
+			"AE-FF2_Airstream_Protective_Shell_(2.5m)",
+			"Modular_Girder_Adapter",
+			"TR-18D_Stack_Separator",
+			"Clamp-O-Tron_Docking_Port",
+			"BZ-52_Radial_Attachment_Point",
+			"TVR-200_Stack_Bi-Coupler"
+		]
+	},
+	"Landing": {
+		"dependents": [
+			"Advanced_Landing"
+		],
+		"cost": "90",
+		"dependencies": [
+			"Aviation",
+			"Flight_Control"
+		],
+		"level": "5",
+		"icon": "",
+		"name": "Landing",
+		"parts": [
+			"Heat_Shield_(2.5m)",
+			"LT-1_Landing_Struts",
+			"Launch_Escape_System",
+			"Mk16-XL_Parachute",
+			"LY-10_Small_Landing_Gear"
+		]
 	}
 }

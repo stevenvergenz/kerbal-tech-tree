@@ -9,17 +9,18 @@ rootUrl = 'http://wiki.kerbalspaceprogram.com/wiki/Technology_tree'
 
 def main(argv):
 
-	#try:
-	#	data = request.urlopen(rootUrl).read()
-	#except URLError as e:
-	#	print(e)
-	#	return
-	#with open('techtree.html', 'w') as ofp:
-	#	ofp.write(str(data, 'utf8'))
+	if '--dry-run' not in argv:
+		try:
+			print('GET', rootUrl)
+			data = request.urlopen(rootUrl).read()
+		except URLError as e:
+			print(e)
+			return
 
-	data = ''
-	with open('techtree.html', 'r') as f:
-		data = f.read()
+	else:
+		data = ''
+		with open('sample_input.html', 'r') as f:
+			data = f.read()
 
 	# get largest table on page
 	root = ET.fromstring(data)
@@ -45,17 +46,17 @@ def main(argv):
 		tech = {}
 		for i, col in enumerate(row.findall('./td')):
 
-			if headers[i] == 'icon':
+			if headers[i] == 'icon' and '--dry-run' not in argv:
 				iconUrl = col.find('.//img').get('src')
-				#with open(libpath.join('.','icons', techId), 'wb') as fp:
-				#	fp.write(request.urlopen( urlparse.urljoin(rootUrl, iconUrl) ).read())
+				with open(libpath.join('.','icons', techId), 'wb') as fp:
+					fp.write(request.urlopen( urlparse.urljoin(rootUrl, iconUrl) ).read())
 
 			elif headers[i] in ['dependencies','dependents']:
 				tech[headers[i]] = [item.get('href')[1:] for item in col.findall('./ul/li/a')]
 
 			elif headers[i] == 'parts':
+				tech[headers[i]] = [libpath.split(item.get('href'))[1] for item in col.findall('./ul/li/a')]
 				# don't scrape parts list yet
-				pass
 
 			else:
 				tech[headers[i]] = col.text.strip()
