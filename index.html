@@ -4,33 +4,16 @@
 		<link rel='stylesheet' href='index.css'/>
 		<link rel='stylesheet' href='positions.css'/>
 		<script src='lib/angular.min.js'></script>
-		<script>
-			
-			angular.module('KerbalTech', [])
-			.controller('KerbalTechController', ['$scope', '$http', function($scope,$http)
-			{
-				window.$scope = $scope;
-				$scope.techs = {};
-				$http.get('techs.json').then(
-					function(res){
-						$scope.techs = res.data;
-					}
-				);
-
-				$scope.sanitize = function(input){
-					return input.replace(/\./, '');
-				};
-			}]);
-
-		</script>
+		<script src='controller.js'></script>
 	</head>
 	<body ng-app='KerbalTech'>
 		<div id='menubar'>
 			<span class='content'>Kerbal Space Program Technology</span>
 		</div>
 		<div id='splitter' ng-controller='KerbalTechController'>
-			<div id='tree'>
-				<img ng-repeat='(techId,tech) in techs' id='{{sanitize(techId)}}' ng-src='{{tech.icon}}'></img>
+			<div id='tree' dgy-zoom-pan>
+				<img ng-repeat='(techId,tech) in techs' id='{{sanitize(techId)}}' ng-src='{{tech.icon}}'
+					ng-click='$parent.activeTech = techId' ng-class='{active: $parent.activeTech === techId}'></img>
 			</div>
 			<div id='info'>
 			</div>
