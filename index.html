@@ -2,17 +2,35 @@
 <html>
 	<head>
 		<link rel='stylesheet' href='index.css'/>
+		<link rel='stylesheet' href='positions.css'/>
+		<script src='lib/angular.min.js'></script>
+		<script>
+			
+			angular.module('KerbalTech', [])
+			.controller('KerbalTechController', ['$scope', '$http', function($scope,$http)
+			{
+				window.$scope = $scope;
+				$scope.techs = {};
+				$http.get('techs.json').then(
+					function(res){
+						$scope.techs = res.data;
+					}
+				);
+
+				$scope.sanitize = function(input){
+					return input.replace(/\./, '');
+				};
+			}]);
+
+		</script>
 	</head>
-	<body>
+	<body ng-app='KerbalTech'>
 		<div id='menubar'>
-			<div class='bvc'>
-				<div class='bevel no_bevel'></div>
-				<span class='content'>Kerbal Space Program Technology</span>
-				<div class='bevel bl br'></div>
-			</div>
+			<span class='content'>Kerbal Space Program Technology</span>
 		</div>
-		<div id='splitter'>
+		<div id='splitter' ng-controller='KerbalTechController'>
 			<div id='tree'>
+				<img ng-repeat='(techId,tech) in techs' id='{{sanitize(techId)}}' ng-src='{{tech.icon}}'></img>
 			</div>
 			<div id='info'>
 			</div>

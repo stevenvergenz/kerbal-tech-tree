@@ -34,7 +34,16 @@ html, body
 {
 	flex-grow: 1;
 	width: 100%;
-	background-image: url('icons/grid.png');
+	background-image: url('images/grid.png');
+	position: relative;
+}
+
+#tree img
+{
+	position: absolute;
+	border: outset grey 2px;
+	width: 40px;
+	height: 40px;
 }
 
 #info
@@ -43,46 +52,3 @@ html, body
 	width: 350px;
 }
 
-/*.bevel-button
-{
-	left: -10px;
-	position: relative;
-	margin-bottom: 10px;
-}
-
-.bevel-button .bevel, .bevel-button .content
-{
-	border-width: 10px;
-	border-style: solid;
-	border-color: #efefef;
-}
-
-.bevel-button .br
-{
-	border-bottom: 0;
-	border-right-color: transparent;
-}
-
-.bevel-button .bl
-{
-	border-bottom: 0;
-	border-left-color: transparent;
-}*/
-
-/*.bvc { left: -15px }
-.bevel, .content { border-width: 15px }
-.bevel, .content { border-color: #efefef; border-style:solid; }
-
-.bvc {
-    width: 90%; /* width of overall box, variable or fixed
-	    margin: 0 auto;
-		    position: relative;
-			    margin-bottom: 15px;
-				}
-
-				.bvc .tr, .bvc .tl, .bvc .br, .bvc .bl { height: 0px; width: 100%; }
-				.bvc .tr, .bvc .tl { border-top: 0; }
-				.bvc .br, .bvc .bl { border-bottom: 0; }
-				.bvc .tr, .bvc .br { border-right-color: transparent; }
-				.bvc .tl, .bvc .bl { border-left-color: transparent; }
-				.no_bevel { height: 0px; width: 100%; border-bottom: 0; }*/

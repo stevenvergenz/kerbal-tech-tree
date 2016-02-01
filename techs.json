@@ -510,17 +510,6 @@
 			"PB-NUK_Radioisotope_Thermoelectric_Generator"
 		]
 	},
-	"Experimental_Motors": {
-		"cost": "1000",
-		"dependencies": [
-			"Advanced_Motors"
-		],
-		"dependents": [],
-		"icon": "./icons/Experimental_Motors.png",
-		"level": "9",
-		"name": "Experimental Motors",
-		"parts": []
-	},
 	"Experimental_Science": {
 		"cost": "1000",
 		"dependencies": [
@@ -892,17 +881,6 @@
 			"TR-2C_Stack_Separator",
 			"Clamp-O-Tron_Docking_Port_Jr."
 		]
-	},
-	"Nanolathing": {
-		"cost": "550",
-		"dependencies": [
-			"Advanced_MetalWorks"
-		],
-		"dependents": [],
-		"icon": "./icons/Nanolathing.png",
-		"level": "8",
-		"name": "Nanolathing",
-		"parts": []
 	},
 	"Nuclear_Propulsion": {
 		"cost": "300",

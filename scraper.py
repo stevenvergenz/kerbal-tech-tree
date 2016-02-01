@@ -64,7 +64,8 @@ def main(argv):
 			else:
 				tech[headers[i]] = col.text.strip()
 
-		data[techId] = tech
+		if len(tech['parts']) > 0:
+			data[techId] = tech
 
 
 	# dump to file
