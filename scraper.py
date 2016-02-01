@@ -9,7 +9,7 @@ rootUrl = 'http://wiki.kerbalspaceprogram.com/wiki/Technology_tree'
 
 def main(argv):
 
-	if '--dry-run' not in argv:
+	if '--local' not in argv:
 		try:
 			print('GET', rootUrl)
 			data = request.urlopen(rootUrl).read()
@@ -46,10 +46,13 @@ def main(argv):
 		tech = {}
 		for i, col in enumerate(row.findall('./td')):
 
-			if headers[i] == 'icon' and '--dry-run' not in argv:
+			if headers[i] == 'icon':
 				iconUrl = col.find('.//img').get('src')
-				with open(libpath.join('.','icons', techId), 'wb') as fp:
-					fp.write(request.urlopen( urlparse.urljoin(rootUrl, iconUrl) ).read())
+				iconPath = libpath.join('.','icons', techId+iconUrl[-4:])
+				if '--local' not in argv:
+					with open(iconPath, 'wb') as fp:
+						fp.write(request.urlopen( urlparse.urljoin(rootUrl, iconUrl) ).read())
+				tech[headers[i]] = iconPath
 
 			elif headers[i] in ['dependencies','dependents']:
 				tech[headers[i]] = [item.get('href')[1:] for item in col.findall('./ul/li/a')]
@@ -66,7 +69,7 @@ def main(argv):
 
 	# dump to file
 	with open('techs.json', 'w') as fp:
-		json.dump(data, fp, indent='\t')
+		json.dump(data, fp, indent='\t', sort_keys=True)
 
 
 if __name__ == '__main__':
