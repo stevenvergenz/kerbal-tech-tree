@@ -25,13 +25,11 @@
 								</marker>
 							</defs>
 							<g ng-repeat='(techId,tech) in techs'>
-								<!--line ng-repeat='next in tech.dependents' ng-if='techs[next]'
-									x1='{{tech.x+40}}' y1='{{tech.y+20}}'
-									x2='{{techs[next].x}}' y2='{{techs[next].y+20}}'
-									stroke-width='2' marker-end='url(#Triangle)'>
-								</line-->
 								<path ng-repeat='next in tech.dependents' ng-if='techs[next]'
-									d='M {{tech.x+40}},{{tech.y+20}} C {{techs[next].x}},{{tech.y+20}} {{tech.x+40}},{{techs[next].y+20}} {{techs[next].x}},{{techs[next].y+20}}'
+									ksp-d='M {{tech.x+40}},{{tech.y+20}} 
+									C {{techs[next].x}},{{tech.y+20}}
+									  {{tech.x+40}},{{techs[next].y+20}}
+									  {{techs[next].x}},{{techs[next].y+20}}'
 									stroke-width='2' marker-end='url(#Triangle)'>
 								</path>
 							</g>

@@ -64,3 +64,13 @@ app.directive('kspZoomPan', function(){
 		}
 	}
 });
+
+app.directive('kspD', function(){
+	return {
+		link: function($scope, elem, attrs){
+			attrs.$observe('kspD', function(newval){
+				attrs.$set('d', newval);
+			});
+		}
+	}
+});
