@@ -41,6 +41,7 @@ app.directive('kspZoomPan', function(){
 
 			var dragStart = null;
 			elem.addEventListener('mousedown', function(evt){
+				evt.preventDefault();
 				dragStart = {
 					x: evt.clientX,
 					y: evt.clientY

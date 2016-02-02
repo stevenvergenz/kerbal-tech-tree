@@ -5,6 +5,7 @@
 			"Advanced_Construction"
 		],
 		"dependents": [],
+		"description": "Perfecting the art of making things mobile, without the explicit use of explosives. Our engineers assure us, this is actually a good thing.",
 		"icon": "./icons/Actuators.png",
 		"level": "6",
 		"name": "Actuators",
@@ -24,6 +25,7 @@
 			"Large_Volume_Containment",
 			"Nuclear_Propulsion"
 		],
+		"description": "Advanced Advancements towards a better understanding of how fuel flows through a rocket.",
 		"icon": "./icons/Adv._Fuel_Systems.png",
 		"level": "6",
 		"name": "Adv. Fuel Systems",
@@ -46,6 +48,7 @@
 		"dependents": [
 			"Heavy_Aerodynamics"
 		],
+		"description": "Advances in fluid dynamics research technology have allowed development of a new set of streamlined aircraft components. And also these parts here.",
 		"icon": "./icons/Advanced_Aerodynamics.png",
 		"level": "6",
 		"name": "Advanced Aerodynamics",
@@ -75,6 +78,7 @@
 			"Actuators",
 			"Specialized_Construction"
 		],
+		"description": "New advances in construction make it possible to build larger than ever before.",
 		"icon": "./icons/Advanced_Construction.png",
 		"level": "5",
 		"name": "Advanced Construction",
@@ -99,6 +103,7 @@
 			"Electronics",
 			"High-Power_Electrics"
 		],
+		"description": "We're fairly certain no one will ever need more than 64kw of power for anything.",
 		"icon": "./icons/Advanced_Electrics.png",
 		"level": "6",
 		"name": "Advanced Electrics",
@@ -122,6 +127,7 @@
 			"Field_Science",
 			"Science_Tech"
 		],
+		"description": "They are Self-Deploying Astronaut Mobility Enhancement Devices, I don't know what you mean by \"ladders\".",
 		"icon": "./icons/Advanced_Exploration.png",
 		"level": "6",
 		"name": "Advanced Exploration",
@@ -142,6 +148,7 @@
 			"Command_Modules",
 			"Specialized_Control"
 		],
+		"description": "The latest advancements in keeping the correct end of the ship pointing towards where you want it to go.",
 		"icon": "./icons/Advanced_Flight_Control.png",
 		"level": "5",
 		"name": "Advanced Flight Control",
@@ -164,6 +171,7 @@
 			"Field_Science",
 			"Heavy_Landing"
 		],
+		"description": "Further advances in landing devices, allowing for more controlled descents and a much higher number of parts still attached to the ship after touchdown.",
 		"icon": "./icons/Advanced_Landing.png",
 		"level": "6",
 		"name": "Advanced Landing",
@@ -185,6 +193,7 @@
 		"dependents": [
 			"Nanolathing"
 		],
+		"description": "These new construction techniques allow for craft designs that were considered insane not too long ago... and still are. But they're now possible!",
 		"icon": "./icons/Advanced_MetalWorks.png",
 		"level": "7",
 		"name": "Advanced MetalWorks",
@@ -205,6 +214,7 @@
 		"dependents": [
 			"Experimental_Motors"
 		],
+		"description": "Wheel technology is just rolling along now. You could even say our engineers are on a roll with it.",
 		"icon": "./icons/Advanced_Motors.png",
 		"level": "8",
 		"name": "Advanced Motors",
@@ -225,6 +235,7 @@
 			"Heavy_Rocketry",
 			"Propulsion_Systems"
 		],
+		"description": "A new step ahead in rocket technology.",
 		"icon": "./icons/Advanced_Rocketry.png",
 		"level": "4",
 		"name": "Advanced Rocketry",
@@ -245,6 +256,7 @@
 		"dependents": [
 			"Experimental_Science"
 		],
+		"description": "Scientific advancements allow new advanced technologies for advancing Science.",
 		"icon": "./icons/Advanced_Science_Tech.png",
 		"level": "8",
 		"name": "Advanced Science Tech",
@@ -268,6 +280,7 @@
 		"dependents": [
 			"Large_Probes"
 		],
+		"description": "Improvements in remote control technology for a new generation of probe designs.",
 		"icon": "./icons/Advanced_Unmanned_Tech.png",
 		"level": "8",
 		"name": "Advanced Unmanned Tech",
@@ -287,6 +300,7 @@
 			"Advanced_Aerodynamics",
 			"Supersonic_Flight"
 		],
+		"description": "New breakthroughs from C7 Aerospace allow for new types of craft to be built. We're looking into hiring some of their engineers as well.",
 		"icon": "./icons/Aerodynamics.png",
 		"level": "5",
 		"name": "Aerodynamics",
@@ -313,6 +327,7 @@
 			"Hypersonic_Flight"
 		],
 		"dependents": [],
+		"description": "The absolute cutting-edge in aerospace technology. Quite literally, some of those edges are very sharp. Handle with care.",
 		"icon": "./icons/Aerospace_Tech.png",
 		"level": "9",
 		"name": "Aerospace Tech",
@@ -331,6 +346,7 @@
 		"dependents": [
 			"Large_Probes"
 		],
+		"description": "We can't think of anything that could go wrong with letting an experimental AI handle every aspect of a mission.",
 		"icon": "./icons/Automation.png",
 		"level": "8",
 		"name": "Automation",
@@ -349,6 +365,7 @@
 			"Aerodynamics",
 			"Landing"
 		],
+		"description": "The art and science of keeping heavier-than-air objects aloft for extended periods of time.",
 		"icon": "./icons/Aviation.png",
 		"level": "4",
 		"name": "Aviation",
@@ -380,6 +397,7 @@
 			"General_Rocketry",
 			"Stability"
 		],
+		"description": "How hard can Rocket Science be anyway?",
 		"icon": "./icons/Basic_Rocketry.png",
 		"level": "2",
 		"name": "Basic Rocketry",
@@ -401,6 +419,7 @@
 			"Miniaturization",
 			"Space_Exploration"
 		],
+		"description": "We are going to ask the big questions of the Universe... eventually. For now, we're starting with these.",
 		"icon": "./icons/Basic_Science.png",
 		"level": "4",
 		"name": "Basic Science",
@@ -422,6 +441,7 @@
 			"Space_Exploration"
 		],
 		"dependents": [],
+		"description": "Flight control technology has evolved far enough that we feel we can honestly say pilots are in command now.",
 		"icon": "./icons/Command_Modules.png",
 		"level": "6",
 		"name": "Command Modules",
@@ -442,6 +462,7 @@
 		"dependents": [
 			"Meta-Materials"
 		],
+		"description": "Lightweight and strong! And don't worry, we're sure the glue will dry off in no time.",
 		"icon": "./icons/Composites.png",
 		"level": "7",
 		"name": "Composites",
@@ -466,6 +487,7 @@
 			"Advanced_Electrics",
 			"Precision_Engineering"
 		],
+		"description": "We did know about electricity before inventing space flight. The big breakthrough here was combining the two.",
 		"icon": "./icons/Electrics.png",
 		"level": "5",
 		"name": "Electrics",
@@ -489,6 +511,7 @@
 		"dependents": [
 			"Automation"
 		],
+		"description": "Hopefully these won't become obsolete in the next couple of months.",
 		"icon": "./icons/Electronics.png",
 		"level": "7",
 		"name": "Electronics",
@@ -508,6 +531,7 @@
 			"Stability",
 			"Survivability"
 		],
+		"description": "How hard can Aerospace Engineering be anyway?",
 		"icon": "./icons/Engineering_101.png",
 		"level": "2",
 		"name": "Engineering 101",
@@ -525,6 +549,7 @@
 			"Heavy_Aerodynamics"
 		],
 		"dependents": [],
+		"description": "Winged flight technology is soaring to unprecedented heights. It could even be said that it's properly taking off now.",
 		"icon": "./icons/Experimental_Aerodynamics.png",
 		"level": "8",
 		"name": "Experimental Aerodynamics",
@@ -553,6 +578,7 @@
 			"Specialized_Electrics"
 		],
 		"dependents": [],
+		"description": "The very latest in electrical systems technology. Our engineers are buzzing with excitement over it. They also seem to glow in the dark now. Fascinating!",
 		"icon": "./icons/Experimental_Electrics.png",
 		"level": "9",
 		"name": "Experimental Electrics",
@@ -568,6 +594,7 @@
 			"Advanced_Science_Tech"
 		],
 		"dependents": [],
+		"description": "Explore novel fields of science that we didn't even know were there.",
 		"icon": "./icons/Experimental_Science.png",
 		"level": "9",
 		"name": "Experimental Science",
@@ -588,6 +615,7 @@
 			"Advanced_Motors",
 			"Advanced_Science_Tech"
 		],
+		"description": "Freedom to roam as far as curiosity will take you, or as long as the batteries last.",
 		"icon": "./icons/Field_Science.png",
 		"level": "7",
 		"name": "Field Science",
@@ -611,6 +639,7 @@
 			"Advanced_Flight_Control",
 			"Landing"
 		],
+		"description": "Tumbling out of control may be fun, but our engineers insist there's more to rocket science than that.",
 		"icon": "./icons/Flight_Control.png",
 		"level": "4",
 		"name": "Flight Control",
@@ -631,6 +660,7 @@
 		"dependents": [
 			"Adv._Fuel_Systems"
 		],
+		"description": "Advancements towards a better understanding of how fuel flows through a rocket.",
 		"icon": "./icons/Fuel_Systems.png",
 		"level": "5",
 		"name": "Fuel Systems",
@@ -655,6 +685,7 @@
 			"Aerodynamics",
 			"Fuel_Systems"
 		],
+		"description": "New equipment to help out in keeping things stable, especially useful when the size of the spacecraft defies the current bounds of sanity.",
 		"icon": "./icons/General_Construction.png",
 		"level": "4",
 		"name": "General Construction",
@@ -678,6 +709,7 @@
 			"Advanced_Rocketry",
 			"General_Construction"
 		],
+		"description": "More engines, more fuel, more ambitious ideas.",
 		"icon": "./icons/General_Rocketry.png",
 		"level": "3",
 		"name": "General Rocketry",
@@ -698,6 +730,7 @@
 			"Nuclear_Propulsion",
 			"Very_Heavy_Rocketry"
 		],
+		"description": "There may be an upper limit to how large a rocket can be built, but we're not there yet.",
 		"icon": "./icons/Heavier_Rocketry.png",
 		"level": "6",
 		"name": "Heavier Rocketry",
@@ -716,6 +749,7 @@
 		"dependents": [
 			"Experimental_Aerodynamics"
 		],
+		"description": "Advances in construction technology enabled new breakthroughs in aerospace materials.",
 		"icon": "./icons/Heavy_Aerodynamics.png",
 		"level": "7",
 		"name": "Heavy Aerodynamics",
@@ -743,6 +777,7 @@
 			"Advanced_Landing"
 		],
 		"dependents": [],
+		"description": "A good landing is one where you walk away from it. A great landing is one where you get to use the aircraft again.",
 		"icon": "./icons/Heavy_Landing.png",
 		"level": "7",
 		"name": "Heavy Landing",
@@ -760,6 +795,7 @@
 		"dependents": [
 			"Heavier_Rocketry"
 		],
+		"description": "The next logical step for rocketry technology is to just go bigger.",
 		"icon": "./icons/Heavy_Rocketry.png",
 		"level": "5",
 		"name": "Heavy Rocketry",
@@ -777,6 +813,7 @@
 			"Large_Volume_Containment"
 		],
 		"dependents": [],
+		"description": "Massive engines require massive fuel storage solutions.",
 		"icon": "./icons/High-Performance_Fuel_Systems.png",
 		"level": "8",
 		"name": "High-Performance Fuel Systems",
@@ -794,6 +831,7 @@
 		"dependents": [
 			"Specialized_Electrics"
 		],
+		"description": "Maximize your energy production and storage potential by maximizing the size of the electrical components on your vessels.",
 		"icon": "./icons/High-Power_Electrics.png",
 		"level": "7",
 		"name": "High-Power Electrics",
@@ -814,6 +852,7 @@
 		"dependents": [
 			"Hypersonic_Flight"
 		],
+		"description": "New breakthroughs in engine and intake development to enable flying through the upper reaches of the atmosphere.",
 		"icon": "./icons/High_Altitude_Flight.png",
 		"level": "7",
 		"name": "High Altitude Flight",
@@ -843,6 +882,7 @@
 		"dependents": [
 			"Aerospace_Tech"
 		],
+		"description": "Push your aircraft to the upper limits of airspeed and sanity.",
 		"icon": "./icons/Hypersonic_Flight.png",
 		"level": "8",
 		"name": "Hypersonic Flight",
@@ -863,6 +903,7 @@
 			"Unmanned_Tech"
 		],
 		"dependents": [],
+		"description": "Turns out, it's not science fiction.",
 		"icon": "./icons/Ion_Propulsion.png",
 		"level": "8",
 		"name": "Ion Propulsion",
@@ -884,6 +925,7 @@
 		"dependents": [
 			"Advanced_Landing"
 		],
+		"description": "Our Engineers are nothing if not optimistic.",
 		"icon": "./icons/Landing.png",
 		"level": "5",
 		"name": "Landing",
@@ -904,6 +946,7 @@
 			"Automation"
 		],
 		"dependents": [],
+		"description": "The rumours of probe-led world domination are greatly exaggerated.",
 		"icon": "./icons/Large_Probes.png",
 		"level": "9",
 		"name": "Large Probes",
@@ -923,6 +966,7 @@
 			"High-Performance_Fuel_Systems",
 			"Very_Heavy_Rocketry"
 		],
+		"description": "Maximize the payload capacity of your spacecraft by maximizing the size of your spacecraft.",
 		"icon": "./icons/Large_Volume_Containment.png",
 		"level": "7",
 		"name": "Large Volume Containment",
@@ -941,6 +985,7 @@
 			"Composites"
 		],
 		"dependents": [],
+		"description": "An advancement in spacecraft construction so revolutionary, you won't even mind that its naming was wildly inaccurate.",
 		"icon": "./icons/Meta-Materials.png",
 		"level": "8",
 		"name": "Meta-Materials",
@@ -962,6 +1007,7 @@
 		"dependents": [
 			"Precision_Engineering"
 		],
+		"description": "These aren't your standard hobby miniature models. We've been assured they look good enough to actually fly.",
 		"icon": "./icons/Miniaturization.png",
 		"level": "5",
 		"name": "Miniaturization",
@@ -981,6 +1027,7 @@
 			"Heavier_Rocketry"
 		],
 		"dependents": [],
+		"description": "Nuclear engines don't burn fuel, they totally annihilate it. We just hope it doesn't begin any conflicts.",
 		"icon": "./icons/Nuclear_Propulsion.png",
 		"level": "7",
 		"name": "Nuclear Propulsion",
@@ -1001,6 +1048,7 @@
 			"Science_Tech",
 			"Unmanned_Tech"
 		],
+		"description": "Precise engineering techniques allow for construction of even smaller parts.",
 		"icon": "./icons/Precision_Engineering.png",
 		"level": "6",
 		"name": "Precision Engineering",
@@ -1020,6 +1068,7 @@
 			"Propulsion_Systems"
 		],
 		"dependents": [],
+		"description": "Any level of precision achieved in controlling the sustained explosion inside a rocket engine is nothing short of remarkable. It might be quite expensive, too.",
 		"icon": "./icons/Precision_Propulsion.png",
 		"level": "6",
 		"name": "Precision Propulsion",
@@ -1042,6 +1091,7 @@
 			"Adv._Fuel_Systems",
 			"Precision_Propulsion"
 		],
+		"description": "A positively different approach to existing trends in rocketry. These small, lightweight propulsion systems may not seem as exciting, but they might prove just as useful.",
 		"icon": "./icons/Propulsion_Systems.png",
 		"level": "5",
 		"name": "Propulsion Systems",
@@ -1063,6 +1113,7 @@
 			"Advanced_Science_Tech",
 			"Ion_Propulsion"
 		],
+		"description": "Scientific advancements allow new advanced technologies for advancing Science.",
 		"icon": "./icons/Science_Tech.png",
 		"level": "7",
 		"name": "Science Tech",
@@ -1082,6 +1133,7 @@
 			"Advanced_Exploration",
 			"Command_Modules"
 		],
+		"description": "To boldly go where no green man has gone before.",
 		"icon": "./icons/Space_Exploration.png",
 		"level": "5",
 		"name": "Space Exploration",
@@ -1103,6 +1155,7 @@
 			"Composites",
 			"Large_Volume_Containment"
 		],
+		"description": "Specialized construction techniques provide new ways of attaching things together, and detaching things on purpose.",
 		"icon": "./icons/Specialized_Construction.png",
 		"level": "6",
 		"name": "Specialized Construction",
@@ -1124,6 +1177,7 @@
 			"Advanced_Flight_Control"
 		],
 		"dependents": [],
+		"description": "A new state-of-the-art in control technology.",
 		"icon": "./icons/Specialized_Control.png",
 		"level": "6",
 		"name": "Specialized Control",
@@ -1144,6 +1198,7 @@
 		"dependents": [
 			"Experimental_Electrics"
 		],
+		"description": "Experience the warm glow of the latest in electrical technology. Figuratively, of course, and maybe also quite literally as well. Actually, try to avoid direct exposure.",
 		"icon": "./icons/Specialized_Electrics.png",
 		"level": "8",
 		"name": "Specialized Electrics",
@@ -1165,6 +1220,7 @@
 			"Flight_Control",
 			"General_Construction"
 		],
+		"description": "Reaching for the stars starts with keeping our spacecraft pointed generally in the right direction.",
 		"icon": "./icons/Stability.png",
 		"level": "3",
 		"name": "Stability",
@@ -1183,6 +1239,7 @@
 			"Basic_Rocketry",
 			"Engineering_101"
 		],
+		"description": "The technology we started out with.",
 		"icon": "./icons/Start.png",
 		"level": "1",
 		"name": "Start",
@@ -1205,6 +1262,7 @@
 		"dependents": [
 			"High_Altitude_Flight"
 		],
+		"description": "A new line of aircraft parts that allow for unprecedented maneuverability and speed.",
 		"icon": "./icons/Supersonic_Flight.png",
 		"level": "6",
 		"name": "Supersonic Flight",
@@ -1231,6 +1289,7 @@
 			"Basic_Science",
 			"Flight_Control"
 		],
+		"description": "The art and science of landing and walking away from it.",
 		"icon": "./icons/Survivability.png",
 		"level": "3",
 		"name": "Survivability",
@@ -1254,6 +1313,7 @@
 			"Automation",
 			"Ion_Propulsion"
 		],
+		"description": "Warning: May contain traces of sentience.",
 		"icon": "./icons/Unmanned_Tech.png",
 		"level": "7",
 		"name": "Unmanned Tech",
@@ -1271,6 +1331,7 @@
 			"Large_Volume_Containment"
 		],
 		"dependents": [],
+		"description": "While ever-larger rockets may not be the answer every time, for all other times, we've developed these.",
 		"icon": "./icons/Very_Heavy_Rocketry.png",
 		"level": "8",
 		"name": "Very Heavy Rocketry",
