@@ -58,8 +58,14 @@ def main(argv):
 				tech[headers[i]] = [item.get('href')[1:] for item in col.findall('./ul/li/a')]
 
 			elif headers[i] == 'parts':
-				tech[headers[i]] = [libpath.split(item.get('href'))[1] for item in col.findall('./ul/li/a')]
+				parts = []
+				for item in col.findall('./ul/li/a'):
+					name = item.text
+					url = urlparse.urljoin(rootUrl, item.get('href'))
+					parts.append({'name': name, 'url': url})
+				#tech[headers[i]] = [libpath.split(item.get('href'))[1] for item in col.findall('./ul/li/a')]
 				# don't scrape parts list yet
+				tech[headers[i]] = parts
 
 			else:
 				tech[headers[i]] = col.text.strip()

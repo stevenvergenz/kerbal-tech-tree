@@ -5,7 +5,7 @@ app.controller('KerbalTechController', ['$scope', '$http', function($scope,$http
 {
 	window.$scope = $scope;
 	$scope.techs = {};
-	$scope.activeTech = null;
+	$scope.activeTech = 'Aerodynamics';
 
 	$http.get('techs.json').then(function(res){
 		$scope.techs = res.data;

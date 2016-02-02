@@ -10,7 +10,10 @@
 		"level": "6",
 		"name": "Actuators",
 		"parts": [
-			"Advanced_Grabbing_Unit"
+			{
+				"name": "Advanced Grabbing Unit",
+				"url": "http://wiki.kerbalspaceprogram.com/wiki/Advanced_Grabbing_Unit"
+			}
 		],
 		"x": 1066,
 		"y": 299
@@ -30,12 +33,30 @@
 		"level": "6",
 		"name": "Adv. Fuel Systems",
 		"parts": [
-			"C7_Brand_Adapter_-_2.5m_to_1.25m",
-			"C7_Brand_Adapter_Slanted_-_2.5m_to_1.25m",
-			"Rockomax_Jumbo-64_Fuel_Tank",
-			"FL-R1_RCS_Fuel_Tank",
-			"FL-R10_RCS_Fuel_Tank",
-			"FL-R25_RCS_Fuel_Tank"
+			{
+				"name": "C7 Brand Adapter - 2.5m to 1.25m",
+				"url": "http://wiki.kerbalspaceprogram.com/wiki/C7_Brand_Adapter_-_2.5m_to_1.25m"
+			},
+			{
+				"name": "C7 Brand Adapter Slanted - 2.5m to 1.25m",
+				"url": "http://wiki.kerbalspaceprogram.com/wiki/C7_Brand_Adapter_Slanted_-_2.5m_to_1.25m"
+			},
+			{
+				"name": "Rockomax Jumbo-64 Fuel Tank",
+				"url": "http://wiki.kerbalspaceprogram.com/wiki/Rockomax_Jumbo-64_Fuel_Tank"
+			},
+			{
+				"name": "FL-R1 RCS Fuel Tank",
+				"url": "http://wiki.kerbalspaceprogram.com/wiki/FL-R1_RCS_Fuel_Tank"
+			},
+			{
+				"name": "FL-R10 RCS Fuel Tank",
+				"url": "http://wiki.kerbalspaceprogram.com/wiki/FL-R10_RCS_Fuel_Tank"
+			},
+			{
+				"name": "FL-R25 RCS Fuel Tank",
+				"url": "http://wiki.kerbalspaceprogram.com/wiki/FL-R25_RCS_Fuel_Tank"
+			}
 		],
 		"x": 1066,
 		"y": 184
@@ -53,18 +74,54 @@
 		"level": "6",
 		"name": "Advanced Aerodynamics",
 		"parts": [
-			"A.I.R.B.R.A.K.E.S",
-			"Standard_Canard",
-			"Wing_Connector_Type_D",
-			"Delta_Wing",
-			"Small_Delta_Wing",
-			"Elevon_2",
-			"Elevon_3",
-			"Elevon_4",
-			"Elevon_5",
-			"Structural_Wing_Type_D",
-			"Swept_Wing_Type_A",
-			"Small_Hardpoint"
+			{
+				"name": "A.I.R.B.R.A.K.E.S",
+				"url": "http://wiki.kerbalspaceprogram.com/wiki/A.I.R.B.R.A.K.E.S"
+			},
+			{
+				"name": "Standard Canard",
+				"url": "http://wiki.kerbalspaceprogram.com/wiki/Standard_Canard"
+			},
+			{
+				"name": "Wing Connector Type D",
+				"url": "http://wiki.kerbalspaceprogram.com/wiki/Wing_Connector_Type_D"
+			},
+			{
+				"name": "Delta Wing",
+				"url": "http://wiki.kerbalspaceprogram.com/wiki/Delta_Wing"
+			},
+			{
+				"name": "Small Delta Wing",
+				"url": "http://wiki.kerbalspaceprogram.com/wiki/Small_Delta_Wing"
+			},
+			{
+				"name": "Elevon 2",
+				"url": "http://wiki.kerbalspaceprogram.com/wiki/Elevon_2"
+			},
+			{
+				"name": "Elevon 3",
+				"url": "http://wiki.kerbalspaceprogram.com/wiki/Elevon_3"
+			},
+			{
+				"name": "Elevon 4",
+				"url": "http://wiki.kerbalspaceprogram.com/wiki/Elevon_4"
+			},
+			{
+				"name": "Elevon 5",
+				"url": "http://wiki.kerbalspaceprogram.com/wiki/Elevon_5"
+			},
+			{
+				"name": "Structural Wing Type D",
+				"url": "http://wiki.kerbalspaceprogram.com/wiki/Structural_Wing_Type_D"
+			},
+			{
+				"name": "Swept Wing Type A",
+				"url": "http://wiki.kerbalspaceprogram.com/wiki/Swept_Wing_Type_A"
+			},
+			{
+				"name": "Small Hardpoint",
+				"url": "http://wiki.kerbalspaceprogram.com/wiki/Small_Hardpoint"
+			}
 		],
 		"x": 1066,
 		"y": 447
@@ -83,13 +140,34 @@
 		"level": "5",
 		"name": "Advanced Construction",
 		"parts": [
-			"Advanced_Nose_Cone_-_Type_A",
-			"AE-FF1_Airstream_Protective_Shell_(1.25m)",
-			"Protective_Rocket_Nose_Cone_Mk7",
-			"Hydraulic_Detachment_Manifold",
-			"TT-70_Radial_Decoupler",
-			"Rockomax_Brand_Adapter_02",
-			"TVR-1180C_Mk1_Stack_Tri-Coupler"
+			{
+				"name": "Advanced Nose Cone - Type A",
+				"url": "http://wiki.kerbalspaceprogram.com/wiki/Advanced_Nose_Cone_-_Type_A"
+			},
+			{
+				"name": "AE-FF1 Airstream Protective Shell (1.25m)",
+				"url": "http://wiki.kerbalspaceprogram.com/wiki/AE-FF1_Airstream_Protective_Shell_(1.25m)"
+			},
+			{
+				"name": "Protective Rocket Nose Cone Mk7",
+				"url": "http://wiki.kerbalspaceprogram.com/wiki/Protective_Rocket_Nose_Cone_Mk7"
+			},
+			{
+				"name": "Hydraulic Detachment Manifold",
+				"url": "http://wiki.kerbalspaceprogram.com/wiki/Hydraulic_Detachment_Manifold"
+			},
+			{
+				"name": "TT-70 Radial Decoupler",
+				"url": "http://wiki.kerbalspaceprogram.com/wiki/TT-70_Radial_Decoupler"
+			},
+			{
+				"name": "Rockomax Brand Adapter 02",
+				"url": "http://wiki.kerbalspaceprogram.com/wiki/Rockomax_Brand_Adapter_02"
+			},
+			{
+				"name": "TVR-1180C Mk1 Stack Tri-Coupler",
+				"url": "http://wiki.kerbalspaceprogram.com/wiki/TVR-1180C_Mk1_Stack_Tri-Coupler"
+			}
 		],
 		"x": 861,
 		"y": 299
@@ -108,12 +186,30 @@
 		"level": "6",
 		"name": "Advanced Electrics",
 		"parts": [
-			"SP-L_1x6_Photovoltaic_Panels",
-			"OX-4L_1x6_Photovoltaic_Panels",
-			"SP-W_3x2_Photovoltaic_Panels",
-			"OX-4W_3x2_Photovoltaic_Panels",
-			"Z-400_Rechargeable_Battery",
-			"Thermal_Control_System_(medium)"
+			{
+				"name": "SP-L 1x6 Photovoltaic Panels",
+				"url": "http://wiki.kerbalspaceprogram.com/wiki/SP-L_1x6_Photovoltaic_Panels"
+			},
+			{
+				"name": "OX-4L 1x6 Photovoltaic Panels",
+				"url": "http://wiki.kerbalspaceprogram.com/wiki/OX-4L_1x6_Photovoltaic_Panels"
+			},
+			{
+				"name": "SP-W 3x2 Photovoltaic Panels",
+				"url": "http://wiki.kerbalspaceprogram.com/wiki/SP-W_3x2_Photovoltaic_Panels"
+			},
+			{
+				"name": "OX-4W 3x2 Photovoltaic Panels",
+				"url": "http://wiki.kerbalspaceprogram.com/wiki/OX-4W_3x2_Photovoltaic_Panels"
+			},
+			{
+				"name": "Z-400 Rechargeable Battery",
+				"url": "http://wiki.kerbalspaceprogram.com/wiki/Z-400_Rechargeable_Battery"
+			},
+			{
+				"name": "Thermal Control System (medium)",
+				"url": "http://wiki.kerbalspaceprogram.com/wiki/Thermal_Control_System_(medium)"
+			}
 		],
 		"x": 1066,
 		"y": 943
@@ -132,9 +228,18 @@
 		"level": "6",
 		"name": "Advanced Exploration",
 		"parts": [
-			"Mobile_Processing_Lab_MPL-LG-2",
-			"Telus_Mobility_Enhancer",
-			"Telus-LV_Bay_Mobility_Enhancer"
+			{
+				"name": "Mobile Processing Lab MPL-LG-2",
+				"url": "http://wiki.kerbalspaceprogram.com/wiki/Mobile_Processing_Lab_MPL-LG-2"
+			},
+			{
+				"name": "Telus Mobility Enhancer",
+				"url": "http://wiki.kerbalspaceprogram.com/wiki/Telus_Mobility_Enhancer"
+			},
+			{
+				"name": "Telus-LV Bay Mobility Enhancer",
+				"url": "http://wiki.kerbalspaceprogram.com/wiki/Telus-LV_Bay_Mobility_Enhancer"
+			}
 		],
 		"x": 1066,
 		"y": 690
@@ -153,11 +258,26 @@
 		"level": "5",
 		"name": "Advanced Flight Control",
 		"parts": [
-			"Advanced_Inline_Stabilizer",
-			"Mk1_Lander_Can",
-			"Stratus-V_Roundified_Monopropellant_Tank",
-			"Place-Anywhere_7_Linear_RCS_Port",
-			"RV-105_RCS_Thruster_Block"
+			{
+				"name": "Advanced Inline Stabilizer",
+				"url": "http://wiki.kerbalspaceprogram.com/wiki/Advanced_Inline_Stabilizer"
+			},
+			{
+				"name": "Mk1 Lander Can",
+				"url": "http://wiki.kerbalspaceprogram.com/wiki/Mk1_Lander_Can"
+			},
+			{
+				"name": "Stratus-V Roundified Monopropellant Tank",
+				"url": "http://wiki.kerbalspaceprogram.com/wiki/Stratus-V_Roundified_Monopropellant_Tank"
+			},
+			{
+				"name": "Place-Anywhere 7 Linear RCS Port",
+				"url": "http://wiki.kerbalspaceprogram.com/wiki/Place-Anywhere_7_Linear_RCS_Port"
+			},
+			{
+				"name": "RV-105 RCS Thruster Block",
+				"url": "http://wiki.kerbalspaceprogram.com/wiki/RV-105_RCS_Thruster_Block"
+			}
 		],
 		"x": 861,
 		"y": 603
@@ -176,11 +296,26 @@
 		"level": "6",
 		"name": "Advanced Landing",
 		"parts": [
-			"Heat_Shield_(3.75m)",
-			"LT-2_Landing_Strut",
-			"Mk12-R_Radial-Mount_Drogue_Chute",
-			"Mk25_Parachute",
-			"LY-50_Medium_Landing_Gear"
+			{
+				"name": "Heat Shield (3.75m)",
+				"url": "http://wiki.kerbalspaceprogram.com/wiki/Heat_Shield_(3.75m)"
+			},
+			{
+				"name": "LT-2 Landing Strut",
+				"url": "http://wiki.kerbalspaceprogram.com/wiki/LT-2_Landing_Strut"
+			},
+			{
+				"name": "Mk12-R Radial-Mount Drogue Chute",
+				"url": "http://wiki.kerbalspaceprogram.com/wiki/Mk12-R_Radial-Mount_Drogue_Chute"
+			},
+			{
+				"name": "Mk25 Parachute",
+				"url": "http://wiki.kerbalspaceprogram.com/wiki/Mk25_Parachute"
+			},
+			{
+				"name": "LY-50 Medium Landing Gear",
+				"url": "http://wiki.kerbalspaceprogram.com/wiki/LY-50_Medium_Landing_Gear"
+			}
 		],
 		"x": 1066,
 		"y": 512
@@ -198,10 +333,22 @@
 		"level": "7",
 		"name": "Advanced MetalWorks",
 		"parts": [
-			"Modular_Girder_Segment_XL",
-			"TR-XL_Stack_Separator",
-			"Clamp-O-Tron_Shielded_Docking_Port",
-			"TVR-2160C_Mk2_Stack_Quad-Coupler"
+			{
+				"name": "Modular Girder Segment XL",
+				"url": "http://wiki.kerbalspaceprogram.com/wiki/Modular_Girder_Segment_XL"
+			},
+			{
+				"name": "TR-XL Stack Separator",
+				"url": "http://wiki.kerbalspaceprogram.com/wiki/TR-XL_Stack_Separator"
+			},
+			{
+				"name": "Clamp-O-Tron Shielded Docking Port",
+				"url": "http://wiki.kerbalspaceprogram.com/wiki/Clamp-O-Tron_Shielded_Docking_Port"
+			},
+			{
+				"name": "TVR-2160C Mk2 Stack Quad-Coupler",
+				"url": "http://wiki.kerbalspaceprogram.com/wiki/TVR-2160C_Mk2_Stack_Quad-Coupler"
+			}
 		],
 		"x": 1271,
 		"y": 242
@@ -219,8 +366,14 @@
 		"level": "8",
 		"name": "Advanced Motors",
 		"parts": [
-			"TR-2L_Ruggedized_Vehicular_Wheel",
-			"RoveMax_Model_XL3"
+			{
+				"name": "TR-2L Ruggedized Vehicular Wheel",
+				"url": "http://wiki.kerbalspaceprogram.com/wiki/TR-2L_Ruggedized_Vehicular_Wheel"
+			},
+			{
+				"name": "RoveMax Model XL3",
+				"url": "http://wiki.kerbalspaceprogram.com/wiki/RoveMax_Model_XL3"
+			}
 		],
 		"x": 1462,
 		"y": 588
@@ -240,9 +393,18 @@
 		"level": "4",
 		"name": "Advanced Rocketry",
 		"parts": [
-			"LV-909_%22Terrier%22_Liquid_Fuel_Engine",
-			"Mk-55_%22Thud%22_Liquid_Fuel_Engine",
-			"FL-T400_Fuel_Tank"
+			{
+				"name": "LV-909 \"Terrier\" Liquid Fuel Engine",
+				"url": "http://wiki.kerbalspaceprogram.com/wiki/LV-909_%22Terrier%22_Liquid_Fuel_Engine"
+			},
+			{
+				"name": "Mk-55 \"Thud\" Liquid Fuel Engine",
+				"url": "http://wiki.kerbalspaceprogram.com/wiki/Mk-55_%22Thud%22_Liquid_Fuel_Engine"
+			},
+			{
+				"name": "FL-T400 Fuel Tank",
+				"url": "http://wiki.kerbalspaceprogram.com/wiki/FL-T400_Fuel_Tank"
+			}
 		],
 		"x": 639,
 		"y": 103
@@ -261,13 +423,34 @@
 		"level": "8",
 		"name": "Advanced Science Tech",
 		"parts": [
-			"Convert-O-Tron_250",
-			"%27Drill-O-Matic_Junior%27_Mining_Excavator",
-			"Convert-O-Tron_125",
-			"%27Drill-O-Matic%27_Mining_Excavator",
-			"Radial_Holding_Tank",
-			"Small_Holding_Tank",
-			"GRAVMAX_Negative_Gravioli_Detector"
+			{
+				"name": "Convert-O-Tron 250",
+				"url": "http://wiki.kerbalspaceprogram.com/wiki/Convert-O-Tron_250"
+			},
+			{
+				"name": "'Drill-O-Matic Junior' Mining Excavator",
+				"url": "http://wiki.kerbalspaceprogram.com/wiki/%27Drill-O-Matic_Junior%27_Mining_Excavator"
+			},
+			{
+				"name": "Convert-O-Tron 125",
+				"url": "http://wiki.kerbalspaceprogram.com/wiki/Convert-O-Tron_125"
+			},
+			{
+				"name": "'Drill-O-Matic' Mining Excavator",
+				"url": "http://wiki.kerbalspaceprogram.com/wiki/%27Drill-O-Matic%27_Mining_Excavator"
+			},
+			{
+				"name": "Radial Holding Tank",
+				"url": "http://wiki.kerbalspaceprogram.com/wiki/Radial_Holding_Tank"
+			},
+			{
+				"name": "Small Holding Tank",
+				"url": "http://wiki.kerbalspaceprogram.com/wiki/Small_Holding_Tank"
+			},
+			{
+				"name": "GRAVMAX Negative Gravioli Detector",
+				"url": "http://wiki.kerbalspaceprogram.com/wiki/GRAVMAX_Negative_Gravioli_Detector"
+			}
 		],
 		"x": 1462,
 		"y": 690
@@ -285,7 +468,10 @@
 		"level": "8",
 		"name": "Advanced Unmanned Tech",
 		"parts": [
-			"RC-001S_Remote_Guidance_Unit"
+			{
+				"name": "RC-001S Remote Guidance Unit",
+				"url": "http://wiki.kerbalspaceprogram.com/wiki/RC-001S_Remote_Guidance_Unit"
+			}
 		],
 		"x": 1462,
 		"y": 807
@@ -305,18 +491,54 @@
 		"level": "5",
 		"name": "Aerodynamics",
 		"parts": [
-			"XM-G50_Radial_Air_Intake",
-			"Circular_Intake",
-			"NCS_Adapter",
-			"Small_Nose_Cone",
-			"Tail_Connector_B",
-			"Wing_Connector_Type_A",
-			"Wing_Connector_Type_C",
-			"Structural_Wing_Type_B",
-			"Swept_Wing_Type_B",
-			"Mk1_Inline_Cockpit",
-			"J-33_%22Wheesley%22_Turbofan_Engine",
-			"Engine_Nacelle"
+			{
+				"name": "XM-G50 Radial Air Intake",
+				"url": "http://wiki.kerbalspaceprogram.com/wiki/XM-G50_Radial_Air_Intake"
+			},
+			{
+				"name": "Circular Intake",
+				"url": "http://wiki.kerbalspaceprogram.com/wiki/Circular_Intake"
+			},
+			{
+				"name": "NCS Adapter",
+				"url": "http://wiki.kerbalspaceprogram.com/wiki/NCS_Adapter"
+			},
+			{
+				"name": "Small Nose Cone",
+				"url": "http://wiki.kerbalspaceprogram.com/wiki/Small_Nose_Cone"
+			},
+			{
+				"name": "Tail Connector B",
+				"url": "http://wiki.kerbalspaceprogram.com/wiki/Tail_Connector_B"
+			},
+			{
+				"name": "Wing Connector Type A",
+				"url": "http://wiki.kerbalspaceprogram.com/wiki/Wing_Connector_Type_A"
+			},
+			{
+				"name": "Wing Connector Type C",
+				"url": "http://wiki.kerbalspaceprogram.com/wiki/Wing_Connector_Type_C"
+			},
+			{
+				"name": "Structural Wing Type B",
+				"url": "http://wiki.kerbalspaceprogram.com/wiki/Structural_Wing_Type_B"
+			},
+			{
+				"name": "Swept Wing Type B",
+				"url": "http://wiki.kerbalspaceprogram.com/wiki/Swept_Wing_Type_B"
+			},
+			{
+				"name": "Mk1 Inline Cockpit",
+				"url": "http://wiki.kerbalspaceprogram.com/wiki/Mk1_Inline_Cockpit"
+			},
+			{
+				"name": "J-33 \"Wheesley\" Turbofan Engine",
+				"url": "http://wiki.kerbalspaceprogram.com/wiki/J-33_%22Wheesley%22_Turbofan_Engine"
+			},
+			{
+				"name": "Engine Nacelle",
+				"url": "http://wiki.kerbalspaceprogram.com/wiki/Engine_Nacelle"
+			}
 		],
 		"x": 861,
 		"y": 411
@@ -332,7 +554,10 @@
 		"level": "9",
 		"name": "Aerospace Tech",
 		"parts": [
-			"CR-7_R.A.P.I.E.R._Engine"
+			{
+				"name": "CR-7 R.A.P.I.E.R. Engine",
+				"url": "http://wiki.kerbalspaceprogram.com/wiki/CR-7_R.A.P.I.E.R._Engine"
+			}
 		],
 		"x": 1626,
 		"y": 376
@@ -351,7 +576,10 @@
 		"level": "8",
 		"name": "Automation",
 		"parts": [
-			"MK2_Drone_Core"
+			{
+				"name": "MK2 Drone Core",
+				"url": "http://wiki.kerbalspaceprogram.com/wiki/MK2_Drone_Core"
+			}
 		],
 		"x": 1462,
 		"y": 878
@@ -370,20 +598,62 @@
 		"level": "4",
 		"name": "Aviation",
 		"parts": [
-			"Swept_Wings",
-			"Tail_Fin",
-			"Tail_Connector_A",
-			"Small_Circular_Intake",
-			"Wing_Connector_Type_B",
-			"Wing_Connector_Type_E",
-			"Elevon_1",
-			"Structural_Wing_Type_C",
-			"Mk1_Cockpit",
-			"J-20_%22Juno%22_Basic_Jet_Engine",
-			"Mk0_Liquid_Fuel_Fuselage",
-			"Mk1_Liquid_Fuel_Fuselage",
-			"LY-01_Fixed_Landing_Gear",
-			"LY05_Steerable_Landing_Gear"
+			{
+				"name": "Swept Wings",
+				"url": "http://wiki.kerbalspaceprogram.com/wiki/Swept_Wings"
+			},
+			{
+				"name": "Tail Fin",
+				"url": "http://wiki.kerbalspaceprogram.com/wiki/Tail_Fin"
+			},
+			{
+				"name": "Tail Connector A",
+				"url": "http://wiki.kerbalspaceprogram.com/wiki/Tail_Connector_A"
+			},
+			{
+				"name": "Small Circular Intake",
+				"url": "http://wiki.kerbalspaceprogram.com/wiki/Small_Circular_Intake"
+			},
+			{
+				"name": "Wing Connector Type B",
+				"url": "http://wiki.kerbalspaceprogram.com/wiki/Wing_Connector_Type_B"
+			},
+			{
+				"name": "Wing Connector Type E",
+				"url": "http://wiki.kerbalspaceprogram.com/wiki/Wing_Connector_Type_E"
+			},
+			{
+				"name": "Elevon 1",
+				"url": "http://wiki.kerbalspaceprogram.com/wiki/Elevon_1"
+			},
+			{
+				"name": "Structural Wing Type C",
+				"url": "http://wiki.kerbalspaceprogram.com/wiki/Structural_Wing_Type_C"
+			},
+			{
+				"name": "Mk1 Cockpit",
+				"url": "http://wiki.kerbalspaceprogram.com/wiki/Mk1_Cockpit"
+			},
+			{
+				"name": "J-20 \"Juno\" Basic Jet Engine",
+				"url": "http://wiki.kerbalspaceprogram.com/wiki/J-20_%22Juno%22_Basic_Jet_Engine"
+			},
+			{
+				"name": "Mk0 Liquid Fuel Fuselage",
+				"url": "http://wiki.kerbalspaceprogram.com/wiki/Mk0_Liquid_Fuel_Fuselage"
+			},
+			{
+				"name": "Mk1 Liquid Fuel Fuselage",
+				"url": "http://wiki.kerbalspaceprogram.com/wiki/Mk1_Liquid_Fuel_Fuselage"
+			},
+			{
+				"name": "LY-01 Fixed Landing Gear",
+				"url": "http://wiki.kerbalspaceprogram.com/wiki/LY-01_Fixed_Landing_Gear"
+			},
+			{
+				"name": "LY05 Steerable Landing Gear",
+				"url": "http://wiki.kerbalspaceprogram.com/wiki/LY05_Steerable_Landing_Gear"
+			}
 		],
 		"x": 639,
 		"y": 455
@@ -402,9 +672,18 @@
 		"level": "2",
 		"name": "Basic Rocketry",
 		"parts": [
-			"LV-T30_%22Reliant%22_Liquid_Fuel_Engine",
-			"RT-10_%22Hammer%22_Solid_Fuel_Booster",
-			"FL-T100_Fuel_Tank"
+			{
+				"name": "LV-T30 \"Reliant\" Liquid Fuel Engine",
+				"url": "http://wiki.kerbalspaceprogram.com/wiki/LV-T30_%22Reliant%22_Liquid_Fuel_Engine"
+			},
+			{
+				"name": "RT-10 \"Hammer\" Solid Fuel Booster",
+				"url": "http://wiki.kerbalspaceprogram.com/wiki/RT-10_%22Hammer%22_Solid_Fuel_Booster"
+			},
+			{
+				"name": "FL-T100 Fuel Tank",
+				"url": "http://wiki.kerbalspaceprogram.com/wiki/FL-T100_Fuel_Tank"
+			}
 		],
 		"x": 199,
 		"y": 398
@@ -424,12 +703,30 @@
 		"level": "4",
 		"name": "Basic Science",
 		"parts": [
-			"Stayputnik_Mk._1",
-			"Z-100_Rechargeable_Battery_Pack",
-			"2HOT_Thermometer",
-			"Radiator_Panel_(edge)",
-			"Radiator_Panel_(large)",
-			"Comms_DTS-M1"
+			{
+				"name": "Stayputnik Mk. 1",
+				"url": "http://wiki.kerbalspaceprogram.com/wiki/Stayputnik_Mk._1"
+			},
+			{
+				"name": "Z-100 Rechargeable Battery Pack",
+				"url": "http://wiki.kerbalspaceprogram.com/wiki/Z-100_Rechargeable_Battery_Pack"
+			},
+			{
+				"name": "2HOT Thermometer",
+				"url": "http://wiki.kerbalspaceprogram.com/wiki/2HOT_Thermometer"
+			},
+			{
+				"name": "Radiator Panel (edge)",
+				"url": "http://wiki.kerbalspaceprogram.com/wiki/Radiator_Panel_(edge)"
+			},
+			{
+				"name": "Radiator Panel (large)",
+				"url": "http://wiki.kerbalspaceprogram.com/wiki/Radiator_Panel_(large)"
+			},
+			{
+				"name": "Comms DTS-M1",
+				"url": "http://wiki.kerbalspaceprogram.com/wiki/Comms_DTS-M1"
+			}
 		],
 		"x": 639,
 		"y": 807
@@ -446,10 +743,22 @@
 		"level": "6",
 		"name": "Command Modules",
 		"parts": [
-			"PPD-12_Cupola_Module",
-			"Mk1-2_Command_Pod",
-			"Mk2_Lander_Can",
-			"Service_Bay_(2.5m)"
+			{
+				"name": "PPD-12 Cupola Module",
+				"url": "http://wiki.kerbalspaceprogram.com/wiki/PPD-12_Cupola_Module"
+			},
+			{
+				"name": "Mk1-2 Command Pod",
+				"url": "http://wiki.kerbalspaceprogram.com/wiki/Mk1-2_Command_Pod"
+			},
+			{
+				"name": "Mk2 Lander Can",
+				"url": "http://wiki.kerbalspaceprogram.com/wiki/Mk2_Lander_Can"
+			},
+			{
+				"name": "Service Bay (2.5m)",
+				"url": "http://wiki.kerbalspaceprogram.com/wiki/Service_Bay_(2.5m)"
+			}
 		],
 		"x": 1066,
 		"y": 634
@@ -467,13 +776,34 @@
 		"level": "7",
 		"name": "Composites",
 		"parts": [
-			"AE-FF3_Airstream_Protective_Shell_(3.75m)",
-			"M-Beam_200_I-Beam",
-			"M-Beam_200_I-Beam_Pocket_Edition",
-			"M-Beam_650_I-Beam",
-			"M-1x1_Structural_Panel",
-			"M-2x2_Structural_Panel",
-			"Inline_Clamp-O-Tron"
+			{
+				"name": "AE-FF3 Airstream Protective Shell (3.75m)",
+				"url": "http://wiki.kerbalspaceprogram.com/wiki/AE-FF3_Airstream_Protective_Shell_(3.75m)"
+			},
+			{
+				"name": "M-Beam 200 I-Beam",
+				"url": "http://wiki.kerbalspaceprogram.com/wiki/M-Beam_200_I-Beam"
+			},
+			{
+				"name": "M-Beam 200 I-Beam Pocket Edition",
+				"url": "http://wiki.kerbalspaceprogram.com/wiki/M-Beam_200_I-Beam_Pocket_Edition"
+			},
+			{
+				"name": "M-Beam 650 I-Beam",
+				"url": "http://wiki.kerbalspaceprogram.com/wiki/M-Beam_650_I-Beam"
+			},
+			{
+				"name": "M-1x1 Structural Panel",
+				"url": "http://wiki.kerbalspaceprogram.com/wiki/M-1x1_Structural_Panel"
+			},
+			{
+				"name": "M-2x2 Structural Panel",
+				"url": "http://wiki.kerbalspaceprogram.com/wiki/M-2x2_Structural_Panel"
+			},
+			{
+				"name": "Inline Clamp-O-Tron",
+				"url": "http://wiki.kerbalspaceprogram.com/wiki/Inline_Clamp-O-Tron"
+			}
 		],
 		"x": 1271,
 		"y": 299
@@ -492,12 +822,30 @@
 		"level": "5",
 		"name": "Electrics",
 		"parts": [
-			"Probodobodyne_OKTO",
-			"OX-STAT_Photovoltaic_Panels",
-			"Z-200_Rechargeable_Battery_Bank",
-			"Thermal_Control_System_(small)",
-			"Illuminator_Mk1",
-			"Illuminator_Mk2"
+			{
+				"name": "Probodobodyne OKTO",
+				"url": "http://wiki.kerbalspaceprogram.com/wiki/Probodobodyne_OKTO"
+			},
+			{
+				"name": "OX-STAT Photovoltaic Panels",
+				"url": "http://wiki.kerbalspaceprogram.com/wiki/OX-STAT_Photovoltaic_Panels"
+			},
+			{
+				"name": "Z-200 Rechargeable Battery Bank",
+				"url": "http://wiki.kerbalspaceprogram.com/wiki/Z-200_Rechargeable_Battery_Bank"
+			},
+			{
+				"name": "Thermal Control System (small)",
+				"url": "http://wiki.kerbalspaceprogram.com/wiki/Thermal_Control_System_(small)"
+			},
+			{
+				"name": "Illuminator Mk1",
+				"url": "http://wiki.kerbalspaceprogram.com/wiki/Illuminator_Mk1"
+			},
+			{
+				"name": "Illuminator Mk2",
+				"url": "http://wiki.kerbalspaceprogram.com/wiki/Illuminator_Mk2"
+			}
 		],
 		"x": 861,
 		"y": 943
@@ -516,8 +864,14 @@
 		"level": "7",
 		"name": "Electronics",
 		"parts": [
-			"Double-C_Seismic_Accelerometer",
-			"Communotron_88-88"
+			{
+				"name": "Double-C Seismic Accelerometer",
+				"url": "http://wiki.kerbalspaceprogram.com/wiki/Double-C_Seismic_Accelerometer"
+			},
+			{
+				"name": "Communotron 88-88",
+				"url": "http://wiki.kerbalspaceprogram.com/wiki/Communotron_88-88"
+			}
 		],
 		"x": 1271,
 		"y": 878
@@ -536,9 +890,18 @@
 		"level": "2",
 		"name": "Engineering 101",
 		"parts": [
-			"SC-9001_Science_Jr.",
-			"Communotron_16",
-			"TR-18A_Stack_Decoupler"
+			{
+				"name": "SC-9001 Science Jr.",
+				"url": "http://wiki.kerbalspaceprogram.com/wiki/SC-9001_Science_Jr."
+			},
+			{
+				"name": "Communotron 16",
+				"url": "http://wiki.kerbalspaceprogram.com/wiki/Communotron_16"
+			},
+			{
+				"name": "TR-18A Stack Decoupler",
+				"url": "http://wiki.kerbalspaceprogram.com/wiki/TR-18A_Stack_Decoupler"
+			}
 		],
 		"x": 199,
 		"y": 512
@@ -554,20 +917,62 @@
 		"level": "8",
 		"name": "Experimental Aerodynamics",
 		"parts": [
-			"Big-S_Delta_Wing",
-			"Big-S_Elevon_1",
-			"Big-S_Elevon_2",
-			"Big-S_Spaceplane_Tail_Fin",
-			"Big-S_Wing_Strake",
-			"Mk3_to_Mk2_Adapter",
-			"Mk3_Engine_Mount",
-			"Mk3_to_3.75m_Adapter",
-			"Mk3_Rocket_Fuel_Fuselage_Long",
-			"Mk3_Rocket_Fuel_Fuselage_Short",
-			"Mk3_Rocket_Fuel_Fuselage",
-			"Mk3_Liquid_Fuel_Fuselage_Long",
-			"Mk3_Monopropellant_Tank",
-			"Mk3_Cargo_Bay_CRG-100"
+			{
+				"name": "Big-S Delta Wing",
+				"url": "http://wiki.kerbalspaceprogram.com/wiki/Big-S_Delta_Wing"
+			},
+			{
+				"name": "Big-S Elevon 1",
+				"url": "http://wiki.kerbalspaceprogram.com/wiki/Big-S_Elevon_1"
+			},
+			{
+				"name": "Big-S Elevon 2",
+				"url": "http://wiki.kerbalspaceprogram.com/wiki/Big-S_Elevon_2"
+			},
+			{
+				"name": "Big-S Spaceplane Tail Fin",
+				"url": "http://wiki.kerbalspaceprogram.com/wiki/Big-S_Spaceplane_Tail_Fin"
+			},
+			{
+				"name": "Big-S Wing Strake",
+				"url": "http://wiki.kerbalspaceprogram.com/wiki/Big-S_Wing_Strake"
+			},
+			{
+				"name": "Mk3 to Mk2 Adapter",
+				"url": "http://wiki.kerbalspaceprogram.com/wiki/Mk3_to_Mk2_Adapter"
+			},
+			{
+				"name": "Mk3 Engine Mount",
+				"url": "http://wiki.kerbalspaceprogram.com/wiki/Mk3_Engine_Mount"
+			},
+			{
+				"name": "Mk3 to 3.75m Adapter",
+				"url": "http://wiki.kerbalspaceprogram.com/wiki/Mk3_to_3.75m_Adapter"
+			},
+			{
+				"name": "Mk3 Rocket Fuel Fuselage Long",
+				"url": "http://wiki.kerbalspaceprogram.com/wiki/Mk3_Rocket_Fuel_Fuselage_Long"
+			},
+			{
+				"name": "Mk3 Rocket Fuel Fuselage Short",
+				"url": "http://wiki.kerbalspaceprogram.com/wiki/Mk3_Rocket_Fuel_Fuselage_Short"
+			},
+			{
+				"name": "Mk3 Rocket Fuel Fuselage",
+				"url": "http://wiki.kerbalspaceprogram.com/wiki/Mk3_Rocket_Fuel_Fuselage"
+			},
+			{
+				"name": "Mk3 Liquid Fuel Fuselage Long",
+				"url": "http://wiki.kerbalspaceprogram.com/wiki/Mk3_Liquid_Fuel_Fuselage_Long"
+			},
+			{
+				"name": "Mk3 Monopropellant Tank",
+				"url": "http://wiki.kerbalspaceprogram.com/wiki/Mk3_Monopropellant_Tank"
+			},
+			{
+				"name": "Mk3 Cargo Bay CRG-100",
+				"url": "http://wiki.kerbalspaceprogram.com/wiki/Mk3_Cargo_Bay_CRG-100"
+			}
 		],
 		"x": 1462,
 		"y": 447
@@ -583,7 +988,10 @@
 		"level": "9",
 		"name": "Experimental Electrics",
 		"parts": [
-			"PB-NUK_Radioisotope_Thermoelectric_Generator"
+			{
+				"name": "PB-NUK Radioisotope Thermoelectric Generator",
+				"url": "http://wiki.kerbalspaceprogram.com/wiki/PB-NUK_Radioisotope_Thermoelectric_Generator"
+			}
 		],
 		"x": 1626,
 		"y": 943
@@ -599,8 +1007,14 @@
 		"level": "9",
 		"name": "Experimental Science",
 		"parts": [
-			"Large_Holding_Tank",
-			"M4435_Narrow-Band_Scanner"
+			{
+				"name": "Large Holding Tank",
+				"url": "http://wiki.kerbalspaceprogram.com/wiki/Large_Holding_Tank"
+			},
+			{
+				"name": "M4435 Narrow-Band Scanner",
+				"url": "http://wiki.kerbalspaceprogram.com/wiki/M4435_Narrow-Band_Scanner"
+			}
 		],
 		"x": 1626,
 		"y": 690
@@ -620,11 +1034,26 @@
 		"level": "7",
 		"name": "Field Science",
 		"parts": [
-			"EAS-1_External_Command_Seat",
-			"Probodobodyne_RoveMate",
-			"Atmospheric_Fluid_Spectro-Variometer",
-			"RoveMax_Model_M1",
-			"RoveMax_Model_S2"
+			{
+				"name": "EAS-1 External Command Seat",
+				"url": "http://wiki.kerbalspaceprogram.com/wiki/EAS-1_External_Command_Seat"
+			},
+			{
+				"name": "Probodobodyne RoveMate",
+				"url": "http://wiki.kerbalspaceprogram.com/wiki/Probodobodyne_RoveMate"
+			},
+			{
+				"name": "Atmospheric Fluid Spectro-Variometer",
+				"url": "http://wiki.kerbalspaceprogram.com/wiki/Atmospheric_Fluid_Spectro-Variometer"
+			},
+			{
+				"name": "RoveMax Model M1",
+				"url": "http://wiki.kerbalspaceprogram.com/wiki/RoveMax_Model_M1"
+			},
+			{
+				"name": "RoveMax Model S2",
+				"url": "http://wiki.kerbalspaceprogram.com/wiki/RoveMax_Model_S2"
+			}
 		],
 		"x": 1271,
 		"y": 588
@@ -644,9 +1073,18 @@
 		"level": "4",
 		"name": "Flight Control",
 		"parts": [
-			"AV-R8_Winglet",
-			"Delta-Deluxe_Winglet",
-			"Small_Inline_Reaction_Wheel"
+			{
+				"name": "AV-R8 Winglet",
+				"url": "http://wiki.kerbalspaceprogram.com/wiki/AV-R8_Winglet"
+			},
+			{
+				"name": "Delta-Deluxe Winglet",
+				"url": "http://wiki.kerbalspaceprogram.com/wiki/Delta-Deluxe_Winglet"
+			},
+			{
+				"name": "Small Inline Reaction Wheel",
+				"url": "http://wiki.kerbalspaceprogram.com/wiki/Small_Inline_Reaction_Wheel"
+			}
 		],
 		"x": 639,
 		"y": 603
@@ -665,11 +1103,26 @@
 		"level": "5",
 		"name": "Fuel Systems",
 		"parts": [
-			"FTX-2_External_Fuel_Duct",
-			"FL-T800_Fuel_Tank",
-			"Rockomax_X200-16_Fuel_Tank",
-			"Rockomax_X200-32_Fuel_Tank",
-			"Rockomax_X200-8_Fuel_Tank"
+			{
+				"name": "FTX-2 External Fuel Duct",
+				"url": "http://wiki.kerbalspaceprogram.com/wiki/FTX-2_External_Fuel_Duct"
+			},
+			{
+				"name": "FL-T800 Fuel Tank",
+				"url": "http://wiki.kerbalspaceprogram.com/wiki/FL-T800_Fuel_Tank"
+			},
+			{
+				"name": "Rockomax X200-16 Fuel Tank",
+				"url": "http://wiki.kerbalspaceprogram.com/wiki/Rockomax_X200-16_Fuel_Tank"
+			},
+			{
+				"name": "Rockomax X200-32 Fuel Tank",
+				"url": "http://wiki.kerbalspaceprogram.com/wiki/Rockomax_X200-32_Fuel_Tank"
+			},
+			{
+				"name": "Rockomax X200-8 Fuel Tank",
+				"url": "http://wiki.kerbalspaceprogram.com/wiki/Rockomax_X200-8_Fuel_Tank"
+			}
 		],
 		"x": 861,
 		"y": 184
@@ -690,12 +1143,30 @@
 		"level": "4",
 		"name": "General Construction",
 		"parts": [
-			"Mk1_Crew_Cabin",
-			"EAS-4_Strut_Connector",
-			"Structural_Fuselage",
-			"Rockomax_Brand_Decoupler",
-			"Rockomax_Brand_Adapter",
-			"TT18-A_Launch_Stability_Enhancer"
+			{
+				"name": "Mk1 Crew Cabin",
+				"url": "http://wiki.kerbalspaceprogram.com/wiki/Mk1_Crew_Cabin"
+			},
+			{
+				"name": "EAS-4 Strut Connector",
+				"url": "http://wiki.kerbalspaceprogram.com/wiki/EAS-4_Strut_Connector"
+			},
+			{
+				"name": "Structural Fuselage",
+				"url": "http://wiki.kerbalspaceprogram.com/wiki/Structural_Fuselage"
+			},
+			{
+				"name": "Rockomax Brand Decoupler",
+				"url": "http://wiki.kerbalspaceprogram.com/wiki/Rockomax_Brand_Decoupler"
+			},
+			{
+				"name": "Rockomax Brand Adapter",
+				"url": "http://wiki.kerbalspaceprogram.com/wiki/Rockomax_Brand_Adapter"
+			},
+			{
+				"name": "TT18-A Launch Stability Enhancer",
+				"url": "http://wiki.kerbalspaceprogram.com/wiki/TT18-A_Launch_Stability_Enhancer"
+			}
 		],
 		"x": 639,
 		"y": 299
@@ -714,9 +1185,18 @@
 		"level": "3",
 		"name": "General Rocketry",
 		"parts": [
-			"LV-T45_%22Swivel%22_Liquid_Fuel_Engine",
-			"BACC_%22Thumper%22_Solid_Fuel_Booster",
-			"FL-T200_Fuel_Tank"
+			{
+				"name": "LV-T45 \"Swivel\" Liquid Fuel Engine",
+				"url": "http://wiki.kerbalspaceprogram.com/wiki/LV-T45_%22Swivel%22_Liquid_Fuel_Engine"
+			},
+			{
+				"name": "BACC \"Thumper\" Solid Fuel Booster",
+				"url": "http://wiki.kerbalspaceprogram.com/wiki/BACC_%22Thumper%22_Solid_Fuel_Booster"
+			},
+			{
+				"name": "FL-T200 Fuel Tank",
+				"url": "http://wiki.kerbalspaceprogram.com/wiki/FL-T200_Fuel_Tank"
+			}
 		],
 		"x": 457,
 		"y": 216
@@ -735,8 +1215,14 @@
 		"level": "6",
 		"name": "Heavier Rocketry",
 		"parts": [
-			"RE-M3_%22Mainsail%22_Liquid_Engine",
-			"LFB_KR-1x2_%22Twin-Boar%22_Liquid_Fuel_Engine"
+			{
+				"name": "RE-M3 \"Mainsail\" Liquid Engine",
+				"url": "http://wiki.kerbalspaceprogram.com/wiki/RE-M3_%22Mainsail%22_Liquid_Engine"
+			},
+			{
+				"name": "LFB KR-1x2 \"Twin-Boar\" Liquid Fuel Engine",
+				"url": "http://wiki.kerbalspaceprogram.com/wiki/LFB_KR-1x2_%22Twin-Boar%22_Liquid_Fuel_Engine"
+			}
 		],
 		"x": 1066,
 		"y": 19
@@ -754,19 +1240,58 @@
 		"level": "7",
 		"name": "Heavy Aerodynamics",
 		"parts": [
-			"FAT-445_Aeroplane_Control_Surface",
-			"FAT-455_Aeroplane_Main_Wing",
-			"FAT-455_Aeroplane_Tail_Fin",
-			"Mk3_Cockpit",
-			"J-90_%22Goliath%22_Turbofan_Engine",
-			"Mk3_to_2.5m_Adapter",
-			"Mk3_to_2.5m_Adapter_Slanted",
-			"Mk3_Passenger_Module",
-			"Mk3_Liquid_Fuel_Fuselage_Short",
-			"Mk3_Liquid_Fuel_Fuselage",
-			"Mk3_Cargo_Bay_CRG-50",
-			"Mk3_Cargo_Bay_CRG-25",
-			"Mk3_Cargo_Ramp"
+			{
+				"name": "FAT-445 Aeroplane Control Surface",
+				"url": "http://wiki.kerbalspaceprogram.com/wiki/FAT-445_Aeroplane_Control_Surface"
+			},
+			{
+				"name": "FAT-455 Aeroplane Main Wing",
+				"url": "http://wiki.kerbalspaceprogram.com/wiki/FAT-455_Aeroplane_Main_Wing"
+			},
+			{
+				"name": "FAT-455 Aeroplane Tail Fin",
+				"url": "http://wiki.kerbalspaceprogram.com/wiki/FAT-455_Aeroplane_Tail_Fin"
+			},
+			{
+				"name": "Mk3 Cockpit",
+				"url": "http://wiki.kerbalspaceprogram.com/wiki/Mk3_Cockpit"
+			},
+			{
+				"name": "J-90 \"Goliath\" Turbofan Engine",
+				"url": "http://wiki.kerbalspaceprogram.com/wiki/J-90_%22Goliath%22_Turbofan_Engine"
+			},
+			{
+				"name": "Mk3 to 2.5m Adapter",
+				"url": "http://wiki.kerbalspaceprogram.com/wiki/Mk3_to_2.5m_Adapter"
+			},
+			{
+				"name": "Mk3 to 2.5m Adapter Slanted",
+				"url": "http://wiki.kerbalspaceprogram.com/wiki/Mk3_to_2.5m_Adapter_Slanted"
+			},
+			{
+				"name": "Mk3 Passenger Module",
+				"url": "http://wiki.kerbalspaceprogram.com/wiki/Mk3_Passenger_Module"
+			},
+			{
+				"name": "Mk3 Liquid Fuel Fuselage Short",
+				"url": "http://wiki.kerbalspaceprogram.com/wiki/Mk3_Liquid_Fuel_Fuselage_Short"
+			},
+			{
+				"name": "Mk3 Liquid Fuel Fuselage",
+				"url": "http://wiki.kerbalspaceprogram.com/wiki/Mk3_Liquid_Fuel_Fuselage"
+			},
+			{
+				"name": "Mk3 Cargo Bay CRG-50",
+				"url": "http://wiki.kerbalspaceprogram.com/wiki/Mk3_Cargo_Bay_CRG-50"
+			},
+			{
+				"name": "Mk3 Cargo Bay CRG-25",
+				"url": "http://wiki.kerbalspaceprogram.com/wiki/Mk3_Cargo_Bay_CRG-25"
+			},
+			{
+				"name": "Mk3 Cargo Ramp",
+				"url": "http://wiki.kerbalspaceprogram.com/wiki/Mk3_Cargo_Ramp"
+			}
 		],
 		"x": 1271,
 		"y": 447
@@ -782,7 +1307,10 @@
 		"level": "7",
 		"name": "Heavy Landing",
 		"parts": [
-			"LY-99_Large_Landing_Gear"
+			{
+				"name": "LY-99 Large Landing Gear",
+				"url": "http://wiki.kerbalspaceprogram.com/wiki/LY-99_Large_Landing_Gear"
+			}
 		],
 		"x": 1271,
 		"y": 512
@@ -800,9 +1328,18 @@
 		"level": "5",
 		"name": "Heavy Rocketry",
 		"parts": [
-			"RE-L10_%22Poodle%22_Liquid_Fuel_Engine",
-			"RE-I5_%22Skipper%22_Liquid_Fuel_Engine",
-			"S1_SRB-KD25k_%22Kickback%22_Solid_Fuel_Booster"
+			{
+				"name": "RE-L10 \"Poodle\" Liquid Fuel Engine",
+				"url": "http://wiki.kerbalspaceprogram.com/wiki/RE-L10_%22Poodle%22_Liquid_Fuel_Engine"
+			},
+			{
+				"name": "RE-I5 \"Skipper\" Liquid Fuel Engine",
+				"url": "http://wiki.kerbalspaceprogram.com/wiki/RE-I5_%22Skipper%22_Liquid_Fuel_Engine"
+			},
+			{
+				"name": "S1 SRB-KD25k \"Kickback\" Solid Fuel Booster",
+				"url": "http://wiki.kerbalspaceprogram.com/wiki/S1_SRB-KD25k_%22Kickback%22_Solid_Fuel_Booster"
+			}
 		],
 		"x": 861,
 		"y": 19
@@ -818,7 +1355,10 @@
 		"level": "8",
 		"name": "High-Performance Fuel Systems",
 		"parts": [
-			"Kerbodyne_S3-14400_Tank"
+			{
+				"name": "Kerbodyne S3-14400 Tank",
+				"url": "http://wiki.kerbalspaceprogram.com/wiki/Kerbodyne_S3-14400_Tank"
+			}
 		],
 		"x": 1462,
 		"y": 184
@@ -836,10 +1376,22 @@
 		"level": "7",
 		"name": "High-Power Electrics",
 		"parts": [
-			"Gigantor_XL_Solar_Array",
-			"Z-1k_Rechargeable_Battery_Bank",
-			"Fuel_Cell",
-			"Thermal_Control_System_(large)"
+			{
+				"name": "Gigantor XL Solar Array",
+				"url": "http://wiki.kerbalspaceprogram.com/wiki/Gigantor_XL_Solar_Array"
+			},
+			{
+				"name": "Z-1k Rechargeable Battery Bank",
+				"url": "http://wiki.kerbalspaceprogram.com/wiki/Z-1k_Rechargeable_Battery_Bank"
+			},
+			{
+				"name": "Fuel Cell",
+				"url": "http://wiki.kerbalspaceprogram.com/wiki/Fuel_Cell"
+			},
+			{
+				"name": "Thermal Control System (large)",
+				"url": "http://wiki.kerbalspaceprogram.com/wiki/Thermal_Control_System_(large)"
+			}
 		],
 		"x": 1271,
 		"y": 943
@@ -857,19 +1409,58 @@
 		"level": "7",
 		"name": "High Altitude Flight",
 		"parts": [
-			"Adjustable_Ramp_Intake_(Radial)",
-			"Adjustable_Ramp_Intake",
-			"Mk2_Inline_Cockpit",
-			"2.5m_to_Mk2_Adapter",
-			"Mk2_to_1.25m_Adapter_Long",
-			"Mk2_Rocket_Fuel_Fuselage",
-			"Mk2_Liquid_Fuel_Fuselage",
-			"Mk2_Monopropellant_Tank",
-			"Mk1_Fuselage_-_Intake",
-			"Structural_Pylon",
-			"Mk2_Cargo_Bay_CRG-08",
-			"MK2_Crew_Cabin",
-			"Mk2_Clamp-O-Tron"
+			{
+				"name": "Adjustable Ramp Intake (Radial)",
+				"url": "http://wiki.kerbalspaceprogram.com/wiki/Adjustable_Ramp_Intake_(Radial)"
+			},
+			{
+				"name": "Adjustable Ramp Intake",
+				"url": "http://wiki.kerbalspaceprogram.com/wiki/Adjustable_Ramp_Intake"
+			},
+			{
+				"name": "Mk2 Inline Cockpit",
+				"url": "http://wiki.kerbalspaceprogram.com/wiki/Mk2_Inline_Cockpit"
+			},
+			{
+				"name": "2.5m to Mk2 Adapter",
+				"url": "http://wiki.kerbalspaceprogram.com/wiki/2.5m_to_Mk2_Adapter"
+			},
+			{
+				"name": "Mk2 to 1.25m Adapter Long",
+				"url": "http://wiki.kerbalspaceprogram.com/wiki/Mk2_to_1.25m_Adapter_Long"
+			},
+			{
+				"name": "Mk2 Rocket Fuel Fuselage",
+				"url": "http://wiki.kerbalspaceprogram.com/wiki/Mk2_Rocket_Fuel_Fuselage"
+			},
+			{
+				"name": "Mk2 Liquid Fuel Fuselage",
+				"url": "http://wiki.kerbalspaceprogram.com/wiki/Mk2_Liquid_Fuel_Fuselage"
+			},
+			{
+				"name": "Mk2 Monopropellant Tank",
+				"url": "http://wiki.kerbalspaceprogram.com/wiki/Mk2_Monopropellant_Tank"
+			},
+			{
+				"name": "Mk1 Fuselage - Intake",
+				"url": "http://wiki.kerbalspaceprogram.com/wiki/Mk1_Fuselage_-_Intake"
+			},
+			{
+				"name": "Structural Pylon",
+				"url": "http://wiki.kerbalspaceprogram.com/wiki/Structural_Pylon"
+			},
+			{
+				"name": "Mk2 Cargo Bay CRG-08",
+				"url": "http://wiki.kerbalspaceprogram.com/wiki/Mk2_Cargo_Bay_CRG-08"
+			},
+			{
+				"name": "MK2 Crew Cabin",
+				"url": "http://wiki.kerbalspaceprogram.com/wiki/MK2_Crew_Cabin"
+			},
+			{
+				"name": "Mk2 Clamp-O-Tron",
+				"url": "http://wiki.kerbalspaceprogram.com/wiki/Mk2_Clamp-O-Tron"
+			}
 		],
 		"x": 1271,
 		"y": 376
@@ -887,11 +1478,26 @@
 		"level": "8",
 		"name": "Hypersonic Flight",
 		"parts": [
-			"Advanced_Canard",
-			"Shock_Cone_Intake",
-			"J-X4_%22Whiplash%22_Turbo_Ramjet_Engine",
-			"T-1_Toroidal_Aerospike_%22Dart%22_Liquid_Fuel_Engine",
-			"Engine_Pre-cooler"
+			{
+				"name": "Advanced Canard",
+				"url": "http://wiki.kerbalspaceprogram.com/wiki/Advanced_Canard"
+			},
+			{
+				"name": "Shock Cone Intake",
+				"url": "http://wiki.kerbalspaceprogram.com/wiki/Shock_Cone_Intake"
+			},
+			{
+				"name": "J-X4 \"Whiplash\" Turbo Ramjet Engine",
+				"url": "http://wiki.kerbalspaceprogram.com/wiki/J-X4_%22Whiplash%22_Turbo_Ramjet_Engine"
+			},
+			{
+				"name": "T-1 Toroidal Aerospike \"Dart\" Liquid Fuel Engine",
+				"url": "http://wiki.kerbalspaceprogram.com/wiki/T-1_Toroidal_Aerospike_%22Dart%22_Liquid_Fuel_Engine"
+			},
+			{
+				"name": "Engine Pre-cooler",
+				"url": "http://wiki.kerbalspaceprogram.com/wiki/Engine_Pre-cooler"
+			}
 		],
 		"x": 1462,
 		"y": 376
@@ -908,10 +1514,22 @@
 		"level": "8",
 		"name": "Ion Propulsion",
 		"parts": [
-			"IX-6315_%22Dawn%22_Electric_Propulsion_System",
-			"PB-X150_Xenon_Container",
-			"PB-X750_Xenon_Container",
-			"PB-X50R_Xenon_Container"
+			{
+				"name": "IX-6315 \"Dawn\" Electric Propulsion System",
+				"url": "http://wiki.kerbalspaceprogram.com/wiki/IX-6315_%22Dawn%22_Electric_Propulsion_System"
+			},
+			{
+				"name": "PB-X150 Xenon Container",
+				"url": "http://wiki.kerbalspaceprogram.com/wiki/PB-X150_Xenon_Container"
+			},
+			{
+				"name": "PB-X750 Xenon Container",
+				"url": "http://wiki.kerbalspaceprogram.com/wiki/PB-X750_Xenon_Container"
+			},
+			{
+				"name": "PB-X50R Xenon Container",
+				"url": "http://wiki.kerbalspaceprogram.com/wiki/PB-X50R_Xenon_Container"
+			}
 		],
 		"x": 1462,
 		"y": 748
@@ -930,11 +1548,26 @@
 		"level": "5",
 		"name": "Landing",
 		"parts": [
-			"Heat_Shield_(2.5m)",
-			"LT-1_Landing_Struts",
-			"Launch_Escape_System",
-			"Mk16-XL_Parachute",
-			"LY-10_Small_Landing_Gear"
+			{
+				"name": "Heat Shield (2.5m)",
+				"url": "http://wiki.kerbalspaceprogram.com/wiki/Heat_Shield_(2.5m)"
+			},
+			{
+				"name": "LT-1 Landing Struts",
+				"url": "http://wiki.kerbalspaceprogram.com/wiki/LT-1_Landing_Struts"
+			},
+			{
+				"name": "Launch Escape System",
+				"url": "http://wiki.kerbalspaceprogram.com/wiki/Launch_Escape_System"
+			},
+			{
+				"name": "Mk16-XL Parachute",
+				"url": "http://wiki.kerbalspaceprogram.com/wiki/Mk16-XL_Parachute"
+			},
+			{
+				"name": "LY-10 Small Landing Gear",
+				"url": "http://wiki.kerbalspaceprogram.com/wiki/LY-10_Small_Landing_Gear"
+			}
 		],
 		"x": 861,
 		"y": 512
@@ -951,7 +1584,10 @@
 		"level": "9",
 		"name": "Large Probes",
 		"parts": [
-			"RC-L01_Remote_Guidance_Unit"
+			{
+				"name": "RC-L01 Remote Guidance Unit",
+				"url": "http://wiki.kerbalspaceprogram.com/wiki/RC-L01_Remote_Guidance_Unit"
+			}
 		],
 		"x": 1626,
 		"y": 807
@@ -971,10 +1607,22 @@
 		"level": "7",
 		"name": "Large Volume Containment",
 		"parts": [
-			"Kerbodyne_S3-7200_Tank",
-			"Kerbodyne_S3-3600_Tank",
-			"TR-38-D",
-			"Kerbodyne_ADTP-2-3"
+			{
+				"name": "Kerbodyne S3-7200 Tank",
+				"url": "http://wiki.kerbalspaceprogram.com/wiki/Kerbodyne_S3-7200_Tank"
+			},
+			{
+				"name": "Kerbodyne S3-3600 Tank",
+				"url": "http://wiki.kerbalspaceprogram.com/wiki/Kerbodyne_S3-3600_Tank"
+			},
+			{
+				"name": "TR-38-D",
+				"url": "http://wiki.kerbalspaceprogram.com/wiki/TR-38-D"
+			},
+			{
+				"name": "Kerbodyne ADTP-2-3",
+				"url": "http://wiki.kerbalspaceprogram.com/wiki/Kerbodyne_ADTP-2-3"
+			}
 		],
 		"x": 1271,
 		"y": 184
@@ -990,11 +1638,26 @@
 		"level": "8",
 		"name": "Meta-Materials",
 		"parts": [
-			"TVR-200L_Stack_Bi-Adapter",
-			"TVR-400L_Stack_Quad-Adapter",
-			"TVR-300L_Stack_Tri-Adapter",
-			"Rockomax_HubMax_Multi-Point_Connector",
-			"Clamp-O-Tron_Docking_Port_Sr."
+			{
+				"name": "TVR-200L Stack Bi-Adapter",
+				"url": "http://wiki.kerbalspaceprogram.com/wiki/TVR-200L_Stack_Bi-Adapter"
+			},
+			{
+				"name": "TVR-400L Stack Quad-Adapter",
+				"url": "http://wiki.kerbalspaceprogram.com/wiki/TVR-400L_Stack_Quad-Adapter"
+			},
+			{
+				"name": "TVR-300L Stack Tri-Adapter",
+				"url": "http://wiki.kerbalspaceprogram.com/wiki/TVR-300L_Stack_Tri-Adapter"
+			},
+			{
+				"name": "Rockomax HubMax Multi-Point Connector",
+				"url": "http://wiki.kerbalspaceprogram.com/wiki/Rockomax_HubMax_Multi-Point_Connector"
+			},
+			{
+				"name": "Clamp-O-Tron Docking Port Sr.",
+				"url": "http://wiki.kerbalspaceprogram.com/wiki/Clamp-O-Tron_Docking_Port_Sr."
+			}
 		],
 		"x": 1462,
 		"y": 299
@@ -1012,10 +1675,22 @@
 		"level": "5",
 		"name": "Miniaturization",
 		"parts": [
-			"FL-A5_Adapter",
-			"FL-A10_Adapter",
-			"TR-2C_Stack_Separator",
-			"Clamp-O-Tron_Docking_Port_Jr."
+			{
+				"name": "FL-A5 Adapter",
+				"url": "http://wiki.kerbalspaceprogram.com/wiki/FL-A5_Adapter"
+			},
+			{
+				"name": "FL-A10 Adapter",
+				"url": "http://wiki.kerbalspaceprogram.com/wiki/FL-A10_Adapter"
+			},
+			{
+				"name": "TR-2C Stack Separator",
+				"url": "http://wiki.kerbalspaceprogram.com/wiki/TR-2C_Stack_Separator"
+			},
+			{
+				"name": "Clamp-O-Tron Docking Port Jr.",
+				"url": "http://wiki.kerbalspaceprogram.com/wiki/Clamp-O-Tron_Docking_Port_Jr."
+			}
 		],
 		"x": 861,
 		"y": 807
@@ -1032,7 +1707,10 @@
 		"level": "7",
 		"name": "Nuclear Propulsion",
 		"parts": [
-			"LV-N_%22Nerv%22_Atomic_Rocket_Motor"
+			{
+				"name": "LV-N \"Nerv\" Atomic Rocket Motor",
+				"url": "http://wiki.kerbalspaceprogram.com/wiki/LV-N_%22Nerv%22_Atomic_Rocket_Motor"
+			}
 		],
 		"x": 1271,
 		"y": 103
@@ -1053,11 +1731,26 @@
 		"level": "6",
 		"name": "Precision Engineering",
 		"parts": [
-			"Probodobodyne_HECS",
-			"The_Not-Rockomax_Micronode",
-			"Cubic_Octagonal_Strut",
-			"Octagonal_Strut",
-			"TR-2V_Stack_Decoupler"
+			{
+				"name": "Probodobodyne HECS",
+				"url": "http://wiki.kerbalspaceprogram.com/wiki/Probodobodyne_HECS"
+			},
+			{
+				"name": "The Not-Rockomax Micronode",
+				"url": "http://wiki.kerbalspaceprogram.com/wiki/The_Not-Rockomax_Micronode"
+			},
+			{
+				"name": "Cubic Octagonal Strut",
+				"url": "http://wiki.kerbalspaceprogram.com/wiki/Cubic_Octagonal_Strut"
+			},
+			{
+				"name": "Octagonal Strut",
+				"url": "http://wiki.kerbalspaceprogram.com/wiki/Octagonal_Strut"
+			},
+			{
+				"name": "TR-2V Stack Decoupler",
+				"url": "http://wiki.kerbalspaceprogram.com/wiki/TR-2V_Stack_Decoupler"
+			}
 		],
 		"x": 1066,
 		"y": 807
@@ -1073,11 +1766,26 @@
 		"level": "6",
 		"name": "Precision Propulsion",
 		"parts": [
-			"24-77_%22Twitch%22_Liquid_Fuel_Engine",
-			"LV-1R_%22Spider%22_Liquid_Fuel_Engine",
-			"O-10_%22Puff%22_MonoPropellant_Fuel_Engine",
-			"Sepratron_I",
-			"ROUND-8_Toroidal_Fuel_Tank"
+			{
+				"name": "24-77 \"Twitch\" Liquid Fuel Engine",
+				"url": "http://wiki.kerbalspaceprogram.com/wiki/24-77_%22Twitch%22_Liquid_Fuel_Engine"
+			},
+			{
+				"name": "LV-1R \"Spider\" Liquid Fuel Engine",
+				"url": "http://wiki.kerbalspaceprogram.com/wiki/LV-1R_%22Spider%22_Liquid_Fuel_Engine"
+			},
+			{
+				"name": "O-10 \"Puff\" MonoPropellant Fuel Engine",
+				"url": "http://wiki.kerbalspaceprogram.com/wiki/O-10_%22Puff%22_MonoPropellant_Fuel_Engine"
+			},
+			{
+				"name": "Sepratron I",
+				"url": "http://wiki.kerbalspaceprogram.com/wiki/Sepratron_I"
+			},
+			{
+				"name": "ROUND-8 Toroidal Fuel Tank",
+				"url": "http://wiki.kerbalspaceprogram.com/wiki/ROUND-8_Toroidal_Fuel_Tank"
+			}
 		],
 		"x": 1066,
 		"y": 103
@@ -1096,9 +1804,18 @@
 		"level": "5",
 		"name": "Propulsion Systems",
 		"parts": [
-			"48-7S_%22Spark%22_Liquid_Fuel_Engine",
-			"LV-1_%22Ant%22_Liquid_Fuel_Engine",
-			"Oscar-B_Fuel_Tank"
+			{
+				"name": "48-7S \"Spark\" Liquid Fuel Engine",
+				"url": "http://wiki.kerbalspaceprogram.com/wiki/48-7S_%22Spark%22_Liquid_Fuel_Engine"
+			},
+			{
+				"name": "LV-1 \"Ant\" Liquid Fuel Engine",
+				"url": "http://wiki.kerbalspaceprogram.com/wiki/LV-1_%22Ant%22_Liquid_Fuel_Engine"
+			},
+			{
+				"name": "Oscar-B Fuel Tank",
+				"url": "http://wiki.kerbalspaceprogram.com/wiki/Oscar-B_Fuel_Tank"
+			}
 		],
 		"x": 861,
 		"y": 103
@@ -1118,8 +1835,14 @@
 		"level": "7",
 		"name": "Science Tech",
 		"parts": [
-			"Surface_Scanning_Module",
-			"M700_Survey_Scanner"
+			{
+				"name": "Surface Scanning Module",
+				"url": "http://wiki.kerbalspaceprogram.com/wiki/Surface_Scanning_Module"
+			},
+			{
+				"name": "M700 Survey Scanner",
+				"url": "http://wiki.kerbalspaceprogram.com/wiki/M700_Survey_Scanner"
+			}
 		],
 		"x": 1271,
 		"y": 690
@@ -1138,9 +1861,18 @@
 		"level": "5",
 		"name": "Space Exploration",
 		"parts": [
-			"PPD-10_Hitchhiker_Storage_Container",
-			"PresMat_Barometer",
-			"Pegasus_I_Mobility_Enhancer"
+			{
+				"name": "PPD-10 Hitchhiker Storage Container",
+				"url": "http://wiki.kerbalspaceprogram.com/wiki/PPD-10_Hitchhiker_Storage_Container"
+			},
+			{
+				"name": "PresMat Barometer",
+				"url": "http://wiki.kerbalspaceprogram.com/wiki/PresMat_Barometer"
+			},
+			{
+				"name": "Pegasus I Mobility Enhancer",
+				"url": "http://wiki.kerbalspaceprogram.com/wiki/Pegasus_I_Mobility_Enhancer"
+			}
 		],
 		"x": 861,
 		"y": 690
@@ -1160,13 +1892,34 @@
 		"level": "6",
 		"name": "Specialized Construction",
 		"parts": [
-			"Advanced_Nose_Cone_-_Type_B",
-			"AE-FF2_Airstream_Protective_Shell_(2.5m)",
-			"Modular_Girder_Adapter",
-			"TR-18D_Stack_Separator",
-			"Clamp-O-Tron_Docking_Port",
-			"BZ-52_Radial_Attachment_Point",
-			"TVR-200_Stack_Bi-Coupler"
+			{
+				"name": "Advanced Nose Cone - Type B",
+				"url": "http://wiki.kerbalspaceprogram.com/wiki/Advanced_Nose_Cone_-_Type_B"
+			},
+			{
+				"name": "AE-FF2 Airstream Protective Shell (2.5m)",
+				"url": "http://wiki.kerbalspaceprogram.com/wiki/AE-FF2_Airstream_Protective_Shell_(2.5m)"
+			},
+			{
+				"name": "Modular Girder Adapter",
+				"url": "http://wiki.kerbalspaceprogram.com/wiki/Modular_Girder_Adapter"
+			},
+			{
+				"name": "TR-18D Stack Separator",
+				"url": "http://wiki.kerbalspaceprogram.com/wiki/TR-18D_Stack_Separator"
+			},
+			{
+				"name": "Clamp-O-Tron Docking Port",
+				"url": "http://wiki.kerbalspaceprogram.com/wiki/Clamp-O-Tron_Docking_Port"
+			},
+			{
+				"name": "BZ-52 Radial Attachment Point",
+				"url": "http://wiki.kerbalspaceprogram.com/wiki/BZ-52_Radial_Attachment_Point"
+			},
+			{
+				"name": "TVR-200 Stack Bi-Coupler",
+				"url": "http://wiki.kerbalspaceprogram.com/wiki/TVR-200_Stack_Bi-Coupler"
+			}
 		],
 		"x": 1066,
 		"y": 242
@@ -1182,10 +1935,22 @@
 		"level": "6",
 		"name": "Specialized Control",
 		"parts": [
-			"CH-J3_Fly-By-Wire_Avionics_Hub",
-			"Advanced_Reaction_Wheel_Module,_Large",
-			"Vernor_Engine",
-			"Stratus-V_Cylindrified_Monopropellant_Tank"
+			{
+				"name": "CH-J3 Fly-By-Wire Avionics Hub",
+				"url": "http://wiki.kerbalspaceprogram.com/wiki/CH-J3_Fly-By-Wire_Avionics_Hub"
+			},
+			{
+				"name": "Advanced Reaction Wheel Module, Large",
+				"url": "http://wiki.kerbalspaceprogram.com/wiki/Advanced_Reaction_Wheel_Module,_Large"
+			},
+			{
+				"name": "Vernor Engine",
+				"url": "http://wiki.kerbalspaceprogram.com/wiki/Vernor_Engine"
+			},
+			{
+				"name": "Stratus-V Cylindrified Monopropellant Tank",
+				"url": "http://wiki.kerbalspaceprogram.com/wiki/Stratus-V_Cylindrified_Monopropellant_Tank"
+			}
 		],
 		"x": 1066,
 		"y": 572
@@ -1203,8 +1968,14 @@
 		"level": "8",
 		"name": "Specialized Electrics",
 		"parts": [
-			"Z-4K_Rechargeable_Battery_Bank",
-			"Fuel_Cell_Array"
+			{
+				"name": "Z-4K Rechargeable Battery Bank",
+				"url": "http://wiki.kerbalspaceprogram.com/wiki/Z-4K_Rechargeable_Battery_Bank"
+			},
+			{
+				"name": "Fuel Cell Array",
+				"url": "http://wiki.kerbalspaceprogram.com/wiki/Fuel_Cell_Array"
+			}
 		],
 		"x": 1462,
 		"y": 943
@@ -1225,9 +1996,18 @@
 		"level": "3",
 		"name": "Stability",
 		"parts": [
-			"Aerodynamic_Nose_Cone",
-			"AV-T1_Winglet",
-			"TT-38K_Radial_Decoupler"
+			{
+				"name": "Aerodynamic Nose Cone",
+				"url": "http://wiki.kerbalspaceprogram.com/wiki/Aerodynamic_Nose_Cone"
+			},
+			{
+				"name": "AV-T1 Winglet",
+				"url": "http://wiki.kerbalspaceprogram.com/wiki/AV-T1_Winglet"
+			},
+			{
+				"name": "TT-38K Radial Decoupler",
+				"url": "http://wiki.kerbalspaceprogram.com/wiki/TT-38K_Radial_Decoupler"
+			}
 		],
 		"x": 415,
 		"y": 455
@@ -1244,12 +2024,30 @@
 		"level": "1",
 		"name": "Start",
 		"parts": [
-			"Basic_Fin",
-			"Mk1_Command_Pod",
-			"RT-5_%22Flea%22_Solid_Fuel_Booster",
-			"Mystery_Goo%E2%84%A2_Containment_Unit",
-			"Modular_Girder_Segment",
-			"Mk16_Parachute"
+			{
+				"name": "Basic Fin",
+				"url": "http://wiki.kerbalspaceprogram.com/wiki/Basic_Fin"
+			},
+			{
+				"name": "Mk1 Command Pod",
+				"url": "http://wiki.kerbalspaceprogram.com/wiki/Mk1_Command_Pod"
+			},
+			{
+				"name": "RT-5 \"Flea\" Solid Fuel Booster",
+				"url": "http://wiki.kerbalspaceprogram.com/wiki/RT-5_%22Flea%22_Solid_Fuel_Booster"
+			},
+			{
+				"name": "Mystery Goo\u2122 Containment Unit",
+				"url": "http://wiki.kerbalspaceprogram.com/wiki/Mystery_Goo%E2%84%A2_Containment_Unit"
+			},
+			{
+				"name": "Modular Girder Segment",
+				"url": "http://wiki.kerbalspaceprogram.com/wiki/Modular_Girder_Segment"
+			},
+			{
+				"name": "Mk16 Parachute",
+				"url": "http://wiki.kerbalspaceprogram.com/wiki/Mk16_Parachute"
+			}
 		],
 		"x": 17,
 		"y": 455
@@ -1267,15 +2065,42 @@
 		"level": "6",
 		"name": "Supersonic Flight",
 		"parts": [
-			"Wing_Strake",
-			"Structural_Wing_Type_A",
-			"Mk2_Cockpit",
-			"J-404_%22Panther%22_Afterburning_Turbofan",
-			"Mk2_Bicoupler",
-			"Mk2_to_1.25m_Adapter",
-			"Mk2_Rocket_Fuel_Fuselage_Short",
-			"Mk2_Liquid_Fuel_Fuselage_Short",
-			"Mk2_Cargo_Bay_CRG-04"
+			{
+				"name": "Wing Strake",
+				"url": "http://wiki.kerbalspaceprogram.com/wiki/Wing_Strake"
+			},
+			{
+				"name": "Structural Wing Type A",
+				"url": "http://wiki.kerbalspaceprogram.com/wiki/Structural_Wing_Type_A"
+			},
+			{
+				"name": "Mk2 Cockpit",
+				"url": "http://wiki.kerbalspaceprogram.com/wiki/Mk2_Cockpit"
+			},
+			{
+				"name": "J-404 \"Panther\" Afterburning Turbofan",
+				"url": "http://wiki.kerbalspaceprogram.com/wiki/J-404_%22Panther%22_Afterburning_Turbofan"
+			},
+			{
+				"name": "Mk2 Bicoupler",
+				"url": "http://wiki.kerbalspaceprogram.com/wiki/Mk2_Bicoupler"
+			},
+			{
+				"name": "Mk2 to 1.25m Adapter",
+				"url": "http://wiki.kerbalspaceprogram.com/wiki/Mk2_to_1.25m_Adapter"
+			},
+			{
+				"name": "Mk2 Rocket Fuel Fuselage Short",
+				"url": "http://wiki.kerbalspaceprogram.com/wiki/Mk2_Rocket_Fuel_Fuselage_Short"
+			},
+			{
+				"name": "Mk2 Liquid Fuel Fuselage Short",
+				"url": "http://wiki.kerbalspaceprogram.com/wiki/Mk2_Liquid_Fuel_Fuselage_Short"
+			},
+			{
+				"name": "Mk2 Cargo Bay CRG-04",
+				"url": "http://wiki.kerbalspaceprogram.com/wiki/Mk2_Cargo_Bay_CRG-04"
+			}
 		],
 		"x": 1066,
 		"y": 376
@@ -1294,11 +2119,26 @@
 		"level": "3",
 		"name": "Survivability",
 		"parts": [
-			"Heat_Shield_(1.25m)",
-			"Radiator_Panel_(small)",
-			"LT-05_Micro_Landing_Strut",
-			"Mk2-R_Radial-Mount_Parachute",
-			"Service_Bay_(1.25m)"
+			{
+				"name": "Heat Shield (1.25m)",
+				"url": "http://wiki.kerbalspaceprogram.com/wiki/Heat_Shield_(1.25m)"
+			},
+			{
+				"name": "Radiator Panel (small)",
+				"url": "http://wiki.kerbalspaceprogram.com/wiki/Radiator_Panel_(small)"
+			},
+			{
+				"name": "LT-05 Micro Landing Strut",
+				"url": "http://wiki.kerbalspaceprogram.com/wiki/LT-05_Micro_Landing_Strut"
+			},
+			{
+				"name": "Mk2-R Radial-Mount Parachute",
+				"url": "http://wiki.kerbalspaceprogram.com/wiki/Mk2-R_Radial-Mount_Parachute"
+			},
+			{
+				"name": "Service Bay (1.25m)",
+				"url": "http://wiki.kerbalspaceprogram.com/wiki/Service_Bay_(1.25m)"
+			}
 		],
 		"x": 375,
 		"y": 679
@@ -1318,8 +2158,14 @@
 		"level": "7",
 		"name": "Unmanned Tech",
 		"parts": [
-			"Probodobodyne_QBE",
-			"Probodobodyne_OKTO2"
+			{
+				"name": "Probodobodyne QBE",
+				"url": "http://wiki.kerbalspaceprogram.com/wiki/Probodobodyne_QBE"
+			},
+			{
+				"name": "Probodobodyne OKTO2",
+				"url": "http://wiki.kerbalspaceprogram.com/wiki/Probodobodyne_OKTO2"
+			}
 		],
 		"x": 1271,
 		"y": 807
@@ -1336,9 +2182,18 @@
 		"level": "8",
 		"name": "Very Heavy Rocketry",
 		"parts": [
-			"S3_KS-25_%22Vector%22_Liquid_Fuel_Engine",
-			"Kerbodyne_KR-2L%2B_%22Rhino%22_Liquid_Fuel_Engine",
-			"S3_KS-25x4_%22Mammoth%22_Liquid_Fuel_Engine"
+			{
+				"name": "S3 KS-25 \"Vector\" Liquid Fuel Engine",
+				"url": "http://wiki.kerbalspaceprogram.com/wiki/S3_KS-25_%22Vector%22_Liquid_Fuel_Engine"
+			},
+			{
+				"name": "Kerbodyne KR-2L+ \"Rhino\" Liquid Fuel Engine",
+				"url": "http://wiki.kerbalspaceprogram.com/wiki/Kerbodyne_KR-2L%2B_%22Rhino%22_Liquid_Fuel_Engine"
+			},
+			{
+				"name": "S3 KS-25x4 \"Mammoth\" Liquid Fuel Engine",
+				"url": "http://wiki.kerbalspaceprogram.com/wiki/S3_KS-25x4_%22Mammoth%22_Liquid_Fuel_Engine"
+			}
 		],
 		"x": 1462,
 		"y": 19

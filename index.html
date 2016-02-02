@@ -38,6 +38,21 @@
 				</div>
 			</div>
 			<div id='info'>
+				<h3 ng-show='!activeTech'>Nothing selected.</h3>
+				<div id='title'>
+					<img ng-src='{{techs[activeTech].icon}}'/>
+					<h3>{{techs[activeTech].name}}
+				</div>
+				<p>{{techs[activeTech].description}}</p>
+				<div id='partsList'>
+					<div class='tab'>Available Parts</div>
+					<ul>
+						<li ng-repeat='part in techs[activeTech].parts'>
+							<a href='{{part.url}}' target='_blank'>{{part.name}}</a>
+						</li>
+					</ul>
+				</div>
+				<p id='researchButton'>Research [{{techs[activeTech].cost}} Science]</p>
 			</div>
 		</div>
 	</body>

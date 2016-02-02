@@ -6,6 +6,9 @@ html, body
 
 	display: flex;
 	flex-direction: column;
+
+	font-family: 'sans';
+	font-size: 10pt;
 }
 
 #menubar
@@ -17,11 +20,6 @@ html, body
 	border-bottom: solid #2c2f36 2px;
 
 	display: flex;
-}
-
-#menubar .bevel-button
-{
-	background-color: cyan;
 }
 
 #splitter
@@ -61,7 +59,7 @@ html, body
 	width: 40px;
 	height: 40px;
 	z-index: 1;
-	box-shadow: 2px 2px rgba(0,0,0,0.7);
+	box-shadow: 2px 2px 3px rgba(0,0,0,0.7);
 }
 
 #tree svg
@@ -83,13 +81,53 @@ html, body
 #tree img.active
 {
 	border: solid #005d00 2px;
-	margin: -4px;
-	padding: 2px;
-}
-#info
-{
-	background-color: grey;
-	width: 300px;
-	min-width: 300px;
+	margin: -6px;
+	padding: 3px;
 }
 
+#info
+{
+	background-color: #4E5359;
+	width: 300px;
+	min-width: 300px;
+	color: white;
+
+	padding: 70px 10px;
+}
+
+#info h3 {
+	color: #c4822e;
+}
+
+#info #title {
+	display: flex;
+}
+
+#info #title h3 {
+	margin: 5px 10px;
+	font-size: 10pt;
+	font-weight: normal
+}
+
+#info #title img
+{
+	border-radius: 5px;
+	border: outset grey 1px;
+	box-shadow: 2px 2px 5px rgba(0,0,0,0.5);
+}
+
+#info p
+{
+	font-size: 9pt;
+	height: 130px;
+}
+
+#info #partsList .tab
+{
+	font-weight: bold;
+	border: outset #D2D2D2 2px;
+	padding: 5px 8px;
+	display: inline-block;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+}
