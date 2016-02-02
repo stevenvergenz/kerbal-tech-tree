@@ -63,6 +63,22 @@ html, body
 	box-shadow: 2px 2px rgba(0,0,0,0.7);
 }
 
+#tree svg
+{
+	position: absolute;
+	width: 1700px;
+	height: 1000px;
+}
+
+#tree svg path {
+	stroke: #345006;
+	fill: none;
+}
+
+#tree svg marker path {
+	fill: #345006;
+}
+
 #tree img.active
 {
 	border: solid #005d00 2px;
