@@ -10,7 +10,9 @@
 		"name": "Actuators",
 		"parts": [
 			"Advanced_Grabbing_Unit"
-		]
+		],
+		"x": 1066,
+		"y": 299
 	},
 	"Adv._Fuel_Systems": {
 		"cost": "160",
@@ -32,7 +34,9 @@
 			"FL-R1_RCS_Fuel_Tank",
 			"FL-R10_RCS_Fuel_Tank",
 			"FL-R25_RCS_Fuel_Tank"
-		]
+		],
+		"x": 1066,
+		"y": 184
 	},
 	"Advanced_Aerodynamics": {
 		"cost": "160",
@@ -58,7 +62,9 @@
 			"Structural_Wing_Type_D",
 			"Swept_Wing_Type_A",
 			"Small_Hardpoint"
-		]
+		],
+		"x": 1066,
+		"y": 447
 	},
 	"Advanced_Construction": {
 		"cost": "90",
@@ -80,7 +86,9 @@
 			"TT-70_Radial_Decoupler",
 			"Rockomax_Brand_Adapter_02",
 			"TVR-1180C_Mk1_Stack_Tri-Coupler"
-		]
+		],
+		"x": 861,
+		"y": 299
 	},
 	"Advanced_Electrics": {
 		"cost": "160",
@@ -101,7 +109,9 @@
 			"OX-4W_3x2_Photovoltaic_Panels",
 			"Z-400_Rechargeable_Battery",
 			"Thermal_Control_System_(medium)"
-		]
+		],
+		"x": 1066,
+		"y": 943
 	},
 	"Advanced_Exploration": {
 		"cost": "160",
@@ -119,7 +129,9 @@
 			"Mobile_Processing_Lab_MPL-LG-2",
 			"Telus_Mobility_Enhancer",
 			"Telus-LV_Bay_Mobility_Enhancer"
-		]
+		],
+		"x": 1066,
+		"y": 690
 	},
 	"Advanced_Flight_Control": {
 		"cost": "90",
@@ -139,7 +151,9 @@
 			"Stratus-V_Roundified_Monopropellant_Tank",
 			"Place-Anywhere_7_Linear_RCS_Port",
 			"RV-105_RCS_Thruster_Block"
-		]
+		],
+		"x": 861,
+		"y": 603
 	},
 	"Advanced_Landing": {
 		"cost": "160",
@@ -159,7 +173,9 @@
 			"Mk12-R_Radial-Mount_Drogue_Chute",
 			"Mk25_Parachute",
 			"LY-50_Medium_Landing_Gear"
-		]
+		],
+		"x": 1066,
+		"y": 512
 	},
 	"Advanced_MetalWorks": {
 		"cost": "300",
@@ -177,7 +193,9 @@
 			"TR-XL_Stack_Separator",
 			"Clamp-O-Tron_Shielded_Docking_Port",
 			"TVR-2160C_Mk2_Stack_Quad-Coupler"
-		]
+		],
+		"x": 1271,
+		"y": 242
 	},
 	"Advanced_Motors": {
 		"cost": "550",
@@ -193,7 +211,9 @@
 		"parts": [
 			"TR-2L_Ruggedized_Vehicular_Wheel",
 			"RoveMax_Model_XL3"
-		]
+		],
+		"x": 1462,
+		"y": 588
 	},
 	"Advanced_Rocketry": {
 		"cost": "45",
@@ -212,7 +232,9 @@
 			"LV-909_%22Terrier%22_Liquid_Fuel_Engine",
 			"Mk-55_%22Thud%22_Liquid_Fuel_Engine",
 			"FL-T400_Fuel_Tank"
-		]
+		],
+		"x": 639,
+		"y": 103
 	},
 	"Advanced_Science_Tech": {
 		"cost": "550",
@@ -234,7 +256,9 @@
 			"Radial_Holding_Tank",
 			"Small_Holding_Tank",
 			"GRAVMAX_Negative_Gravioli_Detector"
-		]
+		],
+		"x": 1462,
+		"y": 690
 	},
 	"Advanced_Unmanned_Tech": {
 		"cost": "550",
@@ -249,7 +273,9 @@
 		"name": "Advanced Unmanned Tech",
 		"parts": [
 			"RC-001S_Remote_Guidance_Unit"
-		]
+		],
+		"x": 1462,
+		"y": 807
 	},
 	"Aerodynamics": {
 		"cost": "90",
@@ -277,7 +303,9 @@
 			"Mk1_Inline_Cockpit",
 			"J-33_%22Wheesley%22_Turbofan_Engine",
 			"Engine_Nacelle"
-		]
+		],
+		"x": 861,
+		"y": 411
 	},
 	"Aerospace_Tech": {
 		"cost": "1000",
@@ -290,7 +318,9 @@
 		"name": "Aerospace Tech",
 		"parts": [
 			"CR-7_R.A.P.I.E.R._Engine"
-		]
+		],
+		"x": 1626,
+		"y": 376
 	},
 	"Automation": {
 		"cost": "550",
@@ -306,7 +336,9 @@
 		"name": "Automation",
 		"parts": [
 			"MK2_Drone_Core"
-		]
+		],
+		"x": 1462,
+		"y": 878
 	},
 	"Aviation": {
 		"cost": "45",
@@ -335,7 +367,9 @@
 			"Mk1_Liquid_Fuel_Fuselage",
 			"LY-01_Fixed_Landing_Gear",
 			"LY05_Steerable_Landing_Gear"
-		]
+		],
+		"x": 639,
+		"y": 455
 	},
 	"Basic_Rocketry": {
 		"cost": "5",
@@ -353,7 +387,9 @@
 			"LV-T30_%22Reliant%22_Liquid_Fuel_Engine",
 			"RT-10_%22Hammer%22_Solid_Fuel_Booster",
 			"FL-T100_Fuel_Tank"
-		]
+		],
+		"x": 199,
+		"y": 398
 	},
 	"Basic_Science": {
 		"cost": "45",
@@ -375,7 +411,9 @@
 			"Radiator_Panel_(edge)",
 			"Radiator_Panel_(large)",
 			"Comms_DTS-M1"
-		]
+		],
+		"x": 639,
+		"y": 807
 	},
 	"Command_Modules": {
 		"cost": "160",
@@ -392,7 +430,9 @@
 			"Mk1-2_Command_Pod",
 			"Mk2_Lander_Can",
 			"Service_Bay_(2.5m)"
-		]
+		],
+		"x": 1066,
+		"y": 634
 	},
 	"Composites": {
 		"cost": "300",
@@ -413,7 +453,9 @@
 			"M-1x1_Structural_Panel",
 			"M-2x2_Structural_Panel",
 			"Inline_Clamp-O-Tron"
-		]
+		],
+		"x": 1271,
+		"y": 299
 	},
 	"Electrics": {
 		"cost": "90",
@@ -434,7 +476,9 @@
 			"Thermal_Control_System_(small)",
 			"Illuminator_Mk1",
 			"Illuminator_Mk2"
-		]
+		],
+		"x": 861,
+		"y": 943
 	},
 	"Electronics": {
 		"cost": "300",
@@ -451,7 +495,9 @@
 		"parts": [
 			"Double-C_Seismic_Accelerometer",
 			"Communotron_88-88"
-		]
+		],
+		"x": 1271,
+		"y": 878
 	},
 	"Engineering_101": {
 		"cost": "5",
@@ -469,7 +515,9 @@
 			"SC-9001_Science_Jr.",
 			"Communotron_16",
 			"TR-18A_Stack_Decoupler"
-		]
+		],
+		"x": 199,
+		"y": 512
 	},
 	"Experimental_Aerodynamics": {
 		"cost": "550",
@@ -495,7 +543,9 @@
 			"Mk3_Liquid_Fuel_Fuselage_Long",
 			"Mk3_Monopropellant_Tank",
 			"Mk3_Cargo_Bay_CRG-100"
-		]
+		],
+		"x": 1462,
+		"y": 447
 	},
 	"Experimental_Electrics": {
 		"cost": "1000",
@@ -508,7 +558,9 @@
 		"name": "Experimental Electrics",
 		"parts": [
 			"PB-NUK_Radioisotope_Thermoelectric_Generator"
-		]
+		],
+		"x": 1626,
+		"y": 943
 	},
 	"Experimental_Science": {
 		"cost": "1000",
@@ -522,7 +574,9 @@
 		"parts": [
 			"Large_Holding_Tank",
 			"M4435_Narrow-Band_Scanner"
-		]
+		],
+		"x": 1626,
+		"y": 690
 	},
 	"Field_Science": {
 		"cost": "300",
@@ -543,7 +597,9 @@
 			"Atmospheric_Fluid_Spectro-Variometer",
 			"RoveMax_Model_M1",
 			"RoveMax_Model_S2"
-		]
+		],
+		"x": 1271,
+		"y": 588
 	},
 	"Flight_Control": {
 		"cost": "45",
@@ -562,7 +618,9 @@
 			"AV-R8_Winglet",
 			"Delta-Deluxe_Winglet",
 			"Small_Inline_Reaction_Wheel"
-		]
+		],
+		"x": 639,
+		"y": 603
 	},
 	"Fuel_Systems": {
 		"cost": "90",
@@ -582,7 +640,9 @@
 			"Rockomax_X200-16_Fuel_Tank",
 			"Rockomax_X200-32_Fuel_Tank",
 			"Rockomax_X200-8_Fuel_Tank"
-		]
+		],
+		"x": 861,
+		"y": 184
 	},
 	"General_Construction": {
 		"cost": "45",
@@ -605,7 +665,9 @@
 			"Rockomax_Brand_Decoupler",
 			"Rockomax_Brand_Adapter",
 			"TT18-A_Launch_Stability_Enhancer"
-		]
+		],
+		"x": 639,
+		"y": 299
 	},
 	"General_Rocketry": {
 		"cost": "20",
@@ -623,7 +685,9 @@
 			"LV-T45_%22Swivel%22_Liquid_Fuel_Engine",
 			"BACC_%22Thumper%22_Solid_Fuel_Booster",
 			"FL-T200_Fuel_Tank"
-		]
+		],
+		"x": 457,
+		"y": 216
 	},
 	"Heavier_Rocketry": {
 		"cost": "160",
@@ -640,7 +704,9 @@
 		"parts": [
 			"RE-M3_%22Mainsail%22_Liquid_Engine",
 			"LFB_KR-1x2_%22Twin-Boar%22_Liquid_Fuel_Engine"
-		]
+		],
+		"x": 1066,
+		"y": 19
 	},
 	"Heavy_Aerodynamics": {
 		"cost": "300",
@@ -667,7 +733,9 @@
 			"Mk3_Cargo_Bay_CRG-50",
 			"Mk3_Cargo_Bay_CRG-25",
 			"Mk3_Cargo_Ramp"
-		]
+		],
+		"x": 1271,
+		"y": 447
 	},
 	"Heavy_Landing": {
 		"cost": "300",
@@ -680,7 +748,9 @@
 		"name": "Heavy Landing",
 		"parts": [
 			"LY-99_Large_Landing_Gear"
-		]
+		],
+		"x": 1271,
+		"y": 512
 	},
 	"Heavy_Rocketry": {
 		"cost": "90",
@@ -697,7 +767,9 @@
 			"RE-L10_%22Poodle%22_Liquid_Fuel_Engine",
 			"RE-I5_%22Skipper%22_Liquid_Fuel_Engine",
 			"S1_SRB-KD25k_%22Kickback%22_Solid_Fuel_Booster"
-		]
+		],
+		"x": 861,
+		"y": 19
 	},
 	"High-Performance_Fuel_Systems": {
 		"cost": "550",
@@ -710,7 +782,9 @@
 		"name": "High-Performance Fuel Systems",
 		"parts": [
 			"Kerbodyne_S3-14400_Tank"
-		]
+		],
+		"x": 1462,
+		"y": 184
 	},
 	"High-Power_Electrics": {
 		"cost": "300",
@@ -728,7 +802,9 @@
 			"Z-1k_Rechargeable_Battery_Bank",
 			"Fuel_Cell",
 			"Thermal_Control_System_(large)"
-		]
+		],
+		"x": 1271,
+		"y": 943
 	},
 	"High_Altitude_Flight": {
 		"cost": "300",
@@ -755,7 +831,9 @@
 			"Mk2_Cargo_Bay_CRG-08",
 			"MK2_Crew_Cabin",
 			"Mk2_Clamp-O-Tron"
-		]
+		],
+		"x": 1271,
+		"y": 376
 	},
 	"Hypersonic_Flight": {
 		"cost": "550",
@@ -774,7 +852,9 @@
 			"J-X4_%22Whiplash%22_Turbo_Ramjet_Engine",
 			"T-1_Toroidal_Aerospike_%22Dart%22_Liquid_Fuel_Engine",
 			"Engine_Pre-cooler"
-		]
+		],
+		"x": 1462,
+		"y": 376
 	},
 	"Ion_Propulsion": {
 		"cost": "550",
@@ -791,7 +871,9 @@
 			"PB-X150_Xenon_Container",
 			"PB-X750_Xenon_Container",
 			"PB-X50R_Xenon_Container"
-		]
+		],
+		"x": 1462,
+		"y": 748
 	},
 	"Landing": {
 		"cost": "90",
@@ -811,7 +893,9 @@
 			"Launch_Escape_System",
 			"Mk16-XL_Parachute",
 			"LY-10_Small_Landing_Gear"
-		]
+		],
+		"x": 861,
+		"y": 512
 	},
 	"Large_Probes": {
 		"cost": "1000",
@@ -825,7 +909,9 @@
 		"name": "Large Probes",
 		"parts": [
 			"RC-L01_Remote_Guidance_Unit"
-		]
+		],
+		"x": 1626,
+		"y": 807
 	},
 	"Large_Volume_Containment": {
 		"cost": "300",
@@ -845,7 +931,9 @@
 			"Kerbodyne_S3-3600_Tank",
 			"TR-38-D",
 			"Kerbodyne_ADTP-2-3"
-		]
+		],
+		"x": 1271,
+		"y": 184
 	},
 	"Meta-Materials": {
 		"cost": "550",
@@ -862,7 +950,9 @@
 			"TVR-300L_Stack_Tri-Adapter",
 			"Rockomax_HubMax_Multi-Point_Connector",
 			"Clamp-O-Tron_Docking_Port_Sr."
-		]
+		],
+		"x": 1462,
+		"y": 299
 	},
 	"Miniaturization": {
 		"cost": "90",
@@ -880,7 +970,9 @@
 			"FL-A10_Adapter",
 			"TR-2C_Stack_Separator",
 			"Clamp-O-Tron_Docking_Port_Jr."
-		]
+		],
+		"x": 861,
+		"y": 807
 	},
 	"Nuclear_Propulsion": {
 		"cost": "300",
@@ -894,7 +986,9 @@
 		"name": "Nuclear Propulsion",
 		"parts": [
 			"LV-N_%22Nerv%22_Atomic_Rocket_Motor"
-		]
+		],
+		"x": 1271,
+		"y": 103
 	},
 	"Precision_Engineering": {
 		"cost": "160",
@@ -916,7 +1010,9 @@
 			"Cubic_Octagonal_Strut",
 			"Octagonal_Strut",
 			"TR-2V_Stack_Decoupler"
-		]
+		],
+		"x": 1066,
+		"y": 807
 	},
 	"Precision_Propulsion": {
 		"cost": "160",
@@ -933,7 +1029,9 @@
 			"O-10_%22Puff%22_MonoPropellant_Fuel_Engine",
 			"Sepratron_I",
 			"ROUND-8_Toroidal_Fuel_Tank"
-		]
+		],
+		"x": 1066,
+		"y": 103
 	},
 	"Propulsion_Systems": {
 		"cost": "90",
@@ -951,7 +1049,9 @@
 			"48-7S_%22Spark%22_Liquid_Fuel_Engine",
 			"LV-1_%22Ant%22_Liquid_Fuel_Engine",
 			"Oscar-B_Fuel_Tank"
-		]
+		],
+		"x": 861,
+		"y": 103
 	},
 	"Science_Tech": {
 		"cost": "300",
@@ -969,7 +1069,9 @@
 		"parts": [
 			"Surface_Scanning_Module",
 			"M700_Survey_Scanner"
-		]
+		],
+		"x": 1271,
+		"y": 690
 	},
 	"Space_Exploration": {
 		"cost": "90",
@@ -987,7 +1089,9 @@
 			"PPD-10_Hitchhiker_Storage_Container",
 			"PresMat_Barometer",
 			"Pegasus_I_Mobility_Enhancer"
-		]
+		],
+		"x": 861,
+		"y": 690
 	},
 	"Specialized_Construction": {
 		"cost": "160",
@@ -1010,7 +1114,9 @@
 			"Clamp-O-Tron_Docking_Port",
 			"BZ-52_Radial_Attachment_Point",
 			"TVR-200_Stack_Bi-Coupler"
-		]
+		],
+		"x": 1066,
+		"y": 242
 	},
 	"Specialized_Control": {
 		"cost": "160",
@@ -1026,7 +1132,9 @@
 			"Advanced_Reaction_Wheel_Module,_Large",
 			"Vernor_Engine",
 			"Stratus-V_Cylindrified_Monopropellant_Tank"
-		]
+		],
+		"x": 1066,
+		"y": 572
 	},
 	"Specialized_Electrics": {
 		"cost": "550",
@@ -1042,7 +1150,9 @@
 		"parts": [
 			"Z-4K_Rechargeable_Battery_Bank",
 			"Fuel_Cell_Array"
-		]
+		],
+		"x": 1462,
+		"y": 943
 	},
 	"Stability": {
 		"cost": "18",
@@ -1062,7 +1172,9 @@
 			"Aerodynamic_Nose_Cone",
 			"AV-T1_Winglet",
 			"TT-38K_Radial_Decoupler"
-		]
+		],
+		"x": 415,
+		"y": 455
 	},
 	"Start": {
 		"cost": "0",
@@ -1081,7 +1193,9 @@
 			"Mystery_Goo%E2%84%A2_Containment_Unit",
 			"Modular_Girder_Segment",
 			"Mk16_Parachute"
-		]
+		],
+		"x": 17,
+		"y": 455
 	},
 	"Supersonic_Flight": {
 		"cost": "160",
@@ -1104,7 +1218,9 @@
 			"Mk2_Rocket_Fuel_Fuselage_Short",
 			"Mk2_Liquid_Fuel_Fuselage_Short",
 			"Mk2_Cargo_Bay_CRG-04"
-		]
+		],
+		"x": 1066,
+		"y": 376
 	},
 	"Survivability": {
 		"cost": "15",
@@ -1124,7 +1240,9 @@
 			"LT-05_Micro_Landing_Strut",
 			"Mk2-R_Radial-Mount_Parachute",
 			"Service_Bay_(1.25m)"
-		]
+		],
+		"x": 375,
+		"y": 679
 	},
 	"Unmanned_Tech": {
 		"cost": "300",
@@ -1142,7 +1260,9 @@
 		"parts": [
 			"Probodobodyne_QBE",
 			"Probodobodyne_OKTO2"
-		]
+		],
+		"x": 1271,
+		"y": 807
 	},
 	"Very_Heavy_Rocketry": {
 		"cost": "550",
@@ -1158,6 +1278,8 @@
 			"S3_KS-25_%22Vector%22_Liquid_Fuel_Engine",
 			"Kerbodyne_KR-2L%2B_%22Rhino%22_Liquid_Fuel_Engine",
 			"S3_KS-25x4_%22Mammoth%22_Liquid_Fuel_Engine"
-		]
+		],
+		"x": 1462,
+		"y": 19
 	}
 }

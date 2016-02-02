@@ -2,7 +2,6 @@
 <html>
 	<head>
 		<link rel='stylesheet' href='index.css'/>
-		<link rel='stylesheet' href='positions.css'/>
 		<script src='lib/angular.min.js'></script>
 		<script src='controller.js'></script>
 	</head>
@@ -15,7 +14,8 @@
 				<div id='treePanArea'>
 					<div id='tree'>
 						<img ng-repeat='(techId,tech) in techs' id='{{sanitize(techId)}}' ng-src='{{tech.icon}}'
-							ng-click='$parent.activeTech = techId' ng-class='{active: $parent.activeTech === techId}'></img>
+							ng-click='$parent.activeTech = techId' ng-class='{active: $parent.activeTech === techId}'
+							style='left: {{tech.x}}px; top: {{tech.y}}px;'></img>
 					</div>
 				</div>
 			</div>

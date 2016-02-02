@@ -67,6 +67,9 @@ def main(argv):
 		if len(tech['parts']) > 0:
 			data[techId] = tech
 
+	for id,suppldata in json.load(open('techdata.json','r')).items():
+		for k,v in suppldata.items():
+			data[id][k] = v
 
 	# dump to file
 	with open('techs.json', 'w') as fp:

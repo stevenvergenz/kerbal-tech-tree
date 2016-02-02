@@ -1,0 +1,246 @@
+{
+	"Actuators": {
+		"x": 1066,
+		"y": 299
+	},
+	"Adv._Fuel_Systems": {
+		"x": 1066,
+		"y": 184
+	},
+	"Advanced_Aerodynamics": {
+		"x": 1066,
+		"y": 447
+	},
+	"Advanced_Construction": {
+		"x": 861,
+		"y": 299
+	},
+	"Advanced_Electrics": {
+		"x": 1066,
+		"y": 943
+	},
+	"Advanced_Exploration": {
+		"x": 1066,
+		"y": 690
+	},
+	"Advanced_Flight_Control": {
+		"x": 861,
+		"y": 603
+	},
+	"Advanced_Landing": {
+		"x": 1066,
+		"y": 512
+	},
+	"Advanced_MetalWorks": {
+		"x": 1271,
+		"y": 242
+	},
+	"Advanced_Motors": {
+		"x": 1462,
+		"y": 588
+	},
+	"Advanced_Rocketry": {
+		"x": 639,
+		"y": 103
+	},
+	"Advanced_Science_Tech": {
+		"x": 1462,
+		"y": 690
+	},
+	"Advanced_Unmanned_Tech": {
+		"x": 1462,
+		"y": 807
+	},
+	"Aerodynamics": {
+		"x": 861,
+		"y": 411
+	},
+	"Aerospace_Tech": {
+		"x": 1626,
+		"y": 376
+	},
+	"Automation": {
+		"x": 1462,
+		"y": 878
+	},
+	"Aviation": {
+		"x": 639,
+		"y": 455
+	},
+	"Basic_Rocketry": {
+		"x": 199,
+		"y": 398
+	},
+	"Basic_Science": {
+		"x": 639,
+		"y": 807
+	},
+	"Command_Modules": {
+		"x": 1066,
+		"y": 634
+	},
+	"Composites": {
+		"x": 1271,
+		"y": 299
+	},
+	"Electrics": {
+		"x": 861,
+		"y": 943
+	},
+	"Electronics": {
+		"x": 1271,
+		"y": 878
+	},
+	"Engineering_101": {
+		"x": 199,
+		"y": 512
+	},
+	"Experimental_Aerodynamics": {
+		"x": 1462,
+		"y": 447
+	},
+	"Experimental_Electrics": {
+		"x": 1626,
+		"y": 943
+	},
+	"Experimental_Science": {
+		"x": 1626,
+		"y": 690
+	},
+	"Field_Science": {
+		"x": 1271,
+		"y": 588
+	},
+	"Flight_Control": {
+		"x": 639,
+		"y": 603
+	},
+	"Fuel_Systems": {
+		"x": 861,
+		"y": 184
+	},
+	"General_Construction": {
+		"x": 639,
+		"y": 299
+	},
+	"General_Rocketry": {
+		"x": 457,
+		"y": 216
+	},
+	"Heavier_Rocketry": {
+		"x": 1066,
+		"y": 19
+	},
+	"Heavy_Aerodynamics": {
+		"x": 1271,
+		"y": 447
+	},
+	"Heavy_Landing": {
+		"x": 1271,
+		"y": 512
+	},
+	"Heavy_Rocketry": {
+		"x": 861,
+		"y": 19
+	},
+	"High-Performance_Fuel_Systems": {
+		"x": 1462,
+		"y": 184
+	},
+	"High-Power_Electrics": {
+		"x": 1271,
+		"y": 943
+	},
+	"High_Altitude_Flight": {
+		"x": 1271,
+		"y": 376
+	},
+	"Hypersonic_Flight": {
+		"x": 1462,
+		"y": 376
+	},
+	"Ion_Propulsion": {
+		"x": 1462,
+		"y": 748
+	},
+	"Landing": {
+		"x": 861,
+		"y": 512
+	},
+	"Large_Probes": {
+		"x": 1626,
+		"y": 807
+	},
+	"Large_Volume_Containment": {
+		"x": 1271,
+		"y": 184
+	},
+	"Meta-Materials": {
+		"x": 1462,
+		"y": 299
+	},
+	"Miniaturization": {
+		"x": 861,
+		"y": 807
+	},
+	"Nuclear_Propulsion": {
+		"x": 1271,
+		"y": 103
+	},
+	"Precision_Engineering": {
+		"x": 1066,
+		"y": 807
+	},
+	"Precision_Propulsion": {
+		"x": 1066,
+		"y": 103
+	},
+	"Propulsion_Systems": {
+		"x": 861,
+		"y": 103
+	},
+	"Science_Tech": {
+		"x": 1271,
+		"y": 690
+	},
+	"Space_Exploration": {
+		"x": 861,
+		"y": 690
+	},
+	"Specialized_Construction": {
+		"x": 1066,
+		"y": 242
+	},
+	"Specialized_Control": {
+		"x": 1066,
+		"y": 572
+	},
+	"Specialized_Electrics": {
+		"x": 1462,
+		"y": 943
+	},
+	"Stability": {
+		"x": 415,
+		"y": 455
+	},
+	"Start": {
+		"x": 17,
+		"y": 455
+	},
+	"Supersonic_Flight": {
+		"x": 1066,
+		"y": 376
+	},
+	"Survivability": {
+		"x": 375,
+		"y": 679
+	},
+	"Unmanned_Tech": {
+		"x": 1271,
+		"y": 807
+	},
+	"Very_Heavy_Rocketry": {
+		"x": 1462,
+		"y": 19
+	}
+}
