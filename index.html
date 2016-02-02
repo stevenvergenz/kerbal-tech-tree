@@ -11,9 +11,13 @@
 			<span class='content'>Kerbal Space Program Technology</span>
 		</div>
 		<div id='splitter' ng-controller='KerbalTechController'>
-			<div id='tree' dgy-zoom-pan>
-				<img ng-repeat='(techId,tech) in techs' id='{{sanitize(techId)}}' ng-src='{{tech.icon}}'
-					ng-click='$parent.activeTech = techId' ng-class='{active: $parent.activeTech === techId}'></img>
+			<div id='treeContainer' ksp-zoom-pan>
+				<div id='treePanArea'>
+					<div id='tree'>
+						<img ng-repeat='(techId,tech) in techs' id='{{sanitize(techId)}}' ng-src='{{tech.icon}}'
+							ng-click='$parent.activeTech = techId' ng-class='{active: $parent.activeTech === techId}'></img>
+					</div>
+				</div>
 			</div>
 			<div id='info'>
 			</div>
