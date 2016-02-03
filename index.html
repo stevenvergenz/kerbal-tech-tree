@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html>
 	<head>
+		<title>Kerbal Tech</title>
+		<link rel='icon' href='./icons/icon.png'/>
 		<link rel='stylesheet' href='index.css'/>
 		<script src='lib/angular.min.js'></script>
 		<script src='controller.js'></script>
@@ -38,12 +40,11 @@
 				</div>
 			</div>
 			<div id='info'>
-				<h3 ng-show='!activeTech'>Nothing selected.</h3>
 				<div id='title'>
 					<img ng-src='{{techs[activeTech].icon}}'/>
 					<h3>{{techs[activeTech].name}}
 				</div>
-				<p>{{techs[activeTech].description}}</p>
+				<p id='description'>{{techs[activeTech].description}}</p>
 				<div id='partsList'>
 					<div class='tab'>Available Parts</div>
 					<ul>

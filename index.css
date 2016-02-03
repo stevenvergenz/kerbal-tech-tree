@@ -95,10 +95,6 @@ html, body
 	padding: 70px 10px;
 }
 
-#info h3 {
-	color: #c4822e;
-}
-
 #info #title {
 	display: flex;
 }
@@ -106,7 +102,8 @@ html, body
 #info #title h3 {
 	margin: 5px 10px;
 	font-size: 10pt;
-	font-weight: normal
+	font-weight: normal;
+	color: #c4822e;
 }
 
 #info #title img
@@ -116,7 +113,7 @@ html, body
 	box-shadow: 2px 2px 5px rgba(0,0,0,0.5);
 }
 
-#info p
+#info p#description
 {
 	font-size: 9pt;
 	height: 130px;
@@ -124,10 +121,54 @@ html, body
 
 #info #partsList .tab
 {
-	font-weight: bold;
-	border: outset #D2D2D2 2px;
+	width: 65%;
+	border: outset #e6e6e6 2px;
+	border-bottom: 0;
 	padding: 5px 8px;
-	display: inline-block;
 	border-top-left-radius: 5px;
 	border-top-right-radius: 5px;
+	background-image: linear-gradient(to bottom, #747880 0%, #707480 50%, #565c67 55%, #34373e 100%);
+}
+
+#info #partsList ul {
+	border: inset grey 2px;
+	border-radius: 5px;
+	background-color: #5c626e;
+	margin-top: 0;
+	padding: 5px 5px 5px 25px;
+	height: 210px;
+	overflow: auto;
+}
+
+#info #partsList li {
+	margin: 3px 0;
+}
+
+#info #partsList a {
+	color: white;
+	text-decoration: none;
+}
+
+#info #partsList a:hover {
+	text-decoration: underline;
+}
+
+#info p#researchButton
+{
+	text-align: center;
+	background: linear-gradient(to bottom, #2da6fe 0%, #29a7ff 50%, #0385e4 55%, #0f4a77) #3787CC;
+	padding: 10px;
+	margin: 10px;
+	border-radius: 3px;
+	border: outset grey 1px;
+	position: relative;
+}
+
+#info p#researchButton::before {
+	content: '\269b';
+	position: absolute;
+	left: 0;
+	top: 0;
+	font-size: 42px;
+	line-height: 37px;
 }
