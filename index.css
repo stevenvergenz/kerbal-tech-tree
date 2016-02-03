@@ -79,7 +79,7 @@ html, body
 	z-index: 1;
 }
 
-.treeNode img
+.treeNode .techicon
 {
 	position: absolute;
 	top: 0px; left: 0px;
@@ -122,7 +122,7 @@ html, body
 	fill: #345006;
 }
 
-#tree img.active
+#tree .techicon.active
 {
 	border: solid #005d00 2px;
 	margin: -6px;
@@ -135,7 +135,7 @@ html, body
 	width: 300px;
 	min-width: 300px;
 	color: white;
-
+	overflow: auto;
 	padding: 70px 10px;
 }
 
@@ -150,8 +150,10 @@ html, body
 	color: #c4822e;
 }
 
-#info #title img
+#info #title .techicon
 {
+	width: 60px;
+	height: 60px;
 	border-radius: 5px;
 	border: outset grey 1px;
 	box-shadow: 2px 2px 5px rgba(0,0,0,0.5);
@@ -224,7 +226,7 @@ html, body
 	align-items: center;
 }
 
-#info #requirements .requirement img
+#info #requirements .requirement .techicon
 {
 	width: 40px;
 	height: 40px;

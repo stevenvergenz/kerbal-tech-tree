@@ -4,6 +4,7 @@
 		<title>Kerbal Tech</title>
 		<link rel='icon' href='./icons/icon.png'/>
 		<link rel='stylesheet' href='index.css'/>
+		<link rel='stylesheet' href='sprites.css'/>
 		<script src='lib/angular.min.js'></script>
 		<script src='controller.js'></script>
 	</head>
@@ -17,8 +18,8 @@
 				<div id='treePanArea'>
 					<div id='tree'>
 						<div class='treeNode' ng-repeat='(techId,tech) in techs' style='left: {{tech.x}}px; top: {{tech.y}}px;'>
-							<img ng-src='{{tech.icon}}' ng-click='$parent.activeTech = techId' ng-class='{active: $parent.activeTech === techId}'>
-							</img>
+							<div class='techicon {{sanitize(techId)}}' ng-click='$parent.activeTech = techId' ng-class='{active: $parent.activeTech === techId}'>
+							</div>
 							<span>{{tech.parts.length < 10 ? tech.parts.length : '+'}}</span>
 						</div>
 						<svg>
@@ -44,7 +45,7 @@
 			</div>
 			<div id='info'>
 				<div id='title'>
-					<img ng-src='{{techs[activeTech].icon}}'/>
+					<div class='techicon {{activeTech}}'></div>
 					<h3>{{techs[activeTech].name}}
 				</div>
 				<p id='description'>{{techs[activeTech].description}}</p>
@@ -60,7 +61,7 @@
 				<div id='requirements' ng-hide='activeTech === "Start"'>
 					<p>Requires:</p>
 					<div class='requirement' ng-repeat-start='id in techs[activeTech].dependencies'>
-						<img ng-src='{{techs[id].icon}}'/>
+						<div class='techicon {{id}}'></div>
 						<span>{{techs[id].name}}</span>
 					</div>
 					<span ng-repeat-end ng-hide='$last' style='margin-left: 50px;'>or</span>

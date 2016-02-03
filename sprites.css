@@ -1,0 +1,76 @@
+.techicon {
+	background-image: url('icons/sprites.png');
+	background-size: 800%;
+	background-clip: content-box;
+}
+
+.techicon.Actuators             { background-position: 0%             0%; }
+.techicon.Very_Heavy_Rocketry   { background-position: calc(100% / 7) 0%; }
+.techicon.Unmanned_Tech         { background-position: calc(200% / 7) 0%; }
+.techicon.Survivability         { background-position: calc(300% / 7) 0%; }
+.techicon.Supersonic_Flight     { background-position: calc(400% / 7) 0%; }
+.techicon.Start                 { background-position: calc(500% / 7) 0%; }
+.techicon.Stability             { background-position: calc(600% / 7) 0%; }
+.techicon.Specialized_Electrics { background-position: 100%           0%; }
+
+.techicon.Space_Exploration     { background-position: 0%             calc(100% / 7); }
+.techicon.Science_Tech          { background-position: calc(100% / 7) calc(100% / 7); }
+.techicon.Propulsion_Systems    { background-position: calc(200% / 7) calc(100% / 7); }
+.techicon.Precision_Propulsion  { background-position: calc(300% / 7) calc(100% / 7); }
+.techicon.Precision_Engineering { background-position: calc(400% / 7) calc(100% / 7); }
+.techicon.Nuclear_Propulsion    { background-position: calc(500% / 7) calc(100% / 7); }
+.techicon.Nanolathing           { background-position: calc(600% / 7) calc(100% / 7); }
+.techicon.Miniaturization       { background-position: 100%           calc(100% / 7); }
+
+.techicon.Large_Probes          { background-position: 0%             calc(200% / 7); }
+.techicon.Landing               { background-position: calc(100% / 7) calc(200% / 7); }
+.techicon.Ion_Propulsion        { background-position: calc(200% / 7) calc(200% / 7); }
+.techicon.Hypersonic_Flight     { background-position: calc(300% / 7) calc(200% / 7); }
+.techicon.High-Power_Electrics  { background-position: calc(400% / 7) calc(200% / 7); }
+.techicon.High-Performance_Fuel_Systems { background-position: calc(500% / 7) calc(200% / 7); }
+.techicon.High_Altitude_Flight  { background-position: calc(600% / 7) calc(200% / 7); }
+.techicon.Heavy_Rocketry        { background-position: 100%           calc(200% / 7); }
+
+.techicon.Heavier_Rocketry      { background-position: 0%             calc(300% / 7); }
+.techicon.General_Rocketry      { background-position: calc(100% / 7) calc(300% / 7); }
+.techicon.General_Construction  { background-position: calc(200% / 7) calc(300% / 7); }
+.techicon.Fuel_Systems          { background-position: calc(300% / 7) calc(300% / 7); }
+.techicon.Flight_Control        { background-position: calc(400% / 7) calc(300% / 7); }
+.techicon.Field_Science         { background-position: calc(500% / 7) calc(300% / 7); }
+.techicon.Experimental_Science  { background-position: calc(600% / 7) calc(300% / 7); }
+.techicon.Experimental_Motors   { background-position: 100%           calc(300% / 7); }
+
+.techicon.Engineering_101        { background-position: 0%             calc(400% / 7); }
+.techicon.Electronics           { background-position: calc(100% / 7) calc(400% / 7); }
+.techicon.Electrics             { background-position: calc(200% / 7) calc(400% / 7); }
+.techicon.Composites            { background-position: calc(300% / 7) calc(400% / 7); }
+.techicon.Command_Modules       { background-position: calc(400% / 7) calc(400% / 7); }
+.techicon.Basic_Science         { background-position: calc(500% / 7) calc(400% / 7); }
+.techicon.Basic_Rocketry        { background-position: calc(600% / 7) calc(400% / 7); }
+.techicon.Aviation              { background-position: 100%           calc(400% / 7); }
+
+.techicon.Aerodynamics          { background-position: 0%             calc(500% / 7); }
+.techicon.Advanced_Unmanned_Tech{ background-position: calc(100% / 7) calc(500% / 7); }
+.techicon.Advanced_Science_Tech { background-position: calc(200% / 7) calc(500% / 7); }
+.techicon.Advanced_Rocketry     { background-position: calc(300% / 7) calc(500% / 7); }
+.techicon.Advanced_Motors       { background-position: calc(400% / 7) calc(500% / 7); }
+.techicon.Advanced_MetalWorks   { background-position: calc(500% / 7) calc(500% / 7); }
+.techicon.Advanced_Landing      { background-position: calc(600% / 7) calc(500% / 7); }
+.techicon.Advanced_Flight_Control { background-position: 100%           calc(500% / 7); }
+
+.techicon.Advanced_Construction { background-position: 0%             calc(600% / 7); }
+.techicon.Advanced_Aerodynamics { background-position: calc(100% / 7) calc(600% / 7); }
+.techicon.Adv_Fuel_Systems      { background-position: calc(200% / 7) calc(600% / 7); }
+.techicon.Specialized_Control   { background-position: calc(300% / 7) calc(600% / 7); }
+.techicon.Meta-Materials        { background-position: calc(400% / 7) calc(600% / 7); }
+.techicon.Heavy_Landing         { background-position: calc(500% / 7) calc(600% / 7); }
+.techicon.Experimental_Electrics{ background-position: calc(600% / 7) calc(600% / 7); }
+.techicon.Automation            { background-position: 100%           calc(600% / 7); }
+
+.techicon.Advanced_Exploration  { background-position: 0%             100%; }
+.techicon.Specialized_Construction { background-position: calc(100% / 7) 100%; }
+.techicon.Large_Volume_Containment { background-position: calc(200% / 7) 100%; }
+.techicon.Heavy_Aerodynamics    { background-position: calc(300% / 7) 100%; }
+.techicon.Experimental_Aerodynamics { background-position: calc(400% / 7) 100%; }
+.techicon.Aerospace_Tech        { background-position: calc(500% / 7) 100%; }
+.techicon.Advanced_Electrics    { background-position: calc(600% / 7) 100%; }
