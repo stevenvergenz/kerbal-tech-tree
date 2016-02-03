@@ -9,7 +9,8 @@
 	</head>
 	<body ng-app='KerbalTech'>
 		<div id='menubar'>
-			<span class='content'>Kerbal Space Program Technology</span>
+			<a class='button button1' href='https://kerbalspaceprogram.com' target='_blank'>Kerbal Space Program</a>
+			<a class='button button2' onclick='about()'>About</a>
 		</div>
 		<div id='splitter' ng-controller='KerbalTechController'>
 			<div id='treeContainer' ksp-zoom-pan>
@@ -18,7 +19,7 @@
 						<div class='treeNode' ng-repeat='(techId,tech) in techs' style='left: {{tech.x}}px; top: {{tech.y}}px;'>
 							<img ng-src='{{tech.icon}}' ng-click='$parent.activeTech = techId' ng-class='{active: $parent.activeTech === techId}'>
 							</img>
-							<span>{{tech.parts.length < 10 ? tech.parts.length : '9+'}}</span>
+							<span>{{tech.parts.length < 10 ? tech.parts.length : '+'}}</span>
 						</div>
 						<svg>
 							<defs>
@@ -56,6 +57,24 @@
 					</ul>
 				</div>
 				<p id='researchButton'>Research [{{techs[activeTech].cost}} Science]</p>
+				<div id='requirements' ng-hide='activeTech === "Start"'>
+					<p>Requires:</p>
+					<div class='requirement' ng-repeat-start='id in techs[activeTech].dependencies'>
+						<img ng-src='{{techs[id].icon}}'/>
+						<span>{{techs[id].name}}</span>
+					</div>
+					<span ng-repeat-end ng-hide='$last' style='margin-left: 50px;'>or</span>
+				</div>
+			</div>
+		</div>
+		<div id='modal' style='display: none; opacity: 0;'>
+			<div id='dialog'>
+				<img src='images/kerbals.png'/>
+				<p>This page was developed by <a href='https://github.com/stevenvergenz' target='_blank'>Steven Vergenz</a> detailing the technology tree of the game <a href='https://kerbalspaceprogram.com' target='_blank'>Kerbal Space Program</a> from Squad.</p>
+				<p>Data collected from the <a href='http://wiki.kerbalspaceprogram.com/wiki/Technology_tree' target='_blank'>KSP Wiki</a> and the game's data files.</p>
+				<p>Report any inaccuracies or bugs to <a href='https://github.com/stevenvergenz/kerbal-tech-tree/issues' target='_blank'>Github</a>. Please include your browser name and version, your operating system, and a screenshot if appropriate.</p>
+
+				<input type='button' value='Got it!' onclick='okay()'/>
 			</div>
 		</div>
 	</body>

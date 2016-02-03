@@ -18,8 +18,30 @@ html, body
 	min-height: 25px;
 	background-image: linear-gradient(to bottom, #878e9e, #878e9e 38%, #636c7b 45%, #636c7b);
 	border-bottom: solid #2c2f36 2px;
+}
 
-	display: flex;
+#menubar a.button
+{
+	padding: 5px 10px;
+	border-left: ridge #cecece 4px;
+	border-right: ridge #cecece 4px;
+
+	display: inline-block;
+	color: white;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+#menubar a.button:hover {
+	text-decoration: underline;
+}
+
+#menubar .button1 {
+	background-image: linear-gradient(to bottom, #2f89d6, #3595df 25%, #1d76c1 30%, #0d3b66);
+}
+
+#menubar .button2 {
+	background-image: linear-gradient(to bottom, #9c9101, #a99e01 25%, #867d01 30%, #464100);
 }
 
 #splitter
@@ -193,4 +215,50 @@ html, body
 	top: 0;
 	font-size: 42px;
 	line-height: 37px;
+}
+
+#info #requirements .requirement
+{
+	margin: 5px 0;
+	display: flex;
+	align-items: center;
+}
+
+#info #requirements .requirement img
+{
+	width: 40px;
+	height: 40px;
+	margin-right: 10px;
+	border-radius: 4px;
+	box-shadow: 2px 2px 3px rgba(0,0,0,0.7);
+}
+
+#modal
+{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(128,128,128,0.8);
+	z-index: 100;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#dialog
+{
+	width: 600px;
+	height: 400px;
+	background-color: whitesmoke;
+	border: solid black 1px;
+	padding: 15px;
+}
+
+#dialog img
+{
+	display: block;
+	margin: 0 auto;
 }

@@ -14,6 +14,7 @@ app.controller('KerbalTechController', ['$scope', '$http', function($scope,$http
 	$scope.sanitize = function(input){
 		return input.replace(/\./, '');
 	};
+
 }]);
 
 app.directive('kspZoomPan', function(){
@@ -75,3 +76,41 @@ app.directive('kspD', function(){
 		}
 	}
 });
+
+var modal = null;
+var animLength = 100;
+
+function about()
+{
+	if(!modal) modal = document.getElementById('modal');
+
+	modal.style.opacity = 0;
+	modal.style.display = '';
+	var starttime = Date.now();
+
+	var finished = setInterval(function(){
+		var curtime = Date.now();
+		if(curtime < starttime+animLength)
+			modal.style.opacity = (curtime-starttime)/animLength;
+		else {
+			modal.style.opacity = 1;
+			clearInterval(finished);
+		}
+	});
+}
+function okay()
+{
+	modal.style.opacity = 1;
+	var starttime = Date.now();
+
+	var finished = setInterval(function(){
+		var curtime = Date.now();
+		if(curtime < starttime+animLength)
+			modal.style.opacity = 1-((curtime-starttime)/animLength);
+		else {
+			modal.style.opacity = 0;
+			modal.style.display = 'none';
+			clearInterval(finished);
+		}
+	});
+}
