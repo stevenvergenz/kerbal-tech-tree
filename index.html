@@ -15,9 +15,11 @@
 			<div id='treeContainer' ksp-zoom-pan>
 				<div id='treePanArea'>
 					<div id='tree'>
-						<img ng-repeat='(techId,tech) in techs' id='{{sanitize(techId)}}' ng-src='{{tech.icon}}'
-							ng-click='$parent.activeTech = techId' ng-class='{active: $parent.activeTech === techId}'
-							style='left: {{tech.x}}px; top: {{tech.y}}px;'></img>
+						<div class='treeNode' ng-repeat='(techId,tech) in techs' style='left: {{tech.x}}px; top: {{tech.y}}px;'>
+							<img ng-src='{{tech.icon}}' ng-click='$parent.activeTech = techId' ng-class='{active: $parent.activeTech === techId}'>
+							</img>
+							<span>{{tech.parts.length < 10 ? tech.parts.length : '9+'}}</span>
+						</div>
 						<svg>
 							<defs>
 								<marker id='Triangle'

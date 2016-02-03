@@ -52,14 +52,36 @@ html, body
 	top: 500px;
 }
 
-#tree img
+.treeNode {
+	position: absolute;
+	z-index: 1;
+}
+
+.treeNode img
 {
 	position: absolute;
-	border-radius: 4px;
+	top: 0px; left: 0px;
 	width: 40px;
 	height: 40px;
-	z-index: 1;
+
+	border-radius: 4px;
 	box-shadow: 2px 2px 3px rgba(0,0,0,0.7);
+}
+
+.treeNode span
+{
+	position: absolute;
+	color: white;
+	background-color: #649C64;
+	width: 12px;
+	height: 12px;
+	border-radius: 50%;
+	border: solid white 1px;
+	font-size: 8pt;
+	text-align: center;
+	line-height: 14px;
+	left: -6px;
+	top: -6px;
 }
 
 #tree svg
