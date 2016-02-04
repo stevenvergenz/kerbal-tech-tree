@@ -96,7 +96,7 @@ function about()
 			modal.style.opacity = 1;
 			clearInterval(finished);
 		}
-	});
+	}, 0);
 }
 function okay()
 {
@@ -112,5 +112,5 @@ function okay()
 			modal.style.display = 'none';
 			clearInterval(finished);
 		}
-	});
+	}, 0);
 }
