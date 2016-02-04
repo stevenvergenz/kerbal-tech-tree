@@ -62,6 +62,28 @@ app.controller('KerbalTechController', ['$scope', '$http', function($scope,$http
 		else return false;
 	};
 
+	$scope.totalSpent = function()
+	{
+		var total = 0;
+		for(var i in $scope.techs){
+			if($scope.isPurchased($scope.techs[i].value)){
+				total += $scope.techs[i].cost;
+			}
+		}
+		return total;
+	}
+
+	$scope.facilityRequired = function()
+	{
+		var max = 0;
+		for(var i in $scope.techs){
+			var tech = $scope.techs[i];
+			if($scope.isPurchased(tech.value) && tech.cost > max){
+				max = tech.cost;
+			}
+		}
+		return max > 500 ? 3 : max > 100 ? 2 : 1;
+	}
 }]);
 
 app.directive('kspZoomPan', function(){

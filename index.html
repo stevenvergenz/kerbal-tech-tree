@@ -8,12 +8,14 @@
 		<script src='lib/angular.min.js'></script>
 		<script src='controller.js'></script>
 	</head>
-	<body ng-app='KerbalTech'>
+	<body ng-app='KerbalTech' ng-controller='KerbalTechController'>
 		<div id='menubar'>
 			<a class='button button1' href='https://kerbalspaceprogram.com' target='_blank'>Kerbal Space Program</a>
 			<a class='button button2' onclick='about()'>About</a>
+			<a class='button'>Total Science Spent: {{totalSpent()}}</a>
+			<a class='button'>R&amp;D Facility Level {{facilityRequired()}} Required</a>
 		</div>
-		<div id='splitter' ng-controller='KerbalTechController'>
+		<div id='splitter'>
 			<div id='treeContainer' ksp-zoom-pan>
 				<div id='treePanArea'>
 					<div id='tree'>

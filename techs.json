@@ -1,13 +1,13 @@
 {
 	"Actuators": {
-		"cost": "160",
+		"cost": 160,
 		"dependencies": [
 			"Advanced_Construction"
 		],
 		"dependents": [],
 		"description": "Perfecting the art of making things mobile, without the explicit use of explosives. Our engineers assure us, this is actually a good thing.",
 		"icon": "./icons/Actuators.png",
-		"level": "6",
+		"level": 6,
 		"name": "Actuators",
 		"parts": [
 			{
@@ -20,7 +20,7 @@
 		"y": 299
 	},
 	"Adv._Fuel_Systems": {
-		"cost": "160",
+		"cost": 160,
 		"dependencies": [
 			"Fuel_Systems",
 			"Propulsion_Systems"
@@ -31,7 +31,7 @@
 		],
 		"description": "Advanced Advancements towards a better understanding of how fuel flows through a rocket.",
 		"icon": "./icons/Adv._Fuel_Systems.png",
-		"level": "6",
+		"level": 6,
 		"name": "Adv. Fuel Systems",
 		"parts": [
 			{
@@ -64,7 +64,7 @@
 		"y": 184
 	},
 	"Advanced_Aerodynamics": {
-		"cost": "160",
+		"cost": 160,
 		"dependencies": [
 			"Aerodynamics"
 		],
@@ -73,7 +73,7 @@
 		],
 		"description": "Advances in fluid dynamics research technology have allowed development of a new set of streamlined aircraft components. And also these parts here.",
 		"icon": "./icons/Advanced_Aerodynamics.png",
-		"level": "6",
+		"level": 6,
 		"name": "Advanced Aerodynamics",
 		"parts": [
 			{
@@ -130,7 +130,7 @@
 		"y": 447
 	},
 	"Advanced_Construction": {
-		"cost": "90",
+		"cost": 90,
 		"dependencies": [
 			"General_Construction"
 		],
@@ -140,7 +140,7 @@
 		],
 		"description": "New advances in construction make it possible to build larger than ever before.",
 		"icon": "./icons/Advanced_Construction.png",
-		"level": "5",
+		"level": 5,
 		"name": "Advanced Construction",
 		"parts": [
 			{
@@ -177,7 +177,7 @@
 		"y": 299
 	},
 	"Advanced_Electrics": {
-		"cost": "160",
+		"cost": 160,
 		"dependencies": [
 			"Electrics"
 		],
@@ -187,7 +187,7 @@
 		],
 		"description": "We're fairly certain no one will ever need more than 64kw of power for anything.",
 		"icon": "./icons/Advanced_Electrics.png",
-		"level": "6",
+		"level": 6,
 		"name": "Advanced Electrics",
 		"parts": [
 			{
@@ -220,7 +220,7 @@
 		"y": 943
 	},
 	"Advanced_Exploration": {
-		"cost": "160",
+		"cost": 160,
 		"dependencies": [
 			"Space_Exploration"
 		],
@@ -230,7 +230,7 @@
 		],
 		"description": "They are Self-Deploying Astronaut Mobility Enhancement Devices, I don't know what you mean by \"ladders\".",
 		"icon": "./icons/Advanced_Exploration.png",
-		"level": "6",
+		"level": 6,
 		"name": "Advanced Exploration",
 		"parts": [
 			{
@@ -251,7 +251,7 @@
 		"y": 690
 	},
 	"Advanced_Flight_Control": {
-		"cost": "90",
+		"cost": 90,
 		"dependencies": [
 			"Flight_Control"
 		],
@@ -261,7 +261,7 @@
 		],
 		"description": "The latest advancements in keeping the correct end of the ship pointing towards where you want it to go.",
 		"icon": "./icons/Advanced_Flight_Control.png",
-		"level": "5",
+		"level": 5,
 		"name": "Advanced Flight Control",
 		"parts": [
 			{
@@ -290,7 +290,7 @@
 		"y": 603
 	},
 	"Advanced_Landing": {
-		"cost": "160",
+		"cost": 160,
 		"dependencies": [
 			"Landing"
 		],
@@ -300,7 +300,7 @@
 		],
 		"description": "Further advances in landing devices, allowing for more controlled descents and a much higher number of parts still attached to the ship after touchdown.",
 		"icon": "./icons/Advanced_Landing.png",
-		"level": "6",
+		"level": 6,
 		"name": "Advanced Landing",
 		"parts": [
 			{
@@ -329,7 +329,7 @@
 		"y": 512
 	},
 	"Advanced_MetalWorks": {
-		"cost": "300",
+		"cost": 300,
 		"dependencies": [
 			"Specialized_Construction"
 		],
@@ -338,7 +338,7 @@
 		],
 		"description": "These new construction techniques allow for craft designs that were considered insane not too long ago... and still are. But they're now possible!",
 		"icon": "./icons/Advanced_MetalWorks.png",
-		"level": "7",
+		"level": 7,
 		"name": "Advanced MetalWorks",
 		"parts": [
 			{
@@ -363,7 +363,7 @@
 		"y": 242
 	},
 	"Advanced_Motors": {
-		"cost": "550",
+		"cost": 550,
 		"dependencies": [
 			"Field_Science"
 		],
@@ -372,7 +372,7 @@
 		],
 		"description": "Wheel technology is just rolling along now. You could even say our engineers are on a roll with it.",
 		"icon": "./icons/Advanced_Motors.png",
-		"level": "8",
+		"level": 8,
 		"name": "Advanced Motors",
 		"parts": [
 			{
@@ -389,7 +389,7 @@
 		"y": 588
 	},
 	"Advanced_Rocketry": {
-		"cost": "45",
+		"cost": 45,
 		"dependencies": [
 			"General_Rocketry"
 		],
@@ -400,7 +400,7 @@
 		],
 		"description": "A new step ahead in rocket technology.",
 		"icon": "./icons/Advanced_Rocketry.png",
-		"level": "4",
+		"level": 4,
 		"name": "Advanced Rocketry",
 		"parts": [
 			{
@@ -421,7 +421,7 @@
 		"y": 103
 	},
 	"Advanced_Science_Tech": {
-		"cost": "550",
+		"cost": 550,
 		"dependencies": [
 			"Field_Science",
 			"Science_Tech"
@@ -431,7 +431,7 @@
 		],
 		"description": "Scientific advancements allow new advanced technologies for advancing Science.",
 		"icon": "./icons/Advanced_Science_Tech.png",
-		"level": "8",
+		"level": 8,
 		"name": "Advanced Science Tech",
 		"parts": [
 			{
@@ -468,7 +468,7 @@
 		"y": 690
 	},
 	"Advanced_Unmanned_Tech": {
-		"cost": "550",
+		"cost": 550,
 		"dependencies": [
 			"Unmanned_Tech"
 		],
@@ -477,7 +477,7 @@
 		],
 		"description": "Improvements in remote control technology for a new generation of probe designs.",
 		"icon": "./icons/Advanced_Unmanned_Tech.png",
-		"level": "8",
+		"level": 8,
 		"name": "Advanced Unmanned Tech",
 		"parts": [
 			{
@@ -490,7 +490,7 @@
 		"y": 807
 	},
 	"Aerodynamics": {
-		"cost": "90",
+		"cost": 90,
 		"dependencies": [
 			"Aviation",
 			"General_Construction"
@@ -501,7 +501,7 @@
 		],
 		"description": "New breakthroughs from C7 Aerospace allow for new types of craft to be built. We're looking into hiring some of their engineers as well.",
 		"icon": "./icons/Aerodynamics.png",
-		"level": "5",
+		"level": 5,
 		"name": "Aerodynamics",
 		"parts": [
 			{
@@ -558,14 +558,14 @@
 		"y": 411
 	},
 	"Aerospace_Tech": {
-		"cost": "1000",
+		"cost": 1000,
 		"dependencies": [
 			"Hypersonic_Flight"
 		],
 		"dependents": [],
 		"description": "The absolute cutting-edge in aerospace technology. Quite literally, some of those edges are very sharp. Handle with care.",
 		"icon": "./icons/Aerospace_Tech.png",
-		"level": "9",
+		"level": 9,
 		"name": "Aerospace Tech",
 		"parts": [
 			{
@@ -578,7 +578,7 @@
 		"y": 376
 	},
 	"Automation": {
-		"cost": "550",
+		"cost": 550,
 		"dependencies": [
 			"Electronics",
 			"Unmanned_Tech"
@@ -588,7 +588,7 @@
 		],
 		"description": "We can't think of anything that could go wrong with letting an experimental AI handle every aspect of a mission.",
 		"icon": "./icons/Automation.png",
-		"level": "8",
+		"level": 8,
 		"name": "Automation",
 		"parts": [
 			{
@@ -601,7 +601,7 @@
 		"y": 878
 	},
 	"Aviation": {
-		"cost": "45",
+		"cost": 45,
 		"dependencies": [
 			"Stability"
 		],
@@ -611,7 +611,7 @@
 		],
 		"description": "The art and science of keeping heavier-than-air objects aloft for extended periods of time.",
 		"icon": "./icons/Aviation.png",
-		"level": "4",
+		"level": 4,
 		"name": "Aviation",
 		"parts": [
 			{
@@ -676,7 +676,7 @@
 		"y": 455
 	},
 	"Basic_Rocketry": {
-		"cost": "5",
+		"cost": 5,
 		"dependencies": [
 			"Start"
 		],
@@ -686,7 +686,7 @@
 		],
 		"description": "How hard can Rocket Science be anyway?",
 		"icon": "./icons/Basic_Rocketry.png",
-		"level": "2",
+		"level": 2,
 		"name": "Basic Rocketry",
 		"parts": [
 			{
@@ -707,7 +707,7 @@
 		"y": 398
 	},
 	"Basic_Science": {
-		"cost": "45",
+		"cost": 45,
 		"dependencies": [
 			"Survivability"
 		],
@@ -718,7 +718,7 @@
 		],
 		"description": "We are going to ask the big questions of the Universe... eventually. For now, we're starting with these.",
 		"icon": "./icons/Basic_Science.png",
-		"level": "4",
+		"level": 4,
 		"name": "Basic Science",
 		"parts": [
 			{
@@ -751,7 +751,7 @@
 		"y": 807
 	},
 	"Command_Modules": {
-		"cost": "160",
+		"cost": 160,
 		"dependencies": [
 			"Advanced_Flight_Control",
 			"Space_Exploration"
@@ -759,7 +759,7 @@
 		"dependents": [],
 		"description": "Flight control technology has evolved far enough that we feel we can honestly say pilots are in command now.",
 		"icon": "./icons/Command_Modules.png",
-		"level": "6",
+		"level": 6,
 		"name": "Command Modules",
 		"parts": [
 			{
@@ -784,7 +784,7 @@
 		"y": 634
 	},
 	"Composites": {
-		"cost": "300",
+		"cost": 300,
 		"dependencies": [
 			"Specialized_Construction"
 		],
@@ -793,7 +793,7 @@
 		],
 		"description": "Lightweight and strong! And don't worry, we're sure the glue will dry off in no time.",
 		"icon": "./icons/Composites.png",
-		"level": "7",
+		"level": 7,
 		"name": "Composites",
 		"parts": [
 			{
@@ -830,7 +830,7 @@
 		"y": 299
 	},
 	"Electrics": {
-		"cost": "90",
+		"cost": 90,
 		"dependencies": [
 			"Basic_Science"
 		],
@@ -840,7 +840,7 @@
 		],
 		"description": "We did know about electricity before inventing space flight. The big breakthrough here was combining the two.",
 		"icon": "./icons/Electrics.png",
-		"level": "5",
+		"level": 5,
 		"name": "Electrics",
 		"parts": [
 			{
@@ -873,7 +873,7 @@
 		"y": 943
 	},
 	"Electronics": {
-		"cost": "300",
+		"cost": 300,
 		"dependencies": [
 			"Advanced_Electrics",
 			"Precision_Engineering"
@@ -883,7 +883,7 @@
 		],
 		"description": "Hopefully these won't become obsolete in the next couple of months.",
 		"icon": "./icons/Electronics.png",
-		"level": "7",
+		"level": 7,
 		"name": "Electronics",
 		"parts": [
 			{
@@ -900,7 +900,7 @@
 		"y": 878
 	},
 	"Engineering_101": {
-		"cost": "5",
+		"cost": 5,
 		"dependencies": [
 			"Start"
 		],
@@ -910,7 +910,7 @@
 		],
 		"description": "How hard can Aerospace Engineering be anyway?",
 		"icon": "./icons/Engineering_101.png",
-		"level": "2",
+		"level": 2,
 		"name": "Engineering 101",
 		"parts": [
 			{
@@ -931,14 +931,14 @@
 		"y": 512
 	},
 	"Experimental_Aerodynamics": {
-		"cost": "550",
+		"cost": 550,
 		"dependencies": [
 			"Heavy_Aerodynamics"
 		],
 		"dependents": [],
 		"description": "Winged flight technology is soaring to unprecedented heights. It could even be said that it's properly taking off now.",
 		"icon": "./icons/Experimental_Aerodynamics.png",
-		"level": "8",
+		"level": 8,
 		"name": "Experimental Aerodynamics",
 		"parts": [
 			{
@@ -1003,14 +1003,14 @@
 		"y": 447
 	},
 	"Experimental_Electrics": {
-		"cost": "1000",
+		"cost": 1000,
 		"dependencies": [
 			"Specialized_Electrics"
 		],
 		"dependents": [],
 		"description": "The very latest in electrical systems technology. Our engineers are buzzing with excitement over it. They also seem to glow in the dark now. Fascinating!",
 		"icon": "./icons/Experimental_Electrics.png",
-		"level": "9",
+		"level": 9,
 		"name": "Experimental Electrics",
 		"parts": [
 			{
@@ -1023,14 +1023,14 @@
 		"y": 943
 	},
 	"Experimental_Science": {
-		"cost": "1000",
+		"cost": 1000,
 		"dependencies": [
 			"Advanced_Science_Tech"
 		],
 		"dependents": [],
 		"description": "Explore novel fields of science that we didn't even know were there.",
 		"icon": "./icons/Experimental_Science.png",
-		"level": "9",
+		"level": 9,
 		"name": "Experimental Science",
 		"parts": [
 			{
@@ -1047,7 +1047,7 @@
 		"y": 690
 	},
 	"Field_Science": {
-		"cost": "300",
+		"cost": 300,
 		"dependencies": [
 			"Advanced_Exploration",
 			"Advanced_Landing"
@@ -1058,7 +1058,7 @@
 		],
 		"description": "Freedom to roam as far as curiosity will take you, or as long as the batteries last.",
 		"icon": "./icons/Field_Science.png",
-		"level": "7",
+		"level": 7,
 		"name": "Field Science",
 		"parts": [
 			{
@@ -1087,7 +1087,7 @@
 		"y": 588
 	},
 	"Flight_Control": {
-		"cost": "45",
+		"cost": 45,
 		"dependencies": [
 			"Stability",
 			"Survivability"
@@ -1098,7 +1098,7 @@
 		],
 		"description": "Tumbling out of control may be fun, but our engineers insist there's more to rocket science than that.",
 		"icon": "./icons/Flight_Control.png",
-		"level": "4",
+		"level": 4,
 		"name": "Flight Control",
 		"parts": [
 			{
@@ -1119,7 +1119,7 @@
 		"y": 603
 	},
 	"Fuel_Systems": {
-		"cost": "90",
+		"cost": 90,
 		"dependencies": [
 			"Advanced_Rocketry",
 			"General_Construction"
@@ -1129,7 +1129,7 @@
 		],
 		"description": "Advancements towards a better understanding of how fuel flows through a rocket.",
 		"icon": "./icons/Fuel_Systems.png",
-		"level": "5",
+		"level": 5,
 		"name": "Fuel Systems",
 		"parts": [
 			{
@@ -1158,7 +1158,7 @@
 		"y": 184
 	},
 	"General_Construction": {
-		"cost": "45",
+		"cost": 45,
 		"dependencies": [
 			"General_Rocketry",
 			"Stability"
@@ -1170,7 +1170,7 @@
 		],
 		"description": "New equipment to help out in keeping things stable, especially useful when the size of the spacecraft defies the current bounds of sanity.",
 		"icon": "./icons/General_Construction.png",
-		"level": "4",
+		"level": 4,
 		"name": "General Construction",
 		"parts": [
 			{
@@ -1203,7 +1203,7 @@
 		"y": 299
 	},
 	"General_Rocketry": {
-		"cost": "20",
+		"cost": 20,
 		"dependencies": [
 			"Basic_Rocketry"
 		],
@@ -1213,7 +1213,7 @@
 		],
 		"description": "More engines, more fuel, more ambitious ideas.",
 		"icon": "./icons/General_Rocketry.png",
-		"level": "3",
+		"level": 3,
 		"name": "General Rocketry",
 		"parts": [
 			{
@@ -1234,7 +1234,7 @@
 		"y": 216
 	},
 	"Heavier_Rocketry": {
-		"cost": "160",
+		"cost": 160,
 		"dependencies": [
 			"Heavy_Rocketry"
 		],
@@ -1244,7 +1244,7 @@
 		],
 		"description": "There may be an upper limit to how large a rocket can be built, but we're not there yet.",
 		"icon": "./icons/Heavier_Rocketry.png",
-		"level": "6",
+		"level": 6,
 		"name": "Heavier Rocketry",
 		"parts": [
 			{
@@ -1261,7 +1261,7 @@
 		"y": 19
 	},
 	"Heavy_Aerodynamics": {
-		"cost": "300",
+		"cost": 300,
 		"dependencies": [
 			"Advanced_Aerodynamics"
 		],
@@ -1270,7 +1270,7 @@
 		],
 		"description": "Advances in construction technology enabled new breakthroughs in aerospace materials.",
 		"icon": "./icons/Heavy_Aerodynamics.png",
-		"level": "7",
+		"level": 7,
 		"name": "Heavy Aerodynamics",
 		"parts": [
 			{
@@ -1331,14 +1331,14 @@
 		"y": 447
 	},
 	"Heavy_Landing": {
-		"cost": "300",
+		"cost": 300,
 		"dependencies": [
 			"Advanced_Landing"
 		],
 		"dependents": [],
 		"description": "A good landing is one where you walk away from it. A great landing is one where you get to use the aircraft again.",
 		"icon": "./icons/Heavy_Landing.png",
-		"level": "7",
+		"level": 7,
 		"name": "Heavy Landing",
 		"parts": [
 			{
@@ -1351,7 +1351,7 @@
 		"y": 512
 	},
 	"Heavy_Rocketry": {
-		"cost": "90",
+		"cost": 90,
 		"dependencies": [
 			"Advanced_Rocketry"
 		],
@@ -1360,7 +1360,7 @@
 		],
 		"description": "The next logical step for rocketry technology is to just go bigger.",
 		"icon": "./icons/Heavy_Rocketry.png",
-		"level": "5",
+		"level": 5,
 		"name": "Heavy Rocketry",
 		"parts": [
 			{
@@ -1381,14 +1381,14 @@
 		"y": 19
 	},
 	"High-Performance_Fuel_Systems": {
-		"cost": "550",
+		"cost": 550,
 		"dependencies": [
 			"Large_Volume_Containment"
 		],
 		"dependents": [],
 		"description": "Massive engines require massive fuel storage solutions.",
 		"icon": "./icons/High-Performance_Fuel_Systems.png",
-		"level": "8",
+		"level": 8,
 		"name": "High-Performance Fuel Systems",
 		"parts": [
 			{
@@ -1401,7 +1401,7 @@
 		"y": 184
 	},
 	"High-Power_Electrics": {
-		"cost": "300",
+		"cost": 300,
 		"dependencies": [
 			"Advanced_Electrics"
 		],
@@ -1410,7 +1410,7 @@
 		],
 		"description": "Maximize your energy production and storage potential by maximizing the size of the electrical components on your vessels.",
 		"icon": "./icons/High-Power_Electrics.png",
-		"level": "7",
+		"level": 7,
 		"name": "High-Power Electrics",
 		"parts": [
 			{
@@ -1435,7 +1435,7 @@
 		"y": 943
 	},
 	"High_Altitude_Flight": {
-		"cost": "300",
+		"cost": 300,
 		"dependencies": [
 			"Supersonic_Flight"
 		],
@@ -1444,7 +1444,7 @@
 		],
 		"description": "New breakthroughs in engine and intake development to enable flying through the upper reaches of the atmosphere.",
 		"icon": "./icons/High_Altitude_Flight.png",
-		"level": "7",
+		"level": 7,
 		"name": "High Altitude Flight",
 		"parts": [
 			{
@@ -1505,7 +1505,7 @@
 		"y": 376
 	},
 	"Hypersonic_Flight": {
-		"cost": "550",
+		"cost": 550,
 		"dependencies": [
 			"High_Altitude_Flight"
 		],
@@ -1514,7 +1514,7 @@
 		],
 		"description": "Push your aircraft to the upper limits of airspeed and sanity.",
 		"icon": "./icons/Hypersonic_Flight.png",
-		"level": "8",
+		"level": 8,
 		"name": "Hypersonic Flight",
 		"parts": [
 			{
@@ -1544,7 +1544,7 @@
 	},
 	"Ion_Propulsion": {
 		"allDepsRequired": true,
-		"cost": "550",
+		"cost": 550,
 		"dependencies": [
 			"Science_Tech",
 			"Unmanned_Tech"
@@ -1552,7 +1552,7 @@
 		"dependents": [],
 		"description": "Turns out, it's not science fiction.",
 		"icon": "./icons/Ion_Propulsion.png",
-		"level": "8",
+		"level": 8,
 		"name": "Ion Propulsion",
 		"parts": [
 			{
@@ -1577,7 +1577,7 @@
 		"y": 748
 	},
 	"Landing": {
-		"cost": "90",
+		"cost": 90,
 		"dependencies": [
 			"Aviation",
 			"Flight_Control"
@@ -1587,7 +1587,7 @@
 		],
 		"description": "Our Engineers are nothing if not optimistic.",
 		"icon": "./icons/Landing.png",
-		"level": "5",
+		"level": 5,
 		"name": "Landing",
 		"parts": [
 			{
@@ -1616,7 +1616,7 @@
 		"y": 512
 	},
 	"Large_Probes": {
-		"cost": "1000",
+		"cost": 1000,
 		"dependencies": [
 			"Advanced_Unmanned_Tech",
 			"Automation"
@@ -1624,7 +1624,7 @@
 		"dependents": [],
 		"description": "The rumours of probe-led world domination are greatly exaggerated.",
 		"icon": "./icons/Large_Probes.png",
-		"level": "9",
+		"level": 9,
 		"name": "Large Probes",
 		"parts": [
 			{
@@ -1637,7 +1637,7 @@
 		"y": 807
 	},
 	"Large_Volume_Containment": {
-		"cost": "300",
+		"cost": 300,
 		"dependencies": [
 			"Adv._Fuel_Systems",
 			"Specialized_Construction"
@@ -1648,7 +1648,7 @@
 		],
 		"description": "Maximize the payload capacity of your spacecraft by maximizing the size of your spacecraft.",
 		"icon": "./icons/Large_Volume_Containment.png",
-		"level": "7",
+		"level": 7,
 		"name": "Large Volume Containment",
 		"parts": [
 			{
@@ -1673,14 +1673,14 @@
 		"y": 184
 	},
 	"Meta-Materials": {
-		"cost": "550",
+		"cost": 550,
 		"dependencies": [
 			"Composites"
 		],
 		"dependents": [],
 		"description": "An advancement in spacecraft construction so revolutionary, you won't even mind that its naming was wildly inaccurate.",
 		"icon": "./icons/Meta-Materials.png",
-		"level": "8",
+		"level": 8,
 		"name": "Meta-Materials",
 		"parts": [
 			{
@@ -1709,7 +1709,7 @@
 		"y": 299
 	},
 	"Miniaturization": {
-		"cost": "90",
+		"cost": 90,
 		"dependencies": [
 			"Basic_Science"
 		],
@@ -1718,7 +1718,7 @@
 		],
 		"description": "These aren't your standard hobby miniature models. We've been assured they look good enough to actually fly.",
 		"icon": "./icons/Miniaturization.png",
-		"level": "5",
+		"level": 5,
 		"name": "Miniaturization",
 		"parts": [
 			{
@@ -1744,7 +1744,7 @@
 	},
 	"Nuclear_Propulsion": {
 		"allDepsRequired": true,
-		"cost": "300",
+		"cost": 300,
 		"dependencies": [
 			"Adv._Fuel_Systems",
 			"Heavier_Rocketry"
@@ -1752,7 +1752,7 @@
 		"dependents": [],
 		"description": "Nuclear engines don't burn fuel, they totally annihilate it. We just hope it doesn't begin any conflicts.",
 		"icon": "./icons/Nuclear_Propulsion.png",
-		"level": "7",
+		"level": 7,
 		"name": "Nuclear Propulsion",
 		"parts": [
 			{
@@ -1765,7 +1765,7 @@
 		"y": 103
 	},
 	"Precision_Engineering": {
-		"cost": "160",
+		"cost": 160,
 		"dependencies": [
 			"Electrics",
 			"Miniaturization"
@@ -1777,7 +1777,7 @@
 		],
 		"description": "Precise engineering techniques allow for construction of even smaller parts.",
 		"icon": "./icons/Precision_Engineering.png",
-		"level": "6",
+		"level": 6,
 		"name": "Precision Engineering",
 		"parts": [
 			{
@@ -1806,14 +1806,14 @@
 		"y": 807
 	},
 	"Precision_Propulsion": {
-		"cost": "160",
+		"cost": 160,
 		"dependencies": [
 			"Propulsion_Systems"
 		],
 		"dependents": [],
 		"description": "Any level of precision achieved in controlling the sustained explosion inside a rocket engine is nothing short of remarkable. It might be quite expensive, too.",
 		"icon": "./icons/Precision_Propulsion.png",
-		"level": "6",
+		"level": 6,
 		"name": "Precision Propulsion",
 		"parts": [
 			{
@@ -1842,7 +1842,7 @@
 		"y": 103
 	},
 	"Propulsion_Systems": {
-		"cost": "90",
+		"cost": 90,
 		"dependencies": [
 			"Advanced_Rocketry"
 		],
@@ -1852,7 +1852,7 @@
 		],
 		"description": "A positively different approach to existing trends in rocketry. These small, lightweight propulsion systems may not seem as exciting, but they might prove just as useful.",
 		"icon": "./icons/Propulsion_Systems.png",
-		"level": "5",
+		"level": 5,
 		"name": "Propulsion Systems",
 		"parts": [
 			{
@@ -1873,7 +1873,7 @@
 		"y": 103
 	},
 	"Science_Tech": {
-		"cost": "300",
+		"cost": 300,
 		"dependencies": [
 			"Advanced_Exploration",
 			"Precision_Engineering"
@@ -1884,7 +1884,7 @@
 		],
 		"description": "Scientific advancements allow new advanced technologies for advancing Science.",
 		"icon": "./icons/Science_Tech.png",
-		"level": "7",
+		"level": 7,
 		"name": "Science Tech",
 		"parts": [
 			{
@@ -1901,7 +1901,7 @@
 		"y": 690
 	},
 	"Space_Exploration": {
-		"cost": "90",
+		"cost": 90,
 		"dependencies": [
 			"Basic_Science"
 		],
@@ -1911,7 +1911,7 @@
 		],
 		"description": "To boldly go where no green man has gone before.",
 		"icon": "./icons/Space_Exploration.png",
-		"level": "5",
+		"level": 5,
 		"name": "Space Exploration",
 		"parts": [
 			{
@@ -1932,7 +1932,7 @@
 		"y": 690
 	},
 	"Specialized_Construction": {
-		"cost": "160",
+		"cost": 160,
 		"dependencies": [
 			"Advanced_Construction"
 		],
@@ -1943,7 +1943,7 @@
 		],
 		"description": "Specialized construction techniques provide new ways of attaching things together, and detaching things on purpose.",
 		"icon": "./icons/Specialized_Construction.png",
-		"level": "6",
+		"level": 6,
 		"name": "Specialized Construction",
 		"parts": [
 			{
@@ -1980,14 +1980,14 @@
 		"y": 242
 	},
 	"Specialized_Control": {
-		"cost": "160",
+		"cost": 160,
 		"dependencies": [
 			"Advanced_Flight_Control"
 		],
 		"dependents": [],
 		"description": "A new state-of-the-art in control technology.",
 		"icon": "./icons/Specialized_Control.png",
-		"level": "6",
+		"level": 6,
 		"name": "Specialized Control",
 		"parts": [
 			{
@@ -2012,7 +2012,7 @@
 		"y": 572
 	},
 	"Specialized_Electrics": {
-		"cost": "550",
+		"cost": 550,
 		"dependencies": [
 			"High-Power_Electrics"
 		],
@@ -2021,7 +2021,7 @@
 		],
 		"description": "Experience the warm glow of the latest in electrical technology. Figuratively, of course, and maybe also quite literally as well. Actually, try to avoid direct exposure.",
 		"icon": "./icons/Specialized_Electrics.png",
-		"level": "8",
+		"level": 8,
 		"name": "Specialized Electrics",
 		"parts": [
 			{
@@ -2038,7 +2038,7 @@
 		"y": 943
 	},
 	"Stability": {
-		"cost": "18",
+		"cost": 18,
 		"dependencies": [
 			"Basic_Rocketry",
 			"Engineering_101"
@@ -2050,7 +2050,7 @@
 		],
 		"description": "Reaching for the stars starts with keeping our spacecraft pointed generally in the right direction.",
 		"icon": "./icons/Stability.png",
-		"level": "3",
+		"level": 3,
 		"name": "Stability",
 		"parts": [
 			{
@@ -2071,7 +2071,7 @@
 		"y": 455
 	},
 	"Start": {
-		"cost": "0",
+		"cost": 0,
 		"dependencies": [],
 		"dependents": [
 			"Basic_Rocketry",
@@ -2079,7 +2079,7 @@
 		],
 		"description": "The technology we started out with.",
 		"icon": "./icons/Start.png",
-		"level": "1",
+		"level": 1,
 		"name": "Start",
 		"parts": [
 			{
@@ -2112,7 +2112,7 @@
 		"y": 455
 	},
 	"Supersonic_Flight": {
-		"cost": "160",
+		"cost": 160,
 		"dependencies": [
 			"Aerodynamics"
 		],
@@ -2121,7 +2121,7 @@
 		],
 		"description": "A new line of aircraft parts that allow for unprecedented maneuverability and speed.",
 		"icon": "./icons/Supersonic_Flight.png",
-		"level": "6",
+		"level": 6,
 		"name": "Supersonic Flight",
 		"parts": [
 			{
@@ -2166,7 +2166,7 @@
 		"y": 376
 	},
 	"Survivability": {
-		"cost": "15",
+		"cost": 15,
 		"dependencies": [
 			"Engineering_101"
 		],
@@ -2176,7 +2176,7 @@
 		],
 		"description": "The art and science of landing and walking away from it.",
 		"icon": "./icons/Survivability.png",
-		"level": "3",
+		"level": 3,
 		"name": "Survivability",
 		"parts": [
 			{
@@ -2205,7 +2205,7 @@
 		"y": 679
 	},
 	"Unmanned_Tech": {
-		"cost": "300",
+		"cost": 300,
 		"dependencies": [
 			"Precision_Engineering"
 		],
@@ -2216,7 +2216,7 @@
 		],
 		"description": "Warning: May contain traces of sentience.",
 		"icon": "./icons/Unmanned_Tech.png",
-		"level": "7",
+		"level": 7,
 		"name": "Unmanned Tech",
 		"parts": [
 			{
@@ -2233,7 +2233,7 @@
 		"y": 807
 	},
 	"Very_Heavy_Rocketry": {
-		"cost": "550",
+		"cost": 550,
 		"dependencies": [
 			"Heavier_Rocketry",
 			"Large_Volume_Containment"
@@ -2241,7 +2241,7 @@
 		"dependents": [],
 		"description": "While ever-larger rockets may not be the answer every time, for all other times, we've developed these.",
 		"icon": "./icons/Very_Heavy_Rocketry.png",
-		"level": "8",
+		"level": 8,
 		"name": "Very Heavy Rocketry",
 		"parts": [
 			{

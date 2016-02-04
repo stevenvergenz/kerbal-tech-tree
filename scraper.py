@@ -67,6 +67,9 @@ def main(argv):
 				# don't scrape parts list yet
 				tech[headers[i]] = parts
 
+			elif headers[i] in ['level', 'cost']:
+				tech[headers[i]] = int(col.text.strip())
+
 			else:
 				tech[headers[i]] = col.text.strip()
 
