@@ -22,21 +22,28 @@ app.directive('kspZoomPan', function(){
 		link: function($scope, elem, attrs)
 		{
 			elem = elem[0];
-			var zoom = 100;
+			var fieldCenter = [1700,1000];
 
-			elem.scrollLeft = 850;
-			elem.scrollTop = 500;
+			var zoom = 1;
+			var offset = [(fieldCenter[0]-elem.clientWidth)/2,0];
+
+			function update()
+			{
+				var diff = [fieldCenter[0]-elem.clientWidth/2, fieldCenter[1]-elem.clientHeight/2];
+				// transforms applied top to bottom
+				elem.children[0].style.transform = 
+					'translate('+-diff[0]+'px,'+-diff[1]+'px) '+
+					'scale('+zoom+') '+
+					'translate('+offset[0]+'px,'+offset[1]+'px) '+
+					'';
+			}
+			update();
 
 			elem.addEventListener('wheel', function(evt)
 			{
 				evt.preventDefault();
-
-				var center = [elem.scrollLeft+elem.clientWidth/2, elem.scrollTop+elem.clientHeight/2];
-				zoom = Math.max(40, Math.min(200, evt.deltaY > 0 ? zoom-5 : zoom+5));
-
-				elem.style.zoom = zoom + '%';
-				elem.scrollLeft = center[0] - elem.clientWidth/2;
-				elem.scrollTop = center[1] - elem.clientHeight/2;
+				zoom = Math.max(0.4, Math.min(2, evt.deltaY > 0 ? zoom-0.05 : zoom+0.05));
+				update();
 			});
 
 
@@ -55,8 +62,10 @@ app.directive('kspZoomPan', function(){
 
 			elem.addEventListener('mousemove', function(evt){
 				if(dragStart){
-					elem.scrollLeft -= (100/zoom)*(evt.clientX-dragStart.x);
-					elem.scrollTop -= (100/zoom)*(evt.clientY-dragStart.y);
+					offset[0] = Math.max(-1700, Math.min(1700, offset[0] + (evt.clientX - dragStart.x)/zoom));
+					offset[1] = Math.max(-1000, Math.min(1000, offset[1] + (evt.clientY - dragStart.y)/zoom));
+					update();
+
 					dragStart.x = evt.clientX;
 					dragStart.y = evt.clientY;
 				}

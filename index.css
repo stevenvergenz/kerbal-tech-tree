@@ -55,15 +55,16 @@ html, body
 #treeContainer
 {
 	flex-grow: 1;
-	overflow: auto;
+	overflow: hidden;
+	background-color: #0B111F;
 }
 
 #treePanArea
 {
 	background-image: url('images/grid.png');
 	background-attachment: local;
-	width: 3500px;
-	height: 3500px;
+	width: 3400px;
+	height: 2000px;
 	position: relative;
 }
 
