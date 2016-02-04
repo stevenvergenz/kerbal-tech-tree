@@ -18,25 +18,35 @@
 				<div id='treePanArea'>
 					<div id='tree'>
 						<div class='treeNode' ng-repeat='(techId,tech) in techs' style='left: {{tech.x}}px; top: {{tech.y}}px;'>
-							<div class='techicon {{sanitize(techId)}}' ng-click='$parent.activeTech = techId' ng-class='{active: $parent.activeTech === techId}'>
+							<div class='techicon {{sanitize(techId)}}' ng-click='$parent.activeTech = techId'
+								ng-class='{
+									active: $parent.activeTech === techId, 
+									disabled: (purchases[0] || purchases[1]) && !isPurchased(tech.value),
+									unavailable: (purchases[0] || purchases[1]) && !isPurchased(tech.value) && !isAvailable(tech)}'>
 							</div>
-							<span>{{tech.parts.length < 10 ? tech.parts.length : '+'}}</span>
+							<span ng-show='!(purchases[0] || purchases[1]) || isAvailable(tech)'>
+								{{tech.parts.length < 10 ? tech.parts.length : '+'}}</span>
 						</div>
 						<svg>
 							<defs>
-								<marker id='Triangle'
+								<marker id='Regular'
+									viewBox='0 0 10 10' refX='10' refY='5'
+									markerWidth='4' markerHeight='4' orient='auto'>
+									<path d='M 0 0 L 10 5 L 0 10 z'/>
+								</marker>
+								<marker id='Disabled'
 									viewBox='0 0 10 10' refX='10' refY='5'
 									markerWidth='4' markerHeight='4' orient='auto'>
 									<path d='M 0 0 L 10 5 L 0 10 z'/>
 								</marker>
 							</defs>
-							<g ng-repeat='(techId,tech) in techs'>
+							<g ng-repeat='(techId,tech) in techs' ng-class='{disabled: (purchases[0] || purchases[1]) && !isPurchased(tech.value)}'>
 								<path ng-repeat='next in tech.dependents' ng-if='techs[next]'
 									ksp-d='M {{tech.x+40}},{{tech.y+20}} 
 									C {{techs[next].x}},{{tech.y+20}}
 									  {{tech.x+40}},{{techs[next].y+20}}
 									  {{techs[next].x}},{{techs[next].y+20}}'
-									stroke-width='2' marker-end='url(#Triangle)'>
+									stroke-width='2' marker-end='url(#{{(purchases[0] || purchases[1]) && !isPurchased(tech.value) ? "Disabled" : "Regular"}})'>
 								</path>
 							</g>
 						</svg>
@@ -45,7 +55,9 @@
 			</div>
 			<div id='info'>
 				<div id='title'>
-					<div class='techicon {{activeTech}}'></div>
+					<div class='techicon {{activeTech}}' ng-class='{
+						disabled: !isPurchased(techs[activeTech].value)
+					}'></div>
 					<h3>{{techs[activeTech].name}}
 				</div>
 				<p id='description'>{{techs[activeTech].description}}</p>
@@ -57,14 +69,18 @@
 						</li>
 					</ul>
 				</div>
-				<p id='researchButton'>Research [{{techs[activeTech].cost}} Science]</p>
-				<div id='requirements' ng-hide='activeTech === "Start"'>
-					<p>Requires:</p>
-					<div class='requirement' ng-repeat-start='id in techs[activeTech].dependencies'>
-						<div class='techicon {{id}}'></div>
+				<p id='researchButton' ng-click='togglePurchase(techs[activeTech].value)'
+					ng-class='{disabled: !isAvailable(techs[activeTech])}'>
+					Research [{{techs[activeTech].cost}} Science]
+				</p>
+				<div id='requirements' ng-hide='techs[activeTech].dependencies.length === 0'>
+					<p ng-show='techs[activeTech].dependencies.length === 1'>Requires:</p>
+					<p ng-show='techs[activeTech].dependencies.length === 2 && !techs[activeTech].allDepsRequired'>Requires Any:</p>
+					<p ng-show='techs[activeTech].dependencies.length === 2 && techs[activeTech].allDepsRequired'>Requires All:</p>
+					<div class='requirement' ng-repeat='id in techs[activeTech].dependencies'>
+						<div class='techicon {{id}}'ng-class='{disabled: !isPurchased(techs[id].value)}'></div>
 						<span>{{techs[id].name}}</span>
 					</div>
-					<span ng-repeat-end ng-hide='$last' style='margin-left: 50px;'>or</span>
 				</div>
 			</div>
 		</div>

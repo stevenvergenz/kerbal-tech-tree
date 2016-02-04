@@ -114,14 +114,22 @@ html, body
 	height: 1000px;
 }
 
-#tree svg path {
+#tree svg g:not(.disabled) path {
 	stroke: #345006;
 	fill: none;
 }
+#tree svg g.disabled path {
+	stroke: #4c4c4c;
+	fill: none;
+}
 
-#tree svg marker path {
+#tree svg marker#Regular path {
 	fill: #345006;
 }
+#tree svg marker#Disabled path {
+	fill: #4c4c4c;
+}
+
 
 #tree .techicon.active
 {
@@ -148,7 +156,7 @@ html, body
 	margin: 5px 10px;
 	font-size: 10pt;
 	font-weight: normal;
-	color: #c4822e;
+	color: orange;
 }
 
 #info #title .techicon
@@ -209,6 +217,7 @@ html, body
 	border-radius: 3px;
 	border: outset grey 1px;
 	position: relative;
+	cursor: pointer;
 }
 
 #info p#researchButton::before {
@@ -220,11 +229,16 @@ html, body
 	line-height: 37px;
 }
 
+#info p#researchButton.disabled {
+	background: linear-gradient(to bottom, #909090 0%, #8F8F8F 50%, #6E6E6E 55%, #4B4B4B) #909090;
+}
+
 #info #requirements .requirement
 {
 	margin: 5px 0;
 	display: flex;
 	align-items: center;
+	color: orange;
 }
 
 #info #requirements .requirement .techicon

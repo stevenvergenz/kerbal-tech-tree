@@ -9,7 +9,7 @@
 }
 
 .techicon.unavailable {
-	opacity: 0.5;
+	opacity: 0.3;
 }
 
 .techicon.Actuators             { background-position: 0%             0%; }

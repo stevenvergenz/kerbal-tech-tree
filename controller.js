@@ -6,14 +6,57 @@ app.controller('KerbalTechController', ['$scope', '$http', function($scope,$http
 	window.$scope = $scope;
 	$scope.techs = {};
 	$scope.activeTech = 'Start';
-	$scope.purchased = parseInt(window.location.hash.slice(1), 16) || 0;
+	$scope.purchases = [
+		parseInt(window.location.hash.slice(-16,-8), 16) || 0,
+		parseInt(window.location.hash.slice(-8), 16) || 0
+	];
 
 	$http.get('techs.json').then(function(res){
 		$scope.techs = res.data;
+		for(var i in $scope.techs)
+			$scope.techs[i].value = [
+				parseInt($scope.techs[i].value.slice(-16,-8), 16) || 0,
+				parseInt($scope.techs[i].value.slice(-8), 16) || 0
+			];
+	});
+
+	$scope.$watchCollection('purchases', function(newval){
+		if(window.location.hash || newval[0] || newval[1]){
+			var part1 = ('0000000'+newval[0].toString(16)).slice(-8);
+			var part2 = ('0000000'+newval[1].toString(16)).slice(-8);
+			window.location.hash = '#'+part1+part2;
+		}
 	});
 
 	$scope.sanitize = function(input){
 		return input.replace(/\./, '');
+	};
+
+	$scope.isPurchased = function(val){
+		if(val){
+			return $scope.purchases[0] & val[0] || $scope.purchases[1] & val[1];
+		}
+		else return false;
+	};
+
+	$scope.togglePurchase = function(val){
+		$scope.purchases[0] = $scope.purchases[0] ^ val[0];
+		$scope.purchases[1] = $scope.purchases[1] ^ val[1];
+	};
+
+	$scope.isAvailable = function(tech)
+	{
+		if(tech){
+			var dep1met = tech.dependencies[0] && $scope.isPurchased($scope.techs[tech.dependencies[0]].value);
+			var dep2met = tech.dependencies[1] && $scope.isPurchased($scope.techs[tech.dependencies[1]].value);
+			return !$scope.isPurchased(tech.value) && (
+				tech.dependencies.length === 0
+				|| dep1met
+				|| dep2met
+				|| tech.allDepsRequired && dep1met && dep2met
+			);
+		}
+		else return false;
 	};
 
 }]);
