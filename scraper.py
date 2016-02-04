@@ -75,7 +75,10 @@ def main(argv):
 
 	for id,suppldata in json.load(open('techdata.json','r')).items():
 		for k,v in suppldata.items():
-			data[id][k] = v
+			if k == 'value':
+				data[id][k] = ord(v[0]) << 48 | ord(v[1]) << 32 | ord(v[2]) << 16 | ord(v[3])
+			else:
+				data[id][k] = v
 
 	# dump to file
 	with open('techs.json', 'w') as fp:

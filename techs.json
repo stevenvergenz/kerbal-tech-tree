@@ -15,6 +15,7 @@
 				"url": "http://wiki.kerbalspaceprogram.com/wiki/Advanced_Grabbing_Unit"
 			}
 		],
+		"value": 1,
 		"x": 1066,
 		"y": 299
 	},
@@ -58,6 +59,7 @@
 				"url": "http://wiki.kerbalspaceprogram.com/wiki/FL-R25_RCS_Fuel_Tank"
 			}
 		],
+		"value": 2,
 		"x": 1066,
 		"y": 184
 	},
@@ -123,6 +125,7 @@
 				"url": "http://wiki.kerbalspaceprogram.com/wiki/Small_Hardpoint"
 			}
 		],
+		"value": 4,
 		"x": 1066,
 		"y": 447
 	},
@@ -169,6 +172,7 @@
 				"url": "http://wiki.kerbalspaceprogram.com/wiki/TVR-1180C_Mk1_Stack_Tri-Coupler"
 			}
 		],
+		"value": 8,
 		"x": 861,
 		"y": 299
 	},
@@ -211,6 +215,7 @@
 				"url": "http://wiki.kerbalspaceprogram.com/wiki/Thermal_Control_System_(medium)"
 			}
 		],
+		"value": 16,
 		"x": 1066,
 		"y": 943
 	},
@@ -241,6 +246,7 @@
 				"url": "http://wiki.kerbalspaceprogram.com/wiki/Telus-LV_Bay_Mobility_Enhancer"
 			}
 		],
+		"value": 32,
 		"x": 1066,
 		"y": 690
 	},
@@ -279,6 +285,7 @@
 				"url": "http://wiki.kerbalspaceprogram.com/wiki/RV-105_RCS_Thruster_Block"
 			}
 		],
+		"value": 64,
 		"x": 861,
 		"y": 603
 	},
@@ -317,6 +324,7 @@
 				"url": "http://wiki.kerbalspaceprogram.com/wiki/LY-50_Medium_Landing_Gear"
 			}
 		],
+		"value": 128,
 		"x": 1066,
 		"y": 512
 	},
@@ -350,6 +358,7 @@
 				"url": "http://wiki.kerbalspaceprogram.com/wiki/TVR-2160C_Mk2_Stack_Quad-Coupler"
 			}
 		],
+		"value": 256,
 		"x": 1271,
 		"y": 242
 	},
@@ -375,6 +384,7 @@
 				"url": "http://wiki.kerbalspaceprogram.com/wiki/RoveMax_Model_XL3"
 			}
 		],
+		"value": 512,
 		"x": 1462,
 		"y": 588
 	},
@@ -406,6 +416,7 @@
 				"url": "http://wiki.kerbalspaceprogram.com/wiki/FL-T400_Fuel_Tank"
 			}
 		],
+		"value": 1024,
 		"x": 639,
 		"y": 103
 	},
@@ -452,6 +463,7 @@
 				"url": "http://wiki.kerbalspaceprogram.com/wiki/GRAVMAX_Negative_Gravioli_Detector"
 			}
 		],
+		"value": 2048,
 		"x": 1462,
 		"y": 690
 	},
@@ -473,6 +485,7 @@
 				"url": "http://wiki.kerbalspaceprogram.com/wiki/RC-001S_Remote_Guidance_Unit"
 			}
 		],
+		"value": 4096,
 		"x": 1462,
 		"y": 807
 	},
@@ -540,6 +553,7 @@
 				"url": "http://wiki.kerbalspaceprogram.com/wiki/Engine_Nacelle"
 			}
 		],
+		"value": 8192,
 		"x": 861,
 		"y": 411
 	},
@@ -559,6 +573,7 @@
 				"url": "http://wiki.kerbalspaceprogram.com/wiki/CR-7_R.A.P.I.E.R._Engine"
 			}
 		],
+		"value": 16384,
 		"x": 1626,
 		"y": 376
 	},
@@ -581,6 +596,7 @@
 				"url": "http://wiki.kerbalspaceprogram.com/wiki/MK2_Drone_Core"
 			}
 		],
+		"value": 32768,
 		"x": 1462,
 		"y": 878
 	},
@@ -655,6 +671,7 @@
 				"url": "http://wiki.kerbalspaceprogram.com/wiki/LY05_Steerable_Landing_Gear"
 			}
 		],
+		"value": 65536,
 		"x": 639,
 		"y": 455
 	},
@@ -685,6 +702,7 @@
 				"url": "http://wiki.kerbalspaceprogram.com/wiki/FL-T100_Fuel_Tank"
 			}
 		],
+		"value": 131072,
 		"x": 199,
 		"y": 398
 	},
@@ -728,6 +746,7 @@
 				"url": "http://wiki.kerbalspaceprogram.com/wiki/Comms_DTS-M1"
 			}
 		],
+		"value": 262144,
 		"x": 639,
 		"y": 807
 	},
@@ -760,6 +779,7 @@
 				"url": "http://wiki.kerbalspaceprogram.com/wiki/Service_Bay_(2.5m)"
 			}
 		],
+		"value": 524288,
 		"x": 1066,
 		"y": 634
 	},
@@ -805,6 +825,7 @@
 				"url": "http://wiki.kerbalspaceprogram.com/wiki/Inline_Clamp-O-Tron"
 			}
 		],
+		"value": 1048576,
 		"x": 1271,
 		"y": 299
 	},
@@ -847,6 +868,7 @@
 				"url": "http://wiki.kerbalspaceprogram.com/wiki/Illuminator_Mk2"
 			}
 		],
+		"value": 2097152,
 		"x": 861,
 		"y": 943
 	},
@@ -873,6 +895,7 @@
 				"url": "http://wiki.kerbalspaceprogram.com/wiki/Communotron_88-88"
 			}
 		],
+		"value": 4194304,
 		"x": 1271,
 		"y": 878
 	},
@@ -903,6 +926,7 @@
 				"url": "http://wiki.kerbalspaceprogram.com/wiki/TR-18A_Stack_Decoupler"
 			}
 		],
+		"value": 8388608,
 		"x": 199,
 		"y": 512
 	},
@@ -974,6 +998,7 @@
 				"url": "http://wiki.kerbalspaceprogram.com/wiki/Mk3_Cargo_Bay_CRG-100"
 			}
 		],
+		"value": 16777216,
 		"x": 1462,
 		"y": 447
 	},
@@ -993,6 +1018,7 @@
 				"url": "http://wiki.kerbalspaceprogram.com/wiki/PB-NUK_Radioisotope_Thermoelectric_Generator"
 			}
 		],
+		"value": 33554432,
 		"x": 1626,
 		"y": 943
 	},
@@ -1016,6 +1042,7 @@
 				"url": "http://wiki.kerbalspaceprogram.com/wiki/M4435_Narrow-Band_Scanner"
 			}
 		],
+		"value": 67108864,
 		"x": 1626,
 		"y": 690
 	},
@@ -1055,6 +1082,7 @@
 				"url": "http://wiki.kerbalspaceprogram.com/wiki/RoveMax_Model_S2"
 			}
 		],
+		"value": 134217728,
 		"x": 1271,
 		"y": 588
 	},
@@ -1086,6 +1114,7 @@
 				"url": "http://wiki.kerbalspaceprogram.com/wiki/Small_Inline_Reaction_Wheel"
 			}
 		],
+		"value": 268435456,
 		"x": 639,
 		"y": 603
 	},
@@ -1124,6 +1153,7 @@
 				"url": "http://wiki.kerbalspaceprogram.com/wiki/Rockomax_X200-8_Fuel_Tank"
 			}
 		],
+		"value": 536870912,
 		"x": 861,
 		"y": 184
 	},
@@ -1168,6 +1198,7 @@
 				"url": "http://wiki.kerbalspaceprogram.com/wiki/TT18-A_Launch_Stability_Enhancer"
 			}
 		],
+		"value": 1073741824,
 		"x": 639,
 		"y": 299
 	},
@@ -1198,6 +1229,7 @@
 				"url": "http://wiki.kerbalspaceprogram.com/wiki/FL-T200_Fuel_Tank"
 			}
 		],
+		"value": 2147483648,
 		"x": 457,
 		"y": 216
 	},
@@ -1224,6 +1256,7 @@
 				"url": "http://wiki.kerbalspaceprogram.com/wiki/LFB_KR-1x2_%22Twin-Boar%22_Liquid_Fuel_Engine"
 			}
 		],
+		"value": 4294967296,
 		"x": 1066,
 		"y": 19
 	},
@@ -1293,6 +1326,7 @@
 				"url": "http://wiki.kerbalspaceprogram.com/wiki/Mk3_Cargo_Ramp"
 			}
 		],
+		"value": 8589934592,
 		"x": 1271,
 		"y": 447
 	},
@@ -1312,6 +1346,7 @@
 				"url": "http://wiki.kerbalspaceprogram.com/wiki/LY-99_Large_Landing_Gear"
 			}
 		],
+		"value": 17179869184,
 		"x": 1271,
 		"y": 512
 	},
@@ -1341,6 +1376,7 @@
 				"url": "http://wiki.kerbalspaceprogram.com/wiki/S1_SRB-KD25k_%22Kickback%22_Solid_Fuel_Booster"
 			}
 		],
+		"value": 34359738368,
 		"x": 861,
 		"y": 19
 	},
@@ -1360,6 +1396,7 @@
 				"url": "http://wiki.kerbalspaceprogram.com/wiki/Kerbodyne_S3-14400_Tank"
 			}
 		],
+		"value": 68719476736,
 		"x": 1462,
 		"y": 184
 	},
@@ -1393,6 +1430,7 @@
 				"url": "http://wiki.kerbalspaceprogram.com/wiki/Thermal_Control_System_(large)"
 			}
 		],
+		"value": 137438953472,
 		"x": 1271,
 		"y": 943
 	},
@@ -1462,6 +1500,7 @@
 				"url": "http://wiki.kerbalspaceprogram.com/wiki/Mk2_Clamp-O-Tron"
 			}
 		],
+		"value": 274877906944,
 		"x": 1271,
 		"y": 376
 	},
@@ -1499,6 +1538,7 @@
 				"url": "http://wiki.kerbalspaceprogram.com/wiki/Engine_Pre-cooler"
 			}
 		],
+		"value": 549755813888,
 		"x": 1462,
 		"y": 376
 	},
@@ -1531,6 +1571,7 @@
 				"url": "http://wiki.kerbalspaceprogram.com/wiki/PB-X50R_Xenon_Container"
 			}
 		],
+		"value": 1099511627776,
 		"x": 1462,
 		"y": 748
 	},
@@ -1569,6 +1610,7 @@
 				"url": "http://wiki.kerbalspaceprogram.com/wiki/LY-10_Small_Landing_Gear"
 			}
 		],
+		"value": 2199023255552,
 		"x": 861,
 		"y": 512
 	},
@@ -1589,6 +1631,7 @@
 				"url": "http://wiki.kerbalspaceprogram.com/wiki/RC-L01_Remote_Guidance_Unit"
 			}
 		],
+		"value": 4398046511104,
 		"x": 1626,
 		"y": 807
 	},
@@ -1624,6 +1667,7 @@
 				"url": "http://wiki.kerbalspaceprogram.com/wiki/Kerbodyne_ADTP-2-3"
 			}
 		],
+		"value": 8796093022208,
 		"x": 1271,
 		"y": 184
 	},
@@ -1659,6 +1703,7 @@
 				"url": "http://wiki.kerbalspaceprogram.com/wiki/Clamp-O-Tron_Docking_Port_Sr."
 			}
 		],
+		"value": 17592186044416,
 		"x": 1462,
 		"y": 299
 	},
@@ -1692,6 +1737,7 @@
 				"url": "http://wiki.kerbalspaceprogram.com/wiki/Clamp-O-Tron_Docking_Port_Jr."
 			}
 		],
+		"value": 35184372088832,
 		"x": 861,
 		"y": 807
 	},
@@ -1712,6 +1758,7 @@
 				"url": "http://wiki.kerbalspaceprogram.com/wiki/LV-N_%22Nerv%22_Atomic_Rocket_Motor"
 			}
 		],
+		"value": 70368744177664,
 		"x": 1271,
 		"y": 103
 	},
@@ -1752,6 +1799,7 @@
 				"url": "http://wiki.kerbalspaceprogram.com/wiki/TR-2V_Stack_Decoupler"
 			}
 		],
+		"value": 140737488355328,
 		"x": 1066,
 		"y": 807
 	},
@@ -1787,6 +1835,7 @@
 				"url": "http://wiki.kerbalspaceprogram.com/wiki/ROUND-8_Toroidal_Fuel_Tank"
 			}
 		],
+		"value": 281474976710656,
 		"x": 1066,
 		"y": 103
 	},
@@ -1817,6 +1866,7 @@
 				"url": "http://wiki.kerbalspaceprogram.com/wiki/Oscar-B_Fuel_Tank"
 			}
 		],
+		"value": 562949953421312,
 		"x": 861,
 		"y": 103
 	},
@@ -1844,6 +1894,7 @@
 				"url": "http://wiki.kerbalspaceprogram.com/wiki/M700_Survey_Scanner"
 			}
 		],
+		"value": 1125899906842624,
 		"x": 1271,
 		"y": 690
 	},
@@ -1874,6 +1925,7 @@
 				"url": "http://wiki.kerbalspaceprogram.com/wiki/Pegasus_I_Mobility_Enhancer"
 			}
 		],
+		"value": 2251799813685248,
 		"x": 861,
 		"y": 690
 	},
@@ -1921,6 +1973,7 @@
 				"url": "http://wiki.kerbalspaceprogram.com/wiki/TVR-200_Stack_Bi-Coupler"
 			}
 		],
+		"value": 4503599627370496,
 		"x": 1066,
 		"y": 242
 	},
@@ -1952,6 +2005,7 @@
 				"url": "http://wiki.kerbalspaceprogram.com/wiki/Stratus-V_Cylindrified_Monopropellant_Tank"
 			}
 		],
+		"value": 9007199254740992,
 		"x": 1066,
 		"y": 572
 	},
@@ -1977,6 +2031,7 @@
 				"url": "http://wiki.kerbalspaceprogram.com/wiki/Fuel_Cell_Array"
 			}
 		],
+		"value": 18014398509481984,
 		"x": 1462,
 		"y": 943
 	},
@@ -2009,6 +2064,7 @@
 				"url": "http://wiki.kerbalspaceprogram.com/wiki/TT-38K_Radial_Decoupler"
 			}
 		],
+		"value": 36028797018963968,
 		"x": 415,
 		"y": 455
 	},
@@ -2049,6 +2105,7 @@
 				"url": "http://wiki.kerbalspaceprogram.com/wiki/Mk16_Parachute"
 			}
 		],
+		"value": 72057594037927936,
 		"x": 17,
 		"y": 455
 	},
@@ -2102,6 +2159,7 @@
 				"url": "http://wiki.kerbalspaceprogram.com/wiki/Mk2_Cargo_Bay_CRG-04"
 			}
 		],
+		"value": 144115188075855872,
 		"x": 1066,
 		"y": 376
 	},
@@ -2140,6 +2198,7 @@
 				"url": "http://wiki.kerbalspaceprogram.com/wiki/Service_Bay_(1.25m)"
 			}
 		],
+		"value": 288230376151711744,
 		"x": 375,
 		"y": 679
 	},
@@ -2167,6 +2226,7 @@
 				"url": "http://wiki.kerbalspaceprogram.com/wiki/Probodobodyne_OKTO2"
 			}
 		],
+		"value": 576460752303423488,
 		"x": 1271,
 		"y": 807
 	},
@@ -2195,6 +2255,7 @@
 				"url": "http://wiki.kerbalspaceprogram.com/wiki/S3_KS-25x4_%22Mammoth%22_Liquid_Fuel_Engine"
 			}
 		],
+		"value": 1152921504606846976,
 		"x": 1462,
 		"y": 19
 	}

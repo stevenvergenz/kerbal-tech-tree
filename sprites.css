@@ -4,6 +4,14 @@
 	background-clip: content-box;
 }
 
+.techicon.disabled {
+	background-image: url('icons/sprites_disabled.png');
+}
+
+.techicon.unavailable {
+	opacity: 0.5;
+}
+
 .techicon.Actuators             { background-position: 0%             0%; }
 .techicon.Very_Heavy_Rocketry   { background-position: calc(100% / 7) 0%; }
 .techicon.Unmanned_Tech         { background-position: calc(200% / 7) 0%; }

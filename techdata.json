@@ -1,306 +1,367 @@
 {
 	"Actuators": {
 		"description": "Perfecting the art of making things mobile, without the explicit use of explosives. Our engineers assure us, this is actually a good thing.",
+		"value": "\u0000\u0000\u0000\u0001",
 		"x": 1066,
 		"y": 299
 	},
 	"Adv._Fuel_Systems": {
 		"description": "Advanced Advancements towards a better understanding of how fuel flows through a rocket.",
+		"value": "\u0000\u0000\u0000\u0002",
 		"x": 1066,
 		"y": 184
 	},
 	"Advanced_Aerodynamics": {
 		"description": "Advances in fluid dynamics research technology have allowed development of a new set of streamlined aircraft components. And also these parts here.",
+		"value": "\u0000\u0000\u0000\u0004",
 		"x": 1066,
 		"y": 447
 	},
 	"Advanced_Construction": {
 		"description": "New advances in construction make it possible to build larger than ever before.",
+		"value": "\u0000\u0000\u0000\u0008",
 		"x": 861,
 		"y": 299
 	},
 	"Advanced_Electrics": {
 		"description": "We're fairly certain no one will ever need more than 64kw of power for anything.",
+		"value": "\u0000\u0000\u0000\u0010",
 		"x": 1066,
 		"y": 943
 	},
 	"Advanced_Exploration": {
 		"description": "They are Self-Deploying Astronaut Mobility Enhancement Devices, I don't know what you mean by \"ladders\".",
+		"value": "\u0000\u0000\u0000\u0020",
 		"x": 1066,
 		"y": 690
 	},
 	"Advanced_Flight_Control": {
 		"description": "The latest advancements in keeping the correct end of the ship pointing towards where you want it to go.",
+		"value": "\u0000\u0000\u0000\u0040",
 		"x": 861,
 		"y": 603
 	},
 	"Advanced_Landing": {
 		"description": "Further advances in landing devices, allowing for more controlled descents and a much higher number of parts still attached to the ship after touchdown.",
+		"value": "\u0000\u0000\u0000\u0080",
 		"x": 1066,
 		"y": 512
 	},
 	"Advanced_MetalWorks": {
 		"description": "These new construction techniques allow for craft designs that were considered insane not too long ago... and still are. But they're now possible!",
+		"value": "\u0000\u0000\u0000\u0100",
 		"x": 1271,
 		"y": 242
 	},
 	"Advanced_Motors": {
 		"description": "Wheel technology is just rolling along now. You could even say our engineers are on a roll with it.",
+		"value": "\u0000\u0000\u0000\u0200",
 		"x": 1462,
 		"y": 588
 	},
 	"Advanced_Rocketry": {
 		"description": "A new step ahead in rocket technology.",
+		"value": "\u0000\u0000\u0000\u0400",
 		"x": 639,
 		"y": 103
 	},
 	"Advanced_Science_Tech": {
 		"description": "Scientific advancements allow new advanced technologies for advancing Science.",
+		"value": "\u0000\u0000\u0000\u0800",
 		"x": 1462,
 		"y": 690
 	},
 	"Advanced_Unmanned_Tech": {
 		"description": "Improvements in remote control technology for a new generation of probe designs.",
+		"value": "\u0000\u0000\u0000\u1000",
 		"x": 1462,
 		"y": 807
 	},
 	"Aerodynamics": {
 		"description": "New breakthroughs from C7 Aerospace allow for new types of craft to be built. We're looking into hiring some of their engineers as well.",
+		"value": "\u0000\u0000\u0000\u2000",
 		"x": 861,
 		"y": 411
 	},
 	"Aerospace_Tech": {
 		"description": "The absolute cutting-edge in aerospace technology. Quite literally, some of those edges are very sharp. Handle with care.",
+		"value": "\u0000\u0000\u0000\u4000",
 		"x": 1626,
 		"y": 376
 	},
 	"Automation": {
 		"description": "We can't think of anything that could go wrong with letting an experimental AI handle every aspect of a mission.",
+		"value": "\u0000\u0000\u0000\u8000",
 		"x": 1462,
 		"y": 878
 	},
 	"Aviation": {
 		"description": "The art and science of keeping heavier-than-air objects aloft for extended periods of time.",
+		"value": "\u0000\u0000\u0001\u0000",
 		"x": 639,
 		"y": 455
 	},
 	"Basic_Rocketry": {
 		"description": "How hard can Rocket Science be anyway?",
+		"value": "\u0000\u0000\u0002\u0000",
 		"x": 199,
 		"y": 398
 	},
 	"Basic_Science": {
 		"description": "We are going to ask the big questions of the Universe... eventually. For now, we're starting with these.",
+		"value": "\u0000\u0000\u0004\u0000",
 		"x": 639,
 		"y": 807
 	},
 	"Command_Modules": {
 		"description": "Flight control technology has evolved far enough that we feel we can honestly say pilots are in command now.",
+		"value": "\u0000\u0000\u0008\u0000",
 		"x": 1066,
 		"y": 634
 	},
 	"Composites": {
 		"description": "Lightweight and strong! And don't worry, we're sure the glue will dry off in no time.",
+		"value": "\u0000\u0000\u0010\u0000",
 		"x": 1271,
 		"y": 299
 	},
 	"Electrics": {
 		"description": "We did know about electricity before inventing space flight. The big breakthrough here was combining the two.",
+		"value": "\u0000\u0000\u0020\u0000",
 		"x": 861,
 		"y": 943
 	},
 	"Electronics": {
 		"description": "Hopefully these won't become obsolete in the next couple of months.",
+		"value": "\u0000\u0000\u0040\u0000",
 		"x": 1271,
 		"y": 878
 	},
 	"Engineering_101": {
 		"description": "How hard can Aerospace Engineering be anyway?",
+		"value": "\u0000\u0000\u0080\u0000",
 		"x": 199,
 		"y": 512
 	},
 	"Experimental_Aerodynamics": {
 		"description": "Winged flight technology is soaring to unprecedented heights. It could even be said that it's properly taking off now.",
+		"value": "\u0000\u0000\u0100\u0000",
 		"x": 1462,
 		"y": 447
 	},
 	"Experimental_Electrics": {
 		"description": "The very latest in electrical systems technology. Our engineers are buzzing with excitement over it. They also seem to glow in the dark now. Fascinating!",
+		"value": "\u0000\u0000\u0200\u0000",
 		"x": 1626,
 		"y": 943
 	},
 	"Experimental_Science": {
 		"description": "Explore novel fields of science that we didn't even know were there.",
+		"value": "\u0000\u0000\u0400\u0000",
 		"x": 1626,
 		"y": 690
 	},
 	"Field_Science": {
 		"description": "Freedom to roam as far as curiosity will take you, or as long as the batteries last.",
+		"value": "\u0000\u0000\u0800\u0000",
 		"x": 1271,
 		"y": 588
 	},
 	"Flight_Control": {
 		"description": "Tumbling out of control may be fun, but our engineers insist there's more to rocket science than that.",
+		"value": "\u0000\u0000\u1000\u0000",
 		"x": 639,
 		"y": 603
 	},
 	"Fuel_Systems": {
 		"description": "Advancements towards a better understanding of how fuel flows through a rocket.",
+		"value": "\u0000\u0000\u2000\u0000",
 		"x": 861,
 		"y": 184
 	},
 	"General_Construction": {
 		"description": "New equipment to help out in keeping things stable, especially useful when the size of the spacecraft defies the current bounds of sanity.",
+		"value": "\u0000\u0000\u4000\u0000",
 		"x": 639,
 		"y": 299
 	},
 	"General_Rocketry": {
 		"description": "More engines, more fuel, more ambitious ideas.",
+		"value": "\u0000\u0000\u8000\u0000",
 		"x": 457,
 		"y": 216
 	},
 	"Heavier_Rocketry": {
 		"description": "There may be an upper limit to how large a rocket can be built, but we're not there yet.",
+		"value": "\u0000\u0001\u0000\u0000",
 		"x": 1066,
 		"y": 19
 	},
 	"Heavy_Aerodynamics": {
 		"description": "Advances in construction technology enabled new breakthroughs in aerospace materials.",
+		"value": "\u0000\u0002\u0000\u0000",
 		"x": 1271,
 		"y": 447
 	},
 	"Heavy_Landing": {
 		"description": "A good landing is one where you walk away from it. A great landing is one where you get to use the aircraft again.",
+		"value": "\u0000\u0004\u0000\u0000",
 		"x": 1271,
 		"y": 512
 	},
 	"Heavy_Rocketry": {
 		"description": "The next logical step for rocketry technology is to just go bigger.",
+		"value": "\u0000\u0008\u0000\u0000",
 		"x": 861,
 		"y": 19
 	},
 	"High-Performance_Fuel_Systems": {
 		"description": "Massive engines require massive fuel storage solutions.",
+		"value": "\u0000\u0010\u0000\u0000",
 		"x": 1462,
 		"y": 184
 	},
 	"High-Power_Electrics": {
 		"description": "Maximize your energy production and storage potential by maximizing the size of the electrical components on your vessels.",
+		"value": "\u0000\u0020\u0000\u0000",
 		"x": 1271,
 		"y": 943
 	},
 	"High_Altitude_Flight": {
 		"description": "New breakthroughs in engine and intake development to enable flying through the upper reaches of the atmosphere.",
+		"value": "\u0000\u0040\u0000\u0000",
 		"x": 1271,
 		"y": 376
 	},
 	"Hypersonic_Flight": {
 		"description": "Push your aircraft to the upper limits of airspeed and sanity.",
+		"value": "\u0000\u0080\u0000\u0000",
 		"x": 1462,
 		"y": 376
 	},
 	"Ion_Propulsion": {
 		"description": "Turns out, it's not science fiction.",
+		"value": "\u0000\u0100\u0000\u0000",
 		"x": 1462,
 		"y": 748
 	},
 	"Landing": {
 		"description": "Our Engineers are nothing if not optimistic.",
+		"value": "\u0000\u0200\u0000\u0000",
 		"x": 861,
 		"y": 512
 	},
 	"Large_Probes": {
 		"description": "The rumours of probe-led world domination are greatly exaggerated.",
+		"value": "\u0000\u0400\u0000\u0000",
 		"x": 1626,
 		"y": 807
 	},
 	"Large_Volume_Containment": {
 		"description": "Maximize the payload capacity of your spacecraft by maximizing the size of your spacecraft.",
+		"value": "\u0000\u0800\u0000\u0000",
 		"x": 1271,
 		"y": 184
 	},
 	"Meta-Materials": {
 		"description": "An advancement in spacecraft construction so revolutionary, you won't even mind that its naming was wildly inaccurate.",
+		"value": "\u0000\u1000\u0000\u0000",
 		"x": 1462,
 		"y": 299
 	},
 	"Miniaturization": {
 		"description": "These aren't your standard hobby miniature models. We've been assured they look good enough to actually fly.",
+		"value": "\u0000\u2000\u0000\u0000",
 		"x": 861,
 		"y": 807
 	},
 	"Nuclear_Propulsion": {
 		"description": "Nuclear engines don't burn fuel, they totally annihilate it. We just hope it doesn't begin any conflicts.",
+		"value": "\u0000\u4000\u0000\u0000",
 		"x": 1271,
 		"y": 103
 	},
 	"Precision_Engineering": {
 		"description": "Precise engineering techniques allow for construction of even smaller parts.",
+		"value": "\u0000\u8000\u0000\u0000",
 		"x": 1066,
 		"y": 807
 	},
 	"Precision_Propulsion": {
 		"description": "Any level of precision achieved in controlling the sustained explosion inside a rocket engine is nothing short of remarkable. It might be quite expensive, too.",
+		"value": "\u0001\u0000\u0000\u0000",
 		"x": 1066,
 		"y": 103
 	},
 	"Propulsion_Systems": {
 		"description": "A positively different approach to existing trends in rocketry. These small, lightweight propulsion systems may not seem as exciting, but they might prove just as useful.",
+		"value": "\u0002\u0000\u0000\u0000",
 		"x": 861,
 		"y": 103
 	},
 	"Science_Tech": {
 		"description": "Scientific advancements allow new advanced technologies for advancing Science.",
+		"value": "\u0004\u0000\u0000\u0000",
 		"x": 1271,
 		"y": 690
 	},
 	"Space_Exploration": {
 		"description": "To boldly go where no green man has gone before.",
+		"value": "\u0008\u0000\u0000\u0000",
 		"x": 861,
 		"y": 690
 	},
 	"Specialized_Construction": {
 		"description": "Specialized construction techniques provide new ways of attaching things together, and detaching things on purpose.",
+		"value": "\u0010\u0000\u0000\u0000",
 		"x": 1066,
 		"y": 242
 	},
 	"Specialized_Control": {
 		"description": "A new state-of-the-art in control technology.",
+		"value": "\u0020\u0000\u0000\u0000",
 		"x": 1066,
 		"y": 572
 	},
 	"Specialized_Electrics": {
 		"description": "Experience the warm glow of the latest in electrical technology. Figuratively, of course, and maybe also quite literally as well. Actually, try to avoid direct exposure.",
+		"value": "\u0040\u0000\u0000\u0000",
 		"x": 1462,
 		"y": 943
 	},
 	"Stability": {
 		"description": "Reaching for the stars starts with keeping our spacecraft pointed generally in the right direction.",
+		"value": "\u0080\u0000\u0000\u0000",
 		"x": 415,
 		"y": 455
 	},
 	"Start": {
 		"description": "The technology we started out with.",
+		"value": "\u0100\u0000\u0000\u0000",
 		"x": 17,
 		"y": 455
 	},
 	"Supersonic_Flight": {
 		"description": "A new line of aircraft parts that allow for unprecedented maneuverability and speed.",
+		"value": "\u0200\u0000\u0000\u0000",
 		"x": 1066,
 		"y": 376
 	},
 	"Survivability": {
 		"description": "The art and science of landing and walking away from it.",
+		"value": "\u0400\u0000\u0000\u0000",
 		"x": 375,
 		"y": 679
 	},
 	"Unmanned_Tech": {
 		"description": "Warning: May contain traces of sentience.",
+		"value": "\u0800\u0000\u0000\u0000",
 		"x": 1271,
 		"y": 807
 	},
 	"Very_Heavy_Rocketry": {
 		"description": "While ever-larger rockets may not be the answer every time, for all other times, we've developed these.",
+		"value": "\u1000\u0000\u0000\u0000",
 		"x": 1462,
 		"y": 19
 	}

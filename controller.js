@@ -6,6 +6,7 @@ app.controller('KerbalTechController', ['$scope', '$http', function($scope,$http
 	window.$scope = $scope;
 	$scope.techs = {};
 	$scope.activeTech = 'Start';
+	$scope.purchased = parseInt(window.location.hash.slice(1), 16) || 0;
 
 	$http.get('techs.json').then(function(res){
 		$scope.techs = res.data;
