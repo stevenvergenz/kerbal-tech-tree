@@ -125,9 +125,11 @@ html, body
 
 #tree svg marker#Regular path {
 	fill: #345006;
+	stroke: none;
 }
 #tree svg marker#Disabled path {
 	fill: #4c4c4c;
+	stroke: none;
 }
 
 

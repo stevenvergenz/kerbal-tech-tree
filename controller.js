@@ -22,9 +22,11 @@ app.controller('KerbalTechController', ['$scope', '$http', function($scope,$http
 
 	$scope.$watchCollection('purchases', function(newval){
 		if(window.location.hash || newval[0] || newval[1]){
-			var part1 = ('0000000'+newval[0].toString(16)).slice(-8);
-			var part2 = ('0000000'+newval[1].toString(16)).slice(-8);
-			window.location.hash = '#'+part1+part2;
+			var part1 = ('00000000'+(newval[0]>>16).toString(16)).slice(-4);
+			var part2 = ('00000000'+(newval[0]&255).toString(16)).slice(-4);
+			var part3 = ('00000000'+(newval[1]>>16).toString(16)).slice(-4);
+			var part4 = ('00000000'+(newval[1]&255).toString(16)).slice(-4);
+			window.location.hash = '#'+part1+part2+part3+part4;
 		}
 	});
 
