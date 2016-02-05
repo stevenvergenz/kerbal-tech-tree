@@ -1,4 +1,5 @@
-			
+'use strict';
+
 var app = angular.module('KerbalTech', []);
 
 app.controller('KerbalTechController', ['$scope', '$http', function($scope,$http)
@@ -108,39 +109,69 @@ app.directive('kspZoomPan', function(){
 			}
 			update();
 
-			elem.addEventListener('wheel', function(evt)
+
+			var dragInit = null;
+
+			function dragStart(evt)
 			{
-				evt.preventDefault();
-				zoom = Math.max(0.4, Math.min(2, evt.deltaY > 0 ? zoom-0.05 : zoom+0.05));
-				update();
-			});
-
-
-			var dragStart = null;
-			elem.addEventListener('mousedown', function(evt){
-				evt.preventDefault();
-				dragStart = {
+				if(evt.preventDefault)
+					evt.preventDefault();
+				dragInit = {
 					x: evt.clientX,
 					y: evt.clientY
 				};
-			});
+			}
 
-			elem.addEventListener('mouseup', function(evt){
-				dragStart = null;
-			});
+			function dragEnd(evt){
+				dragInit = null;
+			}
 
-			elem.addEventListener('mousemove', function(evt){
-				if(dragStart){
-					offset[0] = Math.max(-1700, Math.min(1700, offset[0] + (evt.clientX - dragStart.x)/zoom));
-					offset[1] = Math.max(-1000, Math.min(1000, offset[1] + (evt.clientY - dragStart.y)/zoom));
+			function drag(evt){
+				if(dragInit){
+					offset[0] = Math.max(-1700, Math.min(1700, offset[0] + (evt.clientX - dragInit.x)/zoom));
+					offset[1] = Math.max(-1000, Math.min(1000, offset[1] + (evt.clientY - dragInit.y)/zoom));
 					update();
 
-					dragStart.x = evt.clientX;
-					dragStart.y = evt.clientY;
+					dragInit.x = evt.clientX;
+					dragInit.y = evt.clientY;
+				}
+			}
+
+			elem.addEventListener('mousedown', dragStart);
+			elem.addEventListener('mousemove', drag);
+			elem.addEventListener('mouseup', dragEnd);
+
+			elem.addEventListener('wheel', function(evt){
+				evt.preventDefault();
+				zoom = Math.max(0.3, Math.min(2, evt.deltaY > 0 ? zoom-0.05 : zoom+0.05));
+				update();
+			});
+
+			var pinchDist = 0, origZoom = 0;
+			elem.addEventListener('touchstart', function(evt){
+				if(evt.touches.length === 1)
+					dragStart(evt.touches[0]);
+				else if(evt.touches.length >= 2){
+					var t1 = evt.touches[0], t2 = evt.touches[1];
+					origZoom = zoom;
+					pinchDist = Math.sqrt( Math.pow(t1.clientX-t2.clientX,2) + Math.pow(t1.clientY-t2.clientY, 2) );
 				}
 			});
 
-
+			elem.addEventListener('touchend', dragEnd);
+			elem.addEventListener('touchcancel', dragEnd);
+			elem.addEventListener('touchmove', function(evt){
+				evt.preventDefault();
+				if(evt.touches.length === 1){
+					drag(evt.touches[0]);
+				}
+				else if(evt.touches.length >= 2){
+					var t1 = evt.touches[0], t2 = evt.touches[1];
+					var newPinchDist = Math.sqrt( Math.pow(t1.clientX-t2.clientX,2) + Math.pow(t1.clientY-t2.clientY, 2) );
+					zoom = Math.max(0.3, Math.min(2, origZoom * (500+newPinchDist-pinchDist)*0.002));
+					update();
+				}
+			});
 		}
 	}
 });

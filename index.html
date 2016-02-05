@@ -58,7 +58,7 @@
 			<div id='info'>
 				<div id='title'>
 					<div class='techicon {{activeTech}}' ng-class='{
-						disabled: !isPurchased(techs[activeTech].value)
+						disabled: (purchases[0] || purchases[1]) && !isPurchased(techs[activeTech].value)
 					}'></div>
 					<h3>{{techs[activeTech].name}}
 				</div>
@@ -80,7 +80,7 @@
 					<p ng-show='techs[activeTech].dependencies.length === 2 && !techs[activeTech].allDepsRequired'>Requires Any:</p>
 					<p ng-show='techs[activeTech].dependencies.length === 2 && techs[activeTech].allDepsRequired'>Requires All:</p>
 					<div class='requirement' ng-repeat='id in techs[activeTech].dependencies'>
-						<div class='techicon {{id}}'ng-class='{disabled: !isPurchased(techs[id].value)}'></div>
+						<div class='techicon {{id}}'ng-class='{disabled: (purchases[0] || purchases[1]) && !isPurchased(techs[id].value)}'></div>
 						<span>{{techs[id].name}}</span>
 					</div>
 				</div>
