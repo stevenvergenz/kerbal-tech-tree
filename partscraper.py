@@ -83,11 +83,18 @@ def getPart(url, local=False):
 
 	# fetch
 	data = ''
+	name = urlparse.urlparse(url).path.split('/')[-1]
 	if local:
-		with open('sample_part.html', 'r') as sample:
+		with open('cached/{}.html'.format(name), 'r') as sample:
 			data = sample.read()
 	else:
-		data = request.urlopen(url).read()
+		print('GET', url)
+		data = request.urlopen(url)
+		encoding = data.headers['Content-Type'].rpartition('=')[-1]
+		data = data.read().decode(encoding)
+
+		with open('cached/{}.html'.format(name), 'w', encoding=encoding) as outfile:
+			outfile.write(data)
 
 	parser = InfoboxParser()
 	parser.feed(data)

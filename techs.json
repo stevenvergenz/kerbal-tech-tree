@@ -6,12 +6,24 @@
 		],
 		"dependents": [],
 		"description": "Perfecting the art of making things mobile, without the explicit use of explosives. Our engineers assure us, this is actually a good thing.",
-		"icon": "./icons/Actuators.png",
+		"icon": "",
 		"level": 6,
 		"name": "Actuators",
 		"parts": [
 			{
 				"name": "Advanced Grabbing Unit",
+				"props": {
+					"Cost": "450.00",
+					"Drag": "0.2-0.3",
+					"Impact Tolerance": "50m/s",
+					"Mass": "0.08t",
+					"Max. Temp.": "2000K",
+					"Part configuration": "GrapplingDevice",
+					"Radial size": "Small",
+					"Research": "Actuators",
+					"Since version": "0.23.5",
+					"Unlock cost": "5200"
+				},
 				"url": "http://wiki.kerbalspaceprogram.com/wiki/Advanced_Grabbing_Unit"
 			}
 		],
@@ -30,32 +42,125 @@
 			"Nuclear_Propulsion"
 		],
 		"description": "Advanced Advancements towards a better understanding of how fuel flows through a rocket.",
-		"icon": "./icons/Adv._Fuel_Systems.png",
+		"icon": "",
 		"level": 6,
 		"name": "Adv. Fuel Systems",
 		"parts": [
 			{
 				"name": "C7 Brand Adapter - 2.5m to 1.25m",
+				"props": {
+					"Cost (dry)": "432.80",
+					"Cost (total)": "800.00",
+					"Drag": "0.2-0.3",
+					"Impact Tolerance": "20m/s",
+					"Liquid fuel": "360",
+					"Mass (dry)": "0.57t",
+					"Mass (total)": "4.57t",
+					"Max. Temp.": "2300K",
+					"Oxidizer": "440",
+					"Part configuration": "adapterTanks",
+					"Radial size": "Small, Large",
+					"Research": "Supersonic Flight",
+					"Since version": "0.90.0",
+					"Unlock cost": "18000"
+				},
 				"url": "http://wiki.kerbalspaceprogram.com/wiki/C7_Brand_Adapter_-_2.5m_to_1.25m"
 			},
 			{
 				"name": "C7 Brand Adapter Slanted - 2.5m to 1.25m",
+				"props": {
+					"Cost (dry)": "432.80",
+					"Cost (total)": "800.00",
+					"Drag": "0.2-0.3",
+					"Impact Tolerance": "20m/s",
+					"Liquid fuel": "360",
+					"Mass (dry)": "0.57t",
+					"Mass (total)": "4.57t",
+					"Max. Temp.": "2300K",
+					"Oxidizer": "440",
+					"Part configuration": "adapterTanks",
+					"Radial size": "Small, Large",
+					"Research": "Advanced Aerodynamics",
+					"Since version": "0.90.0",
+					"Unlock cost": "18000"
+				},
 				"url": "http://wiki.kerbalspaceprogram.com/wiki/C7_Brand_Adapter_Slanted_-_2.5m_to_1.25m"
 			},
 			{
 				"name": "Rockomax Jumbo-64 Fuel Tank",
+				"props": {
+					"Cost (dry)": "2812.40",
+					"Cost (total)": "5750.00",
+					"Drag": "0.2-0.3",
+					"Impact Tolerance": "6m/s",
+					"Liquid fuel": "2880",
+					"Mass (dry)": "4.00t",
+					"Mass (total)": "36.00t",
+					"Max. Temp.": "2000K",
+					"Oxidizer": "3520",
+					"Part configuration": "fuelTankJumbo-64",
+					"Radial size": "Large",
+					"Research": "Adv. Fuel Systems",
+					"Since version": "0.18",
+					"Unlock cost": "24200"
+				},
 				"url": "http://wiki.kerbalspaceprogram.com/wiki/Rockomax_Jumbo-64_Fuel_Tank"
 			},
 			{
 				"name": "FL-R1 RCS Fuel Tank",
+				"props": {
+					"Cost (dry)": "400.00",
+					"Cost (total)": "1300.00",
+					"Drag": "0.2",
+					"Impact Tolerance": "12m/s",
+					"Mass (dry)": "0.40t",
+					"Mass (total)": "3.40t",
+					"Max. Temp.": "2000K",
+					"Monopropellant": "750",
+					"Part configuration": "RCSFuelTankR1",
+					"Radial size": "Large",
+					"Research": "Adv. Fuel Systems",
+					"Since version": "0.17",
+					"Unlock cost": "11000"
+				},
 				"url": "http://wiki.kerbalspaceprogram.com/wiki/FL-R1_RCS_Fuel_Tank"
 			},
 			{
 				"name": "FL-R10 RCS Fuel Tank",
+				"props": {
+					"Cost (dry)": "104.00",
+					"Cost (total)": "200.00",
+					"Drag": "0.2",
+					"Impact Tolerance": "12m/s",
+					"Mass (dry)": "0.05t",
+					"Mass (total)": "0.37t",
+					"Max. Temp.": "2000K",
+					"Monopropellant": "80",
+					"Part configuration": "RCSFuelTankR10",
+					"Radial size": "Tiny",
+					"Research": "Adv. Fuel Systems",
+					"Since version": "0.21",
+					"Unlock cost": "5400"
+				},
 				"url": "http://wiki.kerbalspaceprogram.com/wiki/FL-R10_RCS_Fuel_Tank"
 			},
 			{
 				"name": "FL-R25 RCS Fuel Tank",
+				"props": {
+					"Cost (dry)": "300.00",
+					"Cost (total)": "600.00",
+					"Drag": "0.2",
+					"Impact Tolerance": "12m/s",
+					"Mass (dry)": "0.15t",
+					"Mass (total)": "1.15t",
+					"Max. Temp.": "2000K",
+					"Monopropellant": "250",
+					"Part configuration": "RCSFuelTankR25",
+					"Radial size": "Small",
+					"Research": "Adv. Fuel Systems",
+					"Since version": "0.11.0",
+					"Unlock cost": "2400"
+				},
 				"url": "http://wiki.kerbalspaceprogram.com/wiki/FL-R25_RCS_Fuel_Tank"
 			}
 		],
@@ -72,56 +177,223 @@
 			"Heavy_Aerodynamics"
 		],
 		"description": "Advances in fluid dynamics research technology have allowed development of a new set of streamlined aircraft components. And also these parts here.",
-		"icon": "./icons/Advanced_Aerodynamics.png",
+		"icon": "",
 		"level": 6,
 		"name": "Advanced Aerodynamics",
 		"parts": [
 			{
 				"name": "A.I.R.B.R.A.K.E.S",
+				"props": {
+					"Cost": "500.00",
+					"Drag": "0.02",
+					"Impact Tolerance": "8m/s",
+					"Mass": "0.05t",
+					"Max. Temp.": "2000K",
+					"Part configuration": "airbrake",
+					"Research": "Advanced Aerodynamics",
+					"Since version": "1.0",
+					"Unlock cost": "10000"
+				},
 				"url": "http://wiki.kerbalspaceprogram.com/wiki/A.I.R.B.R.A.K.E.S"
 			},
 			{
 				"name": "Standard Canard",
+				"props": {
+					"Cost": "720.00",
+					"Deflection range": "15\u00b0",
+					"Drag": "0.02",
+					"Drag coefficient": "0.5",
+					"Impact Tolerance": "12m/s",
+					"Lift generated": "0.52",
+					"Mass": "0.10t",
+					"Max. Temp.": "2400K",
+					"Part configuration": "airplaneFins",
+					"Research": "Hypersonic Flight",
+					"Since version": "0.15",
+					"Surface area": "1",
+					"Unlock cost": "11400"
+				},
 				"url": "http://wiki.kerbalspaceprogram.com/wiki/Standard_Canard"
 			},
 			{
 				"name": "Wing Connector Type D",
+				"props": {
+					"Cost": "100.00",
+					"Drag": "0.02",
+					"Drag coefficient": "0.12",
+					"Impact Tolerance": "15m/s",
+					"Lift generated": "0.5",
+					"Mass": "0.05t",
+					"Max. Temp.": "2400K",
+					"Part configuration": "wings",
+					"Research": "Advanced Aerodynamics",
+					"Since version": "0.25",
+					"Unlock cost": "2400"
+				},
 				"url": "http://wiki.kerbalspaceprogram.com/wiki/Wing_Connector_Type_D"
 			},
 			{
 				"name": "Delta Wing",
+				"props": {
+					"Cost": "600.00",
+					"Drag": "0.02",
+					"Drag coefficient": "0.6",
+					"Impact Tolerance": "15m/s",
+					"Lift generated": "2.0",
+					"Mass": "0.20t",
+					"Max. Temp.": "2400K",
+					"Part configuration": "wings",
+					"Research": "Aerodynamics",
+					"Since version": "0.15",
+					"Unlock cost": "6400"
+				},
 				"url": "http://wiki.kerbalspaceprogram.com/wiki/Delta_Wing"
 			},
 			{
 				"name": "Small Delta Wing",
+				"props": {
+					"Cost": "200.00",
+					"Drag": "0.02",
+					"Drag coefficient": "0.1",
+					"Impact Tolerance": "15m/s",
+					"Lift generated": "0.5",
+					"Mass": "0.05t",
+					"Max. Temp.": "2400K",
+					"Part configuration": "wings",
+					"Research": "High Altitude Flight",
+					"Since version": "0.25",
+					"Unlock cost": "3200"
+				},
 				"url": "http://wiki.kerbalspaceprogram.com/wiki/Small_Delta_Wing"
 			},
 			{
 				"name": "Elevon 2",
+				"props": {
+					"Cost": "550.00",
+					"Deflection range": "20\u00b0",
+					"Drag": "0.02",
+					"Drag coefficient": "0.33",
+					"Impact Tolerance": "15m/s",
+					"Lift generated": "0.3",
+					"Mass": "0.06t",
+					"Max. Temp.": "2400K",
+					"Part configuration": "wings",
+					"Research": "Supersonic Flight",
+					"Since version": "0.25",
+					"Surface area": "1.0",
+					"Unlock cost": "3200"
+				},
 				"url": "http://wiki.kerbalspaceprogram.com/wiki/Elevon_2"
 			},
 			{
 				"name": "Elevon 3",
+				"props": {
+					"Cost": "650.00",
+					"Deflection range": "20\u00b0",
+					"Drag": "0.02",
+					"Drag coefficient": "0.5",
+					"Impact Tolerance": "15m/s",
+					"Lift generated": "0.42",
+					"Mass": "0.08t",
+					"Max. Temp.": "2400K",
+					"Part configuration": "wings",
+					"Research": "Supersonic Flight",
+					"Since version": "0.25",
+					"Surface area": "1.0",
+					"Unlock cost": "3200"
+				},
 				"url": "http://wiki.kerbalspaceprogram.com/wiki/Elevon_3"
 			},
 			{
 				"name": "Elevon 4",
+				"props": {
+					"Cost": "400.00",
+					"Deflection range": "20\u00b0",
+					"Drag": "0.02",
+					"Drag coefficient": "0.25",
+					"Impact Tolerance": "15m/s",
+					"Lift generated": "0.18",
+					"Mass": "0.04t",
+					"Max. Temp.": "2400K",
+					"Part configuration": "wings",
+					"Research": "Advanced Aerodynamics",
+					"Since version": "0.25",
+					"Surface area": "1.0",
+					"Unlock cost": "3200"
+				},
 				"url": "http://wiki.kerbalspaceprogram.com/wiki/Elevon_4"
 			},
 			{
 				"name": "Elevon 5",
+				"props": {
+					"Cost": "800.00",
+					"Deflection range": "20\u00b0",
+					"Drag": "0.02",
+					"Drag coefficient": "0.6",
+					"Impact Tolerance": "15m/s",
+					"Lift generated": "0.4",
+					"Mass": "0.08t",
+					"Max. Temp.": "2400K",
+					"Part configuration": "wings",
+					"Research": "Hypersonic Flight",
+					"Since version": "0.25",
+					"Surface area": "1.0",
+					"Unlock cost": "4800"
+				},
 				"url": "http://wiki.kerbalspaceprogram.com/wiki/Elevon_5"
 			},
 			{
 				"name": "Structural Wing Type D",
+				"props": {
+					"Cost": "150.00",
+					"Drag": "0.02",
+					"Impact Tolerance": "15m/s",
+					"Lift generated": "0.25",
+					"Mass": "0.03t",
+					"Max. Temp.": "2400K",
+					"Part configuration": "wings",
+					"Research": "Advanced Aerodynamics",
+					"Since version": "0.25",
+					"Unlock cost": "6400"
+				},
 				"url": "http://wiki.kerbalspaceprogram.com/wiki/Structural_Wing_Type_D"
 			},
 			{
 				"name": "Swept Wing Type A",
+				"props": {
+					"Cost": "500.00",
+					"Drag": "0.02",
+					"Impact Tolerance": "15m/s",
+					"Lift generated": "1.13",
+					"Mass": "0.11t",
+					"Max. Temp.": "2400K",
+					"Part configuration": "wings",
+					"Research": "Aerodynamics",
+					"Since version": "0.25",
+					"Unlock cost": "6400"
+				},
 				"url": "http://wiki.kerbalspaceprogram.com/wiki/Swept_Wing_Type_A"
 			},
 			{
 				"name": "Small Hardpoint",
+				"props": {
+					"Cost": "60.00",
+					"Drag": "0.2",
+					"Ejection momentum": "600Ns",
+					"Impact Tolerance": "20m/s",
+					"In atmosphere": "\u2713Yes",
+					"In space": "\u2713Yes",
+					"Manually testable": "\u00d7No",
+					"Mass": "0.05t",
+					"Max. Temp.": "2000K",
+					"On the ocean": "\u2713Yes",
+					"On the surface": "\u2713Yes",
+					"Part configuration": "smallHardpoint",
+					"Research": "Advanced Aerodynamics",
+					"Since version": "0.15",
+					"Test by staging": "\u2713Yes",
+					"Unlock cost": "7800"
+				},
 				"url": "http://wiki.kerbalspaceprogram.com/wiki/Small_Hardpoint"
 			}
 		],
@@ -139,36 +411,130 @@
 			"Specialized_Construction"
 		],
 		"description": "New advances in construction make it possible to build larger than ever before.",
-		"icon": "./icons/Advanced_Construction.png",
+		"icon": "",
 		"level": 5,
 		"name": "Advanced Construction",
 		"parts": [
 			{
 				"name": "Advanced Nose Cone - Type A",
+				"props": {
+					"Cost": "320.00",
+					"Drag": "0.1",
+					"Impact Tolerance": "40m/s",
+					"Mass": "0.08t",
+					"Max. Temp.": "2000K",
+					"Part configuration": "cones",
+					"Research": "Aerodynamics",
+					"Since version": "1.0",
+					"Unlock cost": "6200"
+				},
 				"url": "http://wiki.kerbalspaceprogram.com/wiki/Advanced_Nose_Cone_-_Type_A"
 			},
 			{
 				"name": "AE-FF1 Airstream Protective Shell (1.25m)",
+				"props": {
+					"Cost": "900.00",
+					"Drag": "0.2",
+					"Impact Tolerance": "9m/s",
+					"Mass": "0.08t",
+					"Max. Temp.": "2600K",
+					"Part configuration": "fairings",
+					"Research": "Advanced Construction",
+					"Since version": "1.0",
+					"Unlock cost": "9200"
+				},
 				"url": "http://wiki.kerbalspaceprogram.com/wiki/AE-FF1_Airstream_Protective_Shell_(1.25m)"
 			},
 			{
 				"name": "Protective Rocket Nose Cone Mk7",
+				"props": {
+					"Cost": "450.00",
+					"Drag": "0.1",
+					"Impact Tolerance": "10m/s",
+					"Mass": "0.20t",
+					"Max. Temp.": "2400K",
+					"Part configuration": "protectiveRocketNoseMk7",
+					"Research": "Advanced Construction",
+					"Since version": "v0.18",
+					"Unlock cost": "6500"
+				},
 				"url": "http://wiki.kerbalspaceprogram.com/wiki/Protective_Rocket_Nose_Cone_Mk7"
 			},
 			{
 				"name": "Hydraulic Detachment Manifold",
+				"props": {
+					"Cost": "770.00",
+					"Drag": "0.2",
+					"Ejection momentum": "4500Ns",
+					"Impact Tolerance": "8m/s",
+					"In atmosphere": "\u2713Yes",
+					"In space": "\u2713Yes",
+					"Manually testable": "\u00d7No",
+					"Mass": "0.40t",
+					"Max. Temp.": "2000K",
+					"On the ocean": "\u2713Yes",
+					"On the surface": "\u2713Yes",
+					"Part configuration": "decouplerRadialHDM",
+					"Research": "Advanced Construction",
+					"Since version": "0.16",
+					"Test by staging": "\u2713Yes",
+					"Unlock cost": "4200"
+				},
 				"url": "http://wiki.kerbalspaceprogram.com/wiki/Hydraulic_Detachment_Manifold"
 			},
 			{
 				"name": "TT-70 Radial Decoupler",
+				"props": {
+					"Cost": "700.00",
+					"Drag": "0.2",
+					"Ejection momentum": "2600Ns",
+					"Impact Tolerance": "8m/s",
+					"In atmosphere": "\u2713Yes",
+					"In space": "\u2713Yes",
+					"Manually testable": "\u00d7No",
+					"Mass": "0.05t",
+					"Max. Temp.": "2000K",
+					"On the ocean": "\u2713Yes",
+					"On the surface": "\u2713Yes",
+					"Part configuration": "decouplerRadialTT-70",
+					"Research": "Advanced Construction",
+					"Since version": "v0.18",
+					"Test by staging": "\u2713Yes",
+					"Unlock cost": "2300"
+				},
 				"url": "http://wiki.kerbalspaceprogram.com/wiki/TT-70_Radial_Decoupler"
 			},
 			{
 				"name": "Rockomax Brand Adapter 02",
+				"props": {
+					"Cost": "450.00",
+					"Drag": "0.2-0.3",
+					"Impact Tolerance": "6m/s",
+					"Mass": "0.08t",
+					"Max. Temp.": "2000K",
+					"Part configuration": "largeAdapterShort",
+					"Radial size": "Small, Large",
+					"Research": "Advanced Construction",
+					"Since version": "0.18",
+					"Unlock cost": "3000"
+				},
 				"url": "http://wiki.kerbalspaceprogram.com/wiki/Rockomax_Brand_Adapter_02"
 			},
 			{
 				"name": "TVR-1180C Mk1 Stack Tri-Coupler",
+				"props": {
+					"Cost": "680.00",
+					"Drag": "0.3",
+					"Impact Tolerance": "12m/s",
+					"Mass": "0.15t",
+					"Max. Temp.": "2000K",
+					"Outgoing connectors": "3",
+					"Part configuration": "stackTriCoupler",
+					"Radial size": "Small",
+					"Research": "Advanced Construction",
+					"Since version": "0.7.3",
+					"Unlock cost": "2100"
+				},
 				"url": "http://wiki.kerbalspaceprogram.com/wiki/TVR-1180C_Mk1_Stack_Tri-Coupler"
 			}
 		],
@@ -186,32 +552,119 @@
 			"High-Power_Electrics"
 		],
 		"description": "We're fairly certain no one will ever need more than 64kw of power for anything.",
-		"icon": "./icons/Advanced_Electrics.png",
+		"icon": "",
 		"level": 6,
 		"name": "Advanced Electrics",
 		"parts": [
 			{
 				"name": "SP-L 1x6 Photovoltaic Panels",
+				"props": {
+					"Cost": "440.00",
+					"Drag": "0.2",
+					"Electricity generated": "1.64/s[N 1]",
+					"Impact Tolerance": "8m/s",
+					"Layout": "6\u00d71",
+					"Mass": "0.03t",
+					"Max. Temp.": "2000K",
+					"Part configuration": "1x6ShroudSolarPanels",
+					"Radial size": "Radial mounted",
+					"Research": "Advanced Electrics",
+					"Retractable": "\u2713Yes",
+					"Since version": "0.18",
+					"Tracking": "\u2713Yes",
+					"Unlock cost": "4400"
+				},
 				"url": "http://wiki.kerbalspaceprogram.com/wiki/SP-L_1x6_Photovoltaic_Panels"
 			},
 			{
 				"name": "OX-4L 1x6 Photovoltaic Panels",
+				"props": {
+					"Cost": "380.00",
+					"Drag": "0.2",
+					"Electricity generated": "1.64/s[N 1]",
+					"Impact Tolerance": "8m/s",
+					"Layout": "6\u00d71",
+					"Mass": "0.02t",
+					"Max. Temp.": "1200K",
+					"Part configuration": "1x6SolarPanels",
+					"Research": "Advanced Electrics",
+					"Retractable": "\u00d7No",
+					"Since version": "0.18",
+					"Tracking": "\u2713Yes",
+					"Unlock cost": "3800"
+				},
 				"url": "http://wiki.kerbalspaceprogram.com/wiki/OX-4L_1x6_Photovoltaic_Panels"
 			},
 			{
 				"name": "SP-W 3x2 Photovoltaic Panels",
+				"props": {
+					"Cost": "440.00",
+					"Drag": "0.2",
+					"Electricity generated": "1.64/s[N 1]",
+					"Impact Tolerance": "8m/s",
+					"Layout": "2\u00d73",
+					"Mass": "0.03t",
+					"Max. Temp.": "2000K",
+					"Part configuration": "3x2ShroudSolarPanels",
+					"Radial size": "Radial mounted",
+					"Research": "Advanced Electrics",
+					"Retractable": "\u2713Yes",
+					"Since version": "0.18",
+					"Tracking": "\u2713Yes",
+					"Unlock cost": "4400"
+				},
 				"url": "http://wiki.kerbalspaceprogram.com/wiki/SP-W_3x2_Photovoltaic_Panels"
 			},
 			{
 				"name": "OX-4W 3x2 Photovoltaic Panels",
+				"props": {
+					"Cost": "380.00",
+					"Drag": "0.2",
+					"Electricity generated": "1.64/s[N 1]",
+					"Impact Tolerance": "8m/s",
+					"Layout": "2\u00d73",
+					"Mass": "0.02t",
+					"Max. Temp.": "1200K",
+					"Part configuration": "3x2SolarPanels",
+					"Radial size": "Radial mounted",
+					"Research": "Advanced Electrics",
+					"Retractable": "\u00d7No",
+					"Since version": "0.18",
+					"Tracking": "\u2713Yes",
+					"Unlock cost": "3800"
+				},
 				"url": "http://wiki.kerbalspaceprogram.com/wiki/OX-4W_3x2_Photovoltaic_Panels"
 			},
 			{
 				"name": "Z-400 Rechargeable Battery",
+				"props": {
+					"Cost": "550.00",
+					"Drag": "0.2 [N 1]",
+					"Electric capacity": "400.0",
+					"Impact Tolerance": "8m/s",
+					"Mass": "0.02t [N 1]",
+					"Max. Temp.": "1200K",
+					"Part configuration": "z-400Battery",
+					"Radial size": "Radial mounted",
+					"Research": "Advanced Electrics",
+					"Since version": "0.19",
+					"Unlock cost": "3200"
+				},
 				"url": "http://wiki.kerbalspaceprogram.com/wiki/Z-400_Rechargeable_Battery"
 			},
 			{
 				"name": "Thermal Control System (medium)",
+				"props": {
+					"Cost": "2250.00",
+					"Drag": "0.2",
+					"Impact Tolerance": "12m/s",
+					"Mass": "0.25t",
+					"Max. Temp.": "2500K",
+					"Part configuration": "FoldingRadiators",
+					"Research": "Advanced Electrics",
+					"Since version": "1.0.4",
+					"Unlock cost": "11000"
+				},
 				"url": "http://wiki.kerbalspaceprogram.com/wiki/Thermal_Control_System_(medium)"
 			}
 		],
@@ -229,20 +682,60 @@
 			"Science_Tech"
 		],
 		"description": "They are Self-Deploying Astronaut Mobility Enhancement Devices, I don't know what you mean by \"ladders\".",
-		"icon": "./icons/Advanced_Exploration.png",
+		"icon": "",
 		"level": 6,
 		"name": "Advanced Exploration",
 		"parts": [
 			{
 				"name": "Mobile Processing Lab MPL-LG-2",
+				"props": {
+					"Cost": "4000.00",
+					"Crew capacity (maximum)": "2",
+					"Crew capacity (required)": "1",
+					"Drag": "0.2-0.3",
+					"Impact Tolerance": "6m/s",
+					"Mass": "3.50t",
+					"Max. Temp.": "2000K",
+					"Part configuration": "LargeCrewedLab",
+					"Processing energy": "10/s",
+					"Radial size": "Large",
+					"Research": "Advanced Exploration",
+					"Researching energy": "{{{researching energy}}}/s",
+					"Since version": "0.23",
+					"Unlock cost": "10400"
+				},
 				"url": "http://wiki.kerbalspaceprogram.com/wiki/Mobile_Processing_Lab_MPL-LG-2"
 			},
 			{
 				"name": "Telus Mobility Enhancer",
+				"props": {
+					"Cost": "350.00",
+					"Drag": "0.2",
+					"Extends": "\u2713Yes",
+					"Impact Tolerance": "8m/s",
+					"Mass": "0.01t",
+					"Max. Temp.": "2000K",
+					"Part configuration": "ladderTelescopic",
+					"Research": "Advanced Exploration",
+					"Since version": "0.16",
+					"Unlock cost": "3100"
+				},
 				"url": "http://wiki.kerbalspaceprogram.com/wiki/Telus_Mobility_Enhancer"
 			},
 			{
 				"name": "Telus-LV Bay Mobility Enhancer",
+				"props": {
+					"Cost": "440.00",
+					"Drag": "0.2",
+					"Extends": "\u2713Yes",
+					"Impact Tolerance": "8m/s",
+					"Mass": "0.01t",
+					"Max. Temp.": "2000K",
+					"Part configuration": "ladderTelescopicBay",
+					"Research": "Advanced Exploration",
+					"Since version": "0.16",
+					"Unlock cost": "4000"
+				},
 				"url": "http://wiki.kerbalspaceprogram.com/wiki/Telus-LV_Bay_Mobility_Enhancer"
 			}
 		],
@@ -260,28 +753,119 @@
 			"Specialized_Control"
 		],
 		"description": "The latest advancements in keeping the correct end of the ship pointing towards where you want it to go.",
-		"icon": "./icons/Advanced_Flight_Control.png",
+		"icon": "",
 		"level": 5,
 		"name": "Advanced Flight Control",
 		"parts": [
 			{
 				"name": "Advanced Inline Stabilizer",
+				"props": {
+					"Cost": "1200.00",
+					"Drag": "0.2",
+					"Electricity required for torque": "",
+					"Impact Tolerance": "9m/s",
+					"Mass": "0.10t",
+					"Max. Temp.": "2000K",
+					"Part configuration": "inlineAdvancedStabilizer",
+					"Pitch torque": "15.0kN\u00b7m",
+					"Radial size": "Small",
+					"Research": "Advanced Flight Control",
+					"Roll torque": "15.0kN\u00b7m",
+					"SAS level": "\u00d7None",
+					"Since version": "0.11.0",
+					"Unlock cost": "7200",
+					"Yaw torque": "15.0kN\u00b7m"
+				},
 				"url": "http://wiki.kerbalspaceprogram.com/wiki/Advanced_Inline_Stabilizer"
 			},
 			{
 				"name": "Mk1 Lander Can",
+				"props": {
+					"Cost (dry)": "1482.00",
+					"Cost (total)": "1500.00",
+					"Crew capacity (maximum)": "1",
+					"Crew capacity (required)": "1",
+					"Drag": "0.2",
+					"Electric capacity": "50.0",
+					"Electricity required for torque": "",
+					"Impact Tolerance": "8m/s",
+					"Mass (dry)": "0.60t",
+					"Mass (total)": "0.66t",
+					"Max. Temp.": "2000K",
+					"Monopropellant": "15",
+					"Part configuration": "mk1LanderCan",
+					"Pitch torque": "3.0kN\u00b7m",
+					"Radial size": "Small",
+					"Research": "Advanced Flight Control",
+					"Roll torque": "3.0kN\u00b7m",
+					"SAS level": "\u00d7None",
+					"Since version": "0.20",
+					"Unlock cost": "6800",
+					"Yaw torque": "3.0kN\u00b7m"
+				},
 				"url": "http://wiki.kerbalspaceprogram.com/wiki/Mk1_Lander_Can"
 			},
 			{
 				"name": "Stratus-V Roundified Monopropellant Tank",
+				"props": {
+					"Cost (dry)": "128.00",
+					"Cost (total)": "200.00",
+					"Drag": "0.2",
+					"Impact Tolerance": "12m/s",
+					"Mass (dry)": "0.08t",
+					"Mass (total)": "0.32t",
+					"Max. Temp.": "2000K",
+					"Monopropellant": "60",
+					"Part configuration": "RCSTankRadial",
+					"Radial size": "Radial mounted",
+					"Research": "Advanced Flight Control",
+					"Since version": "0.18",
+					"Unlock cost": "6200"
+				},
 				"url": "http://wiki.kerbalspaceprogram.com/wiki/Stratus-V_Roundified_Monopropellant_Tank"
 			},
 			{
 				"name": "Place-Anywhere 7 Linear RCS Port",
+				"props": {
+					"Cost": "280.00",
+					"Drag": "0.01 [N 1]",
+					"Fuel consumption": "0.21/s",
+					"Impact Tolerance": "50m/s",
+					"Isp (1 atm)": "100s",
+					"Isp (vacuum)": "240s",
+					"Mass": "0.03t [N 1]",
+					"Max. Temp.": "2600K",
+					"Maximum thrust (1 atm)": "0.83kN",
+					"Maximum thrust (vacuum)": "2.00kN",
+					"Part configuration": "linearRCS",
+					"Research": "Advanced Flight Control",
+					"Since version": "0.15.0",
+					"Thrust vectoring": "\u00d7No",
+					"Thrust vectors": "1 (zenith)",
+					"Unlock cost": "4200"
+				},
 				"url": "http://wiki.kerbalspaceprogram.com/wiki/Place-Anywhere_7_Linear_RCS_Port"
 			},
 			{
 				"name": "RV-105 RCS Thruster Block",
+				"props": {
+					"Cost": "620.00",
+					"Drag": "0.001 [N 1]",
+					"Fuel consumption": "0.11/s",
+					"Impact Tolerance": "15m/s",
+					"Isp (1 atm)": "100s",
+					"Isp (vacuum)": "240s",
+					"Mass": "0.05t [N 1]",
+					"Max. Temp.": "1500K",
+					"Maximum thrust (1 atm)": "0.42kN",
+					"Maximum thrust (vacuum)": "1.00kN",
+					"Part configuration": "rcsBlockRV-105",
+					"Research": "Advanced Flight Control",
+					"Since version": "0.11.0",
+					"Thrust vectoring": "\u00d7No",
+					"Thrust vectors": "4 (sideways)",
+					"Unlock cost": "3400"
+				},
 				"url": "http://wiki.kerbalspaceprogram.com/wiki/RV-105_RCS_Thruster_Block"
 			}
 		],
@@ -299,28 +883,105 @@
 			"Heavy_Landing"
 		],
 		"description": "Further advances in landing devices, allowing for more controlled descents and a much higher number of parts still attached to the ship after touchdown.",
-		"icon": "./icons/Advanced_Landing.png",
+		"icon": "",
 		"level": 6,
 		"name": "Advanced Landing",
 		"parts": [
 			{
 				"name": "Heat Shield (3.75m)",
+				"props": {
+					"Ablator": "1800.0units",
+					"Cost": "900.00",
+					"Drag": "0.2",
+					"Impact Tolerance": "9m/s",
+					"Mass": "2.80t",
+					"Max. Temp.": "3300K",
+					"Part configuration": "HeatShield",
+					"Research": "Advanced Landing",
+					"Since version": "1.0",
+					"Threshold temperature": "500",
+					"Unlock cost": "1800"
+				},
 				"url": "http://wiki.kerbalspaceprogram.com/wiki/Heat_Shield_(3.75m)"
 			},
 			{
 				"name": "LT-2 Landing Strut",
+				"props": {
+					"Cost": "340.00",
+					"Drag": "0.2",
+					"Impact Tolerance": "12m/s",
+					"Mass": "0.10t",
+					"Max. Temp.": "2000K",
+					"Part configuration": "landingLegLT-2",
+					"Research": "Advanced Landing",
+					"Since version": "0.14.0",
+					"Unlock cost": "4100"
+				},
 				"url": "http://wiki.kerbalspaceprogram.com/wiki/LT-2_Landing_Strut"
 			},
 			{
 				"name": "Mk12-R Radial-Mount Drogue Chute",
+				"props": {
+					"Cost": "300.00",
+					"Drag": "0.22",
+					"Fully-deployed drag": "100",
+					"Fully-deployed trigger": "2500m AGL",
+					"Impact Tolerance": "12m/s",
+					"In atmosphere": "\u2713Yes",
+					"In space": "\u00d7No",
+					"Manually testable": "\u00d7No",
+					"Mass": "0.08t",
+					"Max. Temp.": "2500K",
+					"On the ocean": "\u00d7No",
+					"On the surface": "\u00d7No",
+					"Part configuration": "parachuteMk12-R",
+					"Research": "Advanced Landing",
+					"Semi-deployment drag": "2",
+					"Semi-deployment trigger": "0.02atm",
+					"Since version": "1.0",
+					"Test by staging": "\u2713Yes",
+					"Unlock cost": "3000"
+				},
 				"url": "http://wiki.kerbalspaceprogram.com/wiki/Mk12-R_Radial-Mount_Drogue_Chute"
 			},
 			{
 				"name": "Mk25 Parachute",
+				"props": {
+					"Cost": "400.00",
+					"Drag": "0.22",
+					"Fully-deployed drag": "170",
+					"Fully-deployed trigger": "2500m AGL",
+					"Impact Tolerance": "12m/s",
+					"In atmosphere": "\u2713Yes",
+					"In space": "\u00d7No",
+					"Manually testable": "\u00d7No",
+					"Mass": "0.20t",
+					"Max. Temp.": "2500K",
+					"On the ocean": "\u00d7No",
+					"On the surface": "\u00d7No",
+					"Part configuration": "parachuteMk25",
+					"Research": "Advanced Landing",
+					"Semi-deployment drag": "4",
+					"Semi-deployment trigger": "0.02atm",
+					"Since version": "0.18",
+					"Test by staging": "\u2713Yes",
+					"Unlock cost": "3500"
+				},
 				"url": "http://wiki.kerbalspaceprogram.com/wiki/Mk25_Parachute"
 			},
 			{
 				"name": "LY-50 Medium Landing Gear",
+				"props": {
+					"Cost": "700.00",
+					"Drag": "0.2-0.3",
+					"Impact Tolerance": "50m/s",
+					"Mass": "0.25t",
+					"Max. Temp.": "2600K",
+					"Part configuration": "LandingGear",
+					"Research": "Advanced Landing",
+					"Since version": "1.0",
+					"Unlock cost": "4800"
+				},
 				"url": "http://wiki.kerbalspaceprogram.com/wiki/LY-50_Medium_Landing_Gear"
 			}
 		],
@@ -337,24 +998,78 @@
 			"Nanolathing"
 		],
 		"description": "These new construction techniques allow for craft designs that were considered insane not too long ago... and still are. But they're now possible!",
-		"icon": "./icons/Advanced_MetalWorks.png",
+		"icon": "",
 		"level": 7,
 		"name": "Advanced MetalWorks",
 		"parts": [
 			{
 				"name": "Modular Girder Segment XL",
+				"props": {
+					"Cost": "75.00",
+					"Drag": "0.2",
+					"Impact Tolerance": "80m/s",
+					"Mass": "0.38t",
+					"Max. Temp.": "2000K",
+					"Part configuration": "trussGirderXL",
+					"Research": "Advanced MetalWorks",
+					"Since version": "0.18",
+					"Unlock cost": "7800"
+				},
 				"url": "http://wiki.kerbalspaceprogram.com/wiki/Modular_Girder_Segment_XL"
 			},
 			{
 				"name": "TR-XL Stack Separator",
+				"props": {
+					"Cost": "900.00",
+					"Drag": "0.2",
+					"Ejection momentum": "6000Ns",
+					"Impact Tolerance": "9m/s",
+					"In atmosphere": "\u2713Yes",
+					"In space": "\u2713Yes",
+					"Manually testable": "\u00d7No",
+					"Mass": "0.45t",
+					"Max. Temp.": "2000K",
+					"On the ocean": "\u2713Yes",
+					"On the surface": "\u2713Yes",
+					"Part configuration": "decouplerSeparatorTR-XL",
+					"Radial size": "Large",
+					"Research": "Advanced MetalWorks",
+					"Since version": "0.18",
+					"Test by staging": "\u2713Yes",
+					"Unlock cost": "9200"
+				},
 				"url": "http://wiki.kerbalspaceprogram.com/wiki/TR-XL_Stack_Separator"
 			},
 			{
 				"name": "Clamp-O-Tron Shielded Docking Port",
+				"props": {
+					"Cost": "400.00",
+					"Drag": "0.25",
+					"Impact Tolerance": "10m/s",
+					"Mass": "0.10t",
+					"Max. Temp.": "2600K",
+					"Part configuration": "dockingPortShielded",
+					"Research": "Advanced MetalWorks",
+					"Since version": "0.18",
+					"Unlock cost": "8400"
+				},
 				"url": "http://wiki.kerbalspaceprogram.com/wiki/Clamp-O-Tron_Shielded_Docking_Port"
 			},
 			{
 				"name": "TVR-2160C Mk2 Stack Quad-Coupler",
+				"props": {
+					"Cost": "2000.00",
+					"Drag": "0.3",
+					"Impact Tolerance": "12m/s",
+					"Mass": "0.18t",
+					"Max. Temp.": "2000K",
+					"Outgoing connectors": "4",
+					"Part configuration": "stackQuadCoupler",
+					"Radial size": "Small",
+					"Research": "Advanced MetalWorks",
+					"Since version": "0.21",
+					"Unlock cost": "4200"
+				},
 				"url": "http://wiki.kerbalspaceprogram.com/wiki/TVR-2160C_Mk2_Stack_Quad-Coupler"
 			}
 		],
@@ -371,16 +1086,46 @@
 			"Experimental_Motors"
 		],
 		"description": "Wheel technology is just rolling along now. You could even say our engineers are on a roll with it.",
-		"icon": "./icons/Advanced_Motors.png",
+		"icon": "",
 		"level": 8,
 		"name": "Advanced Motors",
 		"parts": [
 			{
 				"name": "TR-2L Ruggedized Vehicular Wheel",
+				"props": {
+					"Control type": "AutomaticSteer",
+					"Cost": "580.00",
+					"Drag": "0.2-0.3",
+					"Electricity required": "0.7/s",
+					"Impact Tolerance": "100m/s",
+					"Mass": "0.05t",
+					"Max. Temp.": "1200K",
+					"Maximum speed": "60m/s",
+					"Part configuration": "roverWheelTR-2L",
+					"Research": "Advanced Motors",
+					"Since version": "0.20",
+					"Top speed": "23m/s",
+					"Unlock cost": "6000"
+				},
 				"url": "http://wiki.kerbalspaceprogram.com/wiki/TR-2L_Ruggedized_Vehicular_Wheel"
 			},
 			{
 				"name": "RoveMax Model XL3",
+				"props": {
+					"Control type": "TankSteer",
+					"Cost": "1200.00",
+					"Drag": "0.15-0.2",
+					"Electricity required": "2/s",
+					"Impact Tolerance": "150m/s",
+					"Mass": "1.25t",
+					"Max. Temp.": "1200K",
+					"Maximum speed": "30m/s",
+					"Part configuration": "roverWheelXL3",
+					"Research": "Advanced Motors",
+					"Since version": "0.19",
+					"Top speed": "12m/s",
+					"Unlock cost": "11200"
+				},
 				"url": "http://wiki.kerbalspaceprogram.com/wiki/RoveMax_Model_XL3"
 			}
 		],
@@ -399,20 +1144,82 @@
 			"Propulsion_Systems"
 		],
 		"description": "A new step ahead in rocket technology.",
-		"icon": "./icons/Advanced_Rocketry.png",
+		"icon": "",
 		"level": 4,
 		"name": "Advanced Rocketry",
 		"parts": [
 			{
 				"name": "LV-909 \"Terrier\" Liquid Fuel Engine",
+				"props": {
+					"Cost": "390.00",
+					"Drag": "0.2",
+					"Fuel consumption": "3.54/s",
+					"Impact Tolerance": "7m/s",
+					"In atmosphere": "\u2713Yes",
+					"In space": "\u2713Yes",
+					"Isp (1 atm)": "85s",
+					"Isp (vacuum)": "345s",
+					"Manually testable": "\u00d7No",
+					"Mass": "0.50t",
+					"Max. Temp.": "2000K",
+					"Maximum thrust (1 atm)": "14.78kN",
+					"Maximum thrust (vacuum)": "60.00kN",
+					"On the ocean": "\u2713Yes",
+					"On the surface": "\u2713Yes",
+					"Part configuration": "liquidEngineLV-909",
+					"Research": "Advanced Rocketry",
+					"Since version": "0.14.0",
+					"Test by staging": "\u2713Yes",
+					"Thrust vectoring": "4\u00b0",
+					"Unlock cost": "1600"
+				},
 				"url": "http://wiki.kerbalspaceprogram.com/wiki/LV-909_%22Terrier%22_Liquid_Fuel_Engine"
 			},
 			{
 				"name": "Mk-55 \"Thud\" Liquid Fuel Engine",
+				"props": {
+					"Cost": "820.00",
+					"Drag": "0.2",
+					"Fuel consumption": "8.01/s",
+					"Impact Tolerance": "7m/s",
+					"In atmosphere": "\u2713Yes",
+					"In space": "\u2713Yes",
+					"Isp (1 atm)": "275s",
+					"Isp (vacuum)": "305s",
+					"Manually testable": "\u2713Yes",
+					"Mass": "0.90t",
+					"Max. Temp.": "2000K",
+					"Maximum thrust (1 atm)": "108.20kN",
+					"Maximum thrust (vacuum)": "120.00kN",
+					"On the ocean": "\u2713Yes",
+					"On the surface": "\u2713Yes",
+					"Part configuration": "liquidEngineMk55",
+					"Research": "Advanced Rocketry",
+					"Since version": "0.16",
+					"Test by staging": "\u2713Yes",
+					"Thrust vectoring": "8\u00b0",
+					"Unlock cost": "3500"
+				},
 				"url": "http://wiki.kerbalspaceprogram.com/wiki/Mk-55_%22Thud%22_Liquid_Fuel_Engine"
 			},
 			{
 				"name": "FL-T400 Fuel Tank",
+				"props": {
+					"Cost (dry)": "316.40",
+					"Cost (total)": "500.00",
+					"Drag": "0.2-0.3",
+					"Impact Tolerance": "6m/s",
+					"Liquid fuel": "180",
+					"Mass (dry)": "0.25t",
+					"Mass (total)": "2.25t",
+					"Max. Temp.": "2000K",
+					"Oxidizer": "220",
+					"Part configuration": "fuelTankT400",
+					"Radial size": "Small",
+					"Research": "Advanced Rocketry",
+					"Since version": "0.7.3",
+					"Unlock cost": "1600"
+				},
 				"url": "http://wiki.kerbalspaceprogram.com/wiki/FL-T400_Fuel_Tank"
 			}
 		],
@@ -430,36 +1237,131 @@
 			"Experimental_Science"
 		],
 		"description": "Scientific advancements allow new advanced technologies for advancing Science.",
-		"icon": "./icons/Advanced_Science_Tech.png",
+		"icon": "",
 		"level": 8,
 		"name": "Advanced Science Tech",
 		"parts": [
 			{
 				"name": "Convert-O-Tron 250",
+				"props": {
+					"Cost": "8000.00",
+					"Drag": "0.2",
+					"Electric charge": "30/s",
+					"Impact Tolerance": "7m/s",
+					"Liquid fuel": "0.9/s",
+					"Mass": "4.25t",
+					"Max. Temp.": "2000K",
+					"Monopropellant": "1/s",
+					"Ore": "0.55/s",
+					"Oxidizer": "1.1/s",
+					"Part configuration": "ISRU",
+					"Research": "Advanced Science Tech",
+					"Since version": "1.0",
+					"Unlock cost": "24000"
+				},
 				"url": "http://wiki.kerbalspaceprogram.com/wiki/Convert-O-Tron_250"
 			},
 			{
 				"name": "'Drill-O-Matic Junior' Mining Excavator",
+				"props": {
+					"Cost": "1000.00",
+					"Drag": "2",
+					"Electricity required": "3/s",
+					"Impact Tolerance": "7m/s",
+					"Mass": "0.25t",
+					"Max. Temp.": "2000K",
+					"Part configuration": "RadialDrill",
+					"Research": "Advanced Science Tech",
+					"Since version": "1.0",
+					"Unlock cost": "3000"
+				},
 				"url": "http://wiki.kerbalspaceprogram.com/wiki/%27Drill-O-Matic_Junior%27_Mining_Excavator"
 			},
 			{
 				"name": "Convert-O-Tron 125",
+				"props": {
+					"Cost": "1000.00",
+					"Drag": "0.2",
+					"Electric charge": "30/s",
+					"Impact Tolerance": "7m/s",
+					"Liquid fuel": "0.45/s",
+					"Mass": "1.25t",
+					"Max. Temp.": "2000K",
+					"Monopropellant": "0.5/s",
+					"Ore": "2.75/s",
+					"Oxidizer": "0.55/s",
+					"Part configuration": "MiniISRU",
+					"Research": "Advanced Science Tech",
+					"Since version": "1.0",
+					"Unlock cost": "4000"
+				},
 				"url": "http://wiki.kerbalspaceprogram.com/wiki/Convert-O-Tron_125"
 			},
 			{
 				"name": "'Drill-O-Matic' Mining Excavator",
+				"props": {
+					"Cost": "6000.00",
+					"Drag": "0.2",
+					"Electricity required": "15/s",
+					"Impact Tolerance": "7m/s",
+					"Mass": "0.75t",
+					"Max. Temp.": "2000K",
+					"Part configuration": "RadialDrill",
+					"Research": "Advanced Science Tech",
+					"Since version": "1.0",
+					"Unlock cost": "18000"
+				},
 				"url": "http://wiki.kerbalspaceprogram.com/wiki/%27Drill-O-Matic%27_Mining_Excavator"
 			},
 			{
 				"name": "Radial Holding Tank",
+				"props": {
+					"Cost": "300.00",
+					"Drag": "0.2",
+					"Impact Tolerance": "7m/s",
+					"Mass": "0.13t",
+					"Max. Temp.": "2000K",
+					"Ore (default)": "0",
+					"Ore (max)": "75",
+					"Part configuration": "SmallTank",
+					"Research": "Advanced Science Tech",
+					"Since version": "1.0.5",
+					"Unlock cost": "1000"
+				},
 				"url": "http://wiki.kerbalspaceprogram.com/wiki/Radial_Holding_Tank"
 			},
 			{
 				"name": "Small Holding Tank",
+				"props": {
+					"Cost": "1000.00",
+					"Drag": "0.2",
+					"Impact Tolerance": "7m/s",
+					"Mass": "0.50t",
+					"Max. Temp.": "2000K",
+					"Ore (default)": "0",
+					"Ore (max)": "300",
+					"Part configuration": "SmallTank",
+					"Research": "Advanced Science Tech",
+					"Since version": "1.0",
+					"Unlock cost": "3000"
+				},
 				"url": "http://wiki.kerbalspaceprogram.com/wiki/Small_Holding_Tank"
 			},
 			{
 				"name": "GRAVMAX Negative Gravioli Detector",
+				"props": {
+					"Cost": "8800.00",
+					"Drag": "0.2 [N 1]",
+					"Electricity required": "0.0075/s",
+					"Experiment": "Gravity Scan",
+					"Impact Tolerance": "8m/s",
+					"Mass": "0.01t [N 1]",
+					"Max. Temp.": "1200K",
+					"Part configuration": "sensorGravimeter",
+					"Research": "Advanced Science Tech",
+					"Since version": "0.18",
+					"Unlock cost": "12200"
+				},
 				"url": "http://wiki.kerbalspaceprogram.com/wiki/GRAVMAX_Negative_Gravioli_Detector"
 			}
 		],
@@ -476,12 +1378,31 @@
 			"Large_Probes"
 		],
 		"description": "Improvements in remote control technology for a new generation of probe designs.",
-		"icon": "./icons/Advanced_Unmanned_Tech.png",
+		"icon": "",
 		"level": 8,
 		"name": "Advanced Unmanned Tech",
 		"parts": [
 			{
 				"name": "RC-001S Remote Guidance Unit",
+				"props": {
+					"Cost": "2250.00",
+					"Drag": "0.2",
+					"Electric capacity": "15.0",
+					"Electricity required": "3.00/min",
+					"Electricity required for torque": "",
+					"Impact Tolerance": "9m/s",
+					"Mass": "0.10t",
+					"Max. Temp.": "2000K",
+					"Part configuration": "probeStackSmall",
+					"Pitch torque": "0.5kN\u00b7m",
+					"Radial size": "Small",
+					"Research": "Advanced Unmanned Tech",
+					"Roll torque": "0.5kN\u00b7m",
+					"SAS level": "3",
+					"Since version": "0.20",
+					"Unlock cost": "17800",
+					"Yaw torque": "0.5kN\u00b7m"
+				},
 				"url": "http://wiki.kerbalspaceprogram.com/wiki/RC-001S_Remote_Guidance_Unit"
 			}
 		],
@@ -500,56 +1421,241 @@
 			"Supersonic_Flight"
 		],
 		"description": "New breakthroughs from C7 Aerospace allow for new types of craft to be built. We're looking into hiring some of their engineers as well.",
-		"icon": "./icons/Aerodynamics.png",
+		"icon": "",
 		"level": 5,
 		"name": "Aerodynamics",
 		"parts": [
 			{
 				"name": "XM-G50 Radial Air Intake",
+				"props": {
+					"Cost (dry)": "250.00",
+					"Cost (total)": "250.00",
+					"Drag": "0.2",
+					"Impact Tolerance": "10m/s",
+					"Intake area": "0.006m2",
+					"Intake speed": "10",
+					"Mass (dry)": "0.02t",
+					"Mass (total)": "0.02t",
+					"Max. Temp.": "2000K",
+					"Maximum intake air": "0.6",
+					"Part configuration": "airIntakeRadialXM-G50",
+					"Radial size": "Radial mounted",
+					"Research": "Aerodynamics",
+					"Since version": "0.18",
+					"Unlock cost": "4500"
+				},
 				"url": "http://wiki.kerbalspaceprogram.com/wiki/XM-G50_Radial_Air_Intake"
 			},
 			{
 				"name": "Circular Intake",
+				"props": {
+					"Cost (dry)": "680.00",
+					"Cost (total)": "680.00",
+					"Drag": "0.3",
+					"Impact Tolerance": "7m/s",
+					"Intake area": "0.0085m2",
+					"Intake speed": "10",
+					"Mass (dry)": "0.01t",
+					"Mass (total)": "0.01t",
+					"Max. Temp.": "1900K",
+					"Maximum intake air": "0.85",
+					"Part configuration": "circularIntake",
+					"Radial size": "Small",
+					"Research": "Aerodynamics",
+					"Since version": "0.15",
+					"Unlock cost": "8800"
+				},
 				"url": "http://wiki.kerbalspaceprogram.com/wiki/Circular_Intake"
 			},
 			{
 				"name": "NCS Adapter",
+				"props": {
+					"Cost (dry)": "256.00",
+					"Cost (total)": "320.00",
+					"Drag": "0.1",
+					"Impact Tolerance": "20m/s",
+					"Liquid fuel": "80",
+					"Mass (dry)": "0.10t",
+					"Mass (total)": "0.50t",
+					"Max. Temp.": "2400K",
+					"Part configuration": "cones",
+					"Radial size": "Small, Tiny",
+					"Research": "Advanced Aerodynamics",
+					"Since version": "0.16",
+					"Unlock cost": "6500"
+				},
 				"url": "http://wiki.kerbalspaceprogram.com/wiki/NCS_Adapter"
 			},
 			{
 				"name": "Small Nose Cone",
+				"props": {
+					"Cost": "180.00",
+					"Drag": "0.1",
+					"Impact Tolerance": "40m/s",
+					"Mass": "0.01t",
+					"Max. Temp.": "2400K",
+					"Part configuration": "cones",
+					"Research": "Stability",
+					"Since version": "v0.15",
+					"Unlock cost": "1800"
+				},
 				"url": "http://wiki.kerbalspaceprogram.com/wiki/Small_Nose_Cone"
 			},
 			{
 				"name": "Tail Connector B",
+				"props": {
+					"Cost": "675.00",
+					"Drag": "0.2",
+					"Impact Tolerance": "8m/s",
+					"Mass": "0.20t",
+					"Max. Temp.": "2200K",
+					"Part configuration": "cones",
+					"Research": "Aerodynamics",
+					"Since version": "1.0",
+					"Unlock cost": "2800"
+				},
 				"url": "http://wiki.kerbalspaceprogram.com/wiki/Tail_Connector_B"
 			},
 			{
 				"name": "Wing Connector Type A",
+				"props": {
+					"Cost": "500.00",
+					"Drag": "0.02",
+					"Drag coefficient": "0.5",
+					"Impact Tolerance": "15m/s",
+					"Lift generated": "2.0",
+					"Mass": "0.20t",
+					"Max. Temp.": "2400K",
+					"Part configuration": "wings",
+					"Research": "Aerodynamics",
+					"Since version": "0.25",
+					"Unlock cost": "6400"
+				},
 				"url": "http://wiki.kerbalspaceprogram.com/wiki/Wing_Connector_Type_A"
 			},
 			{
 				"name": "Wing Connector Type C",
+				"props": {
+					"Cost": "250.00",
+					"Drag": "0.02",
+					"Drag coefficient": "0.25",
+					"Impact Tolerance": "15m/s",
+					"Lift generated": "1",
+					"Mass": "0.10t",
+					"Max. Temp.": "2400K",
+					"Part configuration": "wings",
+					"Research": "Aerodynamics",
+					"Since version": "0.25",
+					"Unlock cost": "4300"
+				},
 				"url": "http://wiki.kerbalspaceprogram.com/wiki/Wing_Connector_Type_C"
 			},
 			{
 				"name": "Structural Wing Type B",
+				"props": {
+					"Cost": "500.00",
+					"Drag": "0.02",
+					"Impact Tolerance": "15m/s",
+					"Lift generated": "1",
+					"Mass": "0.10t",
+					"Max. Temp.": "2400K",
+					"Part configuration": "wings",
+					"Research": "Aerodynamics",
+					"Since version": "0.25",
+					"Unlock cost": "6400"
+				},
 				"url": "http://wiki.kerbalspaceprogram.com/wiki/Structural_Wing_Type_B"
 			},
 			{
 				"name": "Swept Wing Type B",
+				"props": {
+					"Cost": "500.00",
+					"Drag": "0.02",
+					"Impact Tolerance": "15m/s",
+					"Lift generated": "2.26",
+					"Mass": "0.23t",
+					"Max. Temp.": "2400K",
+					"Part configuration": "wings",
+					"Research": "Aerodynamics",
+					"Since version": "0.25",
+					"Unlock cost": "6400"
+				},
 				"url": "http://wiki.kerbalspaceprogram.com/wiki/Swept_Wing_Type_B"
 			},
 			{
 				"name": "Mk1 Inline Cockpit",
+				"props": {
+					"Cost (dry)": "1591.00",
+					"Cost (total)": "1600.00",
+					"Crew capacity (maximum)": "1",
+					"Crew capacity (required)": "1",
+					"Drag": "0.08",
+					"Electric capacity": "50.0",
+					"Electricity required for torque": "",
+					"Impact Tolerance": "40m/s",
+					"Mass (dry)": "1.00t",
+					"Mass (total)": "1.03t",
+					"Max. Temp.": "2000K",
+					"Monopropellant": "8",
+					"Part configuration": "mk1InlineCockpit",
+					"Pitch torque": "10.0kN\u00b7m",
+					"Radial size": "Small, Small",
+					"Research": "Flight Control",
+					"Roll torque": "10.0kN\u00b7m",
+					"SAS level": "\u00d7None",
+					"Since version": "0.15",
+					"Unlock cost": "5800",
+					"Yaw torque": "10.0kN\u00b7m"
+				},
 				"url": "http://wiki.kerbalspaceprogram.com/wiki/Mk1_Inline_Cockpit"
 			},
 			{
 				"name": "J-33 \"Wheesley\" Turbofan Engine",
+				"props": {
+					"Cost": "950.00",
+					"Drag": "0.2",
+					"Fuel consumption": "0.02/s",
+					"Impact Tolerance": "7m/s",
+					"In atmosphere": "\u2713Yes",
+					"In space": "\u00d7No",
+					"Intake air consumption": "0.24/s",
+					"Isp": "9600s",
+					"Manually testable": "\u2713Yes",
+					"Mass": "1.50t",
+					"Max. Temp.": "2000K",
+					"Maximum thrust": "120kN",
+					"On the ocean": "\u2713Yes",
+					"On the surface": "\u2713Yes",
+					"Part configuration": "jetEngineBasic",
+					"Radial size": "Small",
+					"Research": "Aerodynamics",
+					"Since version": "0.15",
+					"Test by staging": "\u2713Yes",
+					"Thrust vectoring": "\u00d7No",
+					"Unlock cost": "4000"
+				},
 				"url": "http://wiki.kerbalspaceprogram.com/wiki/J-33_%22Wheesley%22_Turbofan_Engine"
 			},
 			{
 				"name": "Engine Nacelle",
+				"props": {
+					"Cost (dry)": "1518.00",
+					"Cost (total)": "1550.00",
+					"Drag": "0.2-0.3",
+					"Impact Tolerance": "20m/s",
+					"Intake area": "0.005m2",
+					"Intake speed": "10",
+					"Liquid fuel": "40",
+					"Mass (dry)": "0.15t",
+					"Mass (total)": "0.35t",
+					"Max. Temp.": "2000K",
+					"Maximum intake air": "0.5",
+					"Part configuration": "engineNacelle",
+					"Radial size": "Small",
+					"Research": "Supersonic Flight",
+					"Since version": "0.15",
+					"Unlock cost": "6500"
+				},
 				"url": "http://wiki.kerbalspaceprogram.com/wiki/Engine_Nacelle"
 			}
 		],
@@ -564,12 +1670,39 @@
 		],
 		"dependents": [],
 		"description": "The absolute cutting-edge in aerospace technology. Quite literally, some of those edges are very sharp. Handle with care.",
-		"icon": "./icons/Aerospace_Tech.png",
+		"icon": "",
 		"level": 9,
 		"name": "Aerospace Tech",
 		"parts": [
 			{
 				"name": "CR-7 R.A.P.I.E.R. Engine",
+				"props": {
+					"Cost": "6000.00",
+					"Drag": "0.2",
+					"Fuel consumption": "0.04/s",
+					"Impact Tolerance": "20m/s",
+					"In atmosphere": "\u2713Yes",
+					"In space": "\u2713Yes",
+					"Intake air consumption": "0.63/s",
+					"Isp": "3200s",
+					"Isp (1 atm)": "275s",
+					"Isp (vacuum)": "305s",
+					"Manually testable": "\u2713Yes",
+					"Mass": "2.00t",
+					"Max. Temp.": "2000K",
+					"Maximum thrust": "105kN",
+					"Maximum thrust (1 atm)": "162.30kN",
+					"Maximum thrust (vacuum)": "180.00kN",
+					"On the ocean": "\u2713Yes",
+					"On the surface": "\u2713Yes",
+					"Part configuration": "rapierEngine",
+					"Radial size": "Small",
+					"Research": "Aerospace Tech",
+					"Since version": "0.23",
+					"Test by staging": "\u2713Yes",
+					"Thrust vectoring": "3\u00b0",
+					"Unlock cost": "35000"
+				},
 				"url": "http://wiki.kerbalspaceprogram.com/wiki/CR-7_R.A.P.I.E.R._Engine"
 			}
 		],
@@ -587,12 +1720,31 @@
 			"Large_Probes"
 		],
 		"description": "We can't think of anything that could go wrong with letting an experimental AI handle every aspect of a mission.",
-		"icon": "./icons/Automation.png",
+		"icon": "",
 		"level": 8,
 		"name": "Automation",
 		"parts": [
 			{
 				"name": "MK2 Drone Core",
+				"props": {
+					"Cost": "2700.00",
+					"Drag": "0.2-0.3",
+					"Electric capacity": "250.0",
+					"Electricity required": "3.00/min",
+					"Electricity required for torque": "",
+					"Impact Tolerance": "20m/s",
+					"Mass": "0.20t",
+					"Max. Temp.": "2500K",
+					"Part configuration": "mk2DroneCore",
+					"Pitch torque": "15.0kN\u00b7m",
+					"Radial size": "Mk2",
+					"Research": "Automation",
+					"Roll torque": "3.0kN\u00b7m",
+					"SAS level": "3",
+					"Since version": "0.25",
+					"Unlock cost": "22000",
+					"Yaw torque": "3.0kN\u00b7m"
+				},
 				"url": "http://wiki.kerbalspaceprogram.com/wiki/MK2_Drone_Core"
 			}
 		],
@@ -610,64 +1762,259 @@
 			"Landing"
 		],
 		"description": "The art and science of keeping heavier-than-air objects aloft for extended periods of time.",
-		"icon": "./icons/Aviation.png",
+		"icon": "",
 		"level": 4,
 		"name": "Aviation",
 		"parts": [
 			{
 				"name": "Swept Wings",
+				"props": {
+					"Cost": "620.00",
+					"Drag": "0.02",
+					"Drag coefficient": "0.6",
+					"Impact Tolerance": "15m/s",
+					"Lift generated": "1.37",
+					"Mass": "0.28t",
+					"Max. Temp.": "2400K",
+					"Part configuration": "airplaneFins",
+					"Research": "Aviation",
+					"Since version": "0.15",
+					"Unlock cost": "3600"
+				},
 				"url": "http://wiki.kerbalspaceprogram.com/wiki/Swept_Wings"
 			},
 			{
 				"name": "Tail Fin",
+				"props": {
+					"Cost": "600.00",
+					"Deflection range": "25\u00b0",
+					"Drag": "0.02",
+					"Drag coefficient": "0.6",
+					"Impact Tolerance": "12m/s",
+					"Lift generated": "0.61",
+					"Mass": "0.13t",
+					"Max. Temp.": "2400K",
+					"Part configuration": "airplaneFins",
+					"Research": "Aviation",
+					"Since version": "0.15",
+					"Surface area": "1",
+					"Unlock cost": "3800"
+				},
 				"url": "http://wiki.kerbalspaceprogram.com/wiki/Tail_Fin"
 			},
 			{
 				"name": "Tail Connector A",
+				"props": {
+					"Cost": "675.00",
+					"Drag": "0.2",
+					"Impact Tolerance": "8m/s",
+					"Mass": "0.20t",
+					"Max. Temp.": "2200K",
+					"Part configuration": "cones",
+					"Research": "Aviation",
+					"Since version": "0.15",
+					"Unlock cost": "2800"
+				},
 				"url": "http://wiki.kerbalspaceprogram.com/wiki/Tail_Connector_A"
 			},
 			{
 				"name": "Small Circular Intake",
+				"props": {
+					"Cost": "250.00",
+					"Drag": "0.3",
+					"Impact Tolerance": "7m/s",
+					"Intake area": "0.001m2",
+					"Intake speed": "15",
+					"Mass": "0.01t",
+					"Max. Temp.": "1200K",
+					"Maximum intake air": "0.5",
+					"Part configuration": "miniIntake",
+					"Research": "aviation",
+					"Since version": "1.0.5",
+					"Unlock cost": "3000"
+				},
 				"url": "http://wiki.kerbalspaceprogram.com/wiki/Small_Circular_Intake"
 			},
 			{
 				"name": "Wing Connector Type B",
+				"props": {
+					"Cost": "500.00",
+					"Drag": "0.02",
+					"Drag coefficient": "0.5",
+					"Impact Tolerance": "15m/s",
+					"Lift generated": "2.0",
+					"Mass": "0.20t",
+					"Max. Temp.": "2400K",
+					"Part configuration": "wings",
+					"Research": "Aviation",
+					"Since version": "0.25",
+					"Unlock cost": "6400"
+				},
 				"url": "http://wiki.kerbalspaceprogram.com/wiki/Wing_Connector_Type_B"
 			},
 			{
 				"name": "Wing Connector Type E",
+				"props": {
+					"Cost": "100.00",
+					"Drag": "0.02",
+					"Drag coefficient": "0.12",
+					"Impact Tolerance": "15m/s",
+					"Lift generated": "0.5",
+					"Mass": "0.05t",
+					"Max. Temp.": "2400K",
+					"Part configuration": "wings",
+					"Research": "High Altitude Flight",
+					"Since version": "0.25",
+					"Unlock cost": "2400"
+				},
 				"url": "http://wiki.kerbalspaceprogram.com/wiki/Wing_Connector_Type_E"
 			},
 			{
 				"name": "Elevon 1",
+				"props": {
+					"Cost": "400.00",
+					"Deflection range": "20\u00b0",
+					"Drag": "0.02",
+					"Drag coefficient": "0.25",
+					"Impact Tolerance": "15m/s",
+					"Lift generated": "0.25",
+					"Mass": "0.05t",
+					"Max. Temp.": "2400K",
+					"Part configuration": "wings",
+					"Research": "Aviation",
+					"Since version": "0.25",
+					"Surface area": "1.0",
+					"Unlock cost": "3200"
+				},
 				"url": "http://wiki.kerbalspaceprogram.com/wiki/Elevon_1"
 			},
 			{
 				"name": "Structural Wing Type C",
+				"props": {
+					"Cost": "300.00",
+					"Drag": "0.02",
+					"Impact Tolerance": "15m/s",
+					"Lift generated": "0.5",
+					"Mass": "0.05t",
+					"Max. Temp.": "2400K",
+					"Part configuration": "wings",
+					"Research": "High Altitude Flight",
+					"Since version": "0.25",
+					"Unlock cost": "6400"
+				},
 				"url": "http://wiki.kerbalspaceprogram.com/wiki/Structural_Wing_Type_C"
 			},
 			{
 				"name": "Mk1 Cockpit",
+				"props": {
+					"Cost (dry)": "2191.00",
+					"Cost (total)": "2200.00",
+					"Crew capacity (maximum)": "1",
+					"Crew capacity (required)": "1",
+					"Drag": "0.1",
+					"Electric capacity": "50.0",
+					"Electricity required for torque": "",
+					"Impact Tolerance": "45m/s",
+					"Mass (dry)": "1.25t",
+					"Mass (total)": "1.28t",
+					"Max. Temp.": "2000K",
+					"Monopropellant": "8",
+					"Part configuration": "mk1Cockpit",
+					"Pitch torque": "10.0kN\u00b7m",
+					"Radial size": "Small",
+					"Research": "Engineering 101",
+					"Roll torque": "10.0kN\u00b7m",
+					"SAS level": "\u00d7None",
+					"Since version": "0.15",
+					"Unlock cost": "4200",
+					"Yaw torque": "10.0kN\u00b7m"
+				},
 				"url": "http://wiki.kerbalspaceprogram.com/wiki/Mk1_Cockpit"
 			},
 			{
 				"name": "J-20 \"Juno\" Basic Jet Engine",
+				"props": {
+					"Cost": "450.00",
+					"Drag": "0.2",
+					"Fuel consumption": "0.00/s",
+					"Impact Tolerance": "7m/s",
+					"Intake air consumption": "0.06/s",
+					"Isp": "6400s",
+					"Mass": "0.25t",
+					"Max. Temp.": "2000K",
+					"Maximum thrust": "20kN",
+					"Part configuration": "miniJet",
+					"Research": "Unknown",
+					"Since version": "1.0.5",
+					"Thrust vectoring": "\u00d7No",
+					"Unlock cost": "2000"
+				},
 				"url": "http://wiki.kerbalspaceprogram.com/wiki/J-20_%22Juno%22_Basic_Jet_Engine"
 			},
 			{
 				"name": "Mk0 Liquid Fuel Fuselage",
+				"props": {
+					"Cost": "200.00",
+					"Drag": "0.2-0.3",
+					"Impact Tolerance": "10m/s",
+					"Liquid fuel": "50",
+					"Mass": "0.03t",
+					"Max. Temp.": "2000K",
+					"Part configuration": "miniFuselage",
+					"Radial size": "Tiny",
+					"Research": "Aviation",
+					"Since version": "1.0.5",
+					"Unlock cost": "3000"
+				},
 				"url": "http://wiki.kerbalspaceprogram.com/wiki/Mk0_Liquid_Fuel_Fuselage"
 			},
 			{
 				"name": "Mk1 Liquid Fuel Fuselage",
+				"props": {
+					"Cost (dry)": "230.00",
+					"Cost (total)": "550.00",
+					"Drag": "0.2-0.3",
+					"Impact Tolerance": "20m/s",
+					"Liquid fuel": "400",
+					"Mass (dry)": "0.25t",
+					"Mass (total)": "2.25t",
+					"Max. Temp.": "2000K",
+					"Part configuration": "mk1Parts",
+					"Radial size": "Small",
+					"Research": "Aviation",
+					"Since version": "Unknown",
+					"Unlock cost": "2600"
+				},
 				"url": "http://wiki.kerbalspaceprogram.com/wiki/Mk1_Liquid_Fuel_Fuselage"
 			},
 			{
 				"name": "LY-01 Fixed Landing Gear",
+				"props": {
+					"Cost": "100.00",
+					"Drag": "0.2-0.3 [N 1]",
+					"Impact Tolerance": "25m/s",
+					"Mass": "0.05t [N 1]",
+					"Max. Temp.": "1000K",
+					"Part configuration": "LandingGear",
+					"Research": "Aviation",
+					"Since version": "1.0",
+					"Unlock cost": "500"
+				},
 				"url": "http://wiki.kerbalspaceprogram.com/wiki/LY-01_Fixed_Landing_Gear"
 			},
 			{
 				"name": "LY05 Steerable Landing Gear",
+				"props": {
+					"Cost": "150.00",
+					"Drag": "0.2-0.3 [N 1]",
+					"Impact Tolerance": "25m/s",
+					"Mass": "0.04t [N 1]",
+					"Max. Temp.": "1000K",
+					"Part configuration": "LandingGear",
+					"Research": "Aviation",
+					"Since version": "1.0",
+					"Unlock cost": "1500"
+				},
 				"url": "http://wiki.kerbalspaceprogram.com/wiki/LY05_Steerable_Landing_Gear"
 			}
 		],
@@ -685,20 +2032,83 @@
 			"Stability"
 		],
 		"description": "How hard can Rocket Science be anyway?",
-		"icon": "./icons/Basic_Rocketry.png",
+		"icon": "",
 		"level": 2,
 		"name": "Basic Rocketry",
 		"parts": [
 			{
 				"name": "LV-T30 \"Reliant\" Liquid Fuel Engine",
+				"props": {
+					"Cost": "1100.00",
+					"Drag": "0.2",
+					"Fuel consumption": "14.60/s",
+					"Impact Tolerance": "7m/s",
+					"Isp (1 atm)": "280s",
+					"Isp (vacuum)": "300s",
+					"Mass": "1.25t",
+					"Max. Temp.": "2000K",
+					"Maximum thrust (1 atm)": "200.67kN",
+					"Maximum thrust (vacuum)": "215.00kN",
+					"Part configuration": "liquidEngineLV-T30",
+					"Radial size": "Small",
+					"Research": "Basic Rocketry",
+					"Since version": "0.7.3",
+					"Thrust vectoring": "\u00d7No",
+					"Unlock cost": "3200"
+				},
 				"url": "http://wiki.kerbalspaceprogram.com/wiki/LV-T30_%22Reliant%22_Liquid_Fuel_Engine"
 			},
 			{
 				"name": "RT-10 \"Hammer\" Solid Fuel Booster",
+				"props": {
+					"Burn time (1 atm)": "20.7s",
+					"Burn time (vacuum)": "23.7s",
+					"Cost (dry)": "175.00",
+					"Cost (total)": "400.00",
+					"Drag": "0.2-0.3",
+					"Fuel": "375.0",
+					"Fuel consumption": "15.81/s",
+					"Impact Tolerance": "7m/s",
+					"In atmosphere": "\u2713Yes",
+					"In space": "\u2713Yes",
+					"Isp (1 atm)": "170s",
+					"Isp (vacuum)": "195s",
+					"Manually testable": "\u00d7No",
+					"Mass (dry)": "0.75t",
+					"Mass (total)": "3.56t",
+					"Max. Temp.": "2000K",
+					"Maximum thrust (1 atm)": "197.90kN",
+					"Maximum thrust (vacuum)": "227.00kN",
+					"On the ocean": "\u2713Yes",
+					"On the surface": "\u2713Yes",
+					"Part configuration": "solidBoosterRT-10",
+					"Radial size": "Small",
+					"Research": "Basic Rocketry",
+					"Since version": "0.7.3",
+					"Test by staging": "\u2713Yes",
+					"Thrust vectoring": "\u00d7No",
+					"Unlock cost": "1200"
+				},
 				"url": "http://wiki.kerbalspaceprogram.com/wiki/RT-10_%22Hammer%22_Solid_Fuel_Booster"
 			},
 			{
 				"name": "FL-T100 Fuel Tank",
+				"props": {
+					"Cost (dry)": "104.10",
+					"Cost (total)": "150.00",
+					"Drag": "0.2",
+					"Impact Tolerance": "6m/s",
+					"Liquid fuel": "45",
+					"Mass (dry)": "0.06t",
+					"Mass (total)": "0.56t",
+					"Max. Temp.": "2000K",
+					"Oxidizer": "55",
+					"Part configuration": "fuelTankT100",
+					"Radial size": "Small",
+					"Research": "Basic Rocketry",
+					"Since version": "0.21",
+					"Unlock cost": "1200"
+				},
 				"url": "http://wiki.kerbalspaceprogram.com/wiki/FL-T100_Fuel_Tank"
 			}
 		],
@@ -717,32 +2127,114 @@
 			"Space_Exploration"
 		],
 		"description": "We are going to ask the big questions of the Universe... eventually. For now, we're starting with these.",
-		"icon": "./icons/Basic_Science.png",
+		"icon": "",
 		"level": 4,
 		"name": "Basic Science",
 		"parts": [
 			{
 				"name": "Stayputnik Mk. 1",
+				"props": {
+					"Cost": "300.00",
+					"Drag": "0.15-0.2",
+					"Electric capacity": "10.0",
+					"Electricity required": "1.67/min",
+					"Electricity required for torque": "",
+					"Impact Tolerance": "12m/s",
+					"Mass": "0.05t",
+					"Max. Temp.": "1800K",
+					"Part configuration": "probeStackSphere",
+					"Pitch torque": "0kN\u00b7m",
+					"Radial size": "Tiny",
+					"Research": "Basic Science",
+					"Roll torque": "0kN\u00b7m",
+					"SAS level": "\u00d7None",
+					"Since version": "0.18",
+					"Unlock cost": "1400",
+					"Yaw torque": "0kN\u00b7m"
+				},
 				"url": "http://wiki.kerbalspaceprogram.com/wiki/Stayputnik_Mk._1"
 			},
 			{
 				"name": "Z-100 Rechargeable Battery Pack",
+				"props": {
+					"Cost": "80.00",
+					"Drag": "0.2 [N 1]",
+					"Electric capacity": "100.0",
+					"Impact Tolerance": "8m/s",
+					"Mass": "0.01t [N 1]",
+					"Max. Temp.": "1200K",
+					"Part configuration": "z-100Battery",
+					"Radial size": "Radial mounted",
+					"Research": "Basic Science",
+					"Since version": "0.18",
+					"Unlock cost": "800"
+				},
 				"url": "http://wiki.kerbalspaceprogram.com/wiki/Z-100_Rechargeable_Battery_Pack"
 			},
 			{
 				"name": "2HOT Thermometer",
+				"props": {
+					"Cost": "900.00",
+					"Drag": "0.2 [N 1]",
+					"Electricity required": "0.0075/s",
+					"Experiment": "Temperature Scan",
+					"Impact Tolerance": "8m/s",
+					"Mass": "0.01t [N 1]",
+					"Max. Temp.": "1200K",
+					"Part configuration": "sensorThermometer",
+					"Research": "Basic Science",
+					"Since version": "0.18",
+					"Unlock cost": "2200"
+				},
 				"url": "http://wiki.kerbalspaceprogram.com/wiki/2HOT_Thermometer"
 			},
 			{
 				"name": "Radiator Panel (edge)",
+				"props": {
+					"Cost": "450.00",
+					"Drag": "0.2",
+					"Impact Tolerance": "12m/s",
+					"Mass": "0.03t",
+					"Max. Temp.": "2500K",
+					"Part configuration": "RadiatorPanels",
+					"Radial size": "Radial mounted",
+					"Research": "Basic Science",
+					"Since version": "1.0.5",
+					"Unlock cost": "2200"
+				},
 				"url": "http://wiki.kerbalspaceprogram.com/wiki/Radiator_Panel_(edge)"
 			},
 			{
 				"name": "Radiator Panel (large)",
+				"props": {
+					"Cost": "450.00",
+					"Drag": "0.2",
+					"Impact Tolerance": "12m/s",
+					"Mass": "0.05t",
+					"Max. Temp.": "2500K",
+					"Part configuration": "RadiatorPanels",
+					"Research": "Basic Science",
+					"Since version": "1.0.4",
+					"Unlock cost": "2200"
+				},
 				"url": "http://wiki.kerbalspaceprogram.com/wiki/Radiator_Panel_(large)"
 			},
 			{
 				"name": "Comms DTS-M1",
+				"props": {
+					"Cost": "600.00",
+					"Drag": "0.2",
+					"Electricity required": "6E/Mit",
+					"Impact Tolerance": "8m/s",
+					"Mass": "0.03t",
+					"Max. Temp.": "2000K",
+					"Packet size": "2Mit",
+					"Part configuration": "commsAntennaDTS-M1",
+					"Research": "Basic Science",
+					"Since version": "0.22",
+					"Transmission speed": "5.71Mit/s",
+					"Unlock cost": "1500"
+				},
 				"url": "http://wiki.kerbalspaceprogram.com/wiki/Comms_DTS-M1"
 			}
 		],
@@ -758,24 +2250,104 @@
 		],
 		"dependents": [],
 		"description": "Flight control technology has evolved far enough that we feel we can honestly say pilots are in command now.",
-		"icon": "./icons/Command_Modules.png",
+		"icon": "",
 		"level": 6,
 		"name": "Command Modules",
 		"parts": [
 			{
 				"name": "PPD-12 Cupola Module",
+				"props": {
+					"Cost (dry)": "3188.00",
+					"Cost (total)": "3200.00",
+					"Crew capacity (maximum)": "1",
+					"Crew capacity (required)": "1",
+					"Drag": "0.2",
+					"Electric capacity": "200.0",
+					"Electricity required for torque": "",
+					"Impact Tolerance": "8m/s",
+					"Mass (dry)": "1.76t",
+					"Mass (total)": "1.80t",
+					"Max. Temp.": "2000K",
+					"Monopropellant": "10",
+					"Part configuration": "cupola",
+					"Pitch torque": "9.0kN\u00b7m",
+					"Radial size": "Small, Large",
+					"Research": "Command Modules",
+					"Roll torque": "9.0kN\u00b7m",
+					"SAS level": "\u00d7None",
+					"Since version": "0.20",
+					"Unlock cost": "10200",
+					"Yaw torque": "9.0kN\u00b7m"
+				},
 				"url": "http://wiki.kerbalspaceprogram.com/wiki/PPD-12_Cupola_Module"
 			},
 			{
 				"name": "Mk1-2 Command Pod",
+				"props": {
+					"Cost (dry)": "3764.00",
+					"Cost (total)": "3800.00",
+					"Crew capacity (maximum)": "3",
+					"Crew capacity (required)": "1",
+					"Drag": "0.15-0.2",
+					"Electric capacity": "150.0",
+					"Electricity required for torque": "",
+					"Impact Tolerance": "45m/s",
+					"Mass (dry)": "4.00t",
+					"Mass (total)": "4.12t",
+					"Max. Temp.": "2400K",
+					"Monopropellant": "30",
+					"Part configuration": "Mk1-2Pod",
+					"Pitch torque": "15.0kN\u00b7m",
+					"Radial size": "Small, Large",
+					"Research": "Command Modules",
+					"Roll torque": "15.0kN\u00b7m",
+					"SAS level": "\u00d7None",
+					"Since version": "0.16",
+					"Unlock cost": "7600",
+					"Yaw torque": "15.0kN\u00b7m"
+				},
 				"url": "http://wiki.kerbalspaceprogram.com/wiki/Mk1-2_Command_Pod"
 			},
 			{
 				"name": "Mk2 Lander Can",
+				"props": {
+					"Cost (dry)": "3202.00",
+					"Cost (total)": "3250.00",
+					"Crew capacity (maximum)": "2",
+					"Crew capacity (required)": "1",
+					"Drag": "0.15-0.2",
+					"Electric capacity": "100.0",
+					"Electricity required for torque": "",
+					"Impact Tolerance": "8m/s",
+					"Mass (dry)": "2.50t",
+					"Mass (total)": "2.66t",
+					"Max. Temp.": "2000K",
+					"Monopropellant": "40",
+					"Part configuration": "mk2LanderCan",
+					"Pitch torque": "15.0kN\u00b7m",
+					"Radial size": "Large",
+					"Research": "Command Modules",
+					"Roll torque": "15.0kN\u00b7m",
+					"SAS level": "\u00d7None",
+					"Since version": "0.18",
+					"Unlock cost": "8200",
+					"Yaw torque": "15.0kN\u00b7m"
+				},
 				"url": "http://wiki.kerbalspaceprogram.com/wiki/Mk2_Lander_Can"
 			},
 			{
 				"name": "Service Bay (2.5m)",
+				"props": {
+					"Cost": "500.00",
+					"Drag": "0.2-0.3",
+					"Impact Tolerance": "14m/s",
+					"Mass": "0.30t",
+					"Max. Temp.": "2900K",
+					"Part configuration": "ServiceBay",
+					"Research": "Command Modules",
+					"Since version": "1.0",
+					"Unlock cost": "1000"
+				},
 				"url": "http://wiki.kerbalspaceprogram.com/wiki/Service_Bay_(2.5m)"
 			}
 		],
@@ -792,36 +2364,114 @@
 			"Meta-Materials"
 		],
 		"description": "Lightweight and strong! And don't worry, we're sure the glue will dry off in no time.",
-		"icon": "./icons/Composites.png",
+		"icon": "",
 		"level": 7,
 		"name": "Composites",
 		"parts": [
 			{
 				"name": "AE-FF3 Airstream Protective Shell (3.75m)",
+				"props": {
+					"Cost": "900.00",
+					"Drag": "0.2",
+					"Impact Tolerance": "9m/s",
+					"Mass": "0.48t",
+					"Max. Temp.": "2600K",
+					"Part configuration": "fairings",
+					"Research": "Heavy Aerodynamics",
+					"Since version": "1.0",
+					"Unlock cost": "9200"
+				},
 				"url": "http://wiki.kerbalspaceprogram.com/wiki/AE-FF3_Airstream_Protective_Shell_(3.75m)"
 			},
 			{
 				"name": "M-Beam 200 I-Beam",
+				"props": {
+					"Cost": "25.00",
+					"Drag": "0.2",
+					"Impact Tolerance": "80m/s",
+					"Mass": "0.38t",
+					"Max. Temp.": "2000K",
+					"Part configuration": "structuralIBeam200",
+					"Research": "Composites",
+					"Since version": "0.19.0",
+					"Unlock cost": "6800"
+				},
 				"url": "http://wiki.kerbalspaceprogram.com/wiki/M-Beam_200_I-Beam"
 			},
 			{
 				"name": "M-Beam 200 I-Beam Pocket Edition",
+				"props": {
+					"Cost": "14.00",
+					"Drag": "0.2",
+					"Impact Tolerance": "80m/s",
+					"Mass": "0.19t",
+					"Max. Temp.": "2000K",
+					"Part configuration": "structuralIBeam200Pocket",
+					"Research": "Composites",
+					"Since version": "0.19.0",
+					"Unlock cost": "6200"
+				},
 				"url": "http://wiki.kerbalspaceprogram.com/wiki/M-Beam_200_I-Beam_Pocket_Edition"
 			},
 			{
 				"name": "M-Beam 650 I-Beam",
+				"props": {
+					"Cost": "50.00",
+					"Drag": "0.2",
+					"Impact Tolerance": "80m/s",
+					"Mass": "0.08t",
+					"Max. Temp.": "2000K",
+					"Part configuration": "structuralIBeam650",
+					"Research": "Composites",
+					"Since version": "0.19.0",
+					"Unlock cost": "7800"
+				},
 				"url": "http://wiki.kerbalspaceprogram.com/wiki/M-Beam_650_I-Beam"
 			},
 			{
 				"name": "M-1x1 Structural Panel",
+				"props": {
+					"Cost": "30.00",
+					"Drag": "0.2",
+					"Impact Tolerance": "80m/s",
+					"Mass": "0.08t",
+					"Max. Temp.": "2000K",
+					"Part configuration": "structuralPanel1x1",
+					"Research": "Composites",
+					"Since version": "0.19",
+					"Unlock cost": "7200"
+				},
 				"url": "http://wiki.kerbalspaceprogram.com/wiki/M-1x1_Structural_Panel"
 			},
 			{
 				"name": "M-2x2 Structural Panel",
+				"props": {
+					"Cost": "90.00",
+					"Drag": "0.2",
+					"Impact Tolerance": "80m/s",
+					"Mass": "0.30t",
+					"Max. Temp.": "2000K",
+					"Part configuration": "structuralPanel2x2",
+					"Research": "Composites",
+					"Since version": "0.19",
+					"Unlock cost": "9800"
+				},
 				"url": "http://wiki.kerbalspaceprogram.com/wiki/M-2x2_Structural_Panel"
 			},
 			{
 				"name": "Inline Clamp-O-Tron",
+				"props": {
+					"Cost": "700.00",
+					"Drag": "0.08",
+					"Impact Tolerance": "10m/s",
+					"Mass": "0.30t",
+					"Max. Temp.": "2000K",
+					"Part configuration": "dockingPortInline",
+					"Radial size": "Small",
+					"Research": "Composites",
+					"Since version": "0.18",
+					"Unlock cost": "9800"
+				},
 				"url": "http://wiki.kerbalspaceprogram.com/wiki/Inline_Clamp-O-Tron"
 			}
 		],
@@ -839,32 +2489,114 @@
 			"Precision_Engineering"
 		],
 		"description": "We did know about electricity before inventing space flight. The big breakthrough here was combining the two.",
-		"icon": "./icons/Electrics.png",
+		"icon": "",
 		"level": 5,
 		"name": "Electrics",
 		"parts": [
 			{
 				"name": "Probodobodyne OKTO",
+				"props": {
+					"Cost": "450.00",
+					"Drag": "0.15-0.2",
+					"Electric capacity": "10.0",
+					"Electricity required": "1.20/min",
+					"Electricity required for torque": "",
+					"Impact Tolerance": "12m/s",
+					"Mass": "0.10t",
+					"Max. Temp.": "1200K",
+					"Part configuration": "probeCoreOcto",
+					"Pitch torque": "0.3kN\u00b7m",
+					"Radial size": "Tiny",
+					"Research": "Electrics",
+					"Roll torque": "0.3kN\u00b7m",
+					"SAS level": "0",
+					"Since version": "0.18",
+					"Unlock cost": "2800",
+					"Yaw torque": "0.3kN\u00b7m"
+				},
 				"url": "http://wiki.kerbalspaceprogram.com/wiki/Probodobodyne_OKTO"
 			},
 			{
 				"name": "OX-STAT Photovoltaic Panels",
+				"props": {
+					"Cost": "75.00",
+					"Drag": "0.2 [N 1]",
+					"Electricity generated": "0.35/s[N 2]",
+					"Impact Tolerance": "8m/s",
+					"Layout": "1\u00d71",
+					"Mass": "0.01t [N 1]",
+					"Max. Temp.": "1200K",
+					"Part configuration": "radialFlatSolarPanel",
+					"Research": "Electrics",
+					"Retractable": "\u00d7No",
+					"Since version": "0.18",
+					"Tracking": "\u00d7No",
+					"Unlock cost": "1200"
+				},
 				"url": "http://wiki.kerbalspaceprogram.com/wiki/OX-STAT_Photovoltaic_Panels"
 			},
 			{
 				"name": "Z-200 Rechargeable Battery Bank",
+				"props": {
+					"Cost": "360.00",
+					"Drag": "0.2",
+					"Electric capacity": "200.0",
+					"Impact Tolerance": "8m/s",
+					"Mass": "0.01t",
+					"Max. Temp.": "2000K",
+					"Part configuration": "z-200Battery",
+					"Radial size": "Tiny",
+					"Research": "Electrics",
+					"Since version": "0.21",
+					"Unlock cost": "3200"
+				},
 				"url": "http://wiki.kerbalspaceprogram.com/wiki/Z-200_Rechargeable_Battery_Bank"
 			},
 			{
 				"name": "Thermal Control System (small)",
+				"props": {
+					"Cost": "450.00",
+					"Drag": "0.2",
+					"Impact Tolerance": "12m/s",
+					"Mass": "0.05t",
+					"Max. Temp.": "2500K",
+					"Part configuration": "FoldingRadiators",
+					"Research": "Electrics",
+					"Since version": "1.0.4",
+					"Unlock cost": "2200"
+				},
 				"url": "http://wiki.kerbalspaceprogram.com/wiki/Thermal_Control_System_(small)"
 			},
 			{
 				"name": "Illuminator Mk1",
+				"props": {
+					"Cost": "100.00",
+					"Drag": "0.2 [N 1]",
+					"Electricity required": "0.04/s",
+					"Impact Tolerance": "8m/s",
+					"Mass": "0.02t [N 1]",
+					"Max. Temp.": "2000K",
+					"Part configuration": "spotLightMk1",
+					"Research": "Electrics",
+					"Since version": "0.18",
+					"Unlock cost": "800"
+				},
 				"url": "http://wiki.kerbalspaceprogram.com/wiki/Illuminator_Mk1"
 			},
 			{
 				"name": "Illuminator Mk2",
+				"props": {
+					"Cost": "100.00",
+					"Drag": "0.2 [N 1]",
+					"Electricity required": "0.02/s",
+					"Impact Tolerance": "8m/s",
+					"Mass": "0.02t [N 1]",
+					"Max. Temp.": "2000K",
+					"Part configuration": "spotLightMk2",
+					"Research": "Electrics",
+					"Since version": "0.18",
+					"Unlock cost": "800"
+				},
 				"url": "http://wiki.kerbalspaceprogram.com/wiki/Illuminator_Mk2"
 			}
 		],
@@ -882,16 +2614,43 @@
 			"Automation"
 		],
 		"description": "Hopefully these won't become obsolete in the next couple of months.",
-		"icon": "./icons/Electronics.png",
+		"icon": "",
 		"level": 7,
 		"name": "Electronics",
 		"parts": [
 			{
 				"name": "Double-C Seismic Accelerometer",
+				"props": {
+					"Cost": "6000.00",
+					"Drag": "0.2 [N 1]",
+					"Electricity required": "0.0075/s",
+					"Experiment": "Seismic Scan",
+					"Impact Tolerance": "8m/s",
+					"Mass": "0.01t [N 1]",
+					"Max. Temp.": "1200K",
+					"Part configuration": "sensorAccelerometer",
+					"Research": "Electronics",
+					"Since version": "0.18",
+					"Unlock cost": "8200"
+				},
 				"url": "http://wiki.kerbalspaceprogram.com/wiki/Double-C_Seismic_Accelerometer"
 			},
 			{
 				"name": "Communotron 88-88",
+				"props": {
+					"Cost": "1100.00",
+					"Drag": "0.2 [N 1]",
+					"Electricity required": "10E/Mit",
+					"Impact Tolerance": "7m/s",
+					"Mass": "0.03t [N 1]",
+					"Max. Temp.": "2000K",
+					"Packet size": "2Mit",
+					"Part configuration": "commDish88-88",
+					"Research": "Electronics",
+					"Since version": "0.18",
+					"Transmission speed": "20Mit/s",
+					"Unlock cost": "3400"
+				},
 				"url": "http://wiki.kerbalspaceprogram.com/wiki/Communotron_88-88"
 			}
 		],
@@ -909,20 +2668,66 @@
 			"Survivability"
 		],
 		"description": "How hard can Aerospace Engineering be anyway?",
-		"icon": "./icons/Engineering_101.png",
+		"icon": "",
 		"level": 2,
 		"name": "Engineering 101",
 		"parts": [
 			{
 				"name": "SC-9001 Science Jr.",
+				"props": {
+					"Cost": "880.00",
+					"Drag": "0.2-0.3",
+					"Electricity required": "None",
+					"Experiment": "Materials Study",
+					"Impact Tolerance": "6m/s",
+					"Mass": "0.20t",
+					"Max. Temp.": "1200K",
+					"Part configuration": "MaterialBay",
+					"Radial size": "Small",
+					"Research": "Engineering 101",
+					"Since version": "0.22",
+					"Unlock cost": "2500"
+				},
 				"url": "http://wiki.kerbalspaceprogram.com/wiki/SC-9001_Science_Jr."
 			},
 			{
 				"name": "Communotron 16",
+				"props": {
+					"Cost": "300.00",
+					"Drag": "0.2 [N 1]",
+					"Electricity required": "6E/Mit",
+					"Impact Tolerance": "7m/s",
+					"Mass": "0.01t [N 1]",
+					"Max. Temp.": "2000K",
+					"Packet size": "2Mit",
+					"Part configuration": "commsDish16",
+					"Research": "Engineering 101",
+					"Since version": "0.18",
+					"Transmission speed": "3.33Mit/s",
+					"Unlock cost": "240"
+				},
 				"url": "http://wiki.kerbalspaceprogram.com/wiki/Communotron_16"
 			},
 			{
 				"name": "TR-18A Stack Decoupler",
+				"props": {
+					"Cost": "400.00",
+					"Drag": "0.2",
+					"Ejection momentum": "2500Ns",
+					"Impact Tolerance": "9m/s",
+					"In atmosphere": "\u2713Yes",
+					"In space": "\u2713Yes",
+					"Manually testable": "\u00d7No",
+					"Mass": "0.05t",
+					"Max. Temp.": "2000K",
+					"On the ocean": "\u2713Yes",
+					"On the surface": "\u2713Yes",
+					"Part configuration": "decouplerStackTR-18A",
+					"Research": "Engineering 101",
+					"Since version": "0.7.3",
+					"Test by staging": "\u2713Yes",
+					"Unlock cost": "1200"
+				},
 				"url": "http://wiki.kerbalspaceprogram.com/wiki/TR-18A_Stack_Decoupler"
 			}
 		],
@@ -937,64 +2742,264 @@
 		],
 		"dependents": [],
 		"description": "Winged flight technology is soaring to unprecedented heights. It could even be said that it's properly taking off now.",
-		"icon": "./icons/Experimental_Aerodynamics.png",
+		"icon": "",
 		"level": 8,
 		"name": "Experimental Aerodynamics",
 		"parts": [
 			{
 				"name": "Big-S Delta Wing",
+				"props": {
+					"Cost (dry)": "3000.00",
+					"Cost (total)": "3000.00",
+					"Drag": "0.02",
+					"Impact Tolerance": "15m/s",
+					"Lift generated": "5.0",
+					"Liquid fuel (default)": "0",
+					"Liquid fuel (max)": "300",
+					"Mass (dry)": "0.50t",
+					"Mass (total)": "0.50t",
+					"Max. Temp.": "2400K",
+					"Part configuration": "shuttleWings",
+					"Research": "Aerospace Tech",
+					"Since version": "1.0",
+					"Unlock cost": "36400"
+				},
 				"url": "http://wiki.kerbalspaceprogram.com/wiki/Big-S_Delta_Wing"
 			},
 			{
 				"name": "Big-S Elevon 1",
+				"props": {
+					"Cost": "950.00",
+					"Deflection range": "25\u00b0",
+					"Drag": "0.02",
+					"Drag coefficient": "0.5",
+					"Impact Tolerance": "15m/s",
+					"Lift generated": "0.77",
+					"Mass": "0.15t",
+					"Max. Temp.": "2400K",
+					"Part configuration": "shuttleWings",
+					"Research": "Aerospace Tech",
+					"Since version": "1.0",
+					"Surface area": "1",
+					"Unlock cost": "16400"
+				},
 				"url": "http://wiki.kerbalspaceprogram.com/wiki/Big-S_Elevon_1"
 			},
 			{
 				"name": "Big-S Elevon 2",
+				"props": {
+					"Cost": "1300.00",
+					"Deflection range": "25\u00b0",
+					"Drag": "0.02",
+					"Drag coefficient": "0.5",
+					"Impact Tolerance": "15m/s",
+					"Lift generated": "1.16",
+					"Mass": "0.23t",
+					"Max. Temp.": "2400K",
+					"Part configuration": "shuttleWings",
+					"Research": "Aerospace Tech",
+					"Since version": "1.0",
+					"Surface area": "1",
+					"Unlock cost": "16400"
+				},
 				"url": "http://wiki.kerbalspaceprogram.com/wiki/Big-S_Elevon_2"
 			},
 			{
 				"name": "Big-S Spaceplane Tail Fin",
+				"props": {
+					"Cost": "2500.00",
+					"Deflection range": "25\u00b0",
+					"Drag": "0.02",
+					"Drag coefficient": "0.6",
+					"Impact Tolerance": "15m/s",
+					"Lift generated": "3.49",
+					"Mass": "0.45t",
+					"Max. Temp.": "2400K",
+					"Part configuration": "shuttleWings",
+					"Research": "Aerospace Tech",
+					"Since version": "1.0",
+					"Surface area": "0.29",
+					"Unlock cost": "8000"
+				},
 				"url": "http://wiki.kerbalspaceprogram.com/wiki/Big-S_Spaceplane_Tail_Fin"
 			},
 			{
 				"name": "Big-S Wing Strake",
+				"props": {
+					"Cost (dry)": "1000.00",
+					"Cost (total)": "1000.00",
+					"Drag": "0.02",
+					"Impact Tolerance": "15m/s",
+					"Lift generated": "1.0",
+					"Liquid fuel (default)": "0",
+					"Liquid fuel (max)": "100",
+					"Mass (dry)": "0.10t",
+					"Mass (total)": "0.10t",
+					"Max. Temp.": "2400K",
+					"Part configuration": "shuttleWings",
+					"Research": "Aerospace Tech",
+					"Since version": "1.0",
+					"Unlock cost": "22000"
+				},
 				"url": "http://wiki.kerbalspaceprogram.com/wiki/Big-S_Wing_Strake"
 			},
 			{
 				"name": "Mk3 to Mk2 Adapter",
+				"props": {
+					"Cost (dry)": "1282.00",
+					"Cost (total)": "2200.00",
+					"Drag": "0.2-0.3",
+					"Impact Tolerance": "50m/s",
+					"Liquid fuel": "900",
+					"Mass (dry)": "1.43t",
+					"Mass (total)": "11.43t",
+					"Max. Temp.": "2600K",
+					"Oxidizer": "1100",
+					"Part configuration": "adapterTanks",
+					"Radial size": "Mk2, Mk3",
+					"Research": "Heavy Aerodynamics",
+					"Since version": "0.15.0?",
+					"Unlock cost": "42000"
+				},
 				"url": "http://wiki.kerbalspaceprogram.com/wiki/Mk3_to_Mk2_Adapter"
 			},
 			{
 				"name": "Mk3 Engine Mount",
+				"props": {},
 				"url": "http://wiki.kerbalspaceprogram.com/wiki/Mk3_Engine_Mount"
 			},
 			{
 				"name": "Mk3 to 3.75m Adapter",
+				"props": {
+					"Cost (dry)": "1352.50",
+					"Cost (total)": "2500.00",
+					"Drag": "0.2-0.3",
+					"Impact Tolerance": "50m/s",
+					"Liquid fuel": "1125",
+					"Mass (dry)": "1.79t",
+					"Mass (total)": "14.29t",
+					"Max. Temp.": "2600K",
+					"Oxidizer": "1375",
+					"Part configuration": "adapterTanks",
+					"Radial size": "Extra large, Mk3",
+					"Research": "Experimental Aerodynamics",
+					"Since version": "0.90.0",
+					"Unlock cost": "42000"
+				},
 				"url": "http://wiki.kerbalspaceprogram.com/wiki/Mk3_to_3.75m_Adapter"
 			},
 			{
 				"name": "Mk3 Rocket Fuel Fuselage Long",
+				"props": {
+					"Cost (dry)": "5410.00",
+					"Cost (total)": "10000.00",
+					"Drag": "0.2-0.3",
+					"Impact Tolerance": "50m/s",
+					"Liquid fuel": "4500",
+					"Mass (dry)": "7.14t",
+					"Mass (total)": "57.14t",
+					"Max. Temp.": "2700K",
+					"Oxidizer": "5500",
+					"Part configuration": "mk3Fuselage",
+					"Radial size": "Mk3",
+					"Research": "Experimental Aerodynamics",
+					"Since version": "0.90.0",
+					"Unlock cost": "84000"
+				},
 				"url": "http://wiki.kerbalspaceprogram.com/wiki/Mk3_Rocket_Fuel_Fuselage_Long"
 			},
 			{
 				"name": "Mk3 Rocket Fuel Fuselage Short",
+				"props": {
+					"Cost (dry)": "1352.50",
+					"Cost (total)": "2500.00",
+					"Drag": "0.2-0.3",
+					"Impact Tolerance": "50m/s",
+					"Liquid fuel": "1125",
+					"Mass (dry)": "1.79t",
+					"Mass (total)": "14.29t",
+					"Max. Temp.": "2700K",
+					"Oxidizer": "1375",
+					"Part configuration": "mk3Fuselage",
+					"Radial size": "Mk3",
+					"Research": "Heavy Aerodynamics",
+					"Since version": "0.90.0",
+					"Unlock cost": "21000"
+				},
 				"url": "http://wiki.kerbalspaceprogram.com/wiki/Mk3_Rocket_Fuel_Fuselage_Short"
 			},
 			{
 				"name": "Mk3 Rocket Fuel Fuselage",
+				"props": {
+					"Cost (dry)": "2705.00",
+					"Cost (total)": "5000.00",
+					"Drag": "0.2-0.3",
+					"Impact Tolerance": "50m/s",
+					"Liquid fuel": "2250",
+					"Mass (dry)": "3.57t",
+					"Mass (total)": "28.57t",
+					"Max. Temp.": "2700K",
+					"Oxidizer": "2750",
+					"Part configuration": "mk3Fuselage",
+					"Radial size": "Mk3",
+					"Research": "Heavy Aerodynamics",
+					"Since version": "0.90.0",
+					"Unlock cost": "42000"
+				},
 				"url": "http://wiki.kerbalspaceprogram.com/wiki/Mk3_Rocket_Fuel_Fuselage"
 			},
 			{
 				"name": "Mk3 Liquid Fuel Fuselage Long",
+				"props": {
+					"Cost (dry)": "9200.00",
+					"Cost (total)": "17200.00",
+					"Drag": "0.2-0.3",
+					"Impact Tolerance": "50m/s",
+					"Liquid fuel": "10000",
+					"Mass (dry)": "7.14t",
+					"Mass (total)": "57.14t",
+					"Max. Temp.": "2700K",
+					"Part configuration": "mk3Fuselage",
+					"Radial size": "Mk3",
+					"Research": "Experimental Aerodynamics",
+					"Since version": "0.90.0",
+					"Unlock cost": "84000"
+				},
 				"url": "http://wiki.kerbalspaceprogram.com/wiki/Mk3_Liquid_Fuel_Fuselage_Long"
 			},
 			{
 				"name": "Mk3 Monopropellant Tank",
+				"props": {
+					"Cost (dry)": "3100.00",
+					"Cost (total)": "4300.00",
+					"Drag": "0.2-0.3",
+					"Impact Tolerance": "50m/s",
+					"Mass (dry)": "0.71t",
+					"Mass (total)": "4.71t",
+					"Max. Temp.": "2700K",
+					"Monopropellant": "1000",
+					"Part configuration": "mk3Fuselage",
+					"Radial size": "Mk3",
+					"Research": "Experimental Aerodynamics",
+					"Since version": "0.90.0",
+					"Unlock cost": "21000"
+				},
 				"url": "http://wiki.kerbalspaceprogram.com/wiki/Mk3_Monopropellant_Tank"
 			},
 			{
 				"name": "Mk3 Cargo Bay CRG-100",
+				"props": {
+					"Cost": "3000.00",
+					"Drag": "0.2-0.3",
+					"Impact Tolerance": "50m/s",
+					"Mass": "6.00t",
+					"Max. Temp.": "2700K",
+					"Part configuration": "mk3CargoBay",
+					"Radial size": "Mk3",
+					"Research": "Experimental Aerodynamics",
+					"Since version": "0.90.0",
+					"Unlock cost": "32000"
+				},
 				"url": "http://wiki.kerbalspaceprogram.com/wiki/Mk3_Cargo_Bay_CRG-100"
 			}
 		],
@@ -1009,12 +3014,24 @@
 		],
 		"dependents": [],
 		"description": "The very latest in electrical systems technology. Our engineers are buzzing with excitement over it. They also seem to glow in the dark now. Fascinating!",
-		"icon": "./icons/Experimental_Electrics.png",
+		"icon": "",
 		"level": 9,
 		"name": "Experimental Electrics",
 		"parts": [
 			{
 				"name": "PB-NUK Radioisotope Thermoelectric Generator",
+				"props": {
+					"Cost": "23300.00",
+					"Drag": "0.2",
+					"Electricity generated": "0.75/s",
+					"Impact Tolerance": "7m/s",
+					"Mass": "0.08t",
+					"Max. Temp.": "1200K",
+					"Part configuration": "RTG",
+					"Research": "Experimental Electrics",
+					"Since version": "0.18",
+					"Unlock cost": "58000"
+				},
 				"url": "http://wiki.kerbalspaceprogram.com/wiki/PB-NUK_Radioisotope_Thermoelectric_Generator"
 			}
 		],
@@ -1029,16 +3046,40 @@
 		],
 		"dependents": [],
 		"description": "Explore novel fields of science that we didn't even know were there.",
-		"icon": "./icons/Experimental_Science.png",
+		"icon": "",
 		"level": 9,
 		"name": "Experimental Science",
 		"parts": [
 			{
 				"name": "Large Holding Tank",
+				"props": {
+					"Cost": "3000.00",
+					"Drag": "0.2",
+					"Impact Tolerance": "7m/s",
+					"Mass": "2.00t",
+					"Max. Temp.": "2000K",
+					"Ore (default)": "0",
+					"Ore (max)": "1500",
+					"Part configuration": "LargeTank",
+					"Research": "Experimental Science",
+					"Since version": "1.0",
+					"Unlock cost": "9000"
+				},
 				"url": "http://wiki.kerbalspaceprogram.com/wiki/Large_Holding_Tank"
 			},
 			{
 				"name": "M4435 Narrow-Band Scanner",
+				"props": {
+					"Cost": "1000.00",
+					"Drag": "0.2",
+					"Impact Tolerance": "7m/s",
+					"Mass": "0.10t",
+					"Max. Temp.": "2000K",
+					"Part configuration": "OrbitalScanner",
+					"Research": "Experimental Science",
+					"Since version": "1.0",
+					"Unlock cost": "3000"
+				},
 				"url": "http://wiki.kerbalspaceprogram.com/wiki/M4435_Narrow-Band_Scanner"
 			}
 		],
@@ -1057,28 +3098,101 @@
 			"Advanced_Science_Tech"
 		],
 		"description": "Freedom to roam as far as curiosity will take you, or as long as the batteries last.",
-		"icon": "./icons/Field_Science.png",
+		"icon": "",
 		"level": 7,
 		"name": "Field Science",
 		"parts": [
 			{
 				"name": "EAS-1 External Command Seat",
+				"props": {
+					"Cost": "200.00",
+					"Crew capacity": "1",
+					"Drag": "0.05",
+					"Impact Tolerance": "6m/s",
+					"Mass": "0.05t",
+					"Max. Temp.": "1200K",
+					"Part configuration": "externalCommandSeat",
+					"Research": "Field Science",
+					"Since version": "0.20",
+					"Unlock cost": "8100"
+				},
 				"url": "http://wiki.kerbalspaceprogram.com/wiki/EAS-1_External_Command_Seat"
 			},
 			{
 				"name": "Probodobodyne RoveMate",
+				"props": {
+					"Cost": "800.00",
+					"Drag": "0.15-0.2",
+					"Electric capacity": "120.0",
+					"Electricity required": "2.40/min",
+					"Electricity required for torque": "",
+					"Impact Tolerance": "12m/s",
+					"Mass": "0.15t",
+					"Max. Temp.": "1200K",
+					"Part configuration": "probeRoverBody",
+					"Pitch torque": "0kN\u00b7m",
+					"Research": "Field Science",
+					"Roll torque": "0kN\u00b7m",
+					"SAS level": "0",
+					"Since version": "0.19",
+					"Unlock cost": "6200",
+					"Yaw torque": "0kN\u00b7m"
+				},
 				"url": "http://wiki.kerbalspaceprogram.com/wiki/Probodobodyne_RoveMate"
 			},
 			{
 				"name": "Atmospheric Fluid Spectro-Variometer",
+				"props": {
+					"Cost": "6500.00",
+					"Drag": "0.2 [N 1]",
+					"Electricity required": "None",
+					"Experiment": "Atmosphere Analysis",
+					"Impact Tolerance": "8m/s",
+					"Mass": "0.01t [N 1]",
+					"Max. Temp.": "1200K",
+					"Part configuration": "AtmosphereSensor",
+					"Research": "Field Science",
+					"Since version": "1.0",
+					"Unlock cost": "12200"
+				},
 				"url": "http://wiki.kerbalspaceprogram.com/wiki/Atmospheric_Fluid_Spectro-Variometer"
 			},
 			{
 				"name": "RoveMax Model M1",
+				"props": {
+					"Control type": "AutomaticSteer",
+					"Cost": "450.00",
+					"Drag": "0.2-0.3",
+					"Electricity required": "1.0/s",
+					"Impact Tolerance": "50m/s",
+					"Mass": "0.08t",
+					"Max. Temp.": "1200K",
+					"Maximum speed": "60m/s",
+					"Part configuration": "roverWheelM1",
+					"Research": "Field Science",
+					"Since version": "0.19",
+					"Top speed": "21m/s",
+					"Unlock cost": "5200"
+				},
 				"url": "http://wiki.kerbalspaceprogram.com/wiki/RoveMax_Model_M1"
 			},
 			{
 				"name": "RoveMax Model S2",
+				"props": {
+					"Control type": "AutomaticSteer",
+					"Cost": "300.00",
+					"Drag": "0.2-0.3",
+					"Electricity required": "0.5/s",
+					"Impact Tolerance": "20m/s",
+					"Mass": "0.05t",
+					"Max. Temp.": "1200K",
+					"Maximum speed": "20m/s",
+					"Part configuration": "roverWheelS2",
+					"Research": "Field Science",
+					"Since version": "0.19",
+					"Top speed": "10m/s",
+					"Unlock cost": "3100"
+				},
 				"url": "http://wiki.kerbalspaceprogram.com/wiki/RoveMax_Model_S2"
 			}
 		],
@@ -1097,20 +3211,67 @@
 			"Landing"
 		],
 		"description": "Tumbling out of control may be fun, but our engineers insist there's more to rocket science than that.",
-		"icon": "./icons/Flight_Control.png",
+		"icon": "",
 		"level": 4,
 		"name": "Flight Control",
 		"parts": [
 			{
 				"name": "AV-R8 Winglet",
+				"props": {
+					"Cost": "640.00",
+					"Deflection range": "15\u00b0",
+					"Drag": "0.02",
+					"Drag coefficient": "0.5",
+					"Impact Tolerance": "12m/s",
+					"Lift generated": "0.5",
+					"Mass": "0.10t",
+					"Max. Temp.": "2400K",
+					"Part configuration": "wingletAV-R8",
+					"Research": "Flight Control",
+					"Since version": "0.7.3",
+					"Surface area": "0.95",
+					"Unlock cost": "1800"
+				},
 				"url": "http://wiki.kerbalspaceprogram.com/wiki/AV-R8_Winglet"
 			},
 			{
 				"name": "Delta-Deluxe Winglet",
+				"props": {
+					"Cost": "600.00",
+					"Deflection range": "25\u00b0",
+					"Drag": "0.02",
+					"Drag coefficient": "0.6",
+					"Impact Tolerance": "12m/s",
+					"Lift generated": "0.65",
+					"Mass": "0.08t",
+					"Max. Temp.": "2400K",
+					"Part configuration": "wingletDeltaDeluxe",
+					"Research": "Flight Control",
+					"Since version": "0.18",
+					"Surface area": "0.2",
+					"Unlock cost": "4600"
+				},
 				"url": "http://wiki.kerbalspaceprogram.com/wiki/Delta-Deluxe_Winglet"
 			},
 			{
 				"name": "Small Inline Reaction Wheel",
+				"props": {
+					"Cost": "600.00",
+					"Drag": "0.2",
+					"Electricity required for torque": "",
+					"Impact Tolerance": "9m/s",
+					"Mass": "0.05t",
+					"Max. Temp.": "2000K",
+					"Part configuration": "inlineReactionWheel",
+					"Pitch torque": "5.0kN\u00b7m",
+					"Radial size": "Tiny",
+					"Research": "Flight Control",
+					"Roll torque": "5.0kN\u00b7m",
+					"SAS level": "\u00d7None",
+					"Since version": "0.7.3",
+					"Unlock cost": "3200",
+					"Yaw torque": "5.0kN\u00b7m"
+				},
 				"url": "http://wiki.kerbalspaceprogram.com/wiki/Small_Inline_Reaction_Wheel"
 			}
 		],
@@ -1128,28 +3289,103 @@
 			"Adv._Fuel_Systems"
 		],
 		"description": "Advancements towards a better understanding of how fuel flows through a rocket.",
-		"icon": "./icons/Fuel_Systems.png",
+		"icon": "",
 		"level": 5,
 		"name": "Fuel Systems",
 		"parts": [
 			{
 				"name": "FTX-2 External Fuel Duct",
+				"props": {
+					"Cost": "150.00",
+					"Drag": "0.02 [N 1]",
+					"Impact Tolerance": "12m/s",
+					"Mass": "0.05t [N 1]",
+					"Max. Temp.": "2000K",
+					"Part configuration": "fuelLine",
+					"Research": "Fuel Systems",
+					"Since version": "0.13",
+					"Unlock cost": "6200"
+				},
 				"url": "http://wiki.kerbalspaceprogram.com/wiki/FTX-2_External_Fuel_Duct"
 			},
 			{
 				"name": "FL-T800 Fuel Tank",
+				"props": {
+					"Cost (dry)": "432.80",
+					"Cost (total)": "800.00",
+					"Drag": "0.2-0.3",
+					"Impact Tolerance": "6m/s",
+					"Liquid fuel": "360",
+					"Mass (dry)": "0.50t",
+					"Mass (total)": "4.50t",
+					"Max. Temp.": "2000K",
+					"Oxidizer": "440",
+					"Part configuration": "fuelTankT800",
+					"Radial size": "Small",
+					"Research": "Fuel Systems",
+					"Since version": "0.18",
+					"Unlock cost": "4800"
+				},
 				"url": "http://wiki.kerbalspaceprogram.com/wiki/FL-T800_Fuel_Tank"
 			},
 			{
 				"name": "Rockomax X200-16 Fuel Tank",
+				"props": {
+					"Cost (dry)": "815.60",
+					"Cost (total)": "1550.00",
+					"Drag": "0.2-0.3",
+					"Impact Tolerance": "6m/s",
+					"Liquid fuel": "720",
+					"Mass (dry)": "1.00t",
+					"Mass (total)": "9.00t",
+					"Max. Temp.": "2000K",
+					"Oxidizer": "880",
+					"Part configuration": "fuelTankX200-16",
+					"Radial size": "Large",
+					"Research": "Fuel Systems",
+					"Since version": "0.16",
+					"Unlock cost": "8200"
+				},
 				"url": "http://wiki.kerbalspaceprogram.com/wiki/Rockomax_X200-16_Fuel_Tank"
 			},
 			{
 				"name": "Rockomax X200-32 Fuel Tank",
+				"props": {
+					"Cost (dry)": "1531.20",
+					"Cost (total)": "3000.00",
+					"Drag": "0.2-0.3",
+					"Impact Tolerance": "6m/s",
+					"Liquid fuel": "1440",
+					"Mass (dry)": "2.00t",
+					"Mass (total)": "18.00t",
+					"Max. Temp.": "2000K",
+					"Oxidizer": "1760",
+					"Part configuration": "fuelTankX200-32",
+					"Radial size": "Large",
+					"Research": "Fuel Systems",
+					"Since version": "0.16",
+					"Unlock cost": "14400"
+				},
 				"url": "http://wiki.kerbalspaceprogram.com/wiki/Rockomax_X200-32_Fuel_Tank"
 			},
 			{
 				"name": "Rockomax X200-8 Fuel Tank",
+				"props": {
+					"Cost (dry)": "432.80",
+					"Cost (total)": "800.00",
+					"Drag": "0.2-0.3",
+					"Impact Tolerance": "6m/s",
+					"Liquid fuel": "360",
+					"Mass (dry)": "0.50t",
+					"Mass (total)": "4.50t",
+					"Max. Temp.": "2000K",
+					"Oxidizer": "440",
+					"Part configuration": "fuelTankX200-8",
+					"Radial size": "Large",
+					"Research": "Fuel Systems",
+					"Since version": "0.18",
+					"Unlock cost": "5200"
+				},
 				"url": "http://wiki.kerbalspaceprogram.com/wiki/Rockomax_X200-8_Fuel_Tank"
 			}
 		],
@@ -1169,32 +3405,120 @@
 			"Fuel_Systems"
 		],
 		"description": "New equipment to help out in keeping things stable, especially useful when the size of the spacecraft defies the current bounds of sanity.",
-		"icon": "./icons/General_Construction.png",
+		"icon": "",
 		"level": 4,
 		"name": "General Construction",
 		"parts": [
 			{
 				"name": "Mk1 Crew Cabin",
+				"props": {
+					"Cost": "550.00",
+					"Crew capacity": "2",
+					"Drag": "0.1",
+					"Impact Tolerance": "40m/s",
+					"Mass": "1.00t",
+					"Max. Temp.": "1000K",
+					"Part configuration": "mk1Cockpits",
+					"Radial size": "Small",
+					"Research": "General Construction",
+					"Since version": "1.0.5",
+					"Unlock cost": "2600"
+				},
 				"url": "http://wiki.kerbalspaceprogram.com/wiki/Mk1_Crew_Cabin"
 			},
 			{
 				"name": "EAS-4 Strut Connector",
+				"props": {
+					"Cost": "42.00",
+					"Drag": "0.02 [Note 1][N 1]",
+					"Impact Tolerance": "12m/s",
+					"Mass": "0.05t [Note 1][N 1]",
+					"Max. Temp.": "2000K",
+					"Part configuration": "strutConnector",
+					"Research": "General Construction",
+					"Since version": "0.9",
+					"Unlock cost": "2800"
+				},
 				"url": "http://wiki.kerbalspaceprogram.com/wiki/EAS-4_Strut_Connector"
 			},
 			{
 				"name": "Structural Fuselage",
+				"props": {
+					"Cost": "380.00",
+					"Drag": "0.2-0.3",
+					"Impact Tolerance": "70m/s",
+					"Mass": "0.10t",
+					"Max. Temp.": "2000K",
+					"Part configuration": "mk1Parts",
+					"Radial size": "Small",
+					"Research": "General Construction",
+					"Since version": "0.15",
+					"Unlock cost": "2500"
+				},
 				"url": "http://wiki.kerbalspaceprogram.com/wiki/Structural_Fuselage"
 			},
 			{
 				"name": "Rockomax Brand Decoupler",
+				"props": {
+					"Cost": "550.00",
+					"Drag": "0.2",
+					"Ejection momentum": "2500Ns",
+					"Impact Tolerance": "9m/s",
+					"In atmosphere": "\u2713Yes",
+					"In space": "\u2713Yes",
+					"Manually testable": "\u00d7No",
+					"Mass": "0.40t",
+					"Max. Temp.": "2000K",
+					"On the ocean": "\u2713Yes",
+					"On the surface": "\u2713Yes",
+					"Part configuration": "decouplerStack2m",
+					"Radial size": "Large",
+					"Research": "General Construction",
+					"Since version": "0.16",
+					"Test by staging": "\u2713Yes",
+					"Unlock cost": "2800"
+				},
 				"url": "http://wiki.kerbalspaceprogram.com/wiki/Rockomax_Brand_Decoupler"
 			},
 			{
 				"name": "Rockomax Brand Adapter",
+				"props": {
+					"Cost": "500.00",
+					"Drag": "0.2-0.3",
+					"Impact Tolerance": "6m/s",
+					"Mass": "0.10t",
+					"Max. Temp.": "2000K",
+					"Part configuration": "largeAdapter",
+					"Radial size": "Small, Large",
+					"Research": "General Construction",
+					"Since version": "0.17",
+					"Unlock cost": "3300"
+				},
 				"url": "http://wiki.kerbalspaceprogram.com/wiki/Rockomax_Brand_Adapter"
 			},
 			{
 				"name": "TT18-A Launch Stability Enhancer",
+				"props": {
+					"Breaking force": "150",
+					"Breaking torque": "150",
+					"Cost": "200.00",
+					"Drag": "0.2",
+					"Electricity generated": "1.0/s",
+					"Extends": "\u00d7No",
+					"Impact Tolerance": "100m/s",
+					"In atmosphere": "\u00d7No",
+					"In space": "\u00d7No",
+					"Manually testable": "\u00d7No",
+					"Mass": "0.10t",
+					"Max. Temp.": "2000K",
+					"On the ocean": "\u00d7No",
+					"On the surface": "\u00d7No",
+					"Part configuration": "launchClamp1",
+					"Research": "General Construction",
+					"Since version": "0.16.0",
+					"Test by staging": "\u2713Yes",
+					"Unlock cost": "1800"
+				},
 				"url": "http://wiki.kerbalspaceprogram.com/wiki/TT18-A_Launch_Stability_Enhancer"
 			}
 		],
@@ -1212,20 +3536,89 @@
 			"General_Construction"
 		],
 		"description": "More engines, more fuel, more ambitious ideas.",
-		"icon": "./icons/General_Rocketry.png",
+		"icon": "",
 		"level": 3,
 		"name": "General Rocketry",
 		"parts": [
 			{
 				"name": "LV-T45 \"Swivel\" Liquid Fuel Engine",
+				"props": {
+					"Cost": "1200.00",
+					"Drag": "0.2",
+					"Fuel consumption": "12.73/s",
+					"Impact Tolerance": "7m/s",
+					"In atmosphere": "\u2713Yes",
+					"In space": "\u2713Yes",
+					"Isp (1 atm)": "270s",
+					"Isp (vacuum)": "320s",
+					"Manually testable": "\u00d7No",
+					"Mass": "1.50t",
+					"Max. Temp.": "2000K",
+					"Maximum thrust (1 atm)": "168.75kN",
+					"Maximum thrust (vacuum)": "200.00kN",
+					"On the ocean": "\u2713Yes",
+					"On the surface": "\u2713Yes",
+					"Part configuration": "liquidEngineLV-T45",
+					"Radial size": "Small",
+					"Research": "General Rocketry",
+					"Since version": "0.12.0",
+					"Test by staging": "\u2713Yes",
+					"Thrust vectoring": "3\u00b0",
+					"Unlock cost": "3500"
+				},
 				"url": "http://wiki.kerbalspaceprogram.com/wiki/LV-T45_%22Swivel%22_Liquid_Fuel_Engine"
 			},
 			{
 				"name": "BACC \"Thumper\" Solid Fuel Booster",
+				"props": {
+					"Burn time (1 atm)": "35.2s",
+					"Burn time (vacuum)": "42.3s",
+					"Cost (dry)": "358.00",
+					"Cost (total)": "850.00",
+					"Drag": "0.2-0.3",
+					"Fuel": "820.0",
+					"Fuel consumption": "19.40/s",
+					"Impact Tolerance": "7m/s",
+					"In atmosphere": "\u2713Yes",
+					"In space": "\u2713Yes",
+					"Isp (1 atm)": "175s",
+					"Isp (vacuum)": "210s",
+					"Manually testable": "\u00d7No",
+					"Mass (dry)": "1.50t",
+					"Mass (total)": "7.65t",
+					"Max. Temp.": "2200K",
+					"Maximum thrust (1 atm)": "250.00kN",
+					"Maximum thrust (vacuum)": "300.00kN",
+					"On the ocean": "\u2713Yes",
+					"On the surface": "\u2713Yes",
+					"Part configuration": "solidBoosterBACC",
+					"Radial size": "Small",
+					"Research": "General Rocketry",
+					"Since version": "0.16",
+					"Test by staging": "\u2713Yes",
+					"Thrust vectoring": "\u00d7No",
+					"Unlock cost": "2800"
+				},
 				"url": "http://wiki.kerbalspaceprogram.com/wiki/BACC_%22Thumper%22_Solid_Fuel_Booster"
 			},
 			{
 				"name": "FL-T200 Fuel Tank",
+				"props": {
+					"Cost (dry)": "183.20",
+					"Cost (total)": "275.00",
+					"Drag": "0.2-0.3",
+					"Impact Tolerance": "6m/s",
+					"Liquid fuel": "90",
+					"Mass (dry)": "0.13t",
+					"Mass (total)": "1.13t",
+					"Max. Temp.": "2000K",
+					"Oxidizer": "110",
+					"Part configuration": "fuelTankT200",
+					"Radial size": "Small",
+					"Research": "General Rocketry",
+					"Since version": "0.14",
+					"Unlock cost": "2500"
+				},
 				"url": "http://wiki.kerbalspaceprogram.com/wiki/FL-T200_Fuel_Tank"
 			}
 		],
@@ -1243,16 +3636,68 @@
 			"Very_Heavy_Rocketry"
 		],
 		"description": "There may be an upper limit to how large a rocket can be built, but we're not there yet.",
-		"icon": "./icons/Heavier_Rocketry.png",
+		"icon": "",
 		"level": 6,
 		"name": "Heavier Rocketry",
 		"parts": [
 			{
 				"name": "RE-M3 \"Mainsail\" Liquid Engine",
+				"props": {
+					"Cost": "13000.00",
+					"Drag": "0.2",
+					"Fuel consumption": "98.55/s",
+					"Impact Tolerance": "7m/s",
+					"In atmosphere": "\u2713Yes",
+					"In space": "\u2713Yes",
+					"Isp (1 atm)": "285s",
+					"Isp (vacuum)": "310s",
+					"Manually testable": "\u2713Yes",
+					"Mass": "6.00t",
+					"Max. Temp.": "2000K",
+					"Maximum thrust (1 atm)": "1379.03kN",
+					"Maximum thrust (vacuum)": "1500.00kN",
+					"On the ocean": "\u2713Yes",
+					"On the surface": "\u2713Yes",
+					"Part configuration": "liquidEngineMainsail",
+					"Radial size": "Large",
+					"Research": "Heavier Rocketry",
+					"Since version": "0.16",
+					"Test by staging": "\u2713Yes",
+					"Thrust vectoring": "2\u00b0",
+					"Unlock cost": "38000"
+				},
 				"url": "http://wiki.kerbalspaceprogram.com/wiki/RE-M3_%22Mainsail%22_Liquid_Engine"
 			},
 			{
 				"name": "LFB KR-1x2 \"Twin-Boar\" Liquid Fuel Engine",
+				"props": {
+					"Cost (dry)": "14062.40",
+					"Cost (total)": "17000.00",
+					"Drag": "0.2",
+					"Fuel consumption": "135.78/s",
+					"Impact Tolerance": "20m/s",
+					"In atmosphere": "\u2713Yes",
+					"In space": "\u2713Yes",
+					"Isp (1 atm)": "280s",
+					"Isp (vacuum)": "300s",
+					"Liquid fuel": "2880",
+					"Manually testable": "\u2713Yes",
+					"Mass (dry)": "10.50t",
+					"Mass (total)": "42.50t",
+					"Max. Temp.": "2000K",
+					"Maximum thrust (1 atm)": "1866.67kN",
+					"Maximum thrust (vacuum)": "2000.00kN",
+					"On the ocean": "\u2713Yes",
+					"On the surface": "\u2713Yes",
+					"Oxidizer": "3520",
+					"Part configuration": "Size2LFB",
+					"Radial size": "Large",
+					"Research": "Heavier Rocketry",
+					"Since version": "0.23.5",
+					"Test by staging": "\u2713Yes",
+					"Thrust vectoring": "1.5\u00b0",
+					"Unlock cost": "65000"
+				},
 				"url": "http://wiki.kerbalspaceprogram.com/wiki/LFB_KR-1x2_%22Twin-Boar%22_Liquid_Fuel_Engine"
 			}
 		],
@@ -1269,60 +3714,258 @@
 			"Experimental_Aerodynamics"
 		],
 		"description": "Advances in construction technology enabled new breakthroughs in aerospace materials.",
-		"icon": "./icons/Heavy_Aerodynamics.png",
+		"icon": "",
 		"level": 7,
 		"name": "Heavy Aerodynamics",
 		"parts": [
 			{
 				"name": "FAT-445 Aeroplane Control Surface",
+				"props": {
+					"Cost": "800.00",
+					"Deflection range": "15\u00b0",
+					"Drag": "0.02",
+					"Drag coefficient": "0.5",
+					"Impact Tolerance": "15m/s",
+					"Lift generated": "0.86",
+					"Mass": "0.17t",
+					"Max. Temp.": "1200K",
+					"Part configuration": "airlinerWings",
+					"Research": "Experimental Aerodynamics",
+					"Since version": "1.0",
+					"Surface area": "1",
+					"Unlock cost": "16400"
+				},
 				"url": "http://wiki.kerbalspaceprogram.com/wiki/FAT-445_Aeroplane_Control_Surface"
 			},
 			{
 				"name": "FAT-455 Aeroplane Main Wing",
+				"props": {
+					"Cost (dry)": "2800.00",
+					"Cost (total)": "2800.00",
+					"Drag": "0.02",
+					"Impact Tolerance": "15m/s",
+					"Lift generated": "7.8",
+					"Liquid fuel (default)": "0",
+					"Liquid fuel (max)": "600",
+					"Mass (dry)": "0.78t",
+					"Mass (total)": "0.78t",
+					"Max. Temp.": "1200K",
+					"Part configuration": "airlinerWings",
+					"Research": "Experimental Aerodynamics",
+					"Since version": "1.0",
+					"Unlock cost": "36400"
+				},
 				"url": "http://wiki.kerbalspaceprogram.com/wiki/FAT-455_Aeroplane_Main_Wing"
 			},
 			{
 				"name": "FAT-455 Aeroplane Tail Fin",
+				"props": {
+					"Cost": "1000.00",
+					"Deflection range": "15\u00b0",
+					"Drag": "0.02",
+					"Drag coefficient": "0.6",
+					"Impact Tolerance": "15m/s",
+					"Lift generated": "2.69",
+					"Mass": "0.36t",
+					"Max. Temp.": "1200K",
+					"Part configuration": "airlinerWings",
+					"Research": "Experimental Aerodynamics",
+					"Since version": "1.0",
+					"Surface area": "0.37",
+					"Unlock cost": "4000"
+				},
 				"url": "http://wiki.kerbalspaceprogram.com/wiki/FAT-455_Aeroplane_Tail_Fin"
 			},
 			{
 				"name": "Mk3 Cockpit",
+				"props": {
+					"Cost (dry)": "9880.00",
+					"Cost (total)": "10000.00",
+					"Crew capacity (maximum)": "4",
+					"Crew capacity (required)": "1",
+					"Drag": "0.1",
+					"Electric capacity": "500.0",
+					"Electricity required for torque": "",
+					"Impact Tolerance": "60m/s",
+					"Mass (dry)": "3.50t",
+					"Mass (total)": "3.90t",
+					"Max. Temp.": "2700K",
+					"Monopropellant": "100",
+					"Part configuration": "mk3CockpitShuttle",
+					"Pitch torque": "40.0kN\u00b7m",
+					"Radial size": "Small, Mk3",
+					"Research": "Heavy Aerodynamics",
+					"Roll torque": "20.0kN\u00b7m",
+					"SAS level": "\u00d7None",
+					"Since version": "0.15",
+					"Unlock cost": "50000",
+					"Yaw torque": "40.0kN\u00b7m"
+				},
 				"url": "http://wiki.kerbalspaceprogram.com/wiki/Mk3_Cockpit"
 			},
 			{
 				"name": "J-90 \"Goliath\" Turbofan Engine",
+				"props": {
+					"Cost": "2600.00",
+					"Drag": "0.2",
+					"Fuel consumption": "0.04/s",
+					"Impact Tolerance": "7m/s",
+					"Intake air consumption": "0.55/s",
+					"Intake area": "0.03m2",
+					"Intake speed": "30",
+					"Isp": "12600s",
+					"Mass": "4.50t",
+					"Max. Temp.": "2000K",
+					"Maximum intake air": "3.4",
+					"Maximum thrust": "360kN",
+					"Part configuration": "jetEngines",
+					"Research": "Heavy Aerodynamics",
+					"Since version": "1.0.5",
+					"Thrust vectoring": "\u00d7No",
+					"Unlock cost": "15000"
+				},
 				"url": "http://wiki.kerbalspaceprogram.com/wiki/J-90_%22Goliath%22_Turbofan_Engine"
 			},
 			{
 				"name": "Mk3 to 2.5m Adapter",
+				"props": {
+					"Cost (dry)": "1352.50",
+					"Cost (total)": "2500.00",
+					"Drag": "0.2-0.3",
+					"Impact Tolerance": "50m/s",
+					"Liquid fuel": "1125",
+					"Mass (dry)": "1.79t",
+					"Mass (total)": "14.29t",
+					"Max. Temp.": "2600K",
+					"Oxidizer": "1375",
+					"Part configuration": "adapterTanks",
+					"Radial size": "Large, Mk3",
+					"Research": "Heavy Aerodynamics",
+					"Since version": "0.90.0",
+					"Unlock cost": "42000"
+				},
 				"url": "http://wiki.kerbalspaceprogram.com/wiki/Mk3_to_2.5m_Adapter"
 			},
 			{
 				"name": "Mk3 to 2.5m Adapter Slanted",
+				"props": {
+					"Cost (dry)": "1352.50",
+					"Cost (total)": "2500.00",
+					"Drag": "0.2-0.3",
+					"Impact Tolerance": "50m/s",
+					"Liquid fuel": "1125",
+					"Mass (dry)": "1.79t",
+					"Mass (total)": "14.29t",
+					"Max. Temp.": "2600K",
+					"Oxidizer": "1375",
+					"Part configuration": "adapterTanks",
+					"Radial size": "Large, Mk3",
+					"Research": "Heavy Aerodynamics",
+					"Since version": "0.90.0",
+					"Unlock cost": "42000"
+				},
 				"url": "http://wiki.kerbalspaceprogram.com/wiki/Mk3_to_2.5m_Adapter_Slanted"
 			},
 			{
 				"name": "Mk3 Passenger Module",
+				"props": {
+					"Cost": "30000.00",
+					"Crew capacity": "16",
+					"Drag": "0.2-0.3",
+					"Impact Tolerance": "60m/s",
+					"Mass": "6.50t",
+					"Max. Temp.": "2700K",
+					"Part configuration": "mk3Fuselage",
+					"Research": "Heavy Aerodynamics",
+					"Since version": "0.90.0",
+					"Unlock cost": "120000"
+				},
 				"url": "http://wiki.kerbalspaceprogram.com/wiki/Mk3_Passenger_Module"
 			},
 			{
 				"name": "Mk3 Liquid Fuel Fuselage Short",
+				"props": {
+					"Cost (dry)": "2300.00",
+					"Cost (total)": "4300.00",
+					"Drag": "0.2-0.3",
+					"Impact Tolerance": "50m/s",
+					"Liquid fuel": "2500",
+					"Mass (dry)": "1.79t",
+					"Mass (total)": "14.29t",
+					"Max. Temp.": "2700K",
+					"Part configuration": "mk3Fuselage",
+					"Radial size": "Mk3",
+					"Research": "Heavy Aerodynamics",
+					"Since version": "0.90.0",
+					"Unlock cost": "21000"
+				},
 				"url": "http://wiki.kerbalspaceprogram.com/wiki/Mk3_Liquid_Fuel_Fuselage_Short"
 			},
 			{
 				"name": "Mk3 Liquid Fuel Fuselage",
+				"props": {
+					"Cost (dry)": "4600.00",
+					"Cost (total)": "8600.00",
+					"Drag": "0.2-0.3",
+					"Impact Tolerance": "50m/s",
+					"Liquid fuel": "5000",
+					"Mass (dry)": "3.57t",
+					"Mass (total)": "28.57t",
+					"Max. Temp.": "2700K",
+					"Part configuration": "mk3Fuselage",
+					"Radial size": "Mk3",
+					"Research": "Heavy Aerodynamics",
+					"Since version": "0.90.0",
+					"Unlock cost": "42000"
+				},
 				"url": "http://wiki.kerbalspaceprogram.com/wiki/Mk3_Liquid_Fuel_Fuselage"
 			},
 			{
 				"name": "Mk3 Cargo Bay CRG-50",
+				"props": {
+					"Cost": "1500.00",
+					"Drag": "0.2-0.3",
+					"Impact Tolerance": "50m/s",
+					"Mass": "3.00t",
+					"Max. Temp.": "2700K",
+					"Part configuration": "mk3CargoBay",
+					"Radial size": "Mk3",
+					"Research": "Heavy Aerodynamics",
+					"Since version": "0.90.0",
+					"Unlock cost": "32000"
+				},
 				"url": "http://wiki.kerbalspaceprogram.com/wiki/Mk3_Cargo_Bay_CRG-50"
 			},
 			{
 				"name": "Mk3 Cargo Bay CRG-25",
+				"props": {
+					"Cost": "750.00",
+					"Drag": "0.2-0.3",
+					"Impact Tolerance": "50m/s",
+					"Mass": "1.50t",
+					"Max. Temp.": "2700K",
+					"Part configuration": "mk3CargoBay",
+					"Radial size": "Mk3",
+					"Research": "Heavy Aerodynamics",
+					"Since version": "0.90.0",
+					"Unlock cost": "32000"
+				},
 				"url": "http://wiki.kerbalspaceprogram.com/wiki/Mk3_Cargo_Bay_CRG-25"
 			},
 			{
 				"name": "Mk3 Cargo Ramp",
+				"props": {
+					"Cost": "3000.00",
+					"Drag": "0.2-0.3",
+					"Impact Tolerance": "50m/s",
+					"Mass": "4.00t",
+					"Max. Temp.": "2700K",
+					"Part configuration": "mk3CargoRamp",
+					"Radial size": "Mk3",
+					"Research": "Heavy Aerodynamics",
+					"Since version": "1.0.5",
+					"Unlock cost": "32000"
+				},
 				"url": "http://wiki.kerbalspaceprogram.com/wiki/Mk3_Cargo_Ramp"
 			}
 		],
@@ -1337,12 +3980,23 @@
 		],
 		"dependents": [],
 		"description": "A good landing is one where you walk away from it. A great landing is one where you get to use the aircraft again.",
-		"icon": "./icons/Heavy_Landing.png",
+		"icon": "",
 		"level": 7,
 		"name": "Heavy Landing",
 		"parts": [
 			{
 				"name": "LY-99 Large Landing Gear",
+				"props": {
+					"Cost": "1200.00",
+					"Drag": "0.2-0.3",
+					"Impact Tolerance": "70m/s",
+					"Mass": "0.60t",
+					"Max. Temp.": "2700K",
+					"Part configuration": "LandingGear",
+					"Research": "Heavy Landing",
+					"Since version": "1.0",
+					"Unlock cost": "6400"
+				},
 				"url": "http://wiki.kerbalspaceprogram.com/wiki/LY-99_Large_Landing_Gear"
 			}
 		],
@@ -1359,20 +4013,97 @@
 			"Heavier_Rocketry"
 		],
 		"description": "The next logical step for rocketry technology is to just go bigger.",
-		"icon": "./icons/Heavy_Rocketry.png",
+		"icon": "",
 		"level": 5,
 		"name": "Heavy Rocketry",
 		"parts": [
 			{
 				"name": "RE-L10 \"Poodle\" Liquid Fuel Engine",
+				"props": {
+					"Cost": "1300.00",
+					"Drag": "0.2",
+					"Fuel consumption": "14.55/s",
+					"Impact Tolerance": "7m/s",
+					"In atmosphere": "\u2713Yes",
+					"In space": "\u2713Yes",
+					"Isp (1 atm)": "90s",
+					"Isp (vacuum)": "350s",
+					"Manually testable": "\u2713Yes",
+					"Mass": "1.75t",
+					"Max. Temp.": "2000K",
+					"Maximum thrust (1 atm)": "64.29kN",
+					"Maximum thrust (vacuum)": "250.00kN",
+					"On the ocean": "\u2713Yes",
+					"On the surface": "\u2713Yes",
+					"Part configuration": "liquidEnginePoodle",
+					"Radial size": "Large",
+					"Research": "Heavy Rocketry",
+					"Since version": "0.16",
+					"Test by staging": "\u2713Yes",
+					"Thrust vectoring": "4.5\u00b0",
+					"Unlock cost": "4200"
+				},
 				"url": "http://wiki.kerbalspaceprogram.com/wiki/RE-L10_%22Poodle%22_Liquid_Fuel_Engine"
 			},
 			{
 				"name": "RE-I5 \"Skipper\" Liquid Fuel Engine",
+				"props": {
+					"Cost": "5300.00",
+					"Drag": "0.2",
+					"Fuel consumption": "41.37/s",
+					"Impact Tolerance": "8m/s",
+					"In atmosphere": "\u2713Yes",
+					"In space": "\u2713Yes",
+					"Isp (1 atm)": "280s",
+					"Isp (vacuum)": "320s",
+					"Manually testable": "\u2713Yes",
+					"Mass": "3.00t",
+					"Max. Temp.": "2000K",
+					"Maximum thrust (1 atm)": "568.75kN",
+					"Maximum thrust (vacuum)": "650.00kN",
+					"On the ocean": "\u2713Yes",
+					"On the surface": "\u2713Yes",
+					"Part configuration": "liquidEngineSkipper",
+					"Radial size": "Large",
+					"Research": "Heavy Rocketry",
+					"Since version": "0.20",
+					"Test by staging": "\u2713Yes",
+					"Thrust vectoring": "2\u00b0",
+					"Unlock cost": "14000"
+				},
 				"url": "http://wiki.kerbalspaceprogram.com/wiki/RE-I5_%22Skipper%22_Liquid_Fuel_Engine"
 			},
 			{
 				"name": "S1 SRB-KD25k \"Kickback\" Solid Fuel Booster",
+				"props": {
+					"Burn time (1 atm)": "55.7s",
+					"Burn time (vacuum)": "62.9s",
+					"Cost (dry)": "1140.00",
+					"Cost (total)": "2700.00",
+					"Drag": "0.2-0.3",
+					"Fuel": "2600.0",
+					"Fuel consumption": "41.35/s",
+					"Impact Tolerance": "7m/s",
+					"In atmosphere": "\u2713Yes",
+					"In space": "\u2713Yes",
+					"Isp (1 atm)": "195s",
+					"Isp (vacuum)": "220s",
+					"Manually testable": "\u00d7No",
+					"Mass (dry)": "4.50t",
+					"Mass (total)": "24.00t",
+					"Max. Temp.": "2200K",
+					"Maximum thrust (1 atm)": "593.86kN",
+					"Maximum thrust (vacuum)": "670.00kN",
+					"On the ocean": "\u2713Yes",
+					"On the surface": "\u2713Yes",
+					"Part configuration": "MassiveSRB",
+					"Radial size": "Small",
+					"Research": "Heavy Rocketry",
+					"Since version": "0.23.5",
+					"Test by staging": "\u2713Yes",
+					"Thrust vectoring": "\u00d7No",
+					"Unlock cost": "8000"
+				},
 				"url": "http://wiki.kerbalspaceprogram.com/wiki/S1_SRB-KD25k_%22Kickback%22_Solid_Fuel_Booster"
 			}
 		],
@@ -1387,12 +4118,28 @@
 		],
 		"dependents": [],
 		"description": "Massive engines require massive fuel storage solutions.",
-		"icon": "./icons/High-Performance_Fuel_Systems.png",
+		"icon": "",
 		"level": 8,
 		"name": "High-Performance Fuel Systems",
 		"parts": [
 			{
 				"name": "Kerbodyne S3-14400 Tank",
+				"props": {
+					"Cost (dry)": "6390.40",
+					"Cost (total)": "13000.00",
+					"Drag": "0.2-0.3",
+					"Impact Tolerance": "6m/s",
+					"Liquid fuel": "6480",
+					"Mass (dry)": "9.00t",
+					"Mass (total)": "81.00t",
+					"Max. Temp.": "2000K",
+					"Oxidizer": "7920",
+					"Part configuration": "Size3LargeTank",
+					"Radial size": "Extra large",
+					"Research": "High-Performance Fuel Systems",
+					"Since version": "0.23.5",
+					"Unlock cost": "46600"
+				},
 				"url": "http://wiki.kerbalspaceprogram.com/wiki/Kerbodyne_S3-14400_Tank"
 			}
 		],
@@ -1409,24 +4156,77 @@
 			"Specialized_Electrics"
 		],
 		"description": "Maximize your energy production and storage potential by maximizing the size of the electrical components on your vessels.",
-		"icon": "./icons/High-Power_Electrics.png",
+		"icon": "",
 		"level": 7,
 		"name": "High-Power Electrics",
 		"parts": [
 			{
 				"name": "Gigantor XL Solar Array",
+				"props": {
+					"Cost": "3000.00",
+					"Drag": "0.2",
+					"Electricity generated": "24.4/s[N 1]",
+					"Impact Tolerance": "8m/s",
+					"Mass": "0.30t",
+					"Max. Temp.": "1200K",
+					"Part configuration": "gigantorXlSolarArray",
+					"Research": "High-Power Electrics",
+					"Retractable": "\u2713Yes",
+					"Since version": "0.18",
+					"Tracking": "\u2713Yes",
+					"Unlock cost": "14500"
+				},
 				"url": "http://wiki.kerbalspaceprogram.com/wiki/Gigantor_XL_Solar_Array"
 			},
 			{
 				"name": "Z-1k Rechargeable Battery Bank",
+				"props": {
+					"Cost": "880.00",
+					"Drag": "0.2",
+					"Electric capacity": "1000.0",
+					"Impact Tolerance": "8m/s",
+					"Mass": "0.05t",
+					"Max. Temp.": "2000K",
+					"Part configuration": "z-1kBattery",
+					"Radial size": "Small",
+					"Research": "High-Power Electrics",
+					"Since version": "0.18",
+					"Unlock cost": "8200"
+				},
 				"url": "http://wiki.kerbalspaceprogram.com/wiki/Z-1k_Rechargeable_Battery_Bank"
 			},
 			{
 				"name": "Fuel Cell",
+				"props": {
+					"Cost": "750.00",
+					"Drag": "0.2",
+					"Electric capacity": "50.0",
+					"Electric charge": "1.5/s",
+					"Impact Tolerance": "7m/s",
+					"Liquid fuel": "0.0016875/s",
+					"Mass": "0.05t",
+					"Max. Temp.": "2000K",
+					"Oxidizer": "0.0020625/s",
+					"Part configuration": "FuelCell",
+					"Research": "High-Power Electrics",
+					"Since version": "1.0",
+					"Unlock cost": "2250"
+				},
 				"url": "http://wiki.kerbalspaceprogram.com/wiki/Fuel_Cell"
 			},
 			{
 				"name": "Thermal Control System (large)",
+				"props": {
+					"Cost": "9000.00",
+					"Drag": "0.2",
+					"Impact Tolerance": "12m/s",
+					"Mass": "1.00t",
+					"Max. Temp.": "2500K",
+					"Part configuration": "FoldingRadiators",
+					"Research": "High-Power Electrics",
+					"Since version": "1.0.4",
+					"Unlock cost": "45000"
+				},
 				"url": "http://wiki.kerbalspaceprogram.com/wiki/Thermal_Control_System_(large)"
 			}
 		],
@@ -1443,60 +4243,272 @@
 			"Hypersonic_Flight"
 		],
 		"description": "New breakthroughs in engine and intake development to enable flying through the upper reaches of the atmosphere.",
-		"icon": "./icons/High_Altitude_Flight.png",
+		"icon": "",
 		"level": 7,
 		"name": "High Altitude Flight",
 		"parts": [
 			{
 				"name": "Adjustable Ramp Intake (Radial)",
+				"props": {
+					"Cost (dry)": "900.00",
+					"Cost (total)": "900.00",
+					"Drag": "0.2",
+					"Impact Tolerance": "7m/s",
+					"Intake area": "0.00082m2",
+					"Intake speed": "10",
+					"Mass (dry)": "0.00t",
+					"Mass (total)": "0.00t",
+					"Max. Temp.": "2400K",
+					"Maximum intake air": "0.082",
+					"Part configuration": "intakeRadialLong",
+					"Research": "High Altitude Flight",
+					"Since version": "0.25",
+					"Unlock cost": "6800"
+				},
 				"url": "http://wiki.kerbalspaceprogram.com/wiki/Adjustable_Ramp_Intake_(Radial)"
 			},
 			{
 				"name": "Adjustable Ramp Intake",
+				"props": {
+					"Cost (dry)": "2680.00",
+					"Cost (total)": "2680.00",
+					"Drag": "0.3",
+					"Impact Tolerance": "7m/s",
+					"Intake area": "0.01m2",
+					"Intake speed": "10",
+					"Mass (dry)": "0.01t",
+					"Mass (total)": "0.02t",
+					"Max. Temp.": "2400K",
+					"Maximum intake air": "1.0",
+					"Part configuration": "ramAirIntake",
+					"Radial size": "Small",
+					"Research": "Supersonic Flight",
+					"Since version": "0.15.0",
+					"Unlock cost": "14000"
+				},
 				"url": "http://wiki.kerbalspaceprogram.com/wiki/Adjustable_Ramp_Intake"
 			},
 			{
 				"name": "Mk2 Inline Cockpit",
+				"props": {
+					"Cost (dry)": "3470.00",
+					"Cost (total)": "3500.00",
+					"Crew capacity (maximum)": "2",
+					"Crew capacity (required)": "1",
+					"Drag": "0.1",
+					"Electric capacity": "150.0",
+					"Electricity required for torque": "",
+					"Impact Tolerance": "45m/s",
+					"Lift generated": "0.47",
+					"Mass (dry)": "2.00t",
+					"Mass (total)": "2.10t",
+					"Max. Temp.": "2500K",
+					"Monopropellant": "25",
+					"Part configuration": "mk2CockpitInline",
+					"Pitch torque": "15.0kN\u00b7m",
+					"Radial size": "Mk2, Mk2",
+					"Research": "High Altitude Flight",
+					"Roll torque": "15.0kN\u00b7m",
+					"SAS level": "\u00d7None",
+					"Since version": "0.25",
+					"Unlock cost": "20000",
+					"Yaw torque": "15.0kN\u00b7m"
+				},
 				"url": "http://wiki.kerbalspaceprogram.com/wiki/Mk2_Inline_Cockpit"
 			},
 			{
 				"name": "2.5m to Mk2 Adapter",
+				"props": {
+					"Cost (dry)": "432.80",
+					"Cost (total)": "800.00",
+					"Drag": "0.2-0.3",
+					"Impact Tolerance": "50m/s",
+					"Liquid fuel": "360",
+					"Mass (dry)": "0.57t",
+					"Mass (total)": "4.57t",
+					"Max. Temp.": "2500K",
+					"Oxidizer": "440",
+					"Part configuration": "adapterTanks",
+					"Research": "Advanced Aerodynamics",
+					"Since version": "0.90.0",
+					"Unlock cost": "18000"
+				},
 				"url": "http://wiki.kerbalspaceprogram.com/wiki/2.5m_to_Mk2_Adapter"
 			},
 			{
 				"name": "Mk2 to 1.25m Adapter Long",
+				"props": {
+					"Cost (dry)": "682.80",
+					"Cost (total)": "1050.00",
+					"Drag": "0.2-0.3",
+					"Impact Tolerance": "50m/s",
+					"Lift generated": "0.6",
+					"Liquid fuel": "360",
+					"Mass (dry)": "0.57t",
+					"Mass (total)": "4.57t",
+					"Max. Temp.": "2500K",
+					"Oxidizer": "440",
+					"Part configuration": "mk2Adapters",
+					"Radial size": "Small, Mk2",
+					"Research": "Advanced Aerodynamics",
+					"Since version": "0.25",
+					"Unlock cost": "17500"
+				},
 				"url": "http://wiki.kerbalspaceprogram.com/wiki/Mk2_to_1.25m_Adapter_Long"
 			},
 			{
 				"name": "Mk2 Rocket Fuel Fuselage",
+				"props": {
+					"Cost (dry)": "1082.80",
+					"Cost (total)": "1450.00",
+					"Drag": "0.2-0.3",
+					"Impact Tolerance": "50m/s",
+					"Lift generated": "0.7",
+					"Liquid fuel": "360",
+					"Mass (dry)": "0.57t",
+					"Mass (total)": "4.57t",
+					"Max. Temp.": "2500K",
+					"Oxidizer": "440",
+					"Part configuration": "mk2FuselageLong",
+					"Radial size": "Mk2",
+					"Research": "Supersonic Flight",
+					"Since version": "0.25",
+					"Unlock cost": "18500"
+				},
 				"url": "http://wiki.kerbalspaceprogram.com/wiki/Mk2_Rocket_Fuel_Fuselage"
 			},
 			{
 				"name": "Mk2 Liquid Fuel Fuselage",
+				"props": {
+					"Cost (dry)": "810.00",
+					"Cost (total)": "1450.00",
+					"Drag": "0.2-0.3",
+					"Impact Tolerance": "50m/s",
+					"Lift generated": "0.7",
+					"Liquid fuel": "800",
+					"Mass (dry)": "0.57t",
+					"Mass (total)": "4.57t",
+					"Max. Temp.": "2500K",
+					"Part configuration": "mk2FuselageLong",
+					"Radial size": "Mk2",
+					"Research": "Supersonic Flight",
+					"Since version": "0.25",
+					"Unlock cost": "18500"
+				},
 				"url": "http://wiki.kerbalspaceprogram.com/wiki/Mk2_Liquid_Fuel_Fuselage"
 			},
 			{
 				"name": "Mk2 Monopropellant Tank",
+				"props": {
+					"Cost (dry)": "270.00",
+					"Cost (total)": "750.00",
+					"Drag": "0.2-0.3",
+					"Impact Tolerance": "50m/s",
+					"Lift generated": "0.35",
+					"Mass (dry)": "0.29t",
+					"Mass (total)": "1.89t",
+					"Max. Temp.": "2500K",
+					"Monopropellant": "400",
+					"Part configuration": "mk2FuselageShort",
+					"Radial size": "Mk2",
+					"Research": "High Altitude Flight",
+					"Since version": "0.25",
+					"Unlock cost": "18500"
+				},
 				"url": "http://wiki.kerbalspaceprogram.com/wiki/Mk2_Monopropellant_Tank"
 			},
 			{
 				"name": "Mk1 Fuselage - Intake",
+				"props": {
+					"Cost (dry)": "560.00",
+					"Cost (total)": "720.00",
+					"Drag": "0.2-0.3",
+					"Impact Tolerance": "10m/s",
+					"Liquid fuel": "200",
+					"Mass (dry)": "0.17t",
+					"Mass (total)": "1.17t",
+					"Max. Temp.": "2000K",
+					"Part configuration": "mk1Parts",
+					"Research": "High Altitude Flight",
+					"Since version": "0.25",
+					"Unlock cost": "4200"
+				},
 				"url": "http://wiki.kerbalspaceprogram.com/wiki/Mk1_Fuselage_-_Intake"
 			},
 			{
 				"name": "Structural Pylon",
+				"props": {
+					"Cost": "125.00",
+					"Drag": "0.2",
+					"Ejection momentum": "2500Ns",
+					"Impact Tolerance": "70m/s",
+					"In atmosphere": "\u2713Yes",
+					"In space": "\u2713Yes",
+					"Manually testable": "\u00d7No",
+					"Mass": "0.20t",
+					"Max. Temp.": "2000K",
+					"On the ocean": "\u2713Yes",
+					"On the surface": "\u2713Yes",
+					"Part configuration": "structuralPylon",
+					"Research": "High Altitude Flight",
+					"Since version": "0.15",
+					"Test by staging": "\u2713Yes",
+					"Unlock cost": "6800"
+				},
 				"url": "http://wiki.kerbalspaceprogram.com/wiki/Structural_Pylon"
 			},
 			{
 				"name": "Mk2 Cargo Bay CRG-08",
+				"props": {
+					"Cost": "500.00",
+					"Drag": "0.2-0.3",
+					"Impact Tolerance": "50m/s",
+					"Lift generated": "0.7",
+					"Mass": "0.50t",
+					"Max. Temp.": "2500K",
+					"Part configuration": "mk2CargoBay",
+					"Radial size": "Mk2",
+					"Research": "Supersonic Flight",
+					"Since version": "0.25",
+					"Unlock cost": "17200"
+				},
 				"url": "http://wiki.kerbalspaceprogram.com/wiki/Mk2_Cargo_Bay_CRG-08"
 			},
 			{
 				"name": "MK2 Crew Cabin",
+				"props": {
+					"Cost": "4200.00",
+					"Crew capacity": "4",
+					"Drag": "0.2-0.3",
+					"Impact Tolerance": "6m/s",
+					"Lift generated": "0.35",
+					"Mass": "2.00t",
+					"Max. Temp.": "2500K",
+					"Part configuration": "mk2CrewCabin",
+					"Research": "Advanced Aerodynamics",
+					"Since version": "0.25",
+					"Unlock cost": "12000"
+				},
 				"url": "http://wiki.kerbalspaceprogram.com/wiki/MK2_Crew_Cabin"
 			},
 			{
 				"name": "Mk2 Clamp-O-Tron",
+				"props": {
+					"Cost (dry)": "760.00",
+					"Cost (total)": "850.00",
+					"Drag": "0.2-0.3",
+					"Impact Tolerance": "50m/s",
+					"Lift generated": "0.24",
+					"Mass (dry)": "0.30t",
+					"Mass (total)": "0.60t",
+					"Max. Temp.": "2500K",
+					"Monopropellant": "75",
+					"Part configuration": "mk2DockingPort",
+					"Radial size": "Mk2",
+					"Research": "Advanced Aerodynamics",
+					"Since version": "0.25",
+					"Unlock cost": "11000"
+				},
 				"url": "http://wiki.kerbalspaceprogram.com/wiki/Mk2_Clamp-O-Tron"
 			}
 		],
@@ -1513,28 +4525,124 @@
 			"Aerospace_Tech"
 		],
 		"description": "Push your aircraft to the upper limits of airspeed and sanity.",
-		"icon": "./icons/Hypersonic_Flight.png",
+		"icon": "",
 		"level": 8,
 		"name": "Hypersonic Flight",
 		"parts": [
 			{
 				"name": "Advanced Canard",
+				"props": {
+					"Cost": "800.00",
+					"Deflection range": "15\u00b0",
+					"Drag": "0.02",
+					"Drag coefficient": "0.5",
+					"Impact Tolerance": "12m/s",
+					"Lift generated": "0.4",
+					"Mass": "0.08t",
+					"Max. Temp.": "2400K",
+					"Part configuration": "airplaneFins",
+					"Research": "Hypersonic Flight",
+					"Since version": "0.15",
+					"Surface area": "1",
+					"Unlock cost": "9200"
+				},
 				"url": "http://wiki.kerbalspaceprogram.com/wiki/Advanced_Canard"
 			},
 			{
 				"name": "Shock Cone Intake",
+				"props": {
+					"Cost (dry)": "3050.00",
+					"Cost (total)": "3050.00",
+					"Drag": "0.3",
+					"Impact Tolerance": "7m/s",
+					"Intake area": "0.009m2",
+					"Intake speed": "12",
+					"Mass (dry)": "0.03t",
+					"Mass (total)": "0.03t",
+					"Max. Temp.": "2400K",
+					"Maximum intake air": "0.9",
+					"Part configuration": "circularIntake",
+					"Research": "Hypersonic Flight",
+					"Since version": "0.25",
+					"Unlock cost": "21000"
+				},
 				"url": "http://wiki.kerbalspaceprogram.com/wiki/Shock_Cone_Intake"
 			},
 			{
 				"name": "J-X4 \"Whiplash\" Turbo Ramjet Engine",
+				"props": {
+					"Cost": "2250.00",
+					"Drag": "0.2",
+					"Fuel consumption": "0.04/s",
+					"Impact Tolerance": "7m/s",
+					"In atmosphere": "\u2713Yes",
+					"In space": "\u00d7No",
+					"Intake air consumption": "0.62/s",
+					"Isp": "4000s",
+					"Manually testable": "\u2713Yes",
+					"Mass": "1.80t",
+					"Max. Temp.": "2000K",
+					"Maximum thrust": "130kN",
+					"On the ocean": "\u2713Yes",
+					"On the surface": "\u2713Yes",
+					"Part configuration": "jetEngineTurbo",
+					"Radial size": "Small",
+					"Research": "High Altitude Flight",
+					"Since version": "0.15",
+					"Test by staging": "\u2713Yes",
+					"Thrust vectoring": "1\u00b0",
+					"Unlock cost": "18000"
+				},
 				"url": "http://wiki.kerbalspaceprogram.com/wiki/J-X4_%22Whiplash%22_Turbo_Ramjet_Engine"
 			},
 			{
 				"name": "T-1 Toroidal Aerospike \"Dart\" Liquid Fuel Engine",
+				"props": {
+					"Cost": "3850.00",
+					"Drag": "0.2",
+					"Fuel consumption": "10.78/s",
+					"Impact Tolerance": "20m/s",
+					"In atmosphere": "\u2713Yes",
+					"In space": "\u2713Yes",
+					"Isp (1 atm)": "290s",
+					"Isp (vacuum)": "340s",
+					"Manually testable": "\u2713Yes",
+					"Mass": "1.00t",
+					"Max. Temp.": "2000K",
+					"Maximum thrust (1 atm)": "153.53kN",
+					"Maximum thrust (vacuum)": "180.00kN",
+					"On the ocean": "\u2713Yes",
+					"On the surface": "\u2713Yes",
+					"Part configuration": "liquidEngineAerospike",
+					"Radial size": "Small",
+					"Research": "Hypersonic Flight",
+					"Since version": "0.15",
+					"Test by staging": "\u2713Yes",
+					"Thrust vectoring": "\u00d7No",
+					"Unlock cost": "24500"
+				},
 				"url": "http://wiki.kerbalspaceprogram.com/wiki/T-1_Toroidal_Aerospike_%22Dart%22_Liquid_Fuel_Engine"
 			},
 			{
 				"name": "Engine Pre-cooler",
+				"props": {
+					"Cost (dry)": "1618.00",
+					"Cost (total)": "1650.00",
+					"Drag": "0.2-0.3",
+					"Impact Tolerance": "20m/s",
+					"Intake area": "0.005m2",
+					"Intake speed": "10",
+					"Liquid fuel": "40",
+					"Mass (dry)": "0.15t",
+					"Mass (total)": "0.35t",
+					"Max. Temp.": "2000K",
+					"Maximum intake air": "0.5",
+					"Part configuration": "engineNacelle",
+					"Radial size": "Small",
+					"Research": "Hypersonic Flight",
+					"Since version": "0.15.0",
+					"Unlock cost": "6200"
+				},
 				"url": "http://wiki.kerbalspaceprogram.com/wiki/Engine_Pre-cooler"
 			}
 		],
@@ -1551,24 +4659,90 @@
 		],
 		"dependents": [],
 		"description": "Turns out, it's not science fiction.",
-		"icon": "./icons/Ion_Propulsion.png",
+		"icon": "",
 		"level": 8,
 		"name": "Ion Propulsion",
 		"parts": [
 			{
 				"name": "IX-6315 \"Dawn\" Electric Propulsion System",
+				"props": {
+					"Cost": "8000.00",
+					"Drag": "0.2",
+					"Electricity required": "3.666/s",
+					"Electricity required On the surface": "\u2713Yes",
+					"Fuel consumption": "0.485/s",
+					"Impact Tolerance": "7m/s",
+					"In atmosphere": "\u2713Yes",
+					"In space": "\u2713Yes",
+					"Isp (1 atm)": "100s",
+					"Isp (vacuum)": "4200s",
+					"Manually testable": "\u2713Yes",
+					"Mass": "0.25t",
+					"Max. Temp.": "2000K",
+					"Maximum thrust (1 atm)": "0.05kN",
+					"Maximum thrust (vacuum)": "2.00kN",
+					"On the ocean": "\u2713Yes",
+					"Part configuration": "ionEngine",
+					"Research": "Ion Propulsion",
+					"Since version": "0.18",
+					"Test by staging": "\u2713Yes",
+					"Thrust vectoring": "\u00d7No",
+					"Unlock cost": "16800"
+				},
 				"url": "http://wiki.kerbalspaceprogram.com/wiki/IX-6315_%22Dawn%22_Electric_Propulsion_System"
 			},
 			{
 				"name": "PB-X150 Xenon Container",
+				"props": {
+					"Cost (dry)": "800.00",
+					"Cost (total)": "3600.00",
+					"Drag": "0.2-0.3",
+					"Impact Tolerance": "6m/s",
+					"Mass (dry)": "0.06t",
+					"Mass (total)": "0.13t",
+					"Max. Temp.": "2000K",
+					"Part configuration": "xenonTank",
+					"Research": "Ion Propulsion",
+					"Since version": "0.18",
+					"Unlock cost": "8800",
+					"Xenon gas": "700"
+				},
 				"url": "http://wiki.kerbalspaceprogram.com/wiki/PB-X150_Xenon_Container"
 			},
 			{
 				"name": "PB-X750 Xenon Container",
+				"props": {
+					"Cost (dry)": "1500.00",
+					"Cost (total)": "22500.00",
+					"Drag": "0.2-0.3",
+					"Impact Tolerance": "6m/s",
+					"Mass (dry)": "0.41t",
+					"Mass (total)": "0.94t",
+					"Max. Temp.": "2000K",
+					"Part configuration": "xenonTankLarge",
+					"Research": "Ion Propulsion",
+					"Since version": "1.0",
+					"Unlock cost": "8800",
+					"Xenon gas": "5250"
+				},
 				"url": "http://wiki.kerbalspaceprogram.com/wiki/PB-X750_Xenon_Container"
 			},
 			{
 				"name": "PB-X50R Xenon Container",
+				"props": {
+					"Cost (dry)": "600.00",
+					"Cost (total)": "2200.00",
+					"Drag": "0.2",
+					"Impact Tolerance": "12m/s",
+					"Mass (dry)": "0.03t",
+					"Mass (total)": "0.07t",
+					"Max. Temp.": "2000K",
+					"Part configuration": "xenonTankRadial",
+					"Research": "Ion Propulsion",
+					"Since version": "0.21",
+					"Unlock cost": "9600",
+					"Xenon gas": "400"
+				},
 				"url": "http://wiki.kerbalspaceprogram.com/wiki/PB-X50R_Xenon_Container"
 			}
 		],
@@ -1586,28 +4760,120 @@
 			"Advanced_Landing"
 		],
 		"description": "Our Engineers are nothing if not optimistic.",
-		"icon": "./icons/Landing.png",
+		"icon": "",
 		"level": 5,
 		"name": "Landing",
 		"parts": [
 			{
 				"name": "Heat Shield (2.5m)",
+				"props": {
+					"Ablator": "800.0units",
+					"Cost": "600.00",
+					"Drag": "0.2",
+					"Impact Tolerance": "9m/s",
+					"Mass": "1.30t",
+					"Max. Temp.": "3300K",
+					"Part configuration": "HeatShield",
+					"Research": "Landing",
+					"Since version": "1.0",
+					"Threshold temperature": "500",
+					"Unlock cost": "1200"
+				},
 				"url": "http://wiki.kerbalspaceprogram.com/wiki/Heat_Shield_(2.5m)"
 			},
 			{
 				"name": "LT-1 Landing Struts",
+				"props": {
+					"Cost": "440.00",
+					"Drag": "0.2",
+					"Impact Tolerance": "12m/s",
+					"Mass": "0.05t",
+					"Max. Temp.": "2000K",
+					"Part configuration": "landingLegLT-1",
+					"Research": "Landing",
+					"Since version": "0.16",
+					"Unlock cost": "2900"
+				},
 				"url": "http://wiki.kerbalspaceprogram.com/wiki/LT-1_Landing_Struts"
 			},
 			{
 				"name": "Launch Escape System",
+				"props": {
+					"Burn time (1 atm)": "0.5s",
+					"Burn time (vacuum)": "0.5s",
+					"Cost (dry)": "982.00",
+					"Cost (total)": "1000.00",
+					"Drag": "0.2-0.3",
+					"Fuel": "30.0",
+					"Fuel consumption": "56.57/s",
+					"Impact Tolerance": "15m/s",
+					"In atmosphere": "\u2713Yes",
+					"In space": "\u00d7No",
+					"Isp (1 atm)": "160s",
+					"Isp (vacuum)": "180s",
+					"Manually testable": "\u00d7No",
+					"Mass (dry)": "0.90t",
+					"Mass (total)": "1.13t",
+					"Max. Temp.": "2700K",
+					"Maximum thrust (1 atm)": "666.67kN",
+					"Maximum thrust (vacuum)": "750.00kN",
+					"On the ocean": "\u00d7No",
+					"On the surface": "\u2713Yes",
+					"Part configuration": "launchEscapeSystem",
+					"Radial size": "Small",
+					"Research": "Landing",
+					"Since version": "0.23.5",
+					"Test by staging": "\u2713Yes",
+					"Thrust vectoring": "\u00d7No",
+					"Unlock cost": "4500"
+				},
 				"url": "http://wiki.kerbalspaceprogram.com/wiki/Launch_Escape_System"
 			},
 			{
 				"name": "Mk16-XL Parachute",
+				"props": {
+					"Cost": "850.00",
+					"Drag": "0.22",
+					"Fully-deployed drag": "500",
+					"Fully-deployed trigger": "1000m AGL",
+					"Impact Tolerance": "12m/s",
+					"In atmosphere": "\u2713Yes",
+					"In space": "\u00d7No",
+					"Manually testable": "\u00d7No",
+					"Mass": "0.30t",
+					"Max. Temp.": "2500K",
+					"On the ocean": "\u00d7No",
+					"On the surface": "\u00d7No",
+					"Part configuration": "parachuteMk16-XL",
+					"Radial size": "Small",
+					"Research": "Landing",
+					"Semi-deployment drag": "1",
+					"Semi-deployment trigger": "0.04atm",
+					"Since version": "0.16",
+					"Test by staging": "\u2713Yes",
+					"Unlock cost": "4600"
+				},
 				"url": "http://wiki.kerbalspaceprogram.com/wiki/Mk16-XL_Parachute"
 			},
 			{
 				"name": "LY-10 Small Landing Gear",
+				"props": {
+					"Cost": "450.00",
+					"Drag": "0.2-0.3 [N 1]",
+					"Impact Tolerance": "50m/s",
+					"In atmosphere": "\u2713Yes",
+					"In space": "\u2713Yes",
+					"Manually testable": "\u2713Yes",
+					"Mass": "0.04t [N 1]",
+					"Max. Temp.": "2500K",
+					"On the ocean": "\u2713Yes",
+					"On the surface": "\u2713Yes",
+					"Part configuration": "SmallGearBay",
+					"Research": "Landing",
+					"Since version": "0.15",
+					"Test by staging": "\u00d7No",
+					"Unlock cost": "3200"
+				},
 				"url": "http://wiki.kerbalspaceprogram.com/wiki/LY-10_Small_Landing_Gear"
 			}
 		],
@@ -1623,12 +4889,31 @@
 		],
 		"dependents": [],
 		"description": "The rumours of probe-led world domination are greatly exaggerated.",
-		"icon": "./icons/Large_Probes.png",
+		"icon": "",
 		"level": 9,
 		"name": "Large Probes",
 		"parts": [
 			{
 				"name": "RC-L01 Remote Guidance Unit",
+				"props": {
+					"Cost": "3400.00",
+					"Drag": "0.2",
+					"Electric capacity": "30.0",
+					"Electricity required": "4.80/min",
+					"Electricity required for torque": "",
+					"Impact Tolerance": "9m/s",
+					"Mass": "0.50t",
+					"Max. Temp.": "2000K",
+					"Part configuration": "probeStackLarge",
+					"Pitch torque": "1.5kN\u00b7m",
+					"Radial size": "Large",
+					"Research": "Large Probes",
+					"Roll torque": "1.5kN\u00b7m",
+					"SAS level": "3",
+					"Since version": "0.20",
+					"Unlock cost": "24800",
+					"Yaw torque": "1.5kN\u00b7m"
+				},
 				"url": "http://wiki.kerbalspaceprogram.com/wiki/RC-L01_Remote_Guidance_Unit"
 			}
 		],
@@ -1647,24 +4932,80 @@
 			"Very_Heavy_Rocketry"
 		],
 		"description": "Maximize the payload capacity of your spacecraft by maximizing the size of your spacecraft.",
-		"icon": "./icons/Large_Volume_Containment.png",
+		"icon": "",
 		"level": 7,
 		"name": "Large Volume Containment",
 		"parts": [
 			{
 				"name": "Kerbodyne S3-7200 Tank",
+				"props": {
+					"Cost (dry)": "3195.20",
+					"Cost (total)": "6500.00",
+					"Drag": "0.2-0.3",
+					"Impact Tolerance": "6m/s",
+					"Liquid fuel": "3240",
+					"Mass (dry)": "4.50t",
+					"Mass (total)": "40.50t",
+					"Max. Temp.": "2000K",
+					"Oxidizer": "3960",
+					"Part configuration": "Size3MediumTank",
+					"Radial size": "Extra large",
+					"Research": "Large Volume Containment",
+					"Since version": "0.23.5",
+					"Unlock cost": "32600"
+				},
 				"url": "http://wiki.kerbalspaceprogram.com/wiki/Kerbodyne_S3-7200_Tank"
 			},
 			{
 				"name": "Kerbodyne S3-3600 Tank",
+				"props": {
+					"Cost (dry)": "1597.60",
+					"Cost (total)": "3250.00",
+					"Drag": "0.2-0.3",
+					"Impact Tolerance": "6m/s",
+					"Liquid fuel": "1620",
+					"Mass (dry)": "2.25t",
+					"Mass (total)": "20.25t",
+					"Max. Temp.": "2000K",
+					"Oxidizer": "1980",
+					"Part configuration": "Size3SmallTank",
+					"Radial size": "Extra large",
+					"Research": "Large Volume Containment",
+					"Since version": "0.23.5",
+					"Unlock cost": "18800"
+				},
 				"url": "http://wiki.kerbalspaceprogram.com/wiki/Kerbodyne_S3-3600_Tank"
 			},
 			{
 				"name": "TR-38-D",
+				"props": {
+					"Cost": "600.00",
+					"Drag": "0.2 [N 1]",
+					"Ejection momentum": "1000Ns",
+					"Impact Tolerance": "9m/s",
+					"Mass": "0.80t [N 1]",
+					"Max. Temp.": "2000K",
+					"Part configuration": "Size3Decoupler",
+					"Research": "Large Volume Containment",
+					"Since version": "0.23.5",
+					"Unlock cost": "1200"
+				},
 				"url": "http://wiki.kerbalspaceprogram.com/wiki/TR-38-D"
 			},
 			{
 				"name": "Kerbodyne ADTP-2-3",
+				"props": {
+					"Cost": "2600.00",
+					"Drag": "0.2-0.3",
+					"Impact Tolerance": "6m/s",
+					"Mass": "0.20t",
+					"Max. Temp.": "2000K",
+					"Part configuration": "Size3To2Adapter",
+					"Radial size": "Large, Extra large",
+					"Research": "Large Volume Containment",
+					"Since version": "0.23.5",
+					"Unlock cost": "8800"
+				},
 				"url": "http://wiki.kerbalspaceprogram.com/wiki/Kerbodyne_ADTP-2-3"
 			}
 		],
@@ -1679,28 +5020,90 @@
 		],
 		"dependents": [],
 		"description": "An advancement in spacecraft construction so revolutionary, you won't even mind that its naming was wildly inaccurate.",
-		"icon": "./icons/Meta-Materials.png",
+		"icon": "",
 		"level": 8,
 		"name": "Meta-Materials",
 		"parts": [
 			{
 				"name": "TVR-200L Stack Bi-Adapter",
+				"props": {
+					"Cost": "400.00",
+					"Drag": "0.2",
+					"Impact Tolerance": "12m/s",
+					"Mass": "0.10t",
+					"Max. Temp.": "2000K",
+					"Outgoing connectors": "2",
+					"Part configuration": "adapterLargeSmallBi",
+					"Radial size": "Large, Small",
+					"Research": "Meta-Materials",
+					"Since version": "0.21",
+					"Unlock cost": "7800"
+				},
 				"url": "http://wiki.kerbalspaceprogram.com/wiki/TVR-200L_Stack_Bi-Adapter"
 			},
 			{
 				"name": "TVR-400L Stack Quad-Adapter",
+				"props": {
+					"Cost": "800.00",
+					"Drag": "0.3",
+					"Impact Tolerance": "12m/s",
+					"Mass": "0.20t",
+					"Max. Temp.": "2000K",
+					"Outgoing connectors": "4",
+					"Part configuration": "adapterLargeSmallQuad",
+					"Radial size": "Large, Small",
+					"Research": "Meta-Materials",
+					"Since version": "0.21",
+					"Unlock cost": "7000"
+				},
 				"url": "http://wiki.kerbalspaceprogram.com/wiki/TVR-400L_Stack_Quad-Adapter"
 			},
 			{
 				"name": "TVR-300L Stack Tri-Adapter",
+				"props": {
+					"Cost": "600.00",
+					"Drag": "0.25",
+					"Impact Tolerance": "12m/s",
+					"Mass": "0.15t",
+					"Max. Temp.": "2000K",
+					"Outgoing connectors": "3",
+					"Part configuration": "adapterLargeSmallTri",
+					"Radial size": "Large, Small",
+					"Research": "Meta-Materials",
+					"Since version": "0.21",
+					"Unlock cost": "6400"
+				},
 				"url": "http://wiki.kerbalspaceprogram.com/wiki/TVR-300L_Stack_Tri-Adapter"
 			},
 			{
 				"name": "Rockomax HubMax Multi-Point Connector",
+				"props": {
+					"Cost": "900.00",
+					"Drag": "0.2",
+					"Impact Tolerance": "15m/s",
+					"Mass": "1.50t",
+					"Max. Temp.": "2000K",
+					"Part configuration": "stationHub",
+					"Research": "Meta-Materials",
+					"Since version": "0.18",
+					"Unlock cost": "10800"
+				},
 				"url": "http://wiki.kerbalspaceprogram.com/wiki/Rockomax_HubMax_Multi-Point_Connector"
 			},
 			{
 				"name": "Clamp-O-Tron Docking Port Sr.",
+				"props": {
+					"Cost": "980.00",
+					"Drag": "0.25",
+					"Impact Tolerance": "20m/s",
+					"Mass": "0.20t",
+					"Max. Temp.": "2000K",
+					"Part configuration": "dockingPortSr",
+					"Radial size": "Large",
+					"Research": "Meta-Materials",
+					"Since version": "0.20",
+					"Unlock cost": "12200"
+				},
 				"url": "http://wiki.kerbalspaceprogram.com/wiki/Clamp-O-Tron_Docking_Port_Sr."
 			}
 		],
@@ -1717,24 +5120,78 @@
 			"Precision_Engineering"
 		],
 		"description": "These aren't your standard hobby miniature models. We've been assured they look good enough to actually fly.",
-		"icon": "./icons/Miniaturization.png",
+		"icon": "",
 		"level": 5,
 		"name": "Miniaturization",
 		"parts": [
 			{
 				"name": "FL-A5 Adapter",
+				"props": {
+					"Cost": "100.00",
+					"Drag": "0.2 [N 1]",
+					"Impact Tolerance": "6m/s",
+					"Mass": "0.04t [N 1]",
+					"Max. Temp.": "2000K",
+					"Part configuration": "adapterSmallMiniShort",
+					"Radial size": "Tiny, Small",
+					"Research": "Miniaturization",
+					"Since version": "0.21",
+					"Unlock cost": "4800"
+				},
 				"url": "http://wiki.kerbalspaceprogram.com/wiki/FL-A5_Adapter"
 			},
 			{
 				"name": "FL-A10 Adapter",
+				"props": {
+					"Cost": "150.00",
+					"Drag": "0.2",
+					"Impact Tolerance": "6m/s",
+					"Mass": "0.05t",
+					"Max. Temp.": "2000K",
+					"Part configuration": "adapterSmallMiniTall",
+					"Radial size": "Tiny, Small",
+					"Research": "Miniaturization",
+					"Since version": "0.21",
+					"Unlock cost": "4400"
+				},
 				"url": "http://wiki.kerbalspaceprogram.com/wiki/FL-A10_Adapter"
 			},
 			{
 				"name": "TR-2C Stack Separator",
+				"props": {
+					"Cost": "450.00",
+					"Drag": "0.2",
+					"Ejection momentum": "150Ns",
+					"Impact Tolerance": "9m/s",
+					"In atmosphere": "\u2713Yes",
+					"In space": "\u2713Yes",
+					"Manually testable": "\u00d7No",
+					"Mass": "0.02t",
+					"Max. Temp.": "2000K",
+					"On the ocean": "\u2713Yes",
+					"On the surface": "\u2713Yes",
+					"Part configuration": "decouplerSeparatorTR-2C",
+					"Research": "Miniaturization",
+					"Since version": "0.18",
+					"Test by staging": "\u2713Yes",
+					"Unlock cost": "6200"
+				},
 				"url": "http://wiki.kerbalspaceprogram.com/wiki/TR-2C_Stack_Separator"
 			},
 			{
 				"name": "Clamp-O-Tron Docking Port Jr.",
+				"props": {
+					"Cost": "800.00",
+					"Drag": "0.25",
+					"Impact Tolerance": "10m/s",
+					"Mass": "0.02t",
+					"Max. Temp.": "2000K",
+					"Part configuration": "dockingPortJr",
+					"Radial size": "Tiny",
+					"Research": "Miniaturization",
+					"Since version": "0.18",
+					"Unlock cost": "7800"
+				},
 				"url": "http://wiki.kerbalspaceprogram.com/wiki/Clamp-O-Tron_Docking_Port_Jr."
 			}
 		],
@@ -1751,12 +5208,35 @@
 		],
 		"dependents": [],
 		"description": "Nuclear engines don't burn fuel, they totally annihilate it. We just hope it doesn't begin any conflicts.",
-		"icon": "./icons/Nuclear_Propulsion.png",
+		"icon": "",
 		"level": 7,
 		"name": "Nuclear Propulsion",
 		"parts": [
 			{
 				"name": "LV-N \"Nerv\" Atomic Rocket Motor",
+				"props": {
+					"Cost": "10000.00",
+					"Drag": "0.2",
+					"Fuel consumption": "1.53/s",
+					"Impact Tolerance": "12m/s",
+					"In atmosphere": "\u00d7No",
+					"In space": "\u2713Yes",
+					"Isp (1 atm)": "185s",
+					"Isp (vacuum)": "800s",
+					"Manually testable": "\u2713Yes",
+					"Mass": "3.00t",
+					"Max. Temp.": "2500K",
+					"Maximum thrust (1 atm)": "13.88kN",
+					"Maximum thrust (vacuum)": "60.00kN",
+					"On the ocean": "\u00d7No",
+					"On the surface": "\u00d7No",
+					"Part configuration": "liquidEngineLV-N",
+					"Research": "Nuclear Propulsion",
+					"Since version": "0.17",
+					"Test by staging": "\u00d7No",
+					"Thrust vectoring": "\u00d7No",
+					"Unlock cost": "45000"
+				},
 				"url": "http://wiki.kerbalspaceprogram.com/wiki/LV-N_%22Nerv%22_Atomic_Rocket_Motor"
 			}
 		],
@@ -1776,28 +5256,99 @@
 			"Unmanned_Tech"
 		],
 		"description": "Precise engineering techniques allow for construction of even smaller parts.",
-		"icon": "./icons/Precision_Engineering.png",
+		"icon": "",
 		"level": 6,
 		"name": "Precision Engineering",
 		"parts": [
 			{
 				"name": "Probodobodyne HECS",
+				"props": {
+					"Cost": "650.00",
+					"Drag": "0.15-0.2",
+					"Electric capacity": "10.0",
+					"Electricity required": "1.50/min",
+					"Electricity required for torque": "",
+					"Impact Tolerance": "12m/s",
+					"Mass": "0.10t",
+					"Max. Temp.": "1200K",
+					"Part configuration": "probeCoreHex",
+					"Pitch torque": "0.5kN\u00b7m",
+					"Radial size": "Tiny",
+					"Research": "Precision Engineering",
+					"Roll torque": "0.5kN\u00b7m",
+					"SAS level": "1",
+					"Since version": "0.21",
+					"Unlock cost": "4900",
+					"Yaw torque": "0.5kN\u00b7m"
+				},
 				"url": "http://wiki.kerbalspaceprogram.com/wiki/Probodobodyne_HECS"
 			},
 			{
 				"name": "The Not-Rockomax Micronode",
+				"props": {
+					"Cost": "25.00",
+					"Drag": "0.2",
+					"Impact Tolerance": "15m/s",
+					"Mass": "0.15t",
+					"Max. Temp.": "2000K",
+					"Part configuration": "structuralMicronode",
+					"Research": "Precision Engineering",
+					"Since version": "0.19",
+					"Unlock cost": "9800"
+				},
 				"url": "http://wiki.kerbalspaceprogram.com/wiki/The_Not-Rockomax_Micronode"
 			},
 			{
 				"name": "Cubic Octagonal Strut",
+				"props": {
+					"Cost": "16.00",
+					"Drag": "0.2 [N 1]",
+					"Impact Tolerance": "7m/s",
+					"Mass": "0.00t [N 1]",
+					"Max. Temp.": "2000K",
+					"Part configuration": "strutCubicOcto",
+					"Research": "Precision Engineering",
+					"Since version": "0.18",
+					"Unlock cost": "5800"
+				},
 				"url": "http://wiki.kerbalspaceprogram.com/wiki/Cubic_Octagonal_Strut"
 			},
 			{
 				"name": "Octagonal Strut",
+				"props": {
+					"Cost": "20.00",
+					"Drag": "0.2 [N 1]",
+					"Impact Tolerance": "7m/s",
+					"Mass": "0.00t [N 1]",
+					"Max. Temp.": "2000K",
+					"Part configuration": "strutOcto",
+					"Research": "Precision Engineering",
+					"Since version": "0.18",
+					"Unlock cost": "6400"
+				},
 				"url": "http://wiki.kerbalspaceprogram.com/wiki/Octagonal_Strut"
 			},
 			{
 				"name": "TR-2V Stack Decoupler",
+				"props": {
+					"Cost": "300.00",
+					"Drag": "0.2",
+					"Ejection momentum": "150Ns",
+					"Impact Tolerance": "9m/s",
+					"In atmosphere": "\u2713Yes",
+					"In space": "\u2713Yes",
+					"Manually testable": "\u00d7No",
+					"Mass": "0.02t",
+					"Max. Temp.": "2000K",
+					"On the ocean": "\u2713Yes",
+					"On the surface": "\u2713Yes",
+					"Part configuration": "decouplerStackTR-2V",
+					"Radial size": "Tiny",
+					"Research": "Precision Engineering",
+					"Since version": "0.18",
+					"Test by staging": "\u2713Yes",
+					"Unlock cost": "5200"
+				},
 				"url": "http://wiki.kerbalspaceprogram.com/wiki/TR-2V_Stack_Decoupler"
 			}
 		],
@@ -1812,28 +5363,138 @@
 		],
 		"dependents": [],
 		"description": "Any level of precision achieved in controlling the sustained explosion inside a rocket engine is nothing short of remarkable. It might be quite expensive, too.",
-		"icon": "./icons/Precision_Propulsion.png",
+		"icon": "",
 		"level": 6,
 		"name": "Precision Propulsion",
 		"parts": [
 			{
 				"name": "24-77 \"Twitch\" Liquid Fuel Engine",
+				"props": {
+					"Cost": "400.00",
+					"Drag": "0.2",
+					"Fuel consumption": "1.12/s",
+					"Impact Tolerance": "7m/s",
+					"In atmosphere": "\u2713Yes",
+					"In space": "\u2713Yes",
+					"Isp (1 atm)": "250s",
+					"Isp (vacuum)": "290s",
+					"Manually testable": "\u2713Yes",
+					"Mass": "0.09t",
+					"Max. Temp.": "2000K",
+					"Maximum thrust (1 atm)": "13.79kN",
+					"Maximum thrust (vacuum)": "16.00kN",
+					"On the ocean": "\u2713Yes",
+					"On the surface": "\u2713Yes",
+					"Part configuration": "liquidEngine24-77",
+					"Research": "Precision Propulsion",
+					"Since version": "0.18",
+					"Test by staging": "\u2713Yes",
+					"Thrust vectoring": "8\u00b0",
+					"Unlock cost": "3000"
+				},
 				"url": "http://wiki.kerbalspaceprogram.com/wiki/24-77_%22Twitch%22_Liquid_Fuel_Engine"
 			},
 			{
 				"name": "LV-1R \"Spider\" Liquid Fuel Engine",
+				"props": {
+					"Cost": "120.00",
+					"Drag": "0.2",
+					"Fuel consumption": "0.14/s",
+					"Impact Tolerance": "7m/s",
+					"In atmosphere": "\u2713Yes",
+					"In space": "\u2713Yes",
+					"Isp (1 atm)": "260s",
+					"Isp (vacuum)": "290s",
+					"Manually testable": "\u2713Yes",
+					"Mass": "0.02t",
+					"Max. Temp.": "2000K",
+					"Maximum thrust (1 atm)": "1.79kN",
+					"Maximum thrust (vacuum)": "2.00kN",
+					"On the ocean": "\u2713Yes",
+					"On the surface": "\u2713Yes",
+					"Part configuration": "liquidEngineLV-1R",
+					"Radial size": "Radial mounted",
+					"Research": "Precision Propulsion",
+					"Since version": "0.21",
+					"Test by staging": "\u2713Yes",
+					"Thrust vectoring": "8\u00b0",
+					"Unlock cost": "1750"
+				},
 				"url": "http://wiki.kerbalspaceprogram.com/wiki/LV-1R_%22Spider%22_Liquid_Fuel_Engine"
 			},
 			{
 				"name": "O-10 \"Puff\" MonoPropellant Fuel Engine",
+				"props": {
+					"Cost": "150.00",
+					"Drag": "0.2 [N 1]",
+					"Fuel consumption": "2.04/s",
+					"Impact Tolerance": "7m/s",
+					"Isp (1 atm)": "120s",
+					"Isp (vacuum)": "250s",
+					"Mass": "0.09t [N 1]",
+					"Max. Temp.": "2000K",
+					"Maximum thrust (1 atm)": "9.60kN",
+					"Maximum thrust (vacuum)": "20.00kN",
+					"Part configuration": "OMSEngine",
+					"Radial size": "Radial mounted",
+					"Research": "Precision Propulsion",
+					"Since version": "0.24",
+					"Thrust vectoring": "\u00d7No",
+					"Unlock cost": "2500"
+				},
 				"url": "http://wiki.kerbalspaceprogram.com/wiki/O-10_%22Puff%22_MonoPropellant_Fuel_Engine"
 			},
 			{
 				"name": "Sepratron I",
+				"props": {
+					"Burn time (1 atm)": "3.9s",
+					"Burn time (vacuum)": "5s",
+					"Cost (dry)": "70.20",
+					"Cost (total)": "75.00",
+					"Drag": "0.2-0.3",
+					"Fuel": "8.0",
+					"Fuel consumption": "1.59/s",
+					"Impact Tolerance": "7m/s",
+					"In atmosphere": "\u2713Yes",
+					"In space": "\u2713Yes",
+					"Isp (1 atm)": "118s",
+					"Isp (vacuum)": "154s",
+					"Manually testable": "\u00d7No",
+					"Mass (dry)": "0.01t",
+					"Mass (total)": "0.07t",
+					"Max. Temp.": "2000K",
+					"Maximum thrust (1 atm)": "13.79kN",
+					"Maximum thrust (vacuum)": "18.00kN",
+					"On the ocean": "\u2713Yes",
+					"On the surface": "\u2713Yes",
+					"Part configuration": "solidBoosterSep",
+					"Radial size": "Radial mounted",
+					"Research": "Precision Propulsion",
+					"Since version": "0.17",
+					"Test by staging": "\u2713Yes",
+					"Thrust vectoring": "\u00d7No",
+					"Unlock cost": "1100"
+				},
 				"url": "http://wiki.kerbalspaceprogram.com/wiki/Sepratron_I"
 			},
 			{
 				"name": "ROUND-8 Toroidal Fuel Tank",
+				"props": {
+					"Cost (dry)": "147.46",
+					"Cost (total)": "175.00",
+					"Drag": "0.15-0.2",
+					"Impact Tolerance": "6m/s",
+					"Liquid fuel": "27",
+					"Mass (dry)": "0.04t",
+					"Mass (total)": "0.34t",
+					"Max. Temp.": "2000K",
+					"Oxidizer": "33",
+					"Part configuration": "fuelTankToroidal",
+					"Radial size": "Small",
+					"Research": "Precision Propulsion",
+					"Since version": "0.18",
+					"Unlock cost": "4800"
+				},
 				"url": "http://wiki.kerbalspaceprogram.com/wiki/ROUND-8_Toroidal_Fuel_Tank"
 			}
 		],
@@ -1851,20 +5512,83 @@
 			"Precision_Propulsion"
 		],
 		"description": "A positively different approach to existing trends in rocketry. These small, lightweight propulsion systems may not seem as exciting, but they might prove just as useful.",
-		"icon": "./icons/Propulsion_Systems.png",
+		"icon": "",
 		"level": 5,
 		"name": "Propulsion Systems",
 		"parts": [
 			{
 				"name": "48-7S \"Spark\" Liquid Fuel Engine",
+				"props": {
+					"Cost": "200.00",
+					"Drag": "0.2",
+					"Fuel consumption": "1.22/s",
+					"Impact Tolerance": "7m/s",
+					"In atmosphere": "\u2713Yes",
+					"In space": "\u2713Yes",
+					"Isp (1 atm)": "270s",
+					"Isp (vacuum)": "300s",
+					"Manually testable": "\u2713Yes",
+					"Mass": "0.10t",
+					"Max. Temp.": "2000K",
+					"Maximum thrust (1 atm)": "16.20kN",
+					"Maximum thrust (vacuum)": "18.00kN",
+					"On the ocean": "\u2713Yes",
+					"On the surface": "\u2713Yes",
+					"Part configuration": "liquidEngine48-7S",
+					"Radial size": "Tiny",
+					"Research": "Propulsion Systems",
+					"Since version": "0.21",
+					"Test by staging": "\u2713Yes",
+					"Thrust vectoring": "3\u00b0",
+					"Unlock cost": "2800"
+				},
 				"url": "http://wiki.kerbalspaceprogram.com/wiki/48-7S_%22Spark%22_Liquid_Fuel_Engine"
 			},
 			{
 				"name": "LV-1 \"Ant\" Liquid Fuel Engine",
+				"props": {
+					"Cost": "110.00",
+					"Drag": "0.2",
+					"Fuel consumption": "0.13/s",
+					"Impact Tolerance": "7m/s",
+					"In atmosphere": "\u00d7No",
+					"In space": "\u2713Yes",
+					"Isp (1 atm)": "80s",
+					"Isp (vacuum)": "315s",
+					"Manually testable": "\u2713Yes",
+					"Mass": "0.02t",
+					"Max. Temp.": "2000K",
+					"Maximum thrust (1 atm)": "0.51kN",
+					"Maximum thrust (vacuum)": "2.00kN",
+					"On the ocean": "\u00d7No",
+					"On the surface": "\u00d7No",
+					"Part configuration": "liquidEngineLV-1",
+					"Radial size": "Tiny",
+					"Research": "Propulsion Systems",
+					"Since version": "0.18",
+					"Test by staging": "\u00d7No",
+					"Thrust vectoring": "\u00d7No",
+					"Unlock cost": "1500"
+				},
 				"url": "http://wiki.kerbalspaceprogram.com/wiki/LV-1_%22Ant%22_Liquid_Fuel_Engine"
 			},
 			{
 				"name": "Oscar-B Fuel Tank",
+				"props": {
+					"Cost (dry)": "51.64",
+					"Cost (total)": "70.00",
+					"Drag": "0.15-0.2",
+					"Impact Tolerance": "6m/s",
+					"Liquid fuel": "18",
+					"Mass (dry)": "0.03t",
+					"Mass (total)": "0.23t",
+					"Max. Temp.": "2000K",
+					"Oxidizer": "22",
+					"Part configuration": "fuelTankOscarB",
+					"Research": "Propulsion Systems",
+					"Since version": "0.18",
+					"Unlock cost": "4200"
+				},
 				"url": "http://wiki.kerbalspaceprogram.com/wiki/Oscar-B_Fuel_Tank"
 			}
 		],
@@ -1883,16 +5607,38 @@
 			"Ion_Propulsion"
 		],
 		"description": "Scientific advancements allow new advanced technologies for advancing Science.",
-		"icon": "./icons/Science_Tech.png",
+		"icon": "",
 		"level": 7,
 		"name": "Science Tech",
 		"parts": [
 			{
 				"name": "Surface Scanning Module",
+				"props": {
+					"Cost": "800.00",
+					"Drag": "0.2",
+					"Impact Tolerance": "7m/s",
+					"Mass": "0.01t",
+					"Max. Temp.": "2000K",
+					"Part configuration": "SurfaceScanner",
+					"Research": "Science Tech",
+					"Since version": "1.0",
+					"Unlock cost": "2400"
+				},
 				"url": "http://wiki.kerbalspaceprogram.com/wiki/Surface_Scanning_Module"
 			},
 			{
 				"name": "M700 Survey Scanner",
+				"props": {
+					"Cost": "1500.00",
+					"Drag": "0.2",
+					"Impact Tolerance": "7m/s",
+					"Mass": "0.20t",
+					"Max. Temp.": "2000K",
+					"Part configuration": "SurveyScanner",
+					"Research": "Science Tech",
+					"Since version": "1.0",
+					"Unlock cost": "4500"
+				},
 				"url": "http://wiki.kerbalspaceprogram.com/wiki/M700_Survey_Scanner"
 			}
 		],
@@ -1910,20 +5656,57 @@
 			"Command_Modules"
 		],
 		"description": "To boldly go where no green man has gone before.",
-		"icon": "./icons/Space_Exploration.png",
+		"icon": "",
 		"level": 5,
 		"name": "Space Exploration",
 		"parts": [
 			{
 				"name": "PPD-10 Hitchhiker Storage Container",
+				"props": {
+					"Cost": "4000.00",
+					"Crew capacity": "4",
+					"Drag": "0.2-0.3",
+					"Impact Tolerance": "6m/s",
+					"Mass": "2.50t",
+					"Max. Temp.": "2000K",
+					"Part configuration": "hitchhikerStorageContainer",
+					"Research": "Space Exploration",
+					"Since version": "0.18",
+					"Unlock cost": "12400"
+				},
 				"url": "http://wiki.kerbalspaceprogram.com/wiki/PPD-10_Hitchhiker_Storage_Container"
 			},
 			{
 				"name": "PresMat Barometer",
+				"props": {
+					"Cost": "3300.00",
+					"Drag": "0.2 [N 1]",
+					"Electricity required": "0.0075/s",
+					"Experiment": "Atmospheric Pressure Scan",
+					"Impact Tolerance": "8m/s",
+					"Mass": "0.01t [N 1]",
+					"Max. Temp.": "1200K",
+					"Part configuration": "sensorBarometer",
+					"Research": "Space Exploration",
+					"Since version": "0.18",
+					"Unlock cost": "3200"
+				},
 				"url": "http://wiki.kerbalspaceprogram.com/wiki/PresMat_Barometer"
 			},
 			{
 				"name": "Pegasus I Mobility Enhancer",
+				"props": {
+					"Cost": "100.00",
+					"Drag": "0.2",
+					"Extends": "\u00d7No",
+					"Impact Tolerance": "8m/s",
+					"Mass": "0.01t",
+					"Max. Temp.": "2000K",
+					"Part configuration": "ladderRadial",
+					"Research": "Space Exploration",
+					"Since version": "0.16",
+					"Unlock cost": "500"
+				},
 				"url": "http://wiki.kerbalspaceprogram.com/wiki/Pegasus_I_Mobility_Enhancer"
 			}
 		],
@@ -1942,36 +5725,124 @@
 			"Large_Volume_Containment"
 		],
 		"description": "Specialized construction techniques provide new ways of attaching things together, and detaching things on purpose.",
-		"icon": "./icons/Specialized_Construction.png",
+		"icon": "",
 		"level": 6,
 		"name": "Specialized Construction",
 		"parts": [
 			{
 				"name": "Advanced Nose Cone - Type B",
+				"props": {
+					"Cost": "320.00",
+					"Drag": "0.1",
+					"Impact Tolerance": "40m/s",
+					"Mass": "0.08t",
+					"Max. Temp.": "2000K",
+					"Part configuration": "cones",
+					"Research": "Advanced Aerodynamics",
+					"Since version": "1.0",
+					"Unlock cost": "6200"
+				},
 				"url": "http://wiki.kerbalspaceprogram.com/wiki/Advanced_Nose_Cone_-_Type_B"
 			},
 			{
 				"name": "AE-FF2 Airstream Protective Shell (2.5m)",
+				"props": {
+					"Cost": "900.00",
+					"Drag": "0.2",
+					"Impact Tolerance": "9m/s",
+					"Mass": "0.18t",
+					"Max. Temp.": "2600K",
+					"Part configuration": "fairings",
+					"Research": "Specialized Construction",
+					"Since version": "1.0",
+					"Unlock cost": "9200"
+				},
 				"url": "http://wiki.kerbalspaceprogram.com/wiki/AE-FF2_Airstream_Protective_Shell_(2.5m)"
 			},
 			{
 				"name": "Modular Girder Adapter",
+				"props": {
+					"Cost": "50.00",
+					"Drag": "0.2",
+					"Impact Tolerance": "80m/s",
+					"Mass": "0.25t",
+					"Max. Temp.": "2000K",
+					"Part configuration": "trussGirderAdapter",
+					"Research": "Specialized Construction",
+					"Since version": "0.18",
+					"Unlock cost": "4800"
+				},
 				"url": "http://wiki.kerbalspaceprogram.com/wiki/Modular_Girder_Adapter"
 			},
 			{
 				"name": "TR-18D Stack Separator",
+				"props": {
+					"Cost": "600.00",
+					"Drag": "0.2",
+					"Ejection momentum": "2500Ns",
+					"Impact Tolerance": "9m/s",
+					"In atmosphere": "\u2713Yes",
+					"In space": "\u2713Yes",
+					"Manually testable": "\u00d7No",
+					"Mass": "0.08t",
+					"Max. Temp.": "2000K",
+					"On the ocean": "\u2713Yes",
+					"On the surface": "\u2713Yes",
+					"Part configuration": "decouplerSeparatorTR-18D",
+					"Radial size": "Small",
+					"Research": "Specialized Construction",
+					"Since version": "0.18",
+					"Test by staging": "\u2713Yes",
+					"Unlock cost": "7200"
+				},
 				"url": "http://wiki.kerbalspaceprogram.com/wiki/TR-18D_Stack_Separator"
 			},
 			{
 				"name": "Clamp-O-Tron Docking Port",
+				"props": {
+					"Cost": "280.00",
+					"Drag": "0.25",
+					"Impact Tolerance": "10m/s",
+					"Mass": "0.05t",
+					"Max. Temp.": "2000K",
+					"Part configuration": "dockingPort",
+					"Radial size": "Small",
+					"Research": "Specialized Construction",
+					"Since version": "0.18",
+					"Unlock cost": "6400"
+				},
 				"url": "http://wiki.kerbalspaceprogram.com/wiki/Clamp-O-Tron_Docking_Port"
 			},
 			{
 				"name": "BZ-52 Radial Attachment Point",
+				"props": {
+					"Cost": "250.00",
+					"Drag": "0.25 [N 1]",
+					"Impact Tolerance": "10m/s",
+					"Mass": "0.04t [N 1]",
+					"Max. Temp.": "2000K",
+					"Part configuration": "radialAttachmentPoint",
+					"Research": "Specialized Construction",
+					"Since version": "0.19",
+					"Unlock cost": "1200"
+				},
 				"url": "http://wiki.kerbalspaceprogram.com/wiki/BZ-52_Radial_Attachment_Point"
 			},
 			{
 				"name": "TVR-200 Stack Bi-Coupler",
+				"props": {
+					"Cost": "400.00",
+					"Drag": "0.2",
+					"Impact Tolerance": "9m/s",
+					"Mass": "0.10t",
+					"Max. Temp.": "2000K",
+					"Outgoing connectors": "2",
+					"Part configuration": "stackBiCoupler",
+					"Radial size": "Small",
+					"Research": "Specialized Construction",
+					"Since version": "0.18",
+					"Unlock cost": "3200"
+				},
 				"url": "http://wiki.kerbalspaceprogram.com/wiki/TVR-200_Stack_Bi-Coupler"
 			}
 		],
@@ -1986,24 +5857,87 @@
 		],
 		"dependents": [],
 		"description": "A new state-of-the-art in control technology.",
-		"icon": "./icons/Specialized_Control.png",
+		"icon": "",
 		"level": 6,
 		"name": "Specialized Control",
 		"parts": [
 			{
 				"name": "CH-J3 Fly-By-Wire Avionics Hub",
+				"props": {
+					"Cost": "5200.00",
+					"Drag": "0.2",
+					"Impact Tolerance": "9m/s",
+					"Mass": "0.08t",
+					"Max. Temp.": "2400K",
+					"Part configuration": "cones",
+					"Research": "Specialized Control",
+					"SAS level": "3",
+					"Since version": "0.15",
+					"Unlock cost": "10500"
+				},
 				"url": "http://wiki.kerbalspaceprogram.com/wiki/CH-J3_Fly-By-Wire_Avionics_Hub"
 			},
 			{
 				"name": "Advanced Reaction Wheel Module, Large",
+				"props": {
+					"Cost": "2100.00",
+					"Drag": "0.2",
+					"Electricity required for torque": "",
+					"Impact Tolerance": "9m/s",
+					"Mass": "0.20t",
+					"Max. Temp.": "2000K",
+					"Part configuration": "advancedSasModuleLarge",
+					"Pitch torque": "30.0kN\u00b7m",
+					"Radial size": "Large",
+					"Research": "Specialized Control",
+					"Roll torque": "30.0kN\u00b7m",
+					"SAS level": "\u00d7None",
+					"Since version": "0.17.0",
+					"Unlock cost": "11600",
+					"Yaw torque": "30.0kN\u00b7m"
+				},
 				"url": "http://wiki.kerbalspaceprogram.com/wiki/Advanced_Reaction_Wheel_Module,_Large"
 			},
 			{
 				"name": "Vernor Engine",
+				"props": {
+					"Cost": "1400.00",
+					"Drag": "0.01 [N 1]",
+					"Fuel consumption": "0.94/s",
+					"Impact Tolerance": "50m/s",
+					"Isp (1 atm)": "140s",
+					"Isp (vacuum)": "260s",
+					"Mass": "0.08t [N 1]",
+					"Max. Temp.": "2000K",
+					"Maximum thrust (1 atm)": "6.46kN",
+					"Maximum thrust (vacuum)": "12.00kN",
+					"Part configuration": "vernorEngine",
+					"Radial size": "Radial mounted",
+					"Research": "Specialized Control",
+					"Since version": "0.24",
+					"Thrust vectoring": "\u00d7No",
+					"Thrust vectors": "1 (zenith)",
+					"Unlock cost": "4200"
+				},
 				"url": "http://wiki.kerbalspaceprogram.com/wiki/Vernor_Engine"
 			},
 			{
 				"name": "Stratus-V Cylindrified Monopropellant Tank",
+				"props": {
+					"Cost (dry)": "270.00",
+					"Cost (total)": "450.00",
+					"Drag": "0.2",
+					"Impact Tolerance": "12m/s",
+					"Mass (dry)": "0.15t",
+					"Mass (total)": "0.75t",
+					"Max. Temp.": "2000K",
+					"Monopropellant": "150",
+					"Part configuration": "RCStankRadialLong",
+					"Radial size": "Radial mounted",
+					"Research": "Specialized Control",
+					"Since version": "0.21",
+					"Unlock cost": "5400"
+				},
 				"url": "http://wiki.kerbalspaceprogram.com/wiki/Stratus-V_Cylindrified_Monopropellant_Tank"
 			}
 		],
@@ -2020,16 +5954,44 @@
 			"Experimental_Electrics"
 		],
 		"description": "Experience the warm glow of the latest in electrical technology. Figuratively, of course, and maybe also quite literally as well. Actually, try to avoid direct exposure.",
-		"icon": "./icons/Specialized_Electrics.png",
+		"icon": "",
 		"level": 8,
 		"name": "Specialized Electrics",
 		"parts": [
 			{
 				"name": "Z-4K Rechargeable Battery Bank",
+				"props": {
+					"Cost": "4500.00",
+					"Drag": "0.2",
+					"Electric capacity": "4000.0",
+					"Impact Tolerance": "8m/s",
+					"Mass": "0.20t",
+					"Max. Temp.": "2000K",
+					"Part configuration": "z-4kBattery",
+					"Radial size": "Large",
+					"Research": "Specialized Electrics",
+					"Since version": "0.21",
+					"Unlock cost": "12200"
+				},
 				"url": "http://wiki.kerbalspaceprogram.com/wiki/Z-4K_Rechargeable_Battery_Bank"
 			},
 			{
 				"name": "Fuel Cell Array",
+				"props": {
+					"Cost": "4500.00",
+					"Drag": "0.2",
+					"Electric capacity": "300.0",
+					"Electric charge": "18/s",
+					"Impact Tolerance": "7m/s",
+					"Liquid fuel": "0.02025/s",
+					"Mass": "0.24t",
+					"Max. Temp.": "2000K",
+					"Oxidizer": "0.02475/s",
+					"Part configuration": "FuelCell",
+					"Research": "Specialized Electrics",
+					"Since version": "1.0",
+					"Unlock cost": "13500"
+				},
 				"url": "http://wiki.kerbalspaceprogram.com/wiki/Fuel_Cell_Array"
 			}
 		],
@@ -2049,20 +6011,62 @@
 			"General_Construction"
 		],
 		"description": "Reaching for the stars starts with keeping our spacecraft pointed generally in the right direction.",
-		"icon": "./icons/Stability.png",
+		"icon": "",
 		"level": 3,
 		"name": "Stability",
 		"parts": [
 			{
 				"name": "Aerodynamic Nose Cone",
+				"props": {
+					"Cost": "240.00",
+					"Drag": "0.1",
+					"Impact Tolerance": "10m/s",
+					"Mass": "0.03t",
+					"Max. Temp.": "2400K",
+					"Part configuration": "aerodynamicNoseCone",
+					"Research": "Stability",
+					"Since version": "0.16",
+					"Unlock cost": "2000"
+				},
 				"url": "http://wiki.kerbalspaceprogram.com/wiki/Aerodynamic_Nose_Cone"
 			},
 			{
 				"name": "AV-T1 Winglet",
+				"props": {
+					"Cost": "500.00",
+					"Drag": "0.02",
+					"Drag coefficient": "0.5",
+					"Impact Tolerance": "12m/s",
+					"Lift generated": "0.37",
+					"Mass": "0.04t",
+					"Max. Temp.": "2400K",
+					"Part configuration": "wingletAV-T1",
+					"Research": "Stability",
+					"Since version": "0.7.3",
+					"Unlock cost": "1500"
+				},
 				"url": "http://wiki.kerbalspaceprogram.com/wiki/AV-T1_Winglet"
 			},
 			{
 				"name": "TT-38K Radial Decoupler",
+				"props": {
+					"Cost": "600.00",
+					"Drag": "0.2",
+					"Ejection momentum": "2500Ns",
+					"Impact Tolerance": "8m/s",
+					"In atmosphere": "\u2713Yes",
+					"In space": "\u2713Yes",
+					"Manually testable": "\u00d7No",
+					"Mass": "0.03t",
+					"Max. Temp.": "2000K",
+					"On the ocean": "\u2713Yes",
+					"On the surface": "\u2713Yes",
+					"Part configuration": "decouplerRadialTT-38K",
+					"Research": "Stability",
+					"Since version": "0.7.3",
+					"Test by staging": "\u2713Yes",
+					"Unlock cost": "1200"
+				},
 				"url": "http://wiki.kerbalspaceprogram.com/wiki/TT-38K_Radial_Decoupler"
 			}
 		],
@@ -2078,32 +6082,141 @@
 			"Engineering_101"
 		],
 		"description": "The technology we started out with.",
-		"icon": "./icons/Start.png",
+		"icon": "",
 		"level": 1,
 		"name": "Start",
 		"parts": [
 			{
 				"name": "Basic Fin",
+				"props": {
+					"Cost": "25.00",
+					"Drag": "0.02",
+					"Impact Tolerance": "4m/s",
+					"Lift generated": "0.12",
+					"Mass": "0.01t",
+					"Max. Temp.": "934K",
+					"Part configuration": "basicFin",
+					"Research": "Start",
+					"Since version": "1.0.1",
+					"Unlock cost": "0"
+				},
 				"url": "http://wiki.kerbalspaceprogram.com/wiki/Basic_Fin"
 			},
 			{
 				"name": "Mk1 Command Pod",
+				"props": {
+					"Cost (dry)": "588.00",
+					"Cost (total)": "600.00",
+					"Crew capacity (maximum)": "1",
+					"Crew capacity (required)": "1",
+					"Drag": "0.15-0.2",
+					"Electric capacity": "50.0",
+					"Electricity required for torque": "",
+					"Impact Tolerance": "14m/s",
+					"Mass (dry)": "0.80t",
+					"Mass (total)": "0.84t",
+					"Max. Temp.": "2400K",
+					"Monopropellant": "10",
+					"Part configuration": "mk1pod",
+					"Pitch torque": "5.0kN\u00b7m",
+					"Radial size": "Small, Tiny",
+					"Research": "Start",
+					"Roll torque": "5.0kN\u00b7m",
+					"SAS level": "\u00d7None",
+					"Since version": "0.7.3",
+					"Unlock cost": "0",
+					"Yaw torque": "5.0kN\u00b7m"
+				},
 				"url": "http://wiki.kerbalspaceprogram.com/wiki/Mk1_Command_Pod"
 			},
 			{
 				"name": "RT-5 \"Flea\" Solid Fuel Booster",
+				"props": {
+					"Burn time (1 atm)": "7.5s",
+					"Burn time (vacuum)": "8.9s",
+					"Cost (dry)": "116.00",
+					"Cost (total)": "200.00",
+					"Drag": "0.2-0.3",
+					"Fuel": "140.0",
+					"Fuel consumption": "15.80/s",
+					"Impact Tolerance": "7m/s",
+					"In atmosphere": "\u2713Yes",
+					"In space": "\u2713Yes",
+					"Isp (1 atm)": "140s",
+					"Isp (vacuum)": "165s",
+					"Manually testable": "\u00d7No",
+					"Mass (dry)": "0.45t",
+					"Mass (total)": "1.50t",
+					"Max. Temp.": "2000K",
+					"Maximum thrust (1 atm)": "162.91kN",
+					"Maximum thrust (vacuum)": "192.00kN",
+					"On the ocean": "\u2713Yes",
+					"On the surface": "\u2713Yes",
+					"Part configuration": "solidBoosterRT-5",
+					"Research": "Start",
+					"Since version": "1.0",
+					"Test by staging": "\u2713Yes",
+					"Thrust vectoring": "\u00d7No",
+					"Unlock cost": "0"
+				},
 				"url": "http://wiki.kerbalspaceprogram.com/wiki/RT-5_%22Flea%22_Solid_Fuel_Booster"
 			},
 			{
 				"name": "Mystery Goo\u2122 Containment Unit",
+				"props": {
+					"Cost": "800.00",
+					"Drag": "0.1",
+					"Electricity required": "None",
+					"Experiment": "Mystery Goo Observation",
+					"Impact Tolerance": "12m/s",
+					"Mass": "0.05t",
+					"Max. Temp.": "1200K",
+					"Part configuration": "GooExperiment",
+					"Research": "Start",
+					"Since version": "0.22",
+					"Unlock cost": "0"
+				},
 				"url": "http://wiki.kerbalspaceprogram.com/wiki/Mystery_Goo%E2%84%A2_Containment_Unit"
 			},
 			{
 				"name": "Modular Girder Segment",
+				"props": {
+					"Cost": "25.00",
+					"Drag": "0.2",
+					"Impact Tolerance": "80m/s",
+					"Mass": "0.13t",
+					"Max. Temp.": "2000K",
+					"Part configuration": "trussGirderL",
+					"Research": "Start",
+					"Since version": "0.18",
+					"Unlock cost": "0"
+				},
 				"url": "http://wiki.kerbalspaceprogram.com/wiki/Modular_Girder_Segment"
 			},
 			{
 				"name": "Mk16 Parachute",
+				"props": {
+					"Cost": "422.00",
+					"Drag": "0.22",
+					"Fully-deployed drag": "500",
+					"Fully-deployed trigger": "1000m AGL",
+					"Impact Tolerance": "12m/s",
+					"In atmosphere": "\u2713Yes",
+					"In space": "\u00d7No",
+					"Manually testable": "\u00d7No",
+					"Mass": "0.10t",
+					"Max. Temp.": "2500K",
+					"On the ocean": "\u00d7No",
+					"On the surface": "\u00d7No",
+					"Part configuration": "parachuteMk1",
+					"Radial size": "Tiny",
+					"Research": "Start",
+					"Semi-deployment drag": "1",
+					"Semi-deployment trigger": "0.04atm",
+					"Since version": "0.7.3",
+					"Test by staging": "\u2713Yes",
+					"Unlock cost": "0"
+				},
 				"url": "http://wiki.kerbalspaceprogram.com/wiki/Mk16_Parachute"
 			}
 		],
@@ -2120,44 +6233,189 @@
 			"High_Altitude_Flight"
 		],
 		"description": "A new line of aircraft parts that allow for unprecedented maneuverability and speed.",
-		"icon": "./icons/Supersonic_Flight.png",
+		"icon": "",
 		"level": 6,
 		"name": "Supersonic Flight",
 		"parts": [
 			{
 				"name": "Wing Strake",
+				"props": {
+					"Cost": "400.00",
+					"Drag": "0.02",
+					"Impact Tolerance": "15m/s",
+					"Lift generated": "0.5",
+					"Mass": "0.05t",
+					"Max. Temp.": "2400K",
+					"Part configuration": "wings",
+					"Research": "Supersonic Flight",
+					"Since version": "0.25",
+					"Unlock cost": "6800"
+				},
 				"url": "http://wiki.kerbalspaceprogram.com/wiki/Wing_Strake"
 			},
 			{
 				"name": "Structural Wing Type A",
+				"props": {
+					"Cost": "500.00",
+					"Drag": "0.02",
+					"Impact Tolerance": "15m/s",
+					"Lift generated": "1",
+					"Mass": "0.10t",
+					"Max. Temp.": "2400K",
+					"Part configuration": "wings",
+					"Research": "Aerodynamics",
+					"Since version": "0.25",
+					"Unlock cost": "6400"
+				},
 				"url": "http://wiki.kerbalspaceprogram.com/wiki/Structural_Wing_Type_A"
 			},
 			{
 				"name": "Mk2 Cockpit",
+				"props": {
+					"Cost (dry)": "3482.00",
+					"Cost (total)": "3500.00",
+					"Crew capacity (maximum)": "2",
+					"Crew capacity (required)": "1",
+					"Drag": "0.1",
+					"Electric capacity": "150.0",
+					"Electricity required for torque": "",
+					"Impact Tolerance": "45m/s",
+					"Lift generated": "0.6",
+					"Mass (dry)": "2.00t",
+					"Mass (total)": "2.06t",
+					"Max. Temp.": "2500K",
+					"Monopropellant": "15",
+					"Part configuration": "mk2CockpitStandard",
+					"Pitch torque": "15.0kN\u00b7m",
+					"Radial size": "Mk2",
+					"Research": "Supersonic Flight",
+					"Roll torque": "15.0kN\u00b7m",
+					"SAS level": "\u00d7None",
+					"Since version": "0.25",
+					"Unlock cost": "20000",
+					"Yaw torque": "15.0kN\u00b7m"
+				},
 				"url": "http://wiki.kerbalspaceprogram.com/wiki/Mk2_Cockpit"
 			},
 			{
 				"name": "J-404 \"Panther\" Afterburning Turbofan",
+				"props": {
+					"Cost": "2000.00",
+					"Drag": "0.2",
+					"Fuel consumption": "0.04/s",
+					"Impact Tolerance": "7m/s",
+					"Intake air consumption": "0.62/s",
+					"Isp": "4000s",
+					"Mass": "1.20t",
+					"Max. Temp.": "2000K",
+					"Maximum thrust": "130kN",
+					"Part configuration": "jetEngines",
+					"Radial size": "Small",
+					"Research": "Supersonic Flight",
+					"Since version": "1.0.5",
+					"Thrust vectoring": "10\u00b0",
+					"Unlock cost": "9000"
+				},
 				"url": "http://wiki.kerbalspaceprogram.com/wiki/J-404_%22Panther%22_Afterburning_Turbofan"
 			},
 			{
 				"name": "Mk2 Bicoupler",
+				"props": {
+					"Cost (dry)": "676.40",
+					"Cost (total)": "860.00",
+					"Drag": "0.2-0.3",
+					"Impact Tolerance": "50m/s",
+					"Lift generated": "0.3",
+					"Liquid fuel": "180",
+					"Mass (dry)": "0.29t",
+					"Mass (total)": "2.29t",
+					"Max. Temp.": "2500K",
+					"Oxidizer": "220",
+					"Part configuration": "mk2Adapters",
+					"Radial size": "Mk2, Small",
+					"Research": "Advanced Aerodynamics",
+					"Since version": "0.25",
+					"Unlock cost": "19800"
+				},
 				"url": "http://wiki.kerbalspaceprogram.com/wiki/Mk2_Bicoupler"
 			},
 			{
 				"name": "Mk2 to 1.25m Adapter",
+				"props": {
+					"Cost (dry)": "366.40",
+					"Cost (total)": "550.00",
+					"Drag": "0.1-0.2",
+					"Impact Tolerance": "50m/s",
+					"Lift generated": "0.28",
+					"Liquid fuel": "180",
+					"Mass (dry)": "0.29t",
+					"Mass (total)": "2.29t",
+					"Max. Temp.": "2500K",
+					"Oxidizer": "220",
+					"Part configuration": "mk2Adapters",
+					"Radial size": "Small, Mk2",
+					"Research": "Supersonic Flight",
+					"Since version": "0.25",
+					"Unlock cost": "14600"
+				},
 				"url": "http://wiki.kerbalspaceprogram.com/wiki/Mk2_to_1.25m_Adapter"
 			},
 			{
 				"name": "Mk2 Rocket Fuel Fuselage Short",
+				"props": {
+					"Cost (dry)": "566.40",
+					"Cost (total)": "750.00",
+					"Drag": "0.2-0.3",
+					"Impact Tolerance": "50m/s",
+					"Lift generated": "0.35",
+					"Liquid fuel": "180",
+					"Mass (dry)": "0.29t",
+					"Mass (total)": "2.29t",
+					"Max. Temp.": "2500K",
+					"Oxidizer": "220",
+					"Part configuration": "mk2FuselageShort",
+					"Radial size": "Mk2",
+					"Research": "High Altitude Flight",
+					"Since version": "0.25",
+					"Unlock cost": "18500"
+				},
 				"url": "http://wiki.kerbalspaceprogram.com/wiki/Mk2_Rocket_Fuel_Fuselage_Short"
 			},
 			{
 				"name": "Mk2 Liquid Fuel Fuselage Short",
+				"props": {
+					"Cost (dry)": "430.00",
+					"Cost (total)": "750.00",
+					"Drag": "0.2-0.3",
+					"Impact Tolerance": "50m/s",
+					"Lift generated": "0.35",
+					"Liquid fuel": "400",
+					"Mass (dry)": "0.29t",
+					"Mass (total)": "2.29t",
+					"Max. Temp.": "2500K",
+					"Part configuration": "mk2FuselageShort",
+					"Radial size": "Mk2",
+					"Research": "High Altitude Flight",
+					"Since version": "0.25",
+					"Unlock cost": "18500"
+				},
 				"url": "http://wiki.kerbalspaceprogram.com/wiki/Mk2_Liquid_Fuel_Fuselage_Short"
 			},
 			{
 				"name": "Mk2 Cargo Bay CRG-04",
+				"props": {
+					"Cost": "320.00",
+					"Drag": "0.2-0.3",
+					"Impact Tolerance": "50m/s",
+					"Lift generated": "0.35",
+					"Mass": "0.25t",
+					"Max. Temp.": "2500K",
+					"Part configuration": "mk2CargoBay",
+					"Radial size": "Mk2",
+					"Research": "Advanced Aerodynamics",
+					"Since version": "0.25",
+					"Unlock cost": "11500"
+				},
 				"url": "http://wiki.kerbalspaceprogram.com/wiki/Mk2_Cargo_Bay_CRG-04"
 			}
 		],
@@ -2175,28 +6433,97 @@
 			"Flight_Control"
 		],
 		"description": "The art and science of landing and walking away from it.",
-		"icon": "./icons/Survivability.png",
+		"icon": "",
 		"level": 3,
 		"name": "Survivability",
 		"parts": [
 			{
 				"name": "Heat Shield (1.25m)",
+				"props": {
+					"Ablator": "200.0units",
+					"Cost": "300.00",
+					"Drag": "0.2",
+					"Impact Tolerance": "9m/s",
+					"Mass": "0.30t",
+					"Max. Temp.": "3300K",
+					"Part configuration": "HeatShield",
+					"Research": "Survivability",
+					"Since version": "1.0",
+					"Threshold temperature": "500",
+					"Unlock cost": "600"
+				},
 				"url": "http://wiki.kerbalspaceprogram.com/wiki/Heat_Shield_(1.25m)"
 			},
 			{
 				"name": "Radiator Panel (small)",
+				"props": {
+					"Cost": "150.00",
+					"Drag": "0.2",
+					"Impact Tolerance": "12m/s",
+					"Mass": "0.01t",
+					"Max. Temp.": "2500K",
+					"Part configuration": "RadiatorPanels",
+					"Research": "Survivability",
+					"Since version": "1.0.4",
+					"Unlock cost": "1500"
+				},
 				"url": "http://wiki.kerbalspaceprogram.com/wiki/Radiator_Panel_(small)"
 			},
 			{
 				"name": "LT-05 Micro Landing Strut",
+				"props": {
+					"Cost": "200.00",
+					"Drag": "0.2",
+					"Impact Tolerance": "10m/s",
+					"Mass": "0.02t",
+					"Max. Temp.": "1200K",
+					"Part configuration": "landingLegLT-5",
+					"Radial size": "Radial mounted",
+					"Research": "Survivability",
+					"Since version": "0.18",
+					"Unlock cost": "820"
+				},
 				"url": "http://wiki.kerbalspaceprogram.com/wiki/LT-05_Micro_Landing_Strut"
 			},
 			{
 				"name": "Mk2-R Radial-Mount Parachute",
+				"props": {
+					"Cost": "400.00",
+					"Drag": "0.22",
+					"Fully-deployed drag": "500",
+					"Fully-deployed trigger": "1000m AGL",
+					"Impact Tolerance": "12m/s",
+					"In atmosphere": "\u2713Yes",
+					"In space": "\u00d7No",
+					"Manually testable": "\u00d7No",
+					"Mass": "0.10t",
+					"Max. Temp.": "2500K",
+					"On the ocean": "\u00d7No",
+					"On the surface": "\u00d7No",
+					"Part configuration": "parachuteMk2-R",
+					"Radial size": "Radial mounted",
+					"Research": "Survivability",
+					"Semi-deployment drag": "1",
+					"Semi-deployment trigger": "0.04atm",
+					"Since version": "0.18",
+					"Test by staging": "\u2713Yes",
+					"Unlock cost": "2800"
+				},
 				"url": "http://wiki.kerbalspaceprogram.com/wiki/Mk2-R_Radial-Mount_Parachute"
 			},
 			{
 				"name": "Service Bay (1.25m)",
+				"props": {
+					"Cost": "500.00",
+					"Drag": "0.2-0.3",
+					"Impact Tolerance": "14m/s",
+					"Mass": "0.10t",
+					"Max. Temp.": "2900K",
+					"Part configuration": "ServiceBay",
+					"Research": "Survivability",
+					"Since version": "1.0",
+					"Unlock cost": "1000"
+				},
 				"url": "http://wiki.kerbalspaceprogram.com/wiki/Service_Bay_(1.25m)"
 			}
 		],
@@ -2215,16 +6542,54 @@
 			"Ion_Propulsion"
 		],
 		"description": "Warning: May contain traces of sentience.",
-		"icon": "./icons/Unmanned_Tech.png",
+		"icon": "",
 		"level": 7,
 		"name": "Unmanned Tech",
 		"parts": [
 			{
 				"name": "Probodobodyne QBE",
+				"props": {
+					"Cost": "360.00",
+					"Drag": "0.15-0.2",
+					"Electric capacity": "5.0",
+					"Electricity required": "1.50/min",
+					"Electricity required for torque": "",
+					"Impact Tolerance": "15m/s",
+					"Mass": "0.07t",
+					"Max. Temp.": "1200K",
+					"Part configuration": "probeCoreCube",
+					"Pitch torque": "0kN\u00b7m",
+					"Radial size": "Tiny",
+					"Research": "Unmanned Tech",
+					"Roll torque": "0kN\u00b7m",
+					"SAS level": "0",
+					"Since version": "0.18",
+					"Unlock cost": "3800",
+					"Yaw torque": "0kN\u00b7m"
+				},
 				"url": "http://wiki.kerbalspaceprogram.com/wiki/Probodobodyne_QBE"
 			},
 			{
 				"name": "Probodobodyne OKTO2",
+				"props": {
+					"Cost": "1480.00",
+					"Drag": "0.15-0.2",
+					"Electric capacity": "5.0",
+					"Electricity required": "1.80/min",
+					"Electricity required for torque": "",
+					"Impact Tolerance": "12m/s",
+					"Mass": "0.04t",
+					"Max. Temp.": "1200K",
+					"Part configuration": "probeCoreOcto2",
+					"Pitch torque": "0kN\u00b7m",
+					"Radial size": "Tiny",
+					"Research": "Unmanned Tech",
+					"Roll torque": "0kN\u00b7m",
+					"SAS level": "2",
+					"Since version": "0.19",
+					"Unlock cost": "7500",
+					"Yaw torque": "0kN\u00b7m"
+				},
 				"url": "http://wiki.kerbalspaceprogram.com/wiki/Probodobodyne_OKTO2"
 			}
 		],
@@ -2240,20 +6605,92 @@
 		],
 		"dependents": [],
 		"description": "While ever-larger rockets may not be the answer every time, for all other times, we've developed these.",
-		"icon": "./icons/Very_Heavy_Rocketry.png",
+		"icon": "",
 		"level": 8,
 		"name": "Very Heavy Rocketry",
 		"parts": [
 			{
 				"name": "S3 KS-25 \"Vector\" Liquid Fuel Engine",
+				"props": {
+					"Cost": "18000.00",
+					"Drag": "0.2",
+					"Fuel consumption": "64.66/s",
+					"Impact Tolerance": "20m/s",
+					"In atmosphere": "\u2713Yes",
+					"In space": "\u2713Yes",
+					"Isp (1 atm)": "295s",
+					"Isp (vacuum)": "315s",
+					"Manually testable": "\u2713Yes",
+					"Mass": "4.00t",
+					"Max. Temp.": "2000K",
+					"Maximum thrust (1 atm)": "936.51kN",
+					"Maximum thrust (vacuum)": "1000.00kN",
+					"On the ocean": "\u2713Yes",
+					"On the surface": "\u2713Yes",
+					"Part configuration": "SSME",
+					"Radial size": "Small",
+					"Research": "Very Heavy Rocketry",
+					"Since version": "1.0.5",
+					"Test by staging": "\u2713Yes",
+					"Thrust vectoring": "10.5\u00b0",
+					"Unlock cost": "115000"
+				},
 				"url": "http://wiki.kerbalspaceprogram.com/wiki/S3_KS-25_%22Vector%22_Liquid_Fuel_Engine"
 			},
 			{
 				"name": "Kerbodyne KR-2L+ \"Rhino\" Liquid Fuel Engine",
+				"props": {
+					"Cost": "25000.00",
+					"Drag": "0.2",
+					"Fuel consumption": "119.80/s",
+					"Impact Tolerance": "7m/s",
+					"In atmosphere": "\u2713Yes",
+					"In space": "\u2713Yes",
+					"Isp (1 atm)": "255s",
+					"Isp (vacuum)": "340s",
+					"Manually testable": "\u2713Yes",
+					"Mass": "9.00t",
+					"Max. Temp.": "2000K",
+					"Maximum thrust (1 atm)": "1500.00kN",
+					"Maximum thrust (vacuum)": "2000.00kN",
+					"On the ocean": "\u2713Yes",
+					"On the surface": "\u2713Yes",
+					"Part configuration": "Size3AdvancedEngine",
+					"Radial size": "Extra large",
+					"Research": "Very Heavy Rocketry",
+					"Since version": "0.23.5",
+					"Test by staging": "\u2713Yes",
+					"Thrust vectoring": "4\u00b0",
+					"Unlock cost": "68000"
+				},
 				"url": "http://wiki.kerbalspaceprogram.com/wiki/Kerbodyne_KR-2L%2B_%22Rhino%22_Liquid_Fuel_Engine"
 			},
 			{
 				"name": "S3 KS-25x4 \"Mammoth\" Liquid Fuel Engine",
+				"props": {
+					"Cost": "39000.00",
+					"Drag": "0.2",
+					"Fuel consumption": "258.62/s",
+					"Impact Tolerance": "20m/s",
+					"In atmosphere": "\u2713Yes",
+					"In space": "\u2713Yes",
+					"Isp (1 atm)": "295s",
+					"Isp (vacuum)": "315s",
+					"Manually testable": "\u2713Yes",
+					"Mass": "15.00t",
+					"Max. Temp.": "2000K",
+					"Maximum thrust (1 atm)": "3746.03kN",
+					"Maximum thrust (vacuum)": "4000.00kN",
+					"On the ocean": "\u2713Yes",
+					"On the surface": "\u2713Yes",
+					"Part configuration": "Size3EngineCluster",
+					"Radial size": "Extra large",
+					"Research": "Very Heavy Rocketry",
+					"Since version": "0.23.5",
+					"Test by staging": "\u2713Yes",
+					"Thrust vectoring": "2\u00b0",
+					"Unlock cost": "115000"
+				},
 				"url": "http://wiki.kerbalspaceprogram.com/wiki/S3_KS-25x4_%22Mammoth%22_Liquid_Fuel_Engine"
 			}
 		],

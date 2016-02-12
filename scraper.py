@@ -13,14 +13,20 @@ def main(argv):
 	if '--local' not in argv:
 		try:
 			print('GET', rootUrl)
-			data = request.urlopen(rootUrl).read()
+			data = request.urlopen(rootUrl)
+			encoding = data.headers['Content-Type'].rpartition('=')[-1]
+			data = data.read().decode(encoding)
+
+			with open('cached/Technology_tree.html', 'w', encoding=encoding) as outfile:
+				outfile.write(data)
+
 		except URLError as e:
 			print(e)
 			return
 
 	else:
 		data = ''
-		with open('sample_input.html', 'r') as f:
+		with open('cached/Technology_tree.html', 'r') as f:
 			data = f.read()
 
 	# get largest table on page
@@ -64,7 +70,7 @@ def main(argv):
 				for item in col.findall('./ul/li/a'):
 
 					url = urlparse.urljoin(rootUrl, item.get('href'))
-					props = partscraper(url)
+					props = partscraper.getPart(url, local='--local' in argv)
 					parts.append({
 						'name': item.text,
 						'url': url,
