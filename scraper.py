@@ -4,6 +4,7 @@ from urllib import request, parse as urlparse
 from xml.etree import ElementTree as ET
 from os import path as libpath
 import json
+import partscraper
 
 rootUrl = 'http://wiki.kerbalspaceprogram.com/wiki/Technology_tree'
 
@@ -46,25 +47,31 @@ def main(argv):
 		tech = {}
 		for i, col in enumerate(row.findall('./td')):
 
-			if headers[i] == 'icon':
-				iconUrl = col.find('.//img').get('src')
-				iconPath = libpath.join('.','icons', techId+iconUrl[-4:])
-				if '--local' not in argv:
-					with open(iconPath, 'wb') as fp:
-						fp.write(request.urlopen( urlparse.urljoin(rootUrl, iconUrl) ).read())
-				tech[headers[i]] = iconPath
+			#if headers[i] == 'icon':
+			#	iconUrl = col.find('.//img').get('src')
+			#	iconPath = libpath.join('.','icons', techId+iconUrl[-4:])
+			#	if '--local' not in argv:
+			#		with open(iconPath, 'wb') as fp:
+			#			fp.write(request.urlopen( urlparse.urljoin(rootUrl, iconUrl) ).read())
+			#	tech[headers[i]] = iconPath
 
-			elif headers[i] in ['dependencies','dependents']:
+			if headers[i] in ['dependencies','dependents']:
 				tech[headers[i]] = [item.get('href')[1:] for item in col.findall('./ul/li/a')]
 
 			elif headers[i] == 'parts':
+
 				parts = []
 				for item in col.findall('./ul/li/a'):
-					name = item.text
+
 					url = urlparse.urljoin(rootUrl, item.get('href'))
-					parts.append({'name': name, 'url': url})
-				#tech[headers[i]] = [libpath.split(item.get('href'))[1] for item in col.findall('./ul/li/a')]
-				# don't scrape parts list yet
+					props = partscraper(url)
+					parts.append({
+						'name': item.text,
+						'url': url,
+						'props': props
+					})
+
+
 				tech[headers[i]] = parts
 
 			elif headers[i] in ['level', 'cost']:
