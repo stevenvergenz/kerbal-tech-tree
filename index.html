@@ -66,9 +66,9 @@
 				<div id='partsList'>
 					<div class='tab'>Available Parts</div>
 					<ul>
-						<li ng-repeat='part in techs[activeTech].parts'>
+						<li ng-repeat='part in techs[activeTech].parts' ng-mouseenter='showPartPopup(part, $event)' ng-mouseleave='hidePartPopup($event)'>
 							<a href='{{part.url}}' target='_blank'>{{part.name}}</a>
-							<span ng-show='part.props["Unlock cost"]'>(&radic;{{part.props["Unlock cost"]}})</span>
+							<span ng-show='part.props["Unlock cost"]'>({{part.props["Unlock cost"] | currency : '\u221a' : 0}})</span>
 						</li>
 					</ul>
 				</div>
@@ -85,6 +85,42 @@
 						<span>{{techs[id].name}}</span>
 					</div>
 				</div>
+			</div>
+		</div>
+		<div id='partTooltip'>
+			<p class='title'>{{hoveringPart.name}}</p>
+			<ul>
+				<li class="standard" ng-show='hoveringPart.props.Mass'>
+					Mass: {{hoveringPart.props["Mass"]}}</li>
+				<li class="standard" ng-show='hoveringPart.props["Mass (dry)"] && hoveringPart.props["Mass (total)"]'>
+					Mass (dry/total): {{hoveringPart.props["Mass (dry)"]}}/{{hoveringPart.props["Mass (total)"]}}</li>
+				<li class="standard" ng-show='hoveringPart.props["Impact Tolerance"]'>
+					Crash Tolerance: {{hoveringPart.props["Impact Tolerance"]}}</li>
+				<li class="standard" ng-show='hoveringPart.props["Max. Temp."]'>
+					Max. Temp. Int/Skin: {{hoveringPart.props["Max. Temp."]}}</li>
+				<li class="standard" ng-show='hoveringPart.props["Crew capacity"]'>
+					Crew capacity: {{hoveringPart.props["Crew capacity"]}}</li>
+				<li class="standard" ng-show='hoveringPart.props["Crew capacity (maximum)"] && hoveringPart.props["Crew capacity (required)"]'>
+					Crew capacity (max/min): {{hoveringPart.props["Crew capacity (maximum)"]}}/{{hoveringPart.props["Crew capacity (required)"]}}</li>
+
+				<li class="extra" ng-show='hoveringPart.props["Maximum thrust (1 atm)"]'>
+					Max. Thrust (ASL): {{hoveringPart.props["Maximum thrust (1 atm)"]}}</li>
+				<li class="extra" ng-show='hoveringPart.props["Maximum thrust (vacuum)"]'>
+					Max. Thrust (Vac.): {{hoveringPart.props["Maximum thrust (vacuum)"]}}</li>
+				<li class="extra" ng-show='hoveringPart.props["Isp (1 atm)"] && hoveringPart.props["Isp (vacuum)"]'>
+					Engine I<sub>sp</sub>: {{hoveringPart.props["Isp (1 atm)"]}} (ASL) - {{hoveringPart.props["Isp (vacuum)"]}} (Vac.)</li>
+				<li class="extra" ng-show='hoveringPart.props["Thrust vectoring"]'>
+					Vectoring range: {{hoveringPart.props["Thrust vectoring"]}}</li>
+
+				<li class="extra" ng-show='hoveringPart.props["Liquid fuel"]'>
+					Liquid Fuel: {{hoveringPart.props["Liquid fuel"]}}</li>
+				<li class="extra" ng-show='hoveringPart.props["Oxidizer"]'>
+					Oxidizer: {{hoveringPart.props["Oxidizer"]}}</li>
+			</ul>
+
+			<div class='partCosts'>
+				<span>Entry Purchase: {{hoveringPart.props["Unlock cost"] | currency : '\u221a' : 0}}</span>
+				<span>Unit Cost: {{hoveringPart.props["Cost"] || hoveringPart.props["Cost (total)"] | currency : '\u221a' : 0}}</span>
 			</div>
 		</div>
 		<div id='modal' style='display: none; opacity: 0;'>

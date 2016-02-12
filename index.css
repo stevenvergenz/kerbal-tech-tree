@@ -286,3 +286,44 @@ html, body
 	display: block;
 	margin: 0 auto;
 }
+
+#partTooltip
+{
+	display: none;
+	position: absolute;
+	width: 320px;
+	right: 320px;
+
+	background-color: rgba(98,103,128,0.8);
+	padding: 10px;
+	border-radius: 3px;
+	border: outset #8C8C8C 1px;
+}
+
+#partTooltip .title {
+	margin: 0;
+	color: #ffef00;
+}
+
+#partTooltip ul
+{
+	padding: 10px;
+	list-style: none;
+	background-color: rgba(90,100,128,0.7);
+	border-radius: 5px;
+	border: inset grey 1px;
+}
+
+#partTooltip li.standard {
+	color: #95D800;
+}
+#partTooltip li.extra {
+	color: #B8FFFF;
+}
+
+#partTooltip .partCosts
+{
+	color: #ffef00;
+	display: flex;
+	justify-content: space-between;
+}

@@ -7,13 +7,18 @@ app.controller('KerbalTechController', ['$scope', '$http', function($scope,$http
 	window.$scope = $scope;
 	$scope.techs = {};
 	$scope.activeTech = 'Start';
+
+	$scope.hoveringPart = null;
+
 	$scope.purchases = [
 		parseInt(window.location.hash.slice(-16,-8), 16) || 0,
 		parseInt(window.location.hash.slice(-8), 16) || 0
 	];
 
-	$http.get('techs.json').then(function(res){
+	$http.get('techs.json').then(function(res)
+	{
 		$scope.techs = res.data;
+
 		for(var i in $scope.techs)
 			$scope.techs[i].value = [
 				parseInt($scope.techs[i].value.slice(-16,-8), 16) || 0,
@@ -84,6 +89,22 @@ app.controller('KerbalTechController', ['$scope', '$http', function($scope,$http
 			}
 		}
 		return max > 500 ? 3 : max > 100 ? 2 : 1;
+	}
+
+	$scope.showPartPopup = function(part, evt)
+	{
+		$scope.hoveringPart = part;
+
+		var popup = document.getElementById('partTooltip');
+		popup.style.display = 'block';
+		popup.style.top = evt.clientY+'px';
+	}
+
+	$scope.hidePartPopup = function(evt)
+	{
+		var popup = document.getElementById('partTooltip');
+		popup.style.display = '';
+		
 	}
 }]);
 
