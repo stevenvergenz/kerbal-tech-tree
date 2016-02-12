@@ -210,6 +210,11 @@ html, body
 	text-decoration: underline;
 }
 
+#info #partsList span {
+	color: orange;
+	font-size: smaller;
+}
+
 #info p#researchButton
 {
 	text-align: center;

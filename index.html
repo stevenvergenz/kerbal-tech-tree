@@ -68,6 +68,7 @@
 					<ul>
 						<li ng-repeat='part in techs[activeTech].parts'>
 							<a href='{{part.url}}' target='_blank'>{{part.name}}</a>
+							<span ng-show='part.props["Unlock cost"]'>(&radic;{{part.props["Unlock cost"]}})</span>
 						</li>
 					</ul>
 				</div>
