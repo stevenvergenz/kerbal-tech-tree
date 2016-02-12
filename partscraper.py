@@ -43,6 +43,8 @@ class InfoboxParser(HTMLParser):
 				if self.rowSpan == 0:
 					self.rowSpan = int(attrs.get('rowspan', 0))
 
+			elif self.state[-1] == 'cell' and tag == 'table':
+				self.state.append('subtable')
 
 	def handle_endtag(self, tag):
 
@@ -62,11 +64,11 @@ class InfoboxParser(HTMLParser):
 				self.rowSpan = max(0, self.rowSpan-1)
 
 			elif self.state[-1] == 'cell' and tag == 'td':
-				self.rowContents.append(self.cellContents.strip())
+				self.rowContents.append(self.cellContents.strip().split('\n')[0])
 
 			# selectively pop from state on close
 			try:
-				if ['infobox','row','cell'].index(self.state[-1]) == ['div','tr','td'].index(tag):
+				if ['infobox','row','cell','subtable'].index(self.state[-1]) == ['div','tr','td','table'].index(tag):
 					self.state = self.state[:-1]
 			except ValueError:
 				pass
@@ -74,7 +76,7 @@ class InfoboxParser(HTMLParser):
 	def handle_data(self, data):
 
 		# record ALL text inside a cell, including subelements
-		if len(self.state) > 0 and self.state[-1] == 'cell':
+		if 'cell' in self.state:
 			self.cellContents += data
 
 # end class
@@ -102,4 +104,4 @@ def getPart(url, local=False):
 
 
 if __name__ == '__main__':
-	print(json.dumps(getPart('', local=True), indent=4))
+	print(json.dumps(getPart('Small_Inline_Reaction_Wheel', local=True), indent=4))

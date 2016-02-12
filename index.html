@@ -112,10 +112,38 @@
 				<li class="extra" ng-show='hoveringPart.props["Thrust vectoring"]'>
 					Vectoring range: {{hoveringPart.props["Thrust vectoring"]}}</li>
 
+				<li class="extra" ng-show='hoveringPart.props["Maximum thrust"]'>
+					Max. Thrust: {{hoveringPart.props["Maximum thrust"]}}</li>
+
 				<li class="extra" ng-show='hoveringPart.props["Liquid fuel"]'>
 					Liquid Fuel: {{hoveringPart.props["Liquid fuel"]}}</li>
 				<li class="extra" ng-show='hoveringPart.props["Oxidizer"]'>
 					Oxidizer: {{hoveringPart.props["Oxidizer"]}}</li>
+				<li class="extra" ng-show='hoveringPart.props["Monopropellant"]'>
+					Monopropellant: {{hoveringPart.props["Monopropellant"]}}</li>
+
+				<li class="extra" ng-show='hoveringPart.props["Electric capacity"]'>
+					Charge Capacity: {{hoveringPart.props["Electric capacity"]}}</li>
+				<li class="extra" ng-show='hoveringPart.props["Electricity generated"]'>
+					Charge Rate: +{{hoveringPart.props["Electricity generated"]}}</li>
+				<li class="extra" ng-show='hoveringPart.props["Electricity required"]'>
+					Charge Rate: -{{hoveringPart.props["Electricity required"]}}</li>
+				<li class="extra" ng-show='hoveringPart.props["Retractable"]'>
+					Retractable: {{hoveringPart.props["Retractable"]}}</li>
+	
+				<li class="extra" ng-show='hoveringPart.props["Fully-deployed drag"]'>
+					Fully-deployed drag: {{hoveringPart.props["Fully-deployed drag"]}}</li>
+				<li class="extra" ng-show='hoveringPart.props["Fully-deployed trigger"]'>
+					Fully-deployed trigger: {{hoveringPart.props["Fully-deployed trigger"]}}</li>
+
+				<li class="extra" ng-show='hoveringPart.props["Electricity required for torque"]'>
+					Charge Rate: -{{hoveringPart.props["Electricity required for torque"]+"/s\u00b7kN\u00b7m"}}</li>
+				<li class="extra" ng-show='hoveringPart.props["Yaw torque"]'>
+					Yaw torque: {{hoveringPart.props["Yaw torque"]}}</li>
+				<li class="extra" ng-show='hoveringPart.props["Pitch torque"]'>
+					Pitch torque: {{hoveringPart.props["Pitch torque"]}}</li>
+				<li class="extra" ng-show='hoveringPart.props["Roll torque"]'>
+					Roll torque: {{hoveringPart.props["Roll torque"]}}</li>
 			</ul>
 
 			<div class='partCosts'>
